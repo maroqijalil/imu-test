@@ -45,9 +45,7 @@
 
 Imu::Imu(std::string node_name)
   : rclcpp::Node(node_name),
-  initialized(false)
-
-{
+  initialized(false) {
   RCLCPP_INFO(get_logger(), "Starting ImuFilter");
 
   stateless = false;
@@ -71,28 +69,23 @@ Imu::Imu(std::string node_name)
   imu_publisher = this->create_publisher<sensor_msgs::msg::Imu>("imu/data", 5);
   imu_subscriber.reset(new ImuSubscriber(this, "imu/data_raw"));
 
-  if (use_mag)
-  {
+  if (use_mag) {
     mag_subscriber.reset(new MagSubscriber(this, "imu/mag"));
 
     sync.reset(new Synchronizer(SyncPolicy(5), * imu_subscriber, * mag_subscriber));
     sync->registerCallback(std::bind(&Imu::imuMagCallback, this, std::placeholders::_1, std::placeholders::_2));
-  }
-  else
-  {
+  } else {
     imu_subscriber->registerCallback(&Imu::imuCallback, this);
   }
 
   check_topics_timer = this->create_wall_timer(10ms, std::bind(&Imu::checkTopicsTimerCallback, this));
 }
 
-Imu::~Imu()
-{
+Imu::~Imu() {
   RCLCPP_INFO(get_logger(), "Destroying ImuFilter");
 }
 
-void Imu::imuCallback(const ImuMsg::SharedPtr imu_msg_raw) const
-{
+void Imu::imuCallback(const ImuMsg::SharedPtr imu_msg_raw) const {
   boost::mutex::scoped_lock lock(mutex);
 
   const geometry_msgs::msg::Vector3& ang_vel = imu_msg_raw->angular_velocity;
@@ -101,19 +94,16 @@ void Imu::imuCallback(const ImuMsg::SharedPtr imu_msg_raw) const
   rclcpp::Time time = imu_msg_raw->header.stamp;
   imu_frame = imu_msg_raw->header.frame_id;
 
-  if (!initialized || stateless)
-  {
+  if (!initialized || stateless) {
     geometry_msgs::msg::Quaternion init_q;
-    if (!StatelessOrientation::computeOrientation(world_frame, lin_acc, init_q))
-    {
+    if (!StatelessOrientation::computeOrientation(world_frame, lin_acc, init_q)) {
       RCLCPP_WARN_THROTTLE(get_logger(), rclcpp::Clock(RCL_STEADY_TIME), 5.0, "The IMU seems to be in free fall, cannot determine gravity direction!");
       return;
     }
     filter.setOrientation(init_q.w, init_q.x, init_q.y, init_q.z);
   }
 
-  if (!initialized_)
-  {
+  if (!initialized_) {
     RCLCPP_INFO(get_logger(), "First IMU message received.");
     check_topics_timer->cancel();
 
