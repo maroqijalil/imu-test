@@ -1,6 +1,0 @@
-CMake Error at CMakeLists.txt:54:
-  Parse error.  Expected a command name, got unquoted argument with text
-  "{%".
-
-
--- Configuring incomplete, errors occurred!

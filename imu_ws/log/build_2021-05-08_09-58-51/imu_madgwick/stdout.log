@@ -1,2 +1,0 @@
-[35m[1mScanning dependencies of target imu_madgwick[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu_filter.cpp.o[0m

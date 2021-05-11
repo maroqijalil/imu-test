@@ -1,0 +1,744 @@
+[0.194s] Invoking command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick': AMENT_PREFIX_PATH=/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick LD_LIBRARY_PATH=/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.254s] UpdateCTestConfiguration  from :/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/CTestConfiguration.ini
+[0.255s] Parse Config file:/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/CTestConfiguration.ini
+[0.255s]    Site: jalil
+[0.256s]    Build name: (empty)
+[0.256s]  Add coverage exclude regular expressions.
+[0.259s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[0.259s] Create new tag: 20210511-0942 - Experimental
+[0.259s] UpdateCTestConfiguration  from :/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/CTestConfiguration.ini
+[0.260s] Parse Config file:/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/CTestConfiguration.ini
+[0.260s] Test project /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick
+[0.260s] Constructing a list of tests
+[0.262s] Done constructing a list of tests
+[0.262s] Updating test list for fixtures
+[0.263s] Added 0 tests to meet fixture requirements
+[0.263s] Checking test dependency graph...
+[0.264s] Checking test dependency graph end
+[0.264s] test 1
+[0.264s]     Start 1: copyright
+[0.264s] 
+[0.265s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/copyright.xunit.xml" "--package-name" "imu_madgwick" "--output-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/copyright.xunit.xml"
+[0.265s] 1: Test timeout computed to be: 60
+[0.498s] 1: -- run_test.py: invoking following command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick':
+[0.498s] 1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/copyright.xunit.xml
+[1.115s] 1: include/imu_madgwick/imu.hpp: could not find copyright notice
+[1.117s] 1: include/imu_madgwick/imu_filter.hpp: could not find copyright notice
+[1.117s] 1: include/imu_madgwick/stateless_orientation.hpp: could not find copyright notice
+[1.118s] 1: include/imu_madgwick/world_frame.hpp: could not find copyright notice
+[1.118s] 1: src/imu_madgwick/imu.cpp: could not find copyright notice
+[1.119s] 1: src/imu_madgwick/imu_filter.cpp: could not find copyright notice
+[1.119s] 1: src/imu_madgwick/stateless_orientation.cpp: could not find copyright notice
+[1.120s] 1: 7 errors, checked 7 files
+[1.161s] 1: -- run_test.py: return code 1
+[1.161s] 1: -- run_test.py: verify result file '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/copyright.xunit.xml'
+[1.193s] 1/6 Test #1: copyright ........................***Failed    0.93 sec
+[1.194s] test 2
+[1.194s]     Start 2: cppcheck
+[1.194s] 
+[1.194s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/cppcheck.xunit.xml" "--package-name" "imu_madgwick" "--output-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/cppcheck.xunit.xml" "--include_dirs" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/Boost::system" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/Boost::thread"
+[1.195s] 2: Test timeout computed to be: 300
+[1.354s] 2: -- run_test.py: invoking following command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick':
+[1.355s] 2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/cppcheck.xunit.xml --include_dirs /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/Boost::system /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/Boost::thread
+[2.025s] 2: No problems found
+[2.086s] 2: -- run_test.py: return code 0
+[2.086s] 2: -- run_test.py: verify result file '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/cppcheck.xunit.xml'
+[2.117s] 2/6 Test #2: cppcheck .........................   Passed    0.92 sec
+[2.119s] test 3
+[2.119s]     Start 3: cpplint
+[2.119s] 
+[2.119s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/cpplint.xunit.xml" "--package-name" "imu_madgwick" "--output-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/cpplint.xunit.xml"
+[2.120s] 3: Test timeout computed to be: 120
+[2.281s] 3: -- run_test.py: invoking following command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick':
+[2.281s] 3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/cpplint.xunit.xml
+[3.333s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:25:  #ifndef header guard has wrong style, please use: IMU_MADGWICK__IMU_HPP_  [build/header_guard] [5]
+[3.335s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:65:  #endif line should be "#endif  // IMU_MADGWICK__IMU_HPP_"  [build/header_guard] [5]
+[3.335s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:33:  Found C system header after other header. Should be: imu.h, c system, c++ system, other.  [build/include_order] [4]
+[3.336s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:34:  Found C system header after other header. Should be: imu.h, c system, c++ system, other.  [build/include_order] [4]
+[3.337s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:35:  Found C system header after other header. Should be: imu.h, c system, c++ system, other.  [build/include_order] [4]
+[3.338s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:39:  Found C++ system header after other header. Should be: imu.h, c system, c++ system, other.  [build/include_order] [4]
+[3.338s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:40:  Found C++ system header after other header. Should be: imu.h, c system, c++ system, other.  [build/include_order] [4]
+[3.339s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:41:  Found C++ system header after other header. Should be: imu.h, c system, c++ system, other.  [build/include_order] [4]
+[3.340s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:46:  Single-parameter constructors should be marked explicit.  [runtime/explicit] [5]
+[3.341s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:65:  At least two spaces is best between code and comments  [whitespace/comments] [2]
+[3.341s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu_filter.hpp:25:  #ifndef header guard has wrong style, please use: IMU_MADGWICK__IMU_FILTER_HPP_  [build/header_guard] [5]
+[3.342s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu_filter.hpp:107:  #endif line should be "#endif  // IMU_MADGWICK__IMU_FILTER_HPP_"  [build/header_guard] [5]
+[3.343s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu_filter.hpp:35:  Do not leave a blank line after "public:"  [whitespace/blank_line] [3]
+[3.344s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu_filter.hpp:47:  At least two spaces is best between code and comments  [whitespace/comments] [2]
+[3.345s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu_filter.hpp:107:  At least two spaces is best between code and comments  [whitespace/comments] [2]
+[3.346s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.hpp:25:  #ifndef header guard has wrong style, please use: IMU_MADGWICK__STATELESS_ORIENTATION_HPP_  [build/header_guard] [5]
+[3.347s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.hpp:48:  #endif line should be "#endif  // IMU_MADGWICK__STATELESS_ORIENTATION_HPP_"  [build/header_guard] [5]
+[3.350s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.hpp:45:  Redundant blank line at the end of a code block should be deleted.  [whitespace/blank_line] [3]
+[3.351s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.hpp:48:  At least two spaces is best between code and comments  [whitespace/comments] [2]
+[3.351s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/world_frame.hpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+[3.351s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/world_frame.hpp:1:  #ifndef header guard has wrong style, please use: IMU_MADGWICK__WORLD_FRAME_HPP_  [build/header_guard] [5]
+[3.351s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/world_frame.hpp:8:  #endif line should be "#endif  // IMU_MADGWICK__WORLD_FRAME_HPP_"  [build/header_guard] [5]
+[3.351s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:47:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]
+[3.351s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:69:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[3.352s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:103:  Missing space after ,  [whitespace/comma] [3]
+[3.352s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:104:  Missing space after ,  [whitespace/comma] [3]
+[3.352s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:138:  Missing space after ,  [whitespace/comma] [3]
+[3.352s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:26:  Found C system header after C++ system header. Should be: imu_filter.h, c system, c++ system, other.  [build/include_order] [4]
+[3.352s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:126:  Missing space after ,  [whitespace/comma] [3]
+[3.352s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:160:  Redundant blank line at the end of a code block should be deleted.  [whitespace/blank_line] [3]
+[3.356s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:185:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[3.356s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:192:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[3.357s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:212:  Missing space after ,  [whitespace/comma] [3]
+[3.357s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:219:  Missing space after ,  [whitespace/comma] [3]
+[3.357s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:243:  An else should appear on the same line as the preceding }  [whitespace/newline] [4]
+[3.357s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:269:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[3.357s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:49:  Redundant blank line at the end of a code block should be deleted.  [whitespace/blank_line] [3]
+[3.358s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:58:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]
+[3.358s] 3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:152:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]
+[3.358s] 3: Category 'build/header_guard' errors found: 8
+[3.358s] 3: Category 'build/include_order' errors found: 7
+[3.359s] 3: Category 'legal/copyright' errors found: 1
+[3.359s] 3: Category 'runtime/explicit' errors found: 1
+[3.359s] 3: Category 'whitespace/blank_line' errors found: 7
+[3.362s] 3: Category 'whitespace/comma' errors found: 6
+[3.362s] 3: Category 'whitespace/comments' errors found: 4
+[3.363s] 3: Category 'whitespace/line_length' errors found: 4
+[3.363s] 3: Category 'whitespace/newline' errors found: 1
+[3.363s] 3: Total errors found: 39
+[3.363s] 3: Using '--root=/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include' argument
+[3.364s] 3: 
+[3.364s] 3: Done processing /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp
+[3.364s] 3: 
+[3.364s] 3: Done processing /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu_filter.hpp
+[3.364s] 3: 
+[3.365s] 3: Done processing /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.hpp
+[3.365s] 3: 
+[3.365s] 3: Done processing /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/world_frame.hpp
+[3.365s] 3: 
+[3.365s] 3: Using '--root=/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src' argument
+[3.365s] 3: 
+[3.366s] 3: Done processing /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp
+[3.374s] 3: 
+[3.374s] 3: Done processing /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp
+[3.374s] 3: 
+[3.375s] 3: Done processing /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp
+[3.375s] 3: 
+[3.399s] 3: -- run_test.py: return code 1
+[3.400s] 3: -- run_test.py: verify result file '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/cpplint.xunit.xml'
+[3.426s] 3/6 Test #3: cpplint ..........................***Failed    1.31 sec
+[3.427s] test 4
+[3.428s]     Start 4: lint_cmake
+[3.429s] 
+[3.429s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/lint_cmake.xunit.xml" "--package-name" "imu_madgwick" "--output-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/lint_cmake.xunit.xml"
+[3.429s] 4: Test timeout computed to be: 60
+[3.581s] 4: -- run_test.py: invoking following command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick':
+[3.582s] 4:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/lint_cmake.xunit.xml
+[4.092s] 4: 
+[4.093s] 4: No problems found
+[4.137s] 4: -- run_test.py: return code 0
+[4.145s] 4: -- run_test.py: verify result file '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/lint_cmake.xunit.xml'
+[4.178s] 4/6 Test #4: lint_cmake .......................   Passed    0.75 sec
+[4.178s] test 5
+[4.178s]     Start 5: uncrustify
+[4.179s] 
+[4.179s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/uncrustify.xunit.xml" "--package-name" "imu_madgwick" "--output-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/uncrustify.xunit.xml"
+[4.179s] 5: Test timeout computed to be: 60
+[4.331s] 5: -- run_test.py: invoking following command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick':
+[4.331s] 5:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/uncrustify.xunit.xml
+[5.014s] 5: Code style divergence in file 'include/imu_madgwick/imu_filter.hpp':
+[5.014s] 5: 
+[5.015s] 5: --- include/imu_madgwick/imu_filter.hpp
+[5.015s] 5: +++ include/imu_madgwick/imu_filter.hpp.uncrustify
+[5.015s] 5: @@ -34 +34,3 @@
+[5.016s] 5: -  public:
+[5.016s] 5: +public:
+[5.016s] 5: +  ImuFilter();
+[5.016s] 5: +  virtual ~ImuFilter();
+[5.016s] 5: @@ -36,2 +38,5 @@
+[5.016s] 5: -    ImuFilter();
+[5.017s] 5: -    virtual ~ImuFilter();
+[5.017s] 5: +private:
+[5.017s] 5: +  // **** paramaters
+[5.017s] 5: +  double gain_;      // algorithm gain
+[5.017s] 5: +  double zeta_;      // gyro drift bias gain
+[5.017s] 5: +  WorldFrame::WorldFrame world_frame_;      // NWU, ENU, NED
+[5.018s] 5: @@ -39,9 +44,3 @@
+[5.018s] 5: -  private:
+[5.018s] 5: -    // **** paramaters
+[5.018s] 5: -    double gain_;    // algorithm gain
+[5.018s] 5: -    double zeta_;    // gyro drift bias gain
+[5.018s] 5: -    WorldFrame::WorldFrame world_frame_;    // NWU, ENU, NED
+[5.019s] 5: -
+[5.019s] 5: -    // **** state variables
+[5.019s] 5: -    double q0, q1, q2, q3;  // quaternion
+[5.019s] 5: -    float w_bx_, w_by_, w_bz_; //
+[5.019s] 5: +  // **** state variables
+[5.019s] 5: +  double q0, q1, q2, q3;    // quaternion
+[5.020s] 5: +  float w_bx_, w_by_, w_bz_;   //
+[5.020s] 5: @@ -50,4 +49,4 @@
+[5.020s] 5: -    void setAlgorithmGain(double gain)
+[5.020s] 5: -    {
+[5.020s] 5: -        gain_ = gain;
+[5.020s] 5: -    }
+[5.021s] 5: +  void setAlgorithmGain(double gain)
+[5.021s] 5: +  {
+[5.021s] 5: +    gain_ = gain;
+[5.022s] 5: +  }
+[5.023s] 5: @@ -55,4 +54,4 @@
+[5.023s] 5: -    void setDriftBiasGain(double zeta)
+[5.023s] 5: -    {
+[5.038s] 5: -        zeta_ = zeta;
+[5.039s] 5: -    }
+[5.039s] 5: +  void setDriftBiasGain(double zeta)
+[5.039s] 5: +  {
+[5.039s] 5: +    zeta_ = zeta;
+[5.040s] 5: +  }
+[5.040s] 5: @@ -60,4 +59,4 @@
+[5.040s] 5: -    void setWorldFrame(WorldFrame::WorldFrame frame)
+[5.040s] 5: -    {
+[5.040s] 5: -        world_frame_ = frame;
+[5.041s] 5: -    }
+[5.041s] 5: +  void setWorldFrame(WorldFrame::WorldFrame frame)
+[5.041s] 5: +  {
+[5.041s] 5: +    world_frame_ = frame;
+[5.041s] 5: +  }
+[5.042s] 5: @@ -65,6 +64,6 @@
+[5.043s] 5: -    void getOrientation(double& q0, double& q1, double& q2, double& q3)
+[5.043s] 5: -    {
+[5.043s] 5: -        q0 = this->q0;
+[5.044s] 5: -        q1 = this->q1;
+[5.044s] 5: -        q2 = this->q2;
+[5.044s] 5: -        q3 = this->q3;
+[5.044s] 5: +  void getOrientation(double & q0, double & q1, double & q2, double & q3)
+[5.044s] 5: +  {
+[5.054s] 5: +    q0 = this->q0;
+[5.054s] 5: +    q1 = this->q1;
+[5.054s] 5: +    q2 = this->q2;
+[5.055s] 5: +    q3 = this->q3;
+[5.055s] 5: @@ -72,9 +71,9 @@
+[5.055s] 5: -        // perform precise normalization of the output, using 1/sqrt()
+[5.055s] 5: -        // instead of the fast invSqrt() approximation. Without this,
+[5.055s] 5: -        // TF2 complains that the quaternion is not normalized.
+[5.055s] 5: -        double recipNorm = 1 / sqrt(q0 * q0 + q1 * q1 + q2 * q2 + q3 * q3);
+[5.056s] 5: -        q0 *= recipNorm;
+[5.056s] 5: -        q1 *= recipNorm;
+[5.056s] 5: -        q2 *= recipNorm;
+[5.056s] 5: -        q3 *= recipNorm;
+[5.056s] 5: -    }
+[5.056s] 5: +    // perform precise normalization of the output, using 1/sqrt()
+[5.056s] 5: +    // instead of the fast invSqrt() approximation. Without this,
+[5.057s] 5: +    // TF2 complains that the quaternion is not normalized.
+[5.057s] 5: +    double recipNorm = 1 / sqrt(q0 * q0 + q1 * q1 + q2 * q2 + q3 * q3);
+[5.057s] 5: +    q0 *= recipNorm;
+[5.057s] 5: +    q1 *= recipNorm;
+[5.057s] 5: +    q2 *= recipNorm;
+[5.057s] 5: +    q3 *= recipNorm;
+[5.057s] 5: +  }
+[5.058s] 5: @@ -82,6 +81,6 @@
+[5.063s] 5: -    void setOrientation(double q0, double q1, double q2, double q3)
+[5.064s] 5: -    {
+[5.064s] 5: -        this->q0 = q0;
+[5.064s] 5: -        this->q1 = q1;
+[5.064s] 5: -        this->q2 = q2;
+[5.068s] 5: -        this->q3 = q3;
+[5.068s] 5: +  void setOrientation(double q0, double q1, double q2, double q3)
+[5.068s] 5: +  {
+[5.068s] 5: +    this->q0 = q0;
+[5.069s] 5: +    this->q1 = q1;
+[5.069s] 5: +    this->q2 = q2;
+[5.069s] 5: +    this->q3 = q3;
+[5.069s] 5: @@ -89,4 +88,4 @@
+[5.069s] 5: -        w_bx_ = 0;
+[5.069s] 5: -        w_by_ = 0;
+[5.070s] 5: -        w_bz_ = 0;
+[5.070s] 5: -    }
+[5.070s] 5: +    w_bx_ = 0;
+[5.070s] 5: +    w_by_ = 0;
+[5.071s] 5: +    w_bz_ = 0;
+[5.071s] 5: +  }
+[5.071s] 5: @@ -94,4 +93,5 @@
+[5.071s] 5: -    void madgwickAHRSupdate(float gx, float gy, float gz,
+[5.071s] 5: -                            float ax, float ay, float az,
+[5.071s] 5: -                            float mx, float my, float mz,
+[5.072s] 5: -                            float dt);
+[5.072s] 5: +  void madgwickAHRSupdate(
+[5.072s] 5: +    float gx, float gy, float gz,
+[5.072s] 5: +    float ax, float ay, float az,
+[5.072s] 5: +    float mx, float my, float mz,
+[5.078s] 5: +    float dt);
+[5.078s] 5: @@ -99,3 +99,4 @@
+[5.078s] 5: -    void madgwickAHRSupdateIMU(float gx, float gy, float gz,
+[5.078s] 5: -                               float ax, float ay, float az,
+[5.079s] 5: -                               float dt);
+[5.079s] 5: +  void madgwickAHRSupdateIMU(
+[5.079s] 5: +    float gx, float gy, float gz,
+[5.079s] 5: +    float ax, float ay, float az,
+[5.079s] 5: +    float dt);
+[5.082s] 5: @@ -103,2 +104,3 @@
+[5.082s] 5: -    void getGravity(float& rx, float& ry, float& rz,
+[5.082s] 5: -                    float gravity = 9.80665);
+[5.082s] 5: +  void getGravity(
+[5.082s] 5: +    float & rx, float & ry, float & rz,
+[5.083s] 5: +    float gravity = 9.80665);
+[5.083s] 5: 
+[5.083s] 5: Code style divergence in file 'include/imu_madgwick/stateless_orientation.hpp':
+[5.083s] 5: 
+[5.083s] 5: --- include/imu_madgwick/stateless_orientation.hpp
+[5.083s] 5: +++ include/imu_madgwick/stateless_orientation.hpp.uncrustify
+[5.084s] 5: @@ -39 +39 @@
+[5.084s] 5: -    geometry_msgs::msg::Quaternion& orientation);
+[5.084s] 5: +    geometry_msgs::msg::Quaternion & orientation);
+[5.084s] 5: @@ -44 +44 @@
+[5.084s] 5: -    geometry_msgs::msg::Quaternion& orientation);
+[5.084s] 5: +    geometry_msgs::msg::Quaternion & orientation);
+[5.084s] 5: 
+[5.085s] 5: Code style divergence in file 'include/imu_madgwick/world_frame.hpp':
+[5.085s] 5: 
+[5.085s] 5: --- include/imu_madgwick/world_frame.hpp
+[5.085s] 5: +++ include/imu_madgwick/world_frame.hpp.uncrustify
+[5.085s] 5: @@ -4,2 +4,3 @@
+[5.085s] 5: -namespace WorldFrame {
+[5.086s] 5: -  enum WorldFrame { ENU, NED, NWU };
+[5.094s] 5: +namespace WorldFrame
+[5.094s] 5: +{
+[5.094s] 5: +enum WorldFrame { ENU, NED, NWU };
+[5.095s] 5: 
+[5.095s] 5: Code style divergence in file 'src/imu_madgwick/imu.cpp':
+[5.095s] 5: 
+[5.095s] 5: --- src/imu_madgwick/imu.cpp
+[5.095s] 5: +++ src/imu_madgwick/imu.cpp.uncrustify
+[5.096s] 5: @@ -46 +46,2 @@
+[5.096s] 5: -  : rclcpp::Node(node_name) {
+[5.096s] 5: +: rclcpp::Node(node_name)
+[5.096s] 5: +{
+[5.096s] 5: @@ -61,2 +62,2 @@
+[5.096s] 5: -      const geometry_msgs::msg::Vector3& ang_vel = imu_msg_raw->angular_velocity;
+[5.097s] 5: -      const geometry_msgs::msg::Vector3& lin_acc = imu_msg_raw->linear_acceleration;
+[5.097s] 5: +      const geometry_msgs::msg::Vector3 & ang_vel = imu_msg_raw->angular_velocity;
+[5.097s] 5: +      const geometry_msgs::msg::Vector3 & lin_acc = imu_msg_raw->linear_acceleration;
+[5.097s] 5: @@ -69 +70,3 @@
+[5.097s] 5: -          RCLCPP_WARN_STREAM(get_logger(), "The IMU seems to be in free fall, cannot determine gravity direction!");
+[5.098s] 5: +          RCLCPP_WARN_STREAM(
+[5.102s] 5: +            get_logger(),
+[5.102s] 5: +            "The IMU seems to be in free fall, cannot determine gravity direction!");
+[5.102s] 5: @@ -103,2 +106,2 @@
+[5.103s] 5: -  double q0,q1,q2,q3;
+[5.103s] 5: -  filter.getOrientation(q0,q1,q2,q3);
+[5.103s] 5: +  double q0, q1, q2, q3;
+[5.103s] 5: +  filter.getOrientation(q0, q1, q2, q3);
+[5.103s] 5: @@ -106 +109 @@
+[5.104s] 5: -  auto imu_msg = sensor_msgs::msg::Imu(* imu_msg_raw);
+[5.104s] 5: +  auto imu_msg = sensor_msgs::msg::Imu(*imu_msg_raw);
+[5.104s] 5: @@ -123 +126 @@
+[5.104s] 5: -  if(remove_gravity_vector) {
+[5.104s] 5: +  if (remove_gravity_vector) {
+[5.105s] 5: @@ -138 +141 @@
+[5.106s] 5: -  tf2::Matrix3x3(tf2::Quaternion(q1,q2,q3,q0)).getRPY(roll, pitch, yaw);
+[5.106s] 5: +  tf2::Matrix3x3(tf2::Quaternion(q1, q2, q3, q0)).getRPY(roll, pitch, yaw);
+[5.106s] 5: 
+[5.107s] 5: Code style divergence in file 'src/imu_madgwick/imu_filter.cpp':
+[5.107s] 5: 
+[5.107s] 5: --- src/imu_madgwick/imu_filter.cpp
+[5.107s] 5: +++ src/imu_madgwick/imu_filter.cpp.uncrustify
+[5.107s] 5: @@ -33,2 +33 @@
+[5.107s] 5: -  union
+[5.107s] 5: -  {
+[5.108s] 5: +  union {
+[5.108s] 5: @@ -46,3 +45,3 @@
+[5.108s] 5: -static inline void normalizeVector(T& vx, T& vy, T& vz)
+[5.108s] 5: -{
+[5.108s] 5: -  T recipNorm = invSqrt (vx * vx + vy * vy + vz * vz);
+[5.108s] 5: +static inline void normalizeVector(T & vx, T & vy, T & vz)
+[5.109s] 5: +{
+[5.109s] 5: +  T recipNorm = invSqrt(vx * vx + vy * vy + vz * vz);
+[5.109s] 5: @@ -55,3 +54,3 @@
+[5.109s] 5: -static inline void normalizeQuaternion(T& q0, T& q1, T& q2, T& q3)
+[5.109s] 5: -{
+[5.109s] 5: -  T recipNorm = invSqrt (q0 * q0 + q1 * q1 + q2 * q2 + q3 * q3);
+[5.110s] 5: +static inline void normalizeQuaternion(T & q0, T & q1, T & q2, T & q3)
+[5.110s] 5: +{
+[5.110s] 5: +  T recipNorm = invSqrt(q0 * q0 + q1 * q1 + q2 * q2 + q3 * q3);
+[5.110s] 5: @@ -65,3 +64,4 @@
+[5.110s] 5: -    float q0, float q1, float q2, float q3,
+[5.110s] 5: -    float _2dx, float _2dy, float _2dz,
+[5.111s] 5: -    float& rx, float& ry, float& rz) {
+[5.111s] 5: +  float q0, float q1, float q2, float q3,
+[5.111s] 5: +  float _2dx, float _2dy, float _2dz,
+[5.111s] 5: +  float & rx, float & ry, float & rz)
+[5.111s] 5: +{
+[5.111s] 5: @@ -70,9 +70,9 @@
+[5.112s] 5: -  rx = _2dx * (0.5f - q2 * q2 - q3 * q3)
+[5.112s] 5: -     + _2dy * (q0 * q3 + q1 * q2)
+[5.112s] 5: -     + _2dz * (q1 * q3 - q0 * q2);
+[5.112s] 5: -  ry = _2dx * (q1 * q2 - q0 * q3)
+[5.112s] 5: -     + _2dy * (0.5f - q1 * q1 - q3 * q3)
+[5.112s] 5: -     + _2dz * (q0 * q1 + q2 * q3);
+[5.112s] 5: -  rz = _2dx * (q0 * q2 + q1 * q3)
+[5.113s] 5: -     + _2dy * (q2 * q3 - q0 * q1)
+[5.113s] 5: -     + _2dz * (0.5f - q1 * q1 - q2 * q2);
+[5.113s] 5: +  rx = _2dx * (0.5f - q2 * q2 - q3 * q3) +
+[5.113s] 5: +    _2dy * (q0 * q3 + q1 * q2) +
+[5.113s] 5: +    _2dz * (q1 * q3 - q0 * q2);
+[5.113s] 5: +  ry = _2dx * (q1 * q2 - q0 * q3) +
+[5.114s] 5: +    _2dy * (0.5f - q1 * q1 - q3 * q3) +
+[5.125s] 5: +    _2dz * (q0 * q1 + q2 * q3);
+[5.126s] 5: +  rz = _2dx * (q0 * q2 + q1 * q3) +
+[5.126s] 5: +    _2dy * (q2 * q3 - q0 * q1) +
+[5.126s] 5: +    _2dz * (0.5f - q1 * q1 - q2 * q2);
+[5.126s] 5: @@ -83,5 +83,5 @@
+[5.127s] 5: -    float q0, float q1, float q2, float q3,
+[5.127s] 5: -    float s0, float s1, float s2, float s3,
+[5.127s] 5: -    float dt, float zeta,
+[5.127s] 5: -    float& w_bx, float& w_by, float& w_bz,
+[5.127s] 5: -    float& gx, float& gy, float& gz)
+[5.128s] 5: +  float q0, float q1, float q2, float q3,
+[5.128s] 5: +  float s0, float s1, float s2, float s3,
+[5.128s] 5: +  float dt, float zeta,
+[5.128s] 5: +  float & w_bx, float & w_by, float & w_bz,
+[5.129s] 5: +  float & gx, float & gy, float & gz)
+[5.129s] 5: @@ -104,3 +104,3 @@
+[5.129s] 5: -    float q0, float q1, float q2, float q3,
+[5.130s] 5: -    float gx, float gy, float gz,
+[5.130s] 5: -    float& qDot1, float& qDot2, float& qDot3, float& qDot4)
+[5.130s] 5: +  float q0, float q1, float q2, float q3,
+[5.131s] 5: +  float gx, float gy, float gz,
+[5.131s] 5: +  float & qDot1, float & qDot2, float & qDot3, float & qDot4)
+[5.131s] 5: @@ -117,4 +117,4 @@
+[5.131s] 5: -    float q0, float q1, float q2, float q3,
+[5.131s] 5: -    float _2dx, float _2dy, float _2dz,
+[5.132s] 5: -    float mx, float my, float mz,
+[5.132s] 5: -    float& s0, float& s1, float& s2, float& s3)
+[5.132s] 5: +  float q0, float q1, float q2, float q3,
+[5.132s] 5: +  float _2dx, float _2dy, float _2dz,
+[5.132s] 5: +  float mx, float my, float mz,
+[5.133s] 5: +  float & s0, float & s1, float & s2, float & s3)
+[5.133s] 5: @@ -126 +126 @@
+[5.133s] 5: -  rotateAndScaleVector(q0,q1,q2,q3, _2dx, _2dy, _2dz, f0, f1, f2);
+[5.133s] 5: +  rotateAndScaleVector(q0, q1, q2, q3, _2dx, _2dy, _2dz, f0, f1, f2);
+[5.133s] 5: @@ -135,12 +135,12 @@
+[5.133s] 5: -  s0 += (_2dy * q3 - _2dz * q2) * f0
+[5.134s] 5: -      + (-_2dx * q3 + _2dz * q1) * f1
+[5.134s] 5: -      + (_2dx * q2 - _2dy * q1) * f2;
+[5.135s] 5: -  s1 += (_2dy * q2 + _2dz * q3) * f0
+[5.136s] 5: -      + (_2dx * q2 - 2.0f * _2dy * q1 + _2dz * q0) * f1
+[5.136s] 5: -      + (_2dx * q3 - _2dy * q0 - 2.0f * _2dz * q1) * f2;
+[5.137s] 5: -  s2 += (-2.0f * _2dx * q2 + _2dy * q1 - _2dz * q0) * f0
+[5.137s] 5: -      + (_2dx * q1 + _2dz * q3) * f1
+[5.137s] 5: -      + (_2dx * q0 + _2dy * q3 - 2.0f * _2dz * q2) * f2;
+[5.138s] 5: -  s3 += (-2.0f * _2dx * q3 + _2dy * q0 + _2dz * q1) * f0
+[5.138s] 5: -      + (-_2dx * q0 - 2.0f * _2dy * q3 + _2dz * q2) * f1
+[5.138s] 5: -      + (_2dx * q1 + _2dy * q2) * f2;
+[5.139s] 5: +  s0 += (_2dy * q3 - _2dz * q2) * f0 +
+[5.139s] 5: +    (-_2dx * q3 + _2dz * q1) * f1 +
+[5.139s] 5: +    (_2dx * q2 - _2dy * q1) * f2;
+[5.140s] 5: +  s1 += (_2dy * q2 + _2dz * q3) * f0 +
+[5.140s] 5: +    (_2dx * q2 - 2.0f * _2dy * q1 + _2dz * q0) * f1 +
+[5.140s] 5: +    (_2dx * q3 - _2dy * q0 - 2.0f * _2dz * q1) * f2;
+[5.140s] 5: +  s2 += (-2.0f * _2dx * q2 + _2dy * q1 - _2dz * q0) * f0 +
+[5.140s] 5: +    (_2dx * q1 + _2dz * q3) * f1 +
+[5.141s] 5: +    (_2dx * q0 + _2dy * q3 - 2.0f * _2dz * q2) * f2;
+[5.141s] 5: +  s3 += (-2.0f * _2dx * q3 + _2dy * q0 + _2dz * q1) * f0 +
+[5.141s] 5: +    (-_2dx * q0 - 2.0f * _2dy * q3 + _2dz * q2) * f1 +
+[5.141s] 5: +    (_2dx * q1 + _2dy * q2) * f2;
+[5.141s] 5: @@ -150,3 +150,3 @@
+[5.141s] 5: -    float q0, float q1, float q2, float q3,
+[5.142s] 5: -    float mx, float my, float mz,
+[5.142s] 5: -    float& _2bxy, float& _2bz)
+[5.142s] 5: +  float q0, float q1, float q2, float q3,
+[5.142s] 5: +  float mx, float my, float mz,
+[5.142s] 5: +  float & _2bxy, float & _2bz)
+[5.143s] 5: @@ -158 +158 @@
+[5.143s] 5: -  _2bxy = 4.0f * sqrt (hx * hx + hy * hy);
+[5.143s] 5: +  _2bxy = 4.0f * sqrt(hx * hx + hy * hy);
+[5.143s] 5: @@ -164,4 +164,4 @@
+[5.143s] 5: -ImuFilter::ImuFilter() :
+[5.143s] 5: -    gain_ (0.0), zeta_ (0.0), world_frame_(WorldFrame::ENU),
+[5.144s] 5: -    q0(1.0), q1(0.0), q2(0.0), q3(0.0),
+[5.144s] 5: -    w_bx_(0.0), w_by_(0.0), w_bz_(0.0)
+[5.144s] 5: +ImuFilter::ImuFilter()
+[5.144s] 5: +: gain_(0.0), zeta_(0.0), world_frame_(WorldFrame::ENU),
+[5.144s] 5: +  q0(1.0), q1(0.0), q2(0.0), q3(0.0),
+[5.144s] 5: +  w_bx_(0.0), w_by_(0.0), w_bz_(0.0)
+[5.145s] 5: @@ -176,4 +176,4 @@
+[5.145s] 5: -    float gx, float gy, float gz,
+[5.145s] 5: -    float ax, float ay, float az,
+[5.150s] 5: -    float mx, float my, float mz,
+[5.150s] 5: -    float dt)
+[5.150s] 5: +  float gx, float gy, float gz,
+[5.151s] 5: +  float ax, float ay, float az,
+[5.151s] 5: +  float mx, float my, float mz,
+[5.151s] 5: +  float dt)
+[5.151s] 5: @@ -186,2 +186 @@
+[5.151s] 5: -  if (!std::isfinite(mx) || !std::isfinite(my) || !std::isfinite(mz))
+[5.151s] 5: -  {
+[5.151s] 5: +  if (!std::isfinite(mx) || !std::isfinite(my) || !std::isfinite(mz)) {
+[5.152s] 5: @@ -193,2 +192 @@
+[5.152s] 5: -  if (!((ax == 0.0f) && (ay == 0.0f) && (az == 0.0f)))
+[5.152s] 5: -  {
+[5.152s] 5: +  if (!((ax == 0.0f) && (ay == 0.0f) && (az == 0.0f))) {
+[5.152s] 5: @@ -212 +210 @@
+[5.152s] 5: -        addGradientDescentStep(q0,q1,q2,q3, _2bxy, 0.0, _2bz, mx, my, mz, s0, s1, s2, s3);
+[5.153s] 5: +        addGradientDescentStep(q0, q1, q2, q3, _2bxy, 0.0, _2bz, mx, my, mz, s0, s1, s2, s3);
+[5.153s] 5: @@ -219 +217 @@
+[5.153s] 5: -        addGradientDescentStep(q0,q1,q2,q3, _2bxy, 0.0, _2bz, mx, my, mz, s0, s1, s2, s3);
+[5.153s] 5: +        addGradientDescentStep(q0, q1, q2, q3, _2bxy, 0.0, _2bz, mx, my, mz, s0, s1, s2, s3);
+[5.153s] 5: @@ -235,0 +234,55 @@
+[5.153s] 5: +
+[5.154s] 5: +    // Apply feedback step
+[5.156s] 5: +    qDot1 -= gain_ * s0;
+[5.156s] 5: +    qDot2 -= gain_ * s1;
+[5.156s] 5: +    qDot3 -= gain_ * s2;
+[5.157s] 5: +    qDot4 -= gain_ * s3;
+[5.157s] 5: +  } else {
+[5.157s] 5: +    orientationChangeFromGyro(q0, q1, q2, q3, gx, gy, gz, qDot1, qDot2, qDot3, qDot4);
+[5.158s] 5: +  }
+[5.158s] 5: +
+[5.158s] 5: +  // Integrate rate of change of quaternion to yield quaternion
+[5.159s] 5: +  q0 += qDot1 * dt;
+[5.159s] 5: +  q1 += qDot2 * dt;
+[5.159s] 5: +  q2 += qDot3 * dt;
+[5.160s] 5: +  q3 += qDot4 * dt;
+[5.160s] 5: +
+[5.160s] 5: +  // Normalise quaternion
+[5.161s] 5: +  normalizeQuaternion(q0, q1, q2, q3);
+[5.161s] 5: +}
+[5.161s] 5: +
+[5.162s] 5: +void ImuFilter::madgwickAHRSupdateIMU(
+[5.162s] 5: +  float gx, float gy, float gz,
+[5.162s] 5: +  float ax, float ay, float az,
+[5.162s] 5: +  float dt)
+[5.163s] 5: +{
+[5.164s] 5: +  float s0, s1, s2, s3;
+[5.164s] 5: +  float qDot1, qDot2, qDot3, qDot4;
+[5.164s] 5: +
+[5.165s] 5: +  // Rate of change of quaternion from gyroscope
+[5.166s] 5: +  orientationChangeFromGyro(q0, q1, q2, q3, gx, gy, gz, qDot1, qDot2, qDot3, qDot4);
+[5.166s] 5: +
+[5.167s] 5: +  // Compute feedback only if accelerometer measurement valid (avoids NaN in accelerometer normalisation)
+[5.167s] 5: +  if (!((ax == 0.0f) && (ay == 0.0f) && (az == 0.0f))) {
+[5.167s] 5: +    // Normalise accelerometer measurement
+[5.167s] 5: +    normalizeVector(ax, ay, az);
+[5.168s] 5: +
+[5.168s] 5: +    // Gradient decent algorithm corrective step
+[5.168s] 5: +    s0 = 0.0;  s1 = 0.0;  s2 = 0.0;  s3 = 0.0;
+[5.168s] 5: +    switch (world_frame_) {
+[5.168s] 5: +      case WorldFrame::NED:
+[5.169s] 5: +        // Gravity: [0, 0, -1]
+[5.169s] 5: +        addGradientDescentStep(q0, q1, q2, q3, 0.0, 0.0, -2.0, ax, ay, az, s0, s1, s2, s3);
+[5.169s] 5: +        break;
+[5.169s] 5: +      case WorldFrame::NWU:
+[5.170s] 5: +        // Gravity: [0, 0, 1]
+[5.170s] 5: +        addGradientDescentStep(q0, q1, q2, q3, 0.0, 0.0, 2.0, ax, ay, az, s0, s1, s2, s3);
+[5.170s] 5: +        break;
+[5.170s] 5: +      default:
+[5.171s] 5: +      case WorldFrame::ENU:
+[5.171s] 5: +        // Gravity: [0, 0, 1]
+[5.171s] 5: +        addGradientDescentStep(q0, q1, q2, q3, 0.0, 0.0, 2.0, ax, ay, az, s0, s1, s2, s3);
+[5.171s] 5: +        break;
+[5.171s] 5: +    }
+[5.172s] 5: +
+[5.172s] 5: +    normalizeQuaternion(s0, s1, s2, s3);
+[5.172s] 5: @@ -243,4 +295,0 @@
+[5.172s] 5: -  else
+[5.173s] 5: -  {
+[5.173s] 5: -    orientationChangeFromGyro(q0, q1, q2, q3, gx, gy, gz, qDot1, qDot2, qDot3, qDot4);
+[5.173s] 5: -  }
+[5.173s] 5: @@ -258,42 +307,29 @@
+[5.173s] 5: -void ImuFilter::madgwickAHRSupdateIMU(
+[5.174s] 5: -    float gx, float gy, float gz,
+[5.174s] 5: -    float ax, float ay, float az,
+[5.174s] 5: -    float dt)
+[5.174s] 5: -{
+[5.174s] 5: -  float s0, s1, s2, s3;
+[5.175s] 5: -  float qDot1, qDot2, qDot3, qDot4;
+[5.175s] 5: -
+[5.175s] 5: -  // Rate of change of quaternion from gyroscope
+[5.175s] 5: -  orientationChangeFromGyro (q0, q1, q2, q3, gx, gy, gz, qDot1, qDot2, qDot3, qDot4);
+[5.175s] 5: -
+[5.177s] 5: -  // Compute feedback only if accelerometer measurement valid (avoids NaN in accelerometer normalisation)
+[5.177s] 5: -  if (!((ax == 0.0f) && (ay == 0.0f) && (az == 0.0f)))
+[5.178s] 5: -  {
+[5.179s] 5: -    // Normalise accelerometer measurement
+[5.179s] 5: -    normalizeVector(ax, ay, az);
+[5.179s] 5: -
+[5.179s] 5: -    // Gradient decent algorithm corrective step
+[5.180s] 5: -    s0 = 0.0;  s1 = 0.0;  s2 = 0.0;  s3 = 0.0;
+[5.180s] 5: -    switch (world_frame_) {
+[5.180s] 5: -      case WorldFrame::NED:
+[5.180s] 5: -        // Gravity: [0, 0, -1]
+[5.180s] 5: -        addGradientDescentStep(q0, q1, q2, q3, 0.0, 0.0, -2.0, ax, ay, az, s0, s1, s2, s3);
+[5.181s] 5: -        break;
+[5.182s] 5: -      case WorldFrame::NWU:
+[5.182s] 5: -        // Gravity: [0, 0, 1]
+[5.182s] 5: -        addGradientDescentStep(q0, q1, q2, q3, 0.0, 0.0, 2.0, ax, ay, az, s0, s1, s2, s3);
+[5.183s] 5: -        break;
+[5.183s] 5: -      default:
+[5.183s] 5: -      case WorldFrame::ENU:
+[5.183s] 5: -        // Gravity: [0, 0, 1]
+[5.184s] 5: -        addGradientDescentStep(q0, q1, q2, q3, 0.0, 0.0, 2.0, ax, ay, az, s0, s1, s2, s3);
+[5.184s] 5: -        break;
+[5.184s] 5: -    }
+[5.185s] 5: -
+[5.185s] 5: -    normalizeQuaternion(s0, s1, s2, s3);
+[5.186s] 5: -
+[5.187s] 5: -    // Apply feedback step
+[5.187s] 5: -    qDot1 -= gain_ * s0;
+[5.187s] 5: -    qDot2 -= gain_ * s1;
+[5.187s] 5: -    qDot3 -= gain_ * s2;
+[5.187s] 5: -    qDot4 -= gain_ * s3;
+[5.188s] 5: +
+[5.188s] 5: +void ImuFilter::getGravity(
+[5.188s] 5: +  float & rx, float & ry, float & rz,
+[5.188s] 5: +  float gravity)
+[5.188s] 5: +{
+[5.188s] 5: +  // Estimate gravity vector from current orientation
+[5.189s] 5: +  switch (world_frame_) {
+[5.189s] 5: +    case WorldFrame::NED:
+[5.189s] 5: +      // Gravity: [0, 0, -1]
+[5.189s] 5: +      rotateAndScaleVector(
+[5.189s] 5: +        q0, q1, q2, q3,
+[5.189s] 5: +        0.0, 0.0, -2.0 * gravity,
+[5.190s] 5: +        rx, ry, rz);
+[5.191s] 5: +      break;
+[5.192s] 5: +    case WorldFrame::NWU:
+[5.192s] 5: +      // Gravity: [0, 0, 1]
+[5.192s] 5: +      rotateAndScaleVector(
+[5.192s] 5: +        q0, q1, q2, q3,
+[5.193s] 5: +        0.0, 0.0, 2.0 * gravity,
+[5.193s] 5: +        rx, ry, rz);
+[5.193s] 5: +      break;
+[5.193s] 5: +    default:
+[5.193s] 5: +    case WorldFrame::ENU:
+[5.194s] 5: +      // Gravity: [0, 0, 1]
+[5.194s] 5: +      rotateAndScaleVector(
+[5.194s] 5: +        q0, q1, q2, q3,
+[5.195s] 5: +        0.0, 0.0, 2.0 * gravity,
+[5.195s] 5: +        rx, ry, rz);
+[5.196s] 5: +      break;
+[5.196s] 5: @@ -301,38 +337 @@
+[5.196s] 5: -
+[5.196s] 5: -  // Integrate rate of change of quaternion to yield quaternion
+[5.196s] 5: -  q0 += qDot1 * dt;
+[5.197s] 5: -  q1 += qDot2 * dt;
+[5.197s] 5: -  q2 += qDot3 * dt;
+[5.197s] 5: -  q3 += qDot4 * dt;
+[5.197s] 5: -
+[5.197s] 5: -  // Normalise quaternion
+[5.198s] 5: -  normalizeQuaternion (q0, q1, q2, q3);
+[5.198s] 5: -}
+[5.198s] 5: -
+[5.199s] 5: -
+[5.199s] 5: -void ImuFilter::getGravity(float& rx, float& ry, float& rz,
+[5.199s] 5: -    float gravity)
+[5.199s] 5: -{
+[5.199s] 5: -    // Estimate gravity vector from current orientation
+[5.199s] 5: -    switch (world_frame_) {
+[5.200s] 5: -      case WorldFrame::NED:
+[5.200s] 5: -        // Gravity: [0, 0, -1]
+[5.200s] 5: -        rotateAndScaleVector(q0, q1, q2, q3,
+[5.200s] 5: -            0.0, 0.0, -2.0*gravity,
+[5.200s] 5: -            rx, ry, rz);
+[5.200s] 5: -        break;
+[5.201s] 5: -      case WorldFrame::NWU:
+[5.201s] 5: -        // Gravity: [0, 0, 1]
+[5.201s] 5: -        rotateAndScaleVector(q0, q1, q2, q3,
+[5.201s] 5: -            0.0, 0.0, 2.0*gravity,
+[5.201s] 5: -            rx, ry, rz);
+[5.201s] 5: -        break;
+[5.202s] 5: -      default:
+[5.202s] 5: -      case WorldFrame::ENU:
+[5.202s] 5: -        // Gravity: [0, 0, 1]
+[5.202s] 5: -        rotateAndScaleVector(q0, q1, q2, q3,
+[5.202s] 5: -            0.0, 0.0, 2.0*gravity,
+[5.202s] 5: -            rx, ry, rz);
+[5.203s] 5: -        break;
+[5.203s] 5: -    }
+[5.203s] 5: -}
+[5.203s] 5: +}
+[5.203s] 5: 
+[5.203s] 5: Code style divergence in file 'src/imu_madgwick/stateless_orientation.cpp':
+[5.203s] 5: 
+[5.204s] 5: --- src/imu_madgwick/stateless_orientation.cpp
+[5.204s] 5: +++ src/imu_madgwick/stateless_orientation.cpp.uncrustify
+[5.204s] 5: @@ -32,6 +32,7 @@
+[5.204s] 5: -      T ax, T ay, T az,
+[5.204s] 5: -      T bx, T by, T bz,
+[5.204s] 5: -      T& rx, T& ry, T& rz) {
+[5.205s] 5: -  rx = ay*bz - az*by;
+[5.205s] 5: -  ry = az*bx - ax*bz;
+[5.205s] 5: -  rz = ax*by - ay*bx;
+[5.205s] 5: +  T ax, T ay, T az,
+[5.205s] 5: +  T bx, T by, T bz,
+[5.205s] 5: +  T & rx, T & ry, T & rz)
+[5.206s] 5: +{
+[5.206s] 5: +  rx = ay * bz - az * by;
+[5.206s] 5: +  ry = az * bx - ax * bz;
+[5.206s] 5: +  rz = ax * by - ay * bx;
+[5.207s] 5: @@ -42,2 +43,3 @@
+[5.207s] 5: -static inline T normalizeVector(T& vx, T& vy, T& vz) {
+[5.207s] 5: -  T norm = sqrt(vx*vx + vy*vy + vz*vz);
+[5.207s] 5: +static inline T normalizeVector(T & vx, T & vy, T & vz)
+[5.207s] 5: +{
+[5.208s] 5: +  T norm = sqrt(vx * vx + vy * vy + vz * vz);
+[5.208s] 5: @@ -57 +59,2 @@
+[5.208s] 5: -  geometry_msgs::msg::Quaternion& orientation) {
+[5.208s] 5: +  geometry_msgs::msg::Quaternion & orientation)
+[5.208s] 5: +{
+[5.208s] 5: @@ -151 +154,2 @@
+[5.209s] 5: -  geometry_msgs::msg::Quaternion& orientation) {
+[5.209s] 5: +  geometry_msgs::msg::Quaternion & orientation)
+[5.209s] 5: +{
+[5.209s] 5: @@ -159,3 +163,3 @@
+[5.209s] 5: -      E.x = A.y;
+[5.210s] 5: -      E.y = A.x;
+[5.214s] 5: -      E.z = 0.0;
+[5.214s] 5: +    E.x = A.y;
+[5.214s] 5: +    E.y = A.x;
+[5.215s] 5: +    E.z = 0.0;
+[5.215s] 5: @@ -163,3 +167,3 @@
+[5.215s] 5: -      E.x = 0.0;
+[5.215s] 5: -      E.y = A.z;
+[5.215s] 5: -      E.z = A.y;
+[5.215s] 5: +    E.x = 0.0;
+[5.216s] 5: +    E.y = A.z;
+[5.216s] 5: +    E.z = A.y;
+[5.216s] 5: @@ -167,2 +171,2 @@
+[5.216s] 5: -      // free fall
+[5.216s] 5: -      return false;
+[5.216s] 5: +    // free fall
+[5.217s] 5: +    return false;
+[5.217s] 5: 
+[5.217s] 5: 6 files with code style divergence
+[5.217s] 5: No code style divergence in file 'include/imu_madgwick/imu.hpp'
+[5.217s] 5: 
+[5.217s] 5: -- run_test.py: return code 1
+[5.218s] 5: -- run_test.py: verify result file '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/uncrustify.xunit.xml'
+[5.218s] 5/6 Test #5: uncrustify .......................***Failed    1.02 sec
+[5.218s] test 6
+[5.218s]     Start 6: xmllint
+[5.218s] 
+[5.219s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/xmllint.xunit.xml" "--package-name" "imu_madgwick" "--output-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/xmllint.xunit.xml"
+[5.219s] 6: Test timeout computed to be: 60
+[5.367s] 6: -- run_test.py: invoking following command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick':
+[5.368s] 6:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/xmllint.xunit.xml
+[13.056s] 6: File 'package.xml' is valid
+[13.057s] 6: 
+[13.058s] 6: No problems found
+[13.125s] 6: -- run_test.py: return code 0
+[13.125s] 6: -- run_test.py: verify result file '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/xmllint.xunit.xml'
+[13.158s] 6/6 Test #6: xmllint ..........................   Passed    7.95 sec
+[13.161s] 
+[13.161s] 50% tests passed[0;0m, [0;31m3 tests failed[0;0m out of 6
+[13.162s] 
+[13.164s] Label Time Summary:
+[13.164s] copyright     =   0.93 sec*proc (1 test)
+[13.164s] cppcheck      =   0.92 sec*proc (1 test)
+[13.164s] cpplint       =   1.31 sec*proc (1 test)
+[13.164s] lint_cmake    =   0.75 sec*proc (1 test)
+[13.165s] linter        =  12.88 sec*proc (6 tests)
+[13.165s] uncrustify    =   1.02 sec*proc (1 test)
+[13.165s] xmllint       =   7.95 sec*proc (1 test)
+[13.165s] 
+[13.165s] Total Test time (real) =  12.90 sec
+[13.165s] 
+[13.166s] The following tests FAILED:
+[13.168s] 	[0;31m  1 - copyright (Failed)[0;0m
+[13.168s] 	[0;31m  3 - cpplint (Failed)[0;0m
+[13.168s] 	[0;31m  5 - uncrustify (Failed)[0;0m
+[13.189s] Errors while running CTest
+[13.197s] Invoked command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick' returned '8': AMENT_PREFIX_PATH=/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick LD_LIBRARY_PATH=/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

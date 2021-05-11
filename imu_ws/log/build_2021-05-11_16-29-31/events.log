@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000737] (imu_madgwick) JobQueued: {'identifier': 'imu_madgwick', 'dependencies': OrderedDict()}
+[0.001388] (imu_madgwick) JobStarted: {'identifier': 'imu_madgwick'}
+[0.056017] (imu_madgwick) JobProgress: {'identifier': 'imu_madgwick', 'progress': 'cmake'}
+[0.058461] (imu_madgwick) JobProgress: {'identifier': 'imu_madgwick', 'progress': 'build'}
+[0.060692] (imu_madgwick) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick', '--', '-j2', '-l2'], 'cwd': '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maroqi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1435'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maroqi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/maroqi/Projects/RobotProjects/imu-test'), ('TERM_PROGRAM_VERSION', '1.55.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1062'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '62190'), ('_colcon_cd_root', '/home/maroqi/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maroqi'), ('JOURNAL_STREAM', '8:37692'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'maroqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/maroqi/.local/bin:/opt/ros/foxy/bin:/home/maroqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/tools:/platform-tools:/home/maroqi/Apps/flutter/bin:/home/maroqi/.config/composer/vendor/bin:/usr/lib/dart/bin:/tools:/platform-tools:/home/maroqi/Apps/flutter/bin:/home/maroqi/.config/composer/vendor/bin'), ('SESSION_MANAGER', 'local/jalil:@/tmp/.ICE-unix/1486,unix/jalil:/tmp/.ICE-unix/1486'), ('INVOCATION_ID', 'de4f3931150847ad8bbc84e2ca6a405f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e3307d628.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('ANDROID_SDK_ROOT', '/home/maroqi/Apps/android/sdk'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099405] (-) TimerEvent: {}
+[0.199959] (-) TimerEvent: {}
+[0.245517] (imu_madgwick) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target imu_madgwick\x1b[0m\n'}
+[0.300100] (-) TimerEvent: {}
+[0.363514] (imu_madgwick) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o\x1b[0m\n'}
+[0.400254] (-) TimerEvent: {}
+[0.503290] (-) TimerEvent: {}
+[0.605052] (-) TimerEvent: {}
+[0.708323] (-) TimerEvent: {}
+[0.810724] (-) TimerEvent: {}
+[0.912459] (-) TimerEvent: {}
+[1.014287] (-) TimerEvent: {}
+[1.115974] (-) TimerEvent: {}
+[1.217597] (-) TimerEvent: {}
+[1.319890] (-) TimerEvent: {}
+[1.422031] (-) TimerEvent: {}
+[1.524723] (-) TimerEvent: {}
+[1.627248] (-) TimerEvent: {}
+[1.729668] (-) TimerEvent: {}
+[1.830247] (-) TimerEvent: {}
+[1.930747] (-) TimerEvent: {}
+[2.031286] (-) TimerEvent: {}
+[2.131856] (-) TimerEvent: {}
+[2.233134] (-) TimerEvent: {}
+[2.334457] (-) TimerEvent: {}
+[2.435009] (-) TimerEvent: {}
+[2.536585] (-) TimerEvent: {}
+[2.637803] (-) TimerEvent: {}
+[2.740304] (-) TimerEvent: {}
+[2.841224] (-) TimerEvent: {}
+[2.943651] (-) TimerEvent: {}
+[3.046051] (-) TimerEvent: {}
+[3.146556] (-) TimerEvent: {}
+[3.248984] (-) TimerEvent: {}
+[3.351337] (-) TimerEvent: {}
+[3.453583] (-) TimerEvent: {}
+[3.554122] (-) TimerEvent: {}
+[3.654684] (-) TimerEvent: {}
+[3.756145] (-) TimerEvent: {}
+[3.857795] (-) TimerEvent: {}
+[3.958381] (-) TimerEvent: {}
+[4.067947] (-) TimerEvent: {}
+[4.168536] (-) TimerEvent: {}
+[4.271021] (-) TimerEvent: {}
+[4.373456] (-) TimerEvent: {}
+[4.449834] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KImu::Imu(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.450359] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:47:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::TransformBroadcaster::TransformBroadcaster()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.450642] (imu_madgwick) StderrLine: {'line': b'   47 |   : rclcpp::Node(node_name\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[4.450942] (imu_madgwick) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.456067] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:29\x1b[m\x1b[K:\n'}
+[4.456613] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:53:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class NodeT, class AllocatorT> tf2_ros::TransformBroadcaster::TransformBroadcaster(NodeT&&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.456887] (imu_madgwick) StderrLine: {'line': b'   53 |   \x1b[01;36m\x1b[KTransformBroadcaster\x1b[m\x1b[K(\n'}
+[4.457132] (imu_madgwick) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.457406] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:53:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.457619] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:47:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[4.457799] (imu_madgwick) StderrLine: {'line': b'   47 |   : rclcpp::Node(node_name\x1b[01;36m\x1b[K)\x1b[m\x1b[K{\n'}
+[4.457966] (imu_madgwick) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.458161] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:29\x1b[m\x1b[K:\n'}
+[4.458326] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::TransformBroadcaster::TransformBroadcaster(const tf2_ros::TransformBroadcaster&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.458495] (imu_madgwick) StderrLine: {'line': b'   49 | class \x1b[01;36m\x1b[KTransformBroadcaster\x1b[m\x1b[K{\n'}
+[4.458658] (imu_madgwick) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.458820] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[4.458995] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::TransformBroadcaster::TransformBroadcaster(tf2_ros::TransformBroadcaster&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.459198] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[4.473607] (-) TimerEvent: {}
+[4.574098] (-) TimerEvent: {}
+[4.674634] (-) TimerEvent: {}
+[4.775125] (-) TimerEvent: {}
+[4.875598] (-) TimerEvent: {}
+[4.976179] (-) TimerEvent: {}
+[5.076670] (-) TimerEvent: {}
+[5.177154] (-) TimerEvent: {}
+[5.277730] (-) TimerEvent: {}
+[5.378238] (-) TimerEvent: {}
+[5.478785] (-) TimerEvent: {}
+[5.581414] (-) TimerEvent: {}
+[5.683028] (-) TimerEvent: {}
+[5.785854] (-) TimerEvent: {}
+[5.888378] (-) TimerEvent: {}
+[5.990841] (-) TimerEvent: {}
+[6.093245] (-) TimerEvent: {}
+[6.193751] (-) TimerEvent: {}
+[6.294250] (-) TimerEvent: {}
+[6.394852] (-) TimerEvent: {}
+[6.495405] (-) TimerEvent: {}
+[6.595965] (-) TimerEvent: {}
+[6.699965] (-) TimerEvent: {}
+[6.802500] (-) TimerEvent: {}
+[6.903024] (-) TimerEvent: {}
+[7.005449] (-) TimerEvent: {}
+[7.107070] (-) TimerEvent: {}
+[7.209759] (-) TimerEvent: {}
+[7.312888] (-) TimerEvent: {}
+[7.415445] (-) TimerEvent: {}
+[7.518197] (-) TimerEvent: {}
+[7.620779] (-) TimerEvent: {}
+[7.721341] (-) TimerEvent: {}
+[7.821836] (-) TimerEvent: {}
+[7.922386] (-) TimerEvent: {}
+[8.023049] (-) TimerEvent: {}
+[8.123557] (-) TimerEvent: {}
+[8.225063] (-) TimerEvent: {}
+[8.326103] (-) TimerEvent: {}
+[8.427003] (-) TimerEvent: {}
+[8.529914] (-) TimerEvent: {}
+[8.631199] (-) TimerEvent: {}
+[8.732370] (-) TimerEvent: {}
+[8.833588] (-) TimerEvent: {}
+[8.849239] (imu_madgwick) StderrLine: {'line': b'make[2]: *** [CMakeFiles/imu_madgwick.dir/build.make:89: CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o] Error 1\n'}
+[8.852203] (imu_madgwick) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/imu_madgwick.dir/all] Error 2\n'}
+[8.852720] (imu_madgwick) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[8.859943] (imu_madgwick) CommandEnded: {'returncode': 2}
+[8.934823] (-) TimerEvent: {}
+[8.996848] (imu_madgwick) JobEnded: {'identifier': 'imu_madgwick', 'rc': 2}
+[9.008178] (-) EventReactorShutdown: {}

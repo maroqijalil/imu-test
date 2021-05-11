@@ -1,0 +1,47 @@
+[0.060s] Invoking command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2
+[0.240s] [35m[1mScanning dependencies of target imu_madgwick[0m
+[0.368s] [ 25%] [32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o[0m
+[4.816s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.817s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:33:[m[K [01;31m[Kerror: [m[K‘[01m[KImuMsg[m[K’ does not name a type
+[4.817s]    62 |   void publishFilteredMsg(const [01;31m[KImuMsg[m[K::SharedPtr imu_msg_raw);
+[4.817s]       |                                 [01;31m[K^~~~~~[m[K
+[4.817s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:51:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kimu_msg_raw[m[K’
+[4.818s]    62 |   void publishFilteredMsg(const ImuMsg::SharedPtr [01;31m[Kimu_msg_raw[m[K);
+[4.818s]       |                                                   [01;31m[K^~~~~~~~~~~[m[K
+[4.818s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kimu_msg_raw[m[K’
+[4.818s]    62 |   void publishFilteredMsg[34m[K([m[Kconst ImuMsg::SharedPtr[01;31m[K [m[K[32m[Kimu_msg_raw[m[K);
+[4.819s]       |                          [34m[K~[m[K                       [01;31m[K^[m[K[32m[K~~~~~~~~~~~[m[K
+[4.819s]       |                                                  [32m[K)[m[K
+[4.819s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.819s]    62 |   void publishFilteredMsg(const ImuMsg::[01;31m[KSharedPtr[m[K imu_msg_raw);
+[4.820s]       |                                         [01;31m[K^~~~~~~~~[m[K
+[4.820s]       |                                                  [32m[K;[m[K
+[4.830s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_msg_raw[m[K’ does not name a type
+[4.831s]    62 |   void publishFilteredMsg(const ImuMsg::SharedPtr [01;31m[Kimu_msg_raw[m[K);
+[4.831s]       |                                                   [01;31m[K^~~~~~~~~~~[m[K
+[4.850s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K In constructor ‘[01m[KImu::Imu(std::string)[m[K’:
+[4.850s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:51:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfixed_frame[m[K’ was not declared in this scope
+[4.850s]    51 |   [01;31m[Kfixed_frame[m[K = "odom";
+[4.850s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[4.869s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K In lambda function:
+[4.869s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:68:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_frame[m[K’ was not declared in this scope
+[4.870s]    68 |       [01;31m[Kimu_frame[m[K = imu_msg_raw->header.frame_id;
+[4.870s]       |       [01;31m[K^~~~~~~~~[m[K
+[4.905s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K At global scope:
+[4.906s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:104:36:[m[K [01;31m[Kerror: [m[K‘[01m[KImuMsg[m[K’ does not name a type
+[4.906s]   104 | void Imu::publishFilteredMsg(const [01;31m[KImuMsg[m[K::SharedPtr imu_msg_raw)
+[4.906s]       |                                    [01;31m[K^~~~~~[m[K
+[4.906s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:104:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kimu_msg_raw[m[K’
+[4.907s]   104 | void Imu::publishFilteredMsg(const ImuMsg::SharedPtr [01;31m[Kimu_msg_raw[m[K)
+[4.907s]       |                                                      [01;31m[K^~~~~~~~~~~[m[K
+[4.907s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:104:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kimu_msg_raw[m[K’
+[4.908s]   104 | void Imu::publishFilteredMsg[34m[K([m[Kconst ImuMsg::SharedPtr[01;31m[K [m[K[32m[Kimu_msg_raw[m[K)
+[4.908s]       |                             [34m[K~[m[K                       [01;31m[K^[m[K[32m[K~~~~~~~~~~~[m[K
+[4.908s]       |                                                     [32m[K)[m[K
+[4.908s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:104:54:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kimu_msg_raw[m[K’
+[4.909s]   104 | void Imu::publishFilteredMsg(const ImuMsg::SharedPtr [01;31m[Kimu_msg_raw[m[K)
+[4.909s]       |                                                      [01;31m[K^~~~~~~~~~~[m[K
+[9.105s] make[2]: *** [CMakeFiles/imu_madgwick.dir/build.make:89: CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o] Error 1
+[9.106s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/imu_madgwick.dir/all] Error 2
+[9.106s] make: *** [Makefile:141: all] Error 2
+[9.115s] Invoked command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2

@@ -1,5 +1,0 @@
-CMake Error at CMakeLists.txt:29 (add_library):
-  No SOURCES given to target: imu_madgwick
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.

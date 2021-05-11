@@ -1,0 +1,43 @@
+In file included from [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:33:[m[K [01;31m[Kerror: [m[K‘[01m[KImuMsg[m[K’ does not name a type
+   62 |   void publishFilteredMsg(const [01;31m[KImuMsg[m[K::SharedPtr imu_msg_raw);
+      |                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:51:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kimu_msg_raw[m[K’
+   62 |   void publishFilteredMsg(const ImuMsg::SharedPtr [01;31m[Kimu_msg_raw[m[K);
+      |                                                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kimu_msg_raw[m[K’
+   62 |   void publishFilteredMsg[34m[K([m[Kconst ImuMsg::SharedPtr[01;31m[K [m[K[32m[Kimu_msg_raw[m[K);
+      |                          [34m[K~[m[K                       [01;31m[K^[m[K[32m[K~~~~~~~~~~~[m[K
+      |                                                  [32m[K)[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   62 |   void publishFilteredMsg(const ImuMsg::[01;31m[KSharedPtr[m[K imu_msg_raw);
+      |                                         [01;31m[K^~~~~~~~~[m[K
+      |                                                  [32m[K;[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_msg_raw[m[K’ does not name a type
+   62 |   void publishFilteredMsg(const ImuMsg::SharedPtr [01;31m[Kimu_msg_raw[m[K);
+      |                                                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K In constructor ‘[01m[KImu::Imu(std::string)[m[K’:
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:51:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfixed_frame[m[K’ was not declared in this scope
+   51 |   [01;31m[Kfixed_frame[m[K = "odom";
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K In lambda function:
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:68:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_frame[m[K’ was not declared in this scope
+   68 |       [01;31m[Kimu_frame[m[K = imu_msg_raw->header.frame_id;
+      |       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K At global scope:
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:104:36:[m[K [01;31m[Kerror: [m[K‘[01m[KImuMsg[m[K’ does not name a type
+  104 | void Imu::publishFilteredMsg(const [01;31m[KImuMsg[m[K::SharedPtr imu_msg_raw)
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:104:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kimu_msg_raw[m[K’
+  104 | void Imu::publishFilteredMsg(const ImuMsg::SharedPtr [01;31m[Kimu_msg_raw[m[K)
+      |                                                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:104:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kimu_msg_raw[m[K’
+  104 | void Imu::publishFilteredMsg[34m[K([m[Kconst ImuMsg::SharedPtr[01;31m[K [m[K[32m[Kimu_msg_raw[m[K)
+      |                             [34m[K~[m[K                       [01;31m[K^[m[K[32m[K~~~~~~~~~~~[m[K
+      |                                                     [32m[K)[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:104:54:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kimu_msg_raw[m[K’
+  104 | void Imu::publishFilteredMsg(const ImuMsg::SharedPtr [01;31m[Kimu_msg_raw[m[K)
+      |                                                      [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/imu_madgwick.dir/build.make:89: CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/imu_madgwick.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

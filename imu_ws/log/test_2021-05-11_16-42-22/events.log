@@ -1,0 +1,881 @@
+[0.000000] (-) TimerEvent: {}
+[0.001888] (imu_madgwick) JobQueued: {'identifier': 'imu_madgwick', 'dependencies': OrderedDict([('imu_madgwick', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick')])}
+[0.003474] (imu_madgwick) JobStarted: {'identifier': 'imu_madgwick'}
+[0.099894] (-) TimerEvent: {}
+[0.195298] (imu_madgwick) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maroqi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1435'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maroqi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/maroqi/Projects/RobotProjects/imu-test'), ('TERM_PROGRAM_VERSION', '1.55.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1062'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '62190'), ('_colcon_cd_root', '/home/maroqi/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maroqi'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:37692'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'maroqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/maroqi/.local/bin:/opt/ros/foxy/bin:/home/maroqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/tools:/platform-tools:/home/maroqi/Apps/flutter/bin:/home/maroqi/.config/composer/vendor/bin:/usr/lib/dart/bin:/tools:/platform-tools:/home/maroqi/Apps/flutter/bin:/home/maroqi/.config/composer/vendor/bin'), ('SESSION_MANAGER', 'local/jalil:@/tmp/.ICE-unix/1486,unix/jalil:/tmp/.ICE-unix/1486'), ('INVOCATION_ID', 'de4f3931150847ad8bbc84e2ca6a405f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e3307d628.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('ANDROID_SDK_ROOT', '/home/maroqi/Apps/android/sdk'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick')]), 'shell': False}
+[0.202392] (-) TimerEvent: {}
+[0.257460] (imu_madgwick) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/CTestConfiguration.ini\n'}
+[0.258256] (imu_madgwick) StdoutLine: {'line': b'Parse Config file:/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/CTestConfiguration.ini\n'}
+[0.258594] (imu_madgwick) StdoutLine: {'line': b'   Site: jalil\n'}
+[0.258889] (imu_madgwick) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.259145] (imu_madgwick) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.261930] (imu_madgwick) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.262449] (imu_madgwick) StdoutLine: {'line': b'Create new tag: 20210511-0942 - Experimental\n'}
+[0.262786] (imu_madgwick) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/CTestConfiguration.ini\n'}
+[0.262992] (imu_madgwick) StdoutLine: {'line': b'Parse Config file:/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/CTestConfiguration.ini\n'}
+[0.263196] (imu_madgwick) StdoutLine: {'line': b'Test project /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick\n'}
+[0.263702] (imu_madgwick) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.265309] (imu_madgwick) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.265707] (imu_madgwick) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.265981] (imu_madgwick) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.266269] (imu_madgwick) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.266854] (imu_madgwick) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.267180] (imu_madgwick) StdoutLine: {'line': b'test 1\n'}
+[0.267380] (imu_madgwick) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.267579] (imu_madgwick) StdoutLine: {'line': b'\n'}
+[0.267840] (imu_madgwick) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/copyright.xunit.xml" "--package-name" "imu_madgwick" "--output-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/copyright.xunit.xml"\n'}
+[0.268098] (imu_madgwick) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.302535] (-) TimerEvent: {}
+[0.403093] (-) TimerEvent: {}
+[0.500479] (imu_madgwick) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick':\n"}
+[0.501335] (imu_madgwick) StdoutLine: {'line': b'1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/copyright.xunit.xml\n'}
+[0.503455] (-) TimerEvent: {}
+[0.603895] (-) TimerEvent: {}
+[0.704357] (-) TimerEvent: {}
+[0.804853] (-) TimerEvent: {}
+[0.905301] (-) TimerEvent: {}
+[1.005741] (-) TimerEvent: {}
+[1.106242] (-) TimerEvent: {}
+[1.118640] (imu_madgwick) StdoutLine: {'line': b'1: include/imu_madgwick/imu.hpp: could not find copyright notice\n'}
+[1.120398] (imu_madgwick) StdoutLine: {'line': b'1: include/imu_madgwick/imu_filter.hpp: could not find copyright notice\n'}
+[1.120770] (imu_madgwick) StdoutLine: {'line': b'1: include/imu_madgwick/stateless_orientation.hpp: could not find copyright notice\n'}
+[1.121370] (imu_madgwick) StdoutLine: {'line': b'1: include/imu_madgwick/world_frame.hpp: could not find copyright notice\n'}
+[1.121788] (imu_madgwick) StdoutLine: {'line': b'1: src/imu_madgwick/imu.cpp: could not find copyright notice\n'}
+[1.122148] (imu_madgwick) StdoutLine: {'line': b'1: src/imu_madgwick/imu_filter.cpp: could not find copyright notice\n'}
+[1.122529] (imu_madgwick) StdoutLine: {'line': b'1: src/imu_madgwick/stateless_orientation.cpp: could not find copyright notice\n'}
+[1.122862] (imu_madgwick) StdoutLine: {'line': b'1: 7 errors, checked 7 files\n'}
+[1.163925] (imu_madgwick) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[1.164301] (imu_madgwick) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/copyright.xunit.xml'\n"}
+[1.196241] (imu_madgwick) StdoutLine: {'line': b'1/6 Test #1: copyright ........................***Failed    0.93 sec\n'}
+[1.196763] (imu_madgwick) StdoutLine: {'line': b'test 2\n'}
+[1.197286] (imu_madgwick) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[1.197572] (imu_madgwick) StdoutLine: {'line': b'\n'}
+[1.197793] (imu_madgwick) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/cppcheck.xunit.xml" "--package-name" "imu_madgwick" "--output-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/cppcheck.xunit.xml" "--include_dirs" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/Boost::system" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/Boost::thread"\n'}
+[1.198107] (imu_madgwick) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[1.206352] (-) TimerEvent: {}
+[1.306839] (-) TimerEvent: {}
+[1.357679] (imu_madgwick) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick':\n"}
+[1.358201] (imu_madgwick) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/cppcheck.xunit.xml --include_dirs /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/Boost::system /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/Boost::thread\n'}
+[1.406978] (-) TimerEvent: {}
+[1.507411] (-) TimerEvent: {}
+[1.607871] (-) TimerEvent: {}
+[1.708430] (-) TimerEvent: {}
+[1.808867] (-) TimerEvent: {}
+[1.909327] (-) TimerEvent: {}
+[2.013234] (-) TimerEvent: {}
+[2.028314] (imu_madgwick) StdoutLine: {'line': b'2: No problems found\n'}
+[2.089281] (imu_madgwick) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[2.089705] (imu_madgwick) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/cppcheck.xunit.xml'\n"}
+[2.113385] (-) TimerEvent: {}
+[2.120731] (imu_madgwick) StdoutLine: {'line': b'2/6 Test #2: cppcheck .........................   Passed    0.92 sec\n'}
+[2.121816] (imu_madgwick) StdoutLine: {'line': b'test 3\n'}
+[2.122237] (imu_madgwick) StdoutLine: {'line': b'    Start 3: cpplint\n'}
+[2.122467] (imu_madgwick) StdoutLine: {'line': b'\n'}
+[2.122675] (imu_madgwick) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/cpplint.xunit.xml" "--package-name" "imu_madgwick" "--output-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/cpplint.xunit.xml"\n'}
+[2.122931] (imu_madgwick) StdoutLine: {'line': b'3: Test timeout computed to be: 120\n'}
+[2.213505] (-) TimerEvent: {}
+[2.284092] (imu_madgwick) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick':\n"}
+[2.284502] (imu_madgwick) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/cpplint.xunit.xml\n'}
+[2.313632] (-) TimerEvent: {}
+[2.414354] (-) TimerEvent: {}
+[2.514843] (-) TimerEvent: {}
+[2.615520] (-) TimerEvent: {}
+[2.719546] (-) TimerEvent: {}
+[2.820376] (-) TimerEvent: {}
+[2.920870] (-) TimerEvent: {}
+[3.021362] (-) TimerEvent: {}
+[3.122730] (-) TimerEvent: {}
+[3.223381] (-) TimerEvent: {}
+[3.323861] (-) TimerEvent: {}
+[3.336197] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:25:  #ifndef header guard has wrong style, please use: IMU_MADGWICK__IMU_HPP_  [build/header_guard] [5]\n'}
+[3.337019] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:65:  #endif line should be "#endif  // IMU_MADGWICK__IMU_HPP_"  [build/header_guard] [5]\n'}
+[3.338643] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:33:  Found C system header after other header. Should be: imu.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[3.339365] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:34:  Found C system header after other header. Should be: imu.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[3.340076] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:35:  Found C system header after other header. Should be: imu.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[3.340951] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:39:  Found C++ system header after other header. Should be: imu.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[3.341713] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:40:  Found C++ system header after other header. Should be: imu.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[3.342486] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:41:  Found C++ system header after other header. Should be: imu.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[3.343221] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:46:  Single-parameter constructors should be marked explicit.  [runtime/explicit] [5]\n'}
+[3.343900] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:65:  At least two spaces is best between code and comments  [whitespace/comments] [2]\n'}
+[3.344645] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu_filter.hpp:25:  #ifndef header guard has wrong style, please use: IMU_MADGWICK__IMU_FILTER_HPP_  [build/header_guard] [5]\n'}
+[3.345343] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu_filter.hpp:107:  #endif line should be "#endif  // IMU_MADGWICK__IMU_FILTER_HPP_"  [build/header_guard] [5]\n'}
+[3.345954] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu_filter.hpp:35:  Do not leave a blank line after "public:"  [whitespace/blank_line] [3]\n'}
+[3.347164] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu_filter.hpp:47:  At least two spaces is best between code and comments  [whitespace/comments] [2]\n'}
+[3.348387] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu_filter.hpp:107:  At least two spaces is best between code and comments  [whitespace/comments] [2]\n'}
+[3.349488] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.hpp:25:  #ifndef header guard has wrong style, please use: IMU_MADGWICK__STATELESS_ORIENTATION_HPP_  [build/header_guard] [5]\n'}
+[3.349919] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.hpp:48:  #endif line should be "#endif  // IMU_MADGWICK__STATELESS_ORIENTATION_HPP_"  [build/header_guard] [5]\n'}
+[3.353601] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.hpp:45:  Redundant blank line at the end of a code block should be deleted.  [whitespace/blank_line] [3]\n'}
+[3.353949] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.hpp:48:  At least two spaces is best between code and comments  [whitespace/comments] [2]\n'}
+[3.354125] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/world_frame.hpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]\n'}
+[3.354288] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/world_frame.hpp:1:  #ifndef header guard has wrong style, please use: IMU_MADGWICK__WORLD_FRAME_HPP_  [build/header_guard] [5]\n'}
+[3.354483] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/world_frame.hpp:8:  #endif line should be "#endif  // IMU_MADGWICK__WORLD_FRAME_HPP_"  [build/header_guard] [5]\n'}
+[3.354672] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:47:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]\n'}
+[3.354835] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:69:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[3.354994] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:103:  Missing space after ,  [whitespace/comma] [3]\n'}
+[3.355150] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:104:  Missing space after ,  [whitespace/comma] [3]\n'}
+[3.355308] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:138:  Missing space after ,  [whitespace/comma] [3]\n'}
+[3.355495] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:26:  Found C system header after C++ system header. Should be: imu_filter.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[3.355652] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:126:  Missing space after ,  [whitespace/comma] [3]\n'}
+[3.355823] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:160:  Redundant blank line at the end of a code block should be deleted.  [whitespace/blank_line] [3]\n'}
+[3.359422] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:185:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[3.359807] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:192:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[3.360012] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:212:  Missing space after ,  [whitespace/comma] [3]\n'}
+[3.360205] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:219:  Missing space after ,  [whitespace/comma] [3]\n'}
+[3.360394] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:243:  An else should appear on the same line as the preceding }  [whitespace/newline] [4]\n'}
+[3.360616] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:269:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[3.360836] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:49:  Redundant blank line at the end of a code block should be deleted.  [whitespace/blank_line] [3]\n'}
+[3.361031] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:58:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]\n'}
+[3.361295] (imu_madgwick) StdoutLine: {'line': b'3: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:152:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]\n'}
+[3.361556] (imu_madgwick) StdoutLine: {'line': b"3: Category 'build/header_guard' errors found: 8\n"}
+[3.361743] (imu_madgwick) StdoutLine: {'line': b"3: Category 'build/include_order' errors found: 7\n"}
+[3.361928] (imu_madgwick) StdoutLine: {'line': b"3: Category 'legal/copyright' errors found: 1\n"}
+[3.362135] (imu_madgwick) StdoutLine: {'line': b"3: Category 'runtime/explicit' errors found: 1\n"}
+[3.362325] (imu_madgwick) StdoutLine: {'line': b"3: Category 'whitespace/blank_line' errors found: 7\n"}
+[3.362510] (imu_madgwick) StdoutLine: {'line': b"3: Category 'whitespace/comma' errors found: 6\n"}
+[3.365621] (imu_madgwick) StdoutLine: {'line': b"3: Category 'whitespace/comments' errors found: 4\n"}
+[3.365880] (imu_madgwick) StdoutLine: {'line': b"3: Category 'whitespace/line_length' errors found: 4\n"}
+[3.366075] (imu_madgwick) StdoutLine: {'line': b"3: Category 'whitespace/newline' errors found: 1\n"}
+[3.366305] (imu_madgwick) StdoutLine: {'line': b'3: Total errors found: 39\n'}
+[3.366611] (imu_madgwick) StdoutLine: {'line': b"3: Using '--root=/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include' argument\n"}
+[3.366892] (imu_madgwick) StdoutLine: {'line': b'3: \n'}
+[3.367176] (imu_madgwick) StdoutLine: {'line': b'3: Done processing /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp\n'}
+[3.367459] (imu_madgwick) StdoutLine: {'line': b'3: \n'}
+[3.367674] (imu_madgwick) StdoutLine: {'line': b'3: Done processing /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu_filter.hpp\n'}
+[3.367834] (imu_madgwick) StdoutLine: {'line': b'3: \n'}
+[3.367988] (imu_madgwick) StdoutLine: {'line': b'3: Done processing /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.hpp\n'}
+[3.368144] (imu_madgwick) StdoutLine: {'line': b'3: \n'}
+[3.368295] (imu_madgwick) StdoutLine: {'line': b'3: Done processing /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/world_frame.hpp\n'}
+[3.368450] (imu_madgwick) StdoutLine: {'line': b'3: \n'}
+[3.368635] (imu_madgwick) StdoutLine: {'line': b"3: Using '--root=/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src' argument\n"}
+[3.368791] (imu_madgwick) StdoutLine: {'line': b'3: \n'}
+[3.368947] (imu_madgwick) StdoutLine: {'line': b'3: Done processing /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp\n'}
+[3.369102] (imu_madgwick) StdoutLine: {'line': b'3: \n'}
+[3.377582] (imu_madgwick) StdoutLine: {'line': b'3: Done processing /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp\n'}
+[3.377780] (imu_madgwick) StdoutLine: {'line': b'3: \n'}
+[3.377939] (imu_madgwick) StdoutLine: {'line': b'3: Done processing /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp\n'}
+[3.378096] (imu_madgwick) StdoutLine: {'line': b'3: \n'}
+[3.402526] (imu_madgwick) StdoutLine: {'line': b'3: -- run_test.py: return code 1\n'}
+[3.403123] (imu_madgwick) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/cpplint.xunit.xml'\n"}
+[3.424004] (-) TimerEvent: {}
+[3.428910] (imu_madgwick) StdoutLine: {'line': b'3/6 Test #3: cpplint ..........................***Failed    1.31 sec\n'}
+[3.429802] (imu_madgwick) StdoutLine: {'line': b'test 4\n'}
+[3.431510] (imu_madgwick) StdoutLine: {'line': b'    Start 4: lint_cmake\n'}
+[3.431937] (imu_madgwick) StdoutLine: {'line': b'\n'}
+[3.432197] (imu_madgwick) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/lint_cmake.xunit.xml" "--package-name" "imu_madgwick" "--output-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/lint_cmake.xunit.xml"\n'}
+[3.432495] (imu_madgwick) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[3.524127] (-) TimerEvent: {}
+[3.584454] (imu_madgwick) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick':\n"}
+[3.585172] (imu_madgwick) StdoutLine: {'line': b'4:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/lint_cmake.xunit.xml\n'}
+[3.624257] (-) TimerEvent: {}
+[3.725403] (-) TimerEvent: {}
+[3.825972] (-) TimerEvent: {}
+[3.926444] (-) TimerEvent: {}
+[4.026993] (-) TimerEvent: {}
+[4.095489] (imu_madgwick) StdoutLine: {'line': b'4: \n'}
+[4.096566] (imu_madgwick) StdoutLine: {'line': b'4: No problems found\n'}
+[4.127179] (-) TimerEvent: {}
+[4.140685] (imu_madgwick) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[4.147563] (imu_madgwick) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/lint_cmake.xunit.xml'\n"}
+[4.181367] (imu_madgwick) StdoutLine: {'line': b'4/6 Test #4: lint_cmake .......................   Passed    0.75 sec\n'}
+[4.181710] (imu_madgwick) StdoutLine: {'line': b'test 5\n'}
+[4.181879] (imu_madgwick) StdoutLine: {'line': b'    Start 5: uncrustify\n'}
+[4.182085] (imu_madgwick) StdoutLine: {'line': b'\n'}
+[4.182247] (imu_madgwick) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/uncrustify.xunit.xml" "--package-name" "imu_madgwick" "--output-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/uncrustify.xunit.xml"\n'}
+[4.182443] (imu_madgwick) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[4.227326] (-) TimerEvent: {}
+[4.328141] (-) TimerEvent: {}
+[4.334054] (imu_madgwick) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick':\n"}
+[4.334432] (imu_madgwick) StdoutLine: {'line': b'5:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/uncrustify.xunit.xml\n'}
+[4.427921] (-) TimerEvent: {}
+[4.528377] (-) TimerEvent: {}
+[4.628872] (-) TimerEvent: {}
+[4.729317] (-) TimerEvent: {}
+[4.829769] (-) TimerEvent: {}
+[4.932232] (-) TimerEvent: {}
+[5.017442] (imu_madgwick) StdoutLine: {'line': b"5: Code style divergence in file 'include/imu_madgwick/imu_filter.hpp':\n"}
+[5.017835] (imu_madgwick) StdoutLine: {'line': b'5: \n'}
+[5.018013] (imu_madgwick) StdoutLine: {'line': b'5: --- include/imu_madgwick/imu_filter.hpp\n'}
+[5.018182] (imu_madgwick) StdoutLine: {'line': b'5: +++ include/imu_madgwick/imu_filter.hpp.uncrustify\n'}
+[5.018823] (imu_madgwick) StdoutLine: {'line': b'5: @@ -34 +34,3 @@\n'}
+[5.019017] (imu_madgwick) StdoutLine: {'line': b'5: -  public:\n'}
+[5.019172] (imu_madgwick) StdoutLine: {'line': b'5: +public:\n'}
+[5.019323] (imu_madgwick) StdoutLine: {'line': b'5: +  ImuFilter();\n'}
+[5.019480] (imu_madgwick) StdoutLine: {'line': b'5: +  virtual ~ImuFilter();\n'}
+[5.019682] (imu_madgwick) StdoutLine: {'line': b'5: @@ -36,2 +38,5 @@\n'}
+[5.019834] (imu_madgwick) StdoutLine: {'line': b'5: -    ImuFilter();\n'}
+[5.019986] (imu_madgwick) StdoutLine: {'line': b'5: -    virtual ~ImuFilter();\n'}
+[5.020139] (imu_madgwick) StdoutLine: {'line': b'5: +private:\n'}
+[5.020323] (imu_madgwick) StdoutLine: {'line': b'5: +  // **** paramaters\n'}
+[5.020484] (imu_madgwick) StdoutLine: {'line': b'5: +  double gain_;      // algorithm gain\n'}
+[5.020681] (imu_madgwick) StdoutLine: {'line': b'5: +  double zeta_;      // gyro drift bias gain\n'}
+[5.020833] (imu_madgwick) StdoutLine: {'line': b'5: +  WorldFrame::WorldFrame world_frame_;      // NWU, ENU, NED\n'}
+[5.020983] (imu_madgwick) StdoutLine: {'line': b'5: @@ -39,9 +44,3 @@\n'}
+[5.021186] (imu_madgwick) StdoutLine: {'line': b'5: -  private:\n'}
+[5.021366] (imu_madgwick) StdoutLine: {'line': b'5: -    // **** paramaters\n'}
+[5.021522] (imu_madgwick) StdoutLine: {'line': b'5: -    double gain_;    // algorithm gain\n'}
+[5.021717] (imu_madgwick) StdoutLine: {'line': b'5: -    double zeta_;    // gyro drift bias gain\n'}
+[5.021870] (imu_madgwick) StdoutLine: {'line': b'5: -    WorldFrame::WorldFrame world_frame_;    // NWU, ENU, NED\n'}
+[5.022021] (imu_madgwick) StdoutLine: {'line': b'5: -\n'}
+[5.022173] (imu_madgwick) StdoutLine: {'line': b'5: -    // **** state variables\n'}
+[5.022331] (imu_madgwick) StdoutLine: {'line': b'5: -    double q0, q1, q2, q3;  // quaternion\n'}
+[5.022486] (imu_madgwick) StdoutLine: {'line': b'5: -    float w_bx_, w_by_, w_bz_; //\n'}
+[5.022698] (imu_madgwick) StdoutLine: {'line': b'5: +  // **** state variables\n'}
+[5.022854] (imu_madgwick) StdoutLine: {'line': b'5: +  double q0, q1, q2, q3;    // quaternion\n'}
+[5.023008] (imu_madgwick) StdoutLine: {'line': b'5: +  float w_bx_, w_by_, w_bz_;   //\n'}
+[5.023173] (imu_madgwick) StdoutLine: {'line': b'5: @@ -50,4 +49,4 @@\n'}
+[5.023332] (imu_madgwick) StdoutLine: {'line': b'5: -    void setAlgorithmGain(double gain)\n'}
+[5.023485] (imu_madgwick) StdoutLine: {'line': b'5: -    {\n'}
+[5.023678] (imu_madgwick) StdoutLine: {'line': b'5: -        gain_ = gain;\n'}
+[5.023832] (imu_madgwick) StdoutLine: {'line': b'5: -    }\n'}
+[5.023985] (imu_madgwick) StdoutLine: {'line': b'5: +  void setAlgorithmGain(double gain)\n'}
+[5.024137] (imu_madgwick) StdoutLine: {'line': b'5: +  {\n'}
+[5.024286] (imu_madgwick) StdoutLine: {'line': b'5: +    gain_ = gain;\n'}
+[5.025717] (imu_madgwick) StdoutLine: {'line': b'5: +  }\n'}
+[5.026051] (imu_madgwick) StdoutLine: {'line': b'5: @@ -55,4 +54,4 @@\n'}
+[5.026239] (imu_madgwick) StdoutLine: {'line': b'5: -    void setDriftBiasGain(double zeta)\n'}
+[5.026422] (imu_madgwick) StdoutLine: {'line': b'5: -    {\n'}
+[5.026639] (imu_madgwick) StdoutLine: {'line': b'5: -        zeta_ = zeta;\n'}
+[5.041409] (-) TimerEvent: {}
+[5.041897] (imu_madgwick) StdoutLine: {'line': b'5: -    }\n'}
+[5.042204] (imu_madgwick) StdoutLine: {'line': b'5: +  void setDriftBiasGain(double zeta)\n'}
+[5.042421] (imu_madgwick) StdoutLine: {'line': b'5: +  {\n'}
+[5.042646] (imu_madgwick) StdoutLine: {'line': b'5: +    zeta_ = zeta;\n'}
+[5.042889] (imu_madgwick) StdoutLine: {'line': b'5: +  }\n'}
+[5.043094] (imu_madgwick) StdoutLine: {'line': b'5: @@ -60,4 +59,4 @@\n'}
+[5.043293] (imu_madgwick) StdoutLine: {'line': b'5: -    void setWorldFrame(WorldFrame::WorldFrame frame)\n'}
+[5.043495] (imu_madgwick) StdoutLine: {'line': b'5: -    {\n'}
+[5.043739] (imu_madgwick) StdoutLine: {'line': b'5: -        world_frame_ = frame;\n'}
+[5.043949] (imu_madgwick) StdoutLine: {'line': b'5: -    }\n'}
+[5.044148] (imu_madgwick) StdoutLine: {'line': b'5: +  void setWorldFrame(WorldFrame::WorldFrame frame)\n'}
+[5.044352] (imu_madgwick) StdoutLine: {'line': b'5: +  {\n'}
+[5.044552] (imu_madgwick) StdoutLine: {'line': b'5: +    world_frame_ = frame;\n'}
+[5.044788] (imu_madgwick) StdoutLine: {'line': b'5: +  }\n'}
+[5.044989] (imu_madgwick) StdoutLine: {'line': b'5: @@ -65,6 +64,6 @@\n'}
+[5.046010] (imu_madgwick) StdoutLine: {'line': b'5: -    void getOrientation(double& q0, double& q1, double& q2, double& q3)\n'}
+[5.046384] (imu_madgwick) StdoutLine: {'line': b'5: -    {\n'}
+[5.046718] (imu_madgwick) StdoutLine: {'line': b'5: -        q0 = this->q0;\n'}
+[5.046996] (imu_madgwick) StdoutLine: {'line': b'5: -        q1 = this->q1;\n'}
+[5.047185] (imu_madgwick) StdoutLine: {'line': b'5: -        q2 = this->q2;\n'}
+[5.047366] (imu_madgwick) StdoutLine: {'line': b'5: -        q3 = this->q3;\n'}
+[5.047522] (imu_madgwick) StdoutLine: {'line': b'5: +  void getOrientation(double & q0, double & q1, double & q2, double & q3)\n'}
+[5.047714] (imu_madgwick) StdoutLine: {'line': b'5: +  {\n'}
+[5.057348] (imu_madgwick) StdoutLine: {'line': b'5: +    q0 = this->q0;\n'}
+[5.057670] (imu_madgwick) StdoutLine: {'line': b'5: +    q1 = this->q1;\n'}
+[5.057899] (imu_madgwick) StdoutLine: {'line': b'5: +    q2 = this->q2;\n'}
+[5.058045] (imu_madgwick) StdoutLine: {'line': b'5: +    q3 = this->q3;\n'}
+[5.058184] (imu_madgwick) StdoutLine: {'line': b'5: @@ -72,9 +71,9 @@\n'}
+[5.058324] (imu_madgwick) StdoutLine: {'line': b'5: -        // perform precise normalization of the output, using 1/sqrt()\n'}
+[5.058462] (imu_madgwick) StdoutLine: {'line': b'5: -        // instead of the fast invSqrt() approximation. Without this,\n'}
+[5.058604] (imu_madgwick) StdoutLine: {'line': b'5: -        // TF2 complains that the quaternion is not normalized.\n'}
+[5.058777] (imu_madgwick) StdoutLine: {'line': b'5: -        double recipNorm = 1 / sqrt(q0 * q0 + q1 * q1 + q2 * q2 + q3 * q3);\n'}
+[5.058918] (imu_madgwick) StdoutLine: {'line': b'5: -        q0 *= recipNorm;\n'}
+[5.059057] (imu_madgwick) StdoutLine: {'line': b'5: -        q1 *= recipNorm;\n'}
+[5.059195] (imu_madgwick) StdoutLine: {'line': b'5: -        q2 *= recipNorm;\n'}
+[5.059332] (imu_madgwick) StdoutLine: {'line': b'5: -        q3 *= recipNorm;\n'}
+[5.059469] (imu_madgwick) StdoutLine: {'line': b'5: -    }\n'}
+[5.059604] (imu_madgwick) StdoutLine: {'line': b'5: +    // perform precise normalization of the output, using 1/sqrt()\n'}
+[5.059805] (imu_madgwick) StdoutLine: {'line': b'5: +    // instead of the fast invSqrt() approximation. Without this,\n'}
+[5.059952] (imu_madgwick) StdoutLine: {'line': b'5: +    // TF2 complains that the quaternion is not normalized.\n'}
+[5.060090] (imu_madgwick) StdoutLine: {'line': b'5: +    double recipNorm = 1 / sqrt(q0 * q0 + q1 * q1 + q2 * q2 + q3 * q3);\n'}
+[5.060228] (imu_madgwick) StdoutLine: {'line': b'5: +    q0 *= recipNorm;\n'}
+[5.060364] (imu_madgwick) StdoutLine: {'line': b'5: +    q1 *= recipNorm;\n'}
+[5.060497] (imu_madgwick) StdoutLine: {'line': b'5: +    q2 *= recipNorm;\n'}
+[5.060633] (imu_madgwick) StdoutLine: {'line': b'5: +    q3 *= recipNorm;\n'}
+[5.060802] (imu_madgwick) StdoutLine: {'line': b'5: +  }\n'}
+[5.060937] (imu_madgwick) StdoutLine: {'line': b'5: @@ -82,6 +81,6 @@\n'}
+[5.061076] (imu_madgwick) StdoutLine: {'line': b'5: -    void setOrientation(double q0, double q1, double q2, double q3)\n'}
+[5.066997] (imu_madgwick) StdoutLine: {'line': b'5: -    {\n'}
+[5.067276] (imu_madgwick) StdoutLine: {'line': b'5: -        this->q0 = q0;\n'}
+[5.067523] (imu_madgwick) StdoutLine: {'line': b'5: -        this->q1 = q1;\n'}
+[5.067765] (imu_madgwick) StdoutLine: {'line': b'5: -        this->q2 = q2;\n'}
+[5.071192] (imu_madgwick) StdoutLine: {'line': b'5: -        this->q3 = q3;\n'}
+[5.071525] (imu_madgwick) StdoutLine: {'line': b'5: +  void setOrientation(double q0, double q1, double q2, double q3)\n'}
+[5.071693] (imu_madgwick) StdoutLine: {'line': b'5: +  {\n'}
+[5.071848] (imu_madgwick) StdoutLine: {'line': b'5: +    this->q0 = q0;\n'}
+[5.072002] (imu_madgwick) StdoutLine: {'line': b'5: +    this->q1 = q1;\n'}
+[5.072154] (imu_madgwick) StdoutLine: {'line': b'5: +    this->q2 = q2;\n'}
+[5.072303] (imu_madgwick) StdoutLine: {'line': b'5: +    this->q3 = q3;\n'}
+[5.072462] (imu_madgwick) StdoutLine: {'line': b'5: @@ -89,4 +88,4 @@\n'}
+[5.072693] (imu_madgwick) StdoutLine: {'line': b'5: -        w_bx_ = 0;\n'}
+[5.072880] (imu_madgwick) StdoutLine: {'line': b'5: -        w_by_ = 0;\n'}
+[5.073071] (imu_madgwick) StdoutLine: {'line': b'5: -        w_bz_ = 0;\n'}
+[5.073303] (imu_madgwick) StdoutLine: {'line': b'5: -    }\n'}
+[5.073491] (imu_madgwick) StdoutLine: {'line': b'5: +    w_bx_ = 0;\n'}
+[5.073675] (imu_madgwick) StdoutLine: {'line': b'5: +    w_by_ = 0;\n'}
+[5.073893] (imu_madgwick) StdoutLine: {'line': b'5: +    w_bz_ = 0;\n'}
+[5.074105] (imu_madgwick) StdoutLine: {'line': b'5: +  }\n'}
+[5.074283] (imu_madgwick) StdoutLine: {'line': b'5: @@ -94,4 +93,5 @@\n'}
+[5.074458] (imu_madgwick) StdoutLine: {'line': b'5: -    void madgwickAHRSupdate(float gx, float gy, float gz,\n'}
+[5.074631] (imu_madgwick) StdoutLine: {'line': b'5: -                            float ax, float ay, float az,\n'}
+[5.074844] (imu_madgwick) StdoutLine: {'line': b'5: -                            float mx, float my, float mz,\n'}
+[5.075049] (imu_madgwick) StdoutLine: {'line': b'5: -                            float dt);\n'}
+[5.075229] (imu_madgwick) StdoutLine: {'line': b'5: +  void madgwickAHRSupdate(\n'}
+[5.075404] (imu_madgwick) StdoutLine: {'line': b'5: +    float gx, float gy, float gz,\n'}
+[5.075578] (imu_madgwick) StdoutLine: {'line': b'5: +    float ax, float ay, float az,\n'}
+[5.075755] (imu_madgwick) StdoutLine: {'line': b'5: +    float mx, float my, float mz,\n'}
+[5.075974] (imu_madgwick) StdoutLine: {'line': b'5: +    float dt);\n'}
+[5.081254] (imu_madgwick) StdoutLine: {'line': b'5: @@ -99,3 +99,4 @@\n'}
+[5.081552] (imu_madgwick) StdoutLine: {'line': b'5: -    void madgwickAHRSupdateIMU(float gx, float gy, float gz,\n'}
+[5.081771] (imu_madgwick) StdoutLine: {'line': b'5: -                               float ax, float ay, float az,\n'}
+[5.081991] (imu_madgwick) StdoutLine: {'line': b'5: -                               float dt);\n'}
+[5.082207] (imu_madgwick) StdoutLine: {'line': b'5: +  void madgwickAHRSupdateIMU(\n'}
+[5.082397] (imu_madgwick) StdoutLine: {'line': b'5: +    float gx, float gy, float gz,\n'}
+[5.082589] (imu_madgwick) StdoutLine: {'line': b'5: +    float ax, float ay, float az,\n'}
+[5.082843] (imu_madgwick) StdoutLine: {'line': b'5: +    float dt);\n'}
+[5.083090] (imu_madgwick) StdoutLine: {'line': b'5: @@ -103,2 +104,3 @@\n'}
+[5.085301] (imu_madgwick) StdoutLine: {'line': b'5: -    void getGravity(float& rx, float& ry, float& rz,\n'}
+[5.085508] (imu_madgwick) StdoutLine: {'line': b'5: -                    float gravity = 9.80665);\n'}
+[5.085663] (imu_madgwick) StdoutLine: {'line': b'5: +  void getGravity(\n'}
+[5.085816] (imu_madgwick) StdoutLine: {'line': b'5: +    float & rx, float & ry, float & rz,\n'}
+[5.085967] (imu_madgwick) StdoutLine: {'line': b'5: +    float gravity = 9.80665);\n'}
+[5.086117] (imu_madgwick) StdoutLine: {'line': b'5: \n'}
+[5.086270] (imu_madgwick) StdoutLine: {'line': b"5: Code style divergence in file 'include/imu_madgwick/stateless_orientation.hpp':\n"}
+[5.086438] (imu_madgwick) StdoutLine: {'line': b'5: \n'}
+[5.086590] (imu_madgwick) StdoutLine: {'line': b'5: --- include/imu_madgwick/stateless_orientation.hpp\n'}
+[5.086773] (imu_madgwick) StdoutLine: {'line': b'5: +++ include/imu_madgwick/stateless_orientation.hpp.uncrustify\n'}
+[5.086923] (imu_madgwick) StdoutLine: {'line': b'5: @@ -39 +39 @@\n'}
+[5.087076] (imu_madgwick) StdoutLine: {'line': b'5: -    geometry_msgs::msg::Quaternion& orientation);\n'}
+[5.087248] (imu_madgwick) StdoutLine: {'line': b'5: +    geometry_msgs::msg::Quaternion & orientation);\n'}
+[5.087404] (imu_madgwick) StdoutLine: {'line': b'5: @@ -44 +44 @@\n'}
+[5.087556] (imu_madgwick) StdoutLine: {'line': b'5: -    geometry_msgs::msg::Quaternion& orientation);\n'}
+[5.087753] (imu_madgwick) StdoutLine: {'line': b'5: +    geometry_msgs::msg::Quaternion & orientation);\n'}
+[5.087902] (imu_madgwick) StdoutLine: {'line': b'5: \n'}
+[5.088050] (imu_madgwick) StdoutLine: {'line': b"5: Code style divergence in file 'include/imu_madgwick/world_frame.hpp':\n"}
+[5.088201] (imu_madgwick) StdoutLine: {'line': b'5: \n'}
+[5.088349] (imu_madgwick) StdoutLine: {'line': b'5: --- include/imu_madgwick/world_frame.hpp\n'}
+[5.088498] (imu_madgwick) StdoutLine: {'line': b'5: +++ include/imu_madgwick/world_frame.hpp.uncrustify\n'}
+[5.088650] (imu_madgwick) StdoutLine: {'line': b'5: @@ -4,2 +4,3 @@\n'}
+[5.088837] (imu_madgwick) StdoutLine: {'line': b'5: -namespace WorldFrame {\n'}
+[5.088996] (imu_madgwick) StdoutLine: {'line': b'5: -  enum WorldFrame { ENU, NED, NWU };\n'}
+[5.097179] (imu_madgwick) StdoutLine: {'line': b'5: +namespace WorldFrame\n'}
+[5.097557] (imu_madgwick) StdoutLine: {'line': b'5: +{\n'}
+[5.097787] (imu_madgwick) StdoutLine: {'line': b'5: +enum WorldFrame { ENU, NED, NWU };\n'}
+[5.097973] (imu_madgwick) StdoutLine: {'line': b'5: \n'}
+[5.098154] (imu_madgwick) StdoutLine: {'line': b"5: Code style divergence in file 'src/imu_madgwick/imu.cpp':\n"}
+[5.098330] (imu_madgwick) StdoutLine: {'line': b'5: \n'}
+[5.098507] (imu_madgwick) StdoutLine: {'line': b'5: --- src/imu_madgwick/imu.cpp\n'}
+[5.098696] (imu_madgwick) StdoutLine: {'line': b'5: +++ src/imu_madgwick/imu.cpp.uncrustify\n'}
+[5.098913] (imu_madgwick) StdoutLine: {'line': b'5: @@ -46 +46,2 @@\n'}
+[5.099090] (imu_madgwick) StdoutLine: {'line': b'5: -  : rclcpp::Node(node_name) {\n'}
+[5.099267] (imu_madgwick) StdoutLine: {'line': b'5: +: rclcpp::Node(node_name)\n'}
+[5.099442] (imu_madgwick) StdoutLine: {'line': b'5: +{\n'}
+[5.099617] (imu_madgwick) StdoutLine: {'line': b'5: @@ -61,2 +62,2 @@\n'}
+[5.099832] (imu_madgwick) StdoutLine: {'line': b'5: -      const geometry_msgs::msg::Vector3& ang_vel = imu_msg_raw->angular_velocity;\n'}
+[5.100011] (imu_madgwick) StdoutLine: {'line': b'5: -      const geometry_msgs::msg::Vector3& lin_acc = imu_msg_raw->linear_acceleration;\n'}
+[5.100215] (imu_madgwick) StdoutLine: {'line': b'5: +      const geometry_msgs::msg::Vector3 & ang_vel = imu_msg_raw->angular_velocity;\n'}
+[5.100400] (imu_madgwick) StdoutLine: {'line': b'5: +      const geometry_msgs::msg::Vector3 & lin_acc = imu_msg_raw->linear_acceleration;\n'}
+[5.100578] (imu_madgwick) StdoutLine: {'line': b'5: @@ -69 +70,3 @@\n'}
+[5.100783] (imu_madgwick) StdoutLine: {'line': b'5: -          RCLCPP_WARN_STREAM(get_logger(), "The IMU seems to be in free fall, cannot determine gravity direction!");\n'}
+[5.100958] (imu_madgwick) StdoutLine: {'line': b'5: +          RCLCPP_WARN_STREAM(\n'}
+[5.105262] (imu_madgwick) StdoutLine: {'line': b'5: +            get_logger(),\n'}
+[5.105631] (imu_madgwick) StdoutLine: {'line': b'5: +            "The IMU seems to be in free fall, cannot determine gravity direction!");\n'}
+[5.105827] (imu_madgwick) StdoutLine: {'line': b'5: @@ -103,2 +106,2 @@\n'}
+[5.106065] (imu_madgwick) StdoutLine: {'line': b'5: -  double q0,q1,q2,q3;\n'}
+[5.106249] (imu_madgwick) StdoutLine: {'line': b'5: -  filter.getOrientation(q0,q1,q2,q3);\n'}
+[5.106433] (imu_madgwick) StdoutLine: {'line': b'5: +  double q0, q1, q2, q3;\n'}
+[5.106617] (imu_madgwick) StdoutLine: {'line': b'5: +  filter.getOrientation(q0, q1, q2, q3);\n'}
+[5.106838] (imu_madgwick) StdoutLine: {'line': b'5: @@ -106 +109 @@\n'}
+[5.107023] (imu_madgwick) StdoutLine: {'line': b'5: -  auto imu_msg = sensor_msgs::msg::Imu(* imu_msg_raw);\n'}
+[5.107207] (imu_madgwick) StdoutLine: {'line': b'5: +  auto imu_msg = sensor_msgs::msg::Imu(*imu_msg_raw);\n'}
+[5.107390] (imu_madgwick) StdoutLine: {'line': b'5: @@ -123 +126 @@\n'}
+[5.107584] (imu_madgwick) StdoutLine: {'line': b'5: -  if(remove_gravity_vector) {\n'}
+[5.107805] (imu_madgwick) StdoutLine: {'line': b'5: +  if (remove_gravity_vector) {\n'}
+[5.107990] (imu_madgwick) StdoutLine: {'line': b'5: @@ -138 +141 @@\n'}
+[5.108170] (imu_madgwick) StdoutLine: {'line': b'5: -  tf2::Matrix3x3(tf2::Quaternion(q1,q2,q3,q0)).getRPY(roll, pitch, yaw);\n'}
+[5.109509] (imu_madgwick) StdoutLine: {'line': b'5: +  tf2::Matrix3x3(tf2::Quaternion(q1, q2, q3, q0)).getRPY(roll, pitch, yaw);\n'}
+[5.109718] (imu_madgwick) StdoutLine: {'line': b'5: \n'}
+[5.109909] (imu_madgwick) StdoutLine: {'line': b"5: Code style divergence in file 'src/imu_madgwick/imu_filter.cpp':\n"}
+[5.110063] (imu_madgwick) StdoutLine: {'line': b'5: \n'}
+[5.110228] (imu_madgwick) StdoutLine: {'line': b'5: --- src/imu_madgwick/imu_filter.cpp\n'}
+[5.110377] (imu_madgwick) StdoutLine: {'line': b'5: +++ src/imu_madgwick/imu_filter.cpp.uncrustify\n'}
+[5.110527] (imu_madgwick) StdoutLine: {'line': b'5: @@ -33,2 +33 @@\n'}
+[5.110676] (imu_madgwick) StdoutLine: {'line': b'5: -  union\n'}
+[5.110861] (imu_madgwick) StdoutLine: {'line': b'5: -  {\n'}
+[5.111008] (imu_madgwick) StdoutLine: {'line': b'5: +  union {\n'}
+[5.111183] (imu_madgwick) StdoutLine: {'line': b'5: @@ -46,3 +45,3 @@\n'}
+[5.111332] (imu_madgwick) StdoutLine: {'line': b'5: -static inline void normalizeVector(T& vx, T& vy, T& vz)\n'}
+[5.111496] (imu_madgwick) StdoutLine: {'line': b'5: -{\n'}
+[5.111644] (imu_madgwick) StdoutLine: {'line': b'5: -  T recipNorm = invSqrt (vx * vx + vy * vy + vz * vz);\n'}
+[5.111828] (imu_madgwick) StdoutLine: {'line': b'5: +static inline void normalizeVector(T & vx, T & vy, T & vz)\n'}
+[5.111977] (imu_madgwick) StdoutLine: {'line': b'5: +{\n'}
+[5.112123] (imu_madgwick) StdoutLine: {'line': b'5: +  T recipNorm = invSqrt(vx * vx + vy * vy + vz * vz);\n'}
+[5.112279] (imu_madgwick) StdoutLine: {'line': b'5: @@ -55,3 +54,3 @@\n'}
+[5.112432] (imu_madgwick) StdoutLine: {'line': b'5: -static inline void normalizeQuaternion(T& q0, T& q1, T& q2, T& q3)\n'}
+[5.112586] (imu_madgwick) StdoutLine: {'line': b'5: -{\n'}
+[5.112765] (imu_madgwick) StdoutLine: {'line': b'5: -  T recipNorm = invSqrt (q0 * q0 + q1 * q1 + q2 * q2 + q3 * q3);\n'}
+[5.112932] (imu_madgwick) StdoutLine: {'line': b'5: +static inline void normalizeQuaternion(T & q0, T & q1, T & q2, T & q3)\n'}
+[5.113104] (imu_madgwick) StdoutLine: {'line': b'5: +{\n'}
+[5.113290] (imu_madgwick) StdoutLine: {'line': b'5: +  T recipNorm = invSqrt(q0 * q0 + q1 * q1 + q2 * q2 + q3 * q3);\n'}
+[5.113451] (imu_madgwick) StdoutLine: {'line': b'5: @@ -65,3 +64,4 @@\n'}
+[5.113604] (imu_madgwick) StdoutLine: {'line': b'5: -    float q0, float q1, float q2, float q3,\n'}
+[5.113788] (imu_madgwick) StdoutLine: {'line': b'5: -    float _2dx, float _2dy, float _2dz,\n'}
+[5.113938] (imu_madgwick) StdoutLine: {'line': b'5: -    float& rx, float& ry, float& rz) {\n'}
+[5.114099] (imu_madgwick) StdoutLine: {'line': b'5: +  float q0, float q1, float q2, float q3,\n'}
+[5.114250] (imu_madgwick) StdoutLine: {'line': b'5: +  float _2dx, float _2dy, float _2dz,\n'}
+[5.114426] (imu_madgwick) StdoutLine: {'line': b'5: +  float & rx, float & ry, float & rz)\n'}
+[5.114581] (imu_madgwick) StdoutLine: {'line': b'5: +{\n'}
+[5.114731] (imu_madgwick) StdoutLine: {'line': b'5: @@ -70,9 +70,9 @@\n'}
+[5.114916] (imu_madgwick) StdoutLine: {'line': b'5: -  rx = _2dx * (0.5f - q2 * q2 - q3 * q3)\n'}
+[5.115066] (imu_madgwick) StdoutLine: {'line': b'5: -     + _2dy * (q0 * q3 + q1 * q2)\n'}
+[5.115214] (imu_madgwick) StdoutLine: {'line': b'5: -     + _2dz * (q1 * q3 - q0 * q2);\n'}
+[5.115378] (imu_madgwick) StdoutLine: {'line': b'5: -  ry = _2dx * (q1 * q2 - q0 * q3)\n'}
+[5.115531] (imu_madgwick) StdoutLine: {'line': b'5: -     + _2dy * (0.5f - q1 * q1 - q3 * q3)\n'}
+[5.115698] (imu_madgwick) StdoutLine: {'line': b'5: -     + _2dz * (q0 * q1 + q2 * q3);\n'}
+[5.115893] (imu_madgwick) StdoutLine: {'line': b'5: -  rz = _2dx * (q0 * q2 + q1 * q3)\n'}
+[5.116044] (imu_madgwick) StdoutLine: {'line': b'5: -     + _2dy * (q2 * q3 - q0 * q1)\n'}
+[5.116198] (imu_madgwick) StdoutLine: {'line': b'5: -     + _2dz * (0.5f - q1 * q1 - q2 * q2);\n'}
+[5.116348] (imu_madgwick) StdoutLine: {'line': b'5: +  rx = _2dx * (0.5f - q2 * q2 - q3 * q3) +\n'}
+[5.116500] (imu_madgwick) StdoutLine: {'line': b'5: +    _2dy * (q0 * q3 + q1 * q2) +\n'}
+[5.116660] (imu_madgwick) StdoutLine: {'line': b'5: +    _2dz * (q1 * q3 - q0 * q2);\n'}
+[5.116849] (imu_madgwick) StdoutLine: {'line': b'5: +  ry = _2dx * (q1 * q2 - q0 * q3) +\n'}
+[5.117000] (imu_madgwick) StdoutLine: {'line': b'5: +    _2dy * (0.5f - q1 * q1 - q3 * q3) +\n'}
+[5.128592] (imu_madgwick) StdoutLine: {'line': b'5: +    _2dz * (q0 * q1 + q2 * q3);\n'}
+[5.129004] (imu_madgwick) StdoutLine: {'line': b'5: +  rz = _2dx * (q0 * q2 + q1 * q3) +\n'}
+[5.129309] (imu_madgwick) StdoutLine: {'line': b'5: +    _2dy * (q2 * q3 - q0 * q1) +\n'}
+[5.129557] (imu_madgwick) StdoutLine: {'line': b'5: +    _2dz * (0.5f - q1 * q1 - q2 * q2);\n'}
+[5.129743] (imu_madgwick) StdoutLine: {'line': b'5: @@ -83,5 +83,5 @@\n'}
+[5.130003] (imu_madgwick) StdoutLine: {'line': b'5: -    float q0, float q1, float q2, float q3,\n'}
+[5.130232] (imu_madgwick) StdoutLine: {'line': b'5: -    float s0, float s1, float s2, float s3,\n'}
+[5.130484] (imu_madgwick) StdoutLine: {'line': b'5: -    float dt, float zeta,\n'}
+[5.130673] (imu_madgwick) StdoutLine: {'line': b'5: -    float& w_bx, float& w_by, float& w_bz,\n'}
+[5.130886] (imu_madgwick) StdoutLine: {'line': b'5: -    float& gx, float& gy, float& gz)\n'}
+[5.131060] (imu_madgwick) StdoutLine: {'line': b'5: +  float q0, float q1, float q2, float q3,\n'}
+[5.131243] (imu_madgwick) StdoutLine: {'line': b'5: +  float s0, float s1, float s2, float s3,\n'}
+[5.131420] (imu_madgwick) StdoutLine: {'line': b'5: +  float dt, float zeta,\n'}
+[5.131689] (imu_madgwick) StdoutLine: {'line': b'5: +  float & w_bx, float & w_by, float & w_bz,\n'}
+[5.132080] (imu_madgwick) StdoutLine: {'line': b'5: +  float & gx, float & gy, float & gz)\n'}
+[5.132409] (imu_madgwick) StdoutLine: {'line': b'5: @@ -104,3 +104,3 @@\n'}
+[5.132747] (imu_madgwick) StdoutLine: {'line': b'5: -    float q0, float q1, float q2, float q3,\n'}
+[5.133150] (imu_madgwick) StdoutLine: {'line': b'5: -    float gx, float gy, float gz,\n'}
+[5.133550] (imu_madgwick) StdoutLine: {'line': b'5: -    float& qDot1, float& qDot2, float& qDot3, float& qDot4)\n'}
+[5.133747] (imu_madgwick) StdoutLine: {'line': b'5: +  float q0, float q1, float q2, float q3,\n'}
+[5.133968] (imu_madgwick) StdoutLine: {'line': b'5: +  float gx, float gy, float gz,\n'}
+[5.134167] (imu_madgwick) StdoutLine: {'line': b'5: +  float & qDot1, float & qDot2, float & qDot3, float & qDot4)\n'}
+[5.134351] (imu_madgwick) StdoutLine: {'line': b'5: @@ -117,4 +117,4 @@\n'}
+[5.134532] (imu_madgwick) StdoutLine: {'line': b'5: -    float q0, float q1, float q2, float q3,\n'}
+[5.134718] (imu_madgwick) StdoutLine: {'line': b'5: -    float _2dx, float _2dy, float _2dz,\n'}
+[5.134940] (imu_madgwick) StdoutLine: {'line': b'5: -    float mx, float my, float mz,\n'}
+[5.135126] (imu_madgwick) StdoutLine: {'line': b'5: -    float& s0, float& s1, float& s2, float& s3)\n'}
+[5.135314] (imu_madgwick) StdoutLine: {'line': b'5: +  float q0, float q1, float q2, float q3,\n'}
+[5.135499] (imu_madgwick) StdoutLine: {'line': b'5: +  float _2dx, float _2dy, float _2dz,\n'}
+[5.135697] (imu_madgwick) StdoutLine: {'line': b'5: +  float mx, float my, float mz,\n'}
+[5.135903] (imu_madgwick) StdoutLine: {'line': b'5: +  float & s0, float & s1, float & s2, float & s3)\n'}
+[5.136109] (imu_madgwick) StdoutLine: {'line': b'5: @@ -126 +126 @@\n'}
+[5.136292] (imu_madgwick) StdoutLine: {'line': b'5: -  rotateAndScaleVector(q0,q1,q2,q3, _2dx, _2dy, _2dz, f0, f1, f2);\n'}
+[5.136476] (imu_madgwick) StdoutLine: {'line': b'5: +  rotateAndScaleVector(q0, q1, q2, q3, _2dx, _2dy, _2dz, f0, f1, f2);\n'}
+[5.136662] (imu_madgwick) StdoutLine: {'line': b'5: @@ -135,12 +135,12 @@\n'}
+[5.136878] (imu_madgwick) StdoutLine: {'line': b'5: -  s0 += (_2dy * q3 - _2dz * q2) * f0\n'}
+[5.137062] (imu_madgwick) StdoutLine: {'line': b'5: -      + (-_2dx * q3 + _2dz * q1) * f1\n'}
+[5.137424] (imu_madgwick) StdoutLine: {'line': b'5: -      + (_2dx * q2 - _2dy * q1) * f2;\n'}
+[5.137819] (imu_madgwick) StdoutLine: {'line': b'5: -  s1 += (_2dy * q2 + _2dz * q3) * f0\n'}
+[5.138178] (imu_madgwick) StdoutLine: {'line': b'5: -      + (_2dx * q2 - 2.0f * _2dy * q1 + _2dz * q0) * f1\n'}
+[5.139461] (imu_madgwick) StdoutLine: {'line': b'5: -      + (_2dx * q3 - _2dy * q0 - 2.0f * _2dz * q1) * f2;\n'}
+[5.139861] (imu_madgwick) StdoutLine: {'line': b'5: -  s2 += (-2.0f * _2dx * q2 + _2dy * q1 - _2dz * q0) * f0\n'}
+[5.140135] (imu_madgwick) StdoutLine: {'line': b'5: -      + (_2dx * q1 + _2dz * q3) * f1\n'}
+[5.140441] (imu_madgwick) StdoutLine: {'line': b'5: -      + (_2dx * q0 + _2dy * q3 - 2.0f * _2dz * q2) * f2;\n'}
+[5.140798] (imu_madgwick) StdoutLine: {'line': b'5: -  s3 += (-2.0f * _2dx * q3 + _2dy * q0 + _2dz * q1) * f0\n'}
+[5.141266] (imu_madgwick) StdoutLine: {'line': b'5: -      + (-_2dx * q0 - 2.0f * _2dy * q3 + _2dz * q2) * f1\n'}
+[5.141461] (-) TimerEvent: {}
+[5.141711] (imu_madgwick) StdoutLine: {'line': b'5: -      + (_2dx * q1 + _2dy * q2) * f2;\n'}
+[5.142034] (imu_madgwick) StdoutLine: {'line': b'5: +  s0 += (_2dy * q3 - _2dz * q2) * f0 +\n'}
+[5.142304] (imu_madgwick) StdoutLine: {'line': b'5: +    (-_2dx * q3 + _2dz * q1) * f1 +\n'}
+[5.142612] (imu_madgwick) StdoutLine: {'line': b'5: +    (_2dx * q2 - _2dy * q1) * f2;\n'}
+[5.142921] (imu_madgwick) StdoutLine: {'line': b'5: +  s1 += (_2dy * q2 + _2dz * q3) * f0 +\n'}
+[5.143188] (imu_madgwick) StdoutLine: {'line': b'5: +    (_2dx * q2 - 2.0f * _2dy * q1 + _2dz * q0) * f1 +\n'}
+[5.143433] (imu_madgwick) StdoutLine: {'line': b'5: +    (_2dx * q3 - _2dy * q0 - 2.0f * _2dz * q1) * f2;\n'}
+[5.143619] (imu_madgwick) StdoutLine: {'line': b'5: +  s2 += (-2.0f * _2dx * q2 + _2dy * q1 - _2dz * q0) * f0 +\n'}
+[5.143774] (imu_madgwick) StdoutLine: {'line': b'5: +    (_2dx * q1 + _2dz * q3) * f1 +\n'}
+[5.143996] (imu_madgwick) StdoutLine: {'line': b'5: +    (_2dx * q0 + _2dy * q3 - 2.0f * _2dz * q2) * f2;\n'}
+[5.144135] (imu_madgwick) StdoutLine: {'line': b'5: +  s3 += (-2.0f * _2dx * q3 + _2dy * q0 + _2dz * q1) * f0 +\n'}
+[5.144303] (imu_madgwick) StdoutLine: {'line': b'5: +    (-_2dx * q0 - 2.0f * _2dy * q3 + _2dz * q2) * f1 +\n'}
+[5.144509] (imu_madgwick) StdoutLine: {'line': b'5: +    (_2dx * q1 + _2dy * q2) * f2;\n'}
+[5.144660] (imu_madgwick) StdoutLine: {'line': b'5: @@ -150,3 +150,3 @@\n'}
+[5.144800] (imu_madgwick) StdoutLine: {'line': b'5: -    float q0, float q1, float q2, float q3,\n'}
+[5.144985] (imu_madgwick) StdoutLine: {'line': b'5: -    float mx, float my, float mz,\n'}
+[5.145279] (imu_madgwick) StdoutLine: {'line': b'5: -    float& _2bxy, float& _2bz)\n'}
+[5.145556] (imu_madgwick) StdoutLine: {'line': b'5: +  float q0, float q1, float q2, float q3,\n'}
+[5.145720] (imu_madgwick) StdoutLine: {'line': b'5: +  float mx, float my, float mz,\n'}
+[5.145861] (imu_madgwick) StdoutLine: {'line': b'5: +  float & _2bxy, float & _2bz)\n'}
+[5.146034] (imu_madgwick) StdoutLine: {'line': b'5: @@ -158 +158 @@\n'}
+[5.146172] (imu_madgwick) StdoutLine: {'line': b'5: -  _2bxy = 4.0f * sqrt (hx * hx + hy * hy);\n'}
+[5.146333] (imu_madgwick) StdoutLine: {'line': b'5: +  _2bxy = 4.0f * sqrt(hx * hx + hy * hy);\n'}
+[5.146482] (imu_madgwick) StdoutLine: {'line': b'5: @@ -164,4 +164,4 @@\n'}
+[5.146659] (imu_madgwick) StdoutLine: {'line': b'5: -ImuFilter::ImuFilter() :\n'}
+[5.146863] (imu_madgwick) StdoutLine: {'line': b'5: -    gain_ (0.0), zeta_ (0.0), world_frame_(WorldFrame::ENU),\n'}
+[5.147003] (imu_madgwick) StdoutLine: {'line': b'5: -    q0(1.0), q1(0.0), q2(0.0), q3(0.0),\n'}
+[5.147149] (imu_madgwick) StdoutLine: {'line': b'5: -    w_bx_(0.0), w_by_(0.0), w_bz_(0.0)\n'}
+[5.147323] (imu_madgwick) StdoutLine: {'line': b'5: +ImuFilter::ImuFilter()\n'}
+[5.147469] (imu_madgwick) StdoutLine: {'line': b'5: +: gain_(0.0), zeta_(0.0), world_frame_(WorldFrame::ENU),\n'}
+[5.147607] (imu_madgwick) StdoutLine: {'line': b'5: +  q0(1.0), q1(0.0), q2(0.0), q3(0.0),\n'}
+[5.147759] (imu_madgwick) StdoutLine: {'line': b'5: +  w_bx_(0.0), w_by_(0.0), w_bz_(0.0)\n'}
+[5.147956] (imu_madgwick) StdoutLine: {'line': b'5: @@ -176,4 +176,4 @@\n'}
+[5.148096] (imu_madgwick) StdoutLine: {'line': b'5: -    float gx, float gy, float gz,\n'}
+[5.148256] (imu_madgwick) StdoutLine: {'line': b'5: -    float ax, float ay, float az,\n'}
+[5.148477] (imu_madgwick) StdoutLine: {'line': b'5: -    float mx, float my, float mz,\n'}
+[5.153511] (imu_madgwick) StdoutLine: {'line': b'5: -    float dt)\n'}
+[5.153721] (imu_madgwick) StdoutLine: {'line': b'5: +  float gx, float gy, float gz,\n'}
+[5.153918] (imu_madgwick) StdoutLine: {'line': b'5: +  float ax, float ay, float az,\n'}
+[5.154082] (imu_madgwick) StdoutLine: {'line': b'5: +  float mx, float my, float mz,\n'}
+[5.154234] (imu_madgwick) StdoutLine: {'line': b'5: +  float dt)\n'}
+[5.154383] (imu_madgwick) StdoutLine: {'line': b'5: @@ -186,2 +186 @@\n'}
+[5.154530] (imu_madgwick) StdoutLine: {'line': b'5: -  if (!std::isfinite(mx) || !std::isfinite(my) || !std::isfinite(mz))\n'}
+[5.154681] (imu_madgwick) StdoutLine: {'line': b'5: -  {\n'}
+[5.154827] (imu_madgwick) StdoutLine: {'line': b'5: +  if (!std::isfinite(mx) || !std::isfinite(my) || !std::isfinite(mz)) {\n'}
+[5.155017] (imu_madgwick) StdoutLine: {'line': b'5: @@ -193,2 +192 @@\n'}
+[5.155193] (imu_madgwick) StdoutLine: {'line': b'5: -  if (!((ax == 0.0f) && (ay == 0.0f) && (az == 0.0f)))\n'}
+[5.155355] (imu_madgwick) StdoutLine: {'line': b'5: -  {\n'}
+[5.155505] (imu_madgwick) StdoutLine: {'line': b'5: +  if (!((ax == 0.0f) && (ay == 0.0f) && (az == 0.0f))) {\n'}
+[5.155659] (imu_madgwick) StdoutLine: {'line': b'5: @@ -212 +210 @@\n'}
+[5.155807] (imu_madgwick) StdoutLine: {'line': b'5: -        addGradientDescentStep(q0,q1,q2,q3, _2bxy, 0.0, _2bz, mx, my, mz, s0, s1, s2, s3);\n'}
+[5.155992] (imu_madgwick) StdoutLine: {'line': b'5: +        addGradientDescentStep(q0, q1, q2, q3, _2bxy, 0.0, _2bz, mx, my, mz, s0, s1, s2, s3);\n'}
+[5.156139] (imu_madgwick) StdoutLine: {'line': b'5: @@ -219 +217 @@\n'}
+[5.156285] (imu_madgwick) StdoutLine: {'line': b'5: -        addGradientDescentStep(q0,q1,q2,q3, _2bxy, 0.0, _2bz, mx, my, mz, s0, s1, s2, s3);\n'}
+[5.156433] (imu_madgwick) StdoutLine: {'line': b'5: +        addGradientDescentStep(q0, q1, q2, q3, _2bxy, 0.0, _2bz, mx, my, mz, s0, s1, s2, s3);\n'}
+[5.156592] (imu_madgwick) StdoutLine: {'line': b'5: @@ -235,0 +234,55 @@\n'}
+[5.156740] (imu_madgwick) StdoutLine: {'line': b'5: +\n'}
+[5.156922] (imu_madgwick) StdoutLine: {'line': b'5: +    // Apply feedback step\n'}
+[5.157068] (imu_madgwick) StdoutLine: {'line': b'5: +    qDot1 -= gain_ * s0;\n'}
+[5.159220] (imu_madgwick) StdoutLine: {'line': b'5: +    qDot2 -= gain_ * s1;\n'}
+[5.159604] (imu_madgwick) StdoutLine: {'line': b'5: +    qDot3 -= gain_ * s2;\n'}
+[5.159978] (imu_madgwick) StdoutLine: {'line': b'5: +    qDot4 -= gain_ * s3;\n'}
+[5.160308] (imu_madgwick) StdoutLine: {'line': b'5: +  } else {\n'}
+[5.160682] (imu_madgwick) StdoutLine: {'line': b'5: +    orientationChangeFromGyro(q0, q1, q2, q3, gx, gy, gz, qDot1, qDot2, qDot3, qDot4);\n'}
+[5.161066] (imu_madgwick) StdoutLine: {'line': b'5: +  }\n'}
+[5.161476] (imu_madgwick) StdoutLine: {'line': b'5: +\n'}
+[5.161752] (imu_madgwick) StdoutLine: {'line': b'5: +  // Integrate rate of change of quaternion to yield quaternion\n'}
+[5.162062] (imu_madgwick) StdoutLine: {'line': b'5: +  q0 += qDot1 * dt;\n'}
+[5.162353] (imu_madgwick) StdoutLine: {'line': b'5: +  q1 += qDot2 * dt;\n'}
+[5.162662] (imu_madgwick) StdoutLine: {'line': b'5: +  q2 += qDot3 * dt;\n'}
+[5.163003] (imu_madgwick) StdoutLine: {'line': b'5: +  q3 += qDot4 * dt;\n'}
+[5.163278] (imu_madgwick) StdoutLine: {'line': b'5: +\n'}
+[5.163564] (imu_madgwick) StdoutLine: {'line': b'5: +  // Normalise quaternion\n'}
+[5.163897] (imu_madgwick) StdoutLine: {'line': b'5: +  normalizeQuaternion(q0, q1, q2, q3);\n'}
+[5.164191] (imu_madgwick) StdoutLine: {'line': b'5: +}\n'}
+[5.164486] (imu_madgwick) StdoutLine: {'line': b'5: +\n'}
+[5.164791] (imu_madgwick) StdoutLine: {'line': b'5: +void ImuFilter::madgwickAHRSupdateIMU(\n'}
+[5.165215] (imu_madgwick) StdoutLine: {'line': b'5: +  float gx, float gy, float gz,\n'}
+[5.165501] (imu_madgwick) StdoutLine: {'line': b'5: +  float ax, float ay, float az,\n'}
+[5.165785] (imu_madgwick) StdoutLine: {'line': b'5: +  float dt)\n'}
+[5.166081] (imu_madgwick) StdoutLine: {'line': b'5: +{\n'}
+[5.166345] (imu_madgwick) StdoutLine: {'line': b'5: +  float s0, s1, s2, s3;\n'}
+[5.167510] (imu_madgwick) StdoutLine: {'line': b'5: +  float qDot1, qDot2, qDot3, qDot4;\n'}
+[5.167799] (imu_madgwick) StdoutLine: {'line': b'5: +\n'}
+[5.168052] (imu_madgwick) StdoutLine: {'line': b'5: +  // Rate of change of quaternion from gyroscope\n'}
+[5.169322] (imu_madgwick) StdoutLine: {'line': b'5: +  orientationChangeFromGyro(q0, q1, q2, q3, gx, gy, gz, qDot1, qDot2, qDot3, qDot4);\n'}
+[5.169714] (imu_madgwick) StdoutLine: {'line': b'5: +\n'}
+[5.169961] (imu_madgwick) StdoutLine: {'line': b'5: +  // Compute feedback only if accelerometer measurement valid (avoids NaN in accelerometer normalisation)\n'}
+[5.170179] (imu_madgwick) StdoutLine: {'line': b'5: +  if (!((ax == 0.0f) && (ay == 0.0f) && (az == 0.0f))) {\n'}
+[5.170376] (imu_madgwick) StdoutLine: {'line': b'5: +    // Normalise accelerometer measurement\n'}
+[5.170580] (imu_madgwick) StdoutLine: {'line': b'5: +    normalizeVector(ax, ay, az);\n'}
+[5.170879] (imu_madgwick) StdoutLine: {'line': b'5: +\n'}
+[5.171102] (imu_madgwick) StdoutLine: {'line': b'5: +    // Gradient decent algorithm corrective step\n'}
+[5.171308] (imu_madgwick) StdoutLine: {'line': b'5: +    s0 = 0.0;  s1 = 0.0;  s2 = 0.0;  s3 = 0.0;\n'}
+[5.171519] (imu_madgwick) StdoutLine: {'line': b'5: +    switch (world_frame_) {\n'}
+[5.171766] (imu_madgwick) StdoutLine: {'line': b'5: +      case WorldFrame::NED:\n'}
+[5.172016] (imu_madgwick) StdoutLine: {'line': b'5: +        // Gravity: [0, 0, -1]\n'}
+[5.172230] (imu_madgwick) StdoutLine: {'line': b'5: +        addGradientDescentStep(q0, q1, q2, q3, 0.0, 0.0, -2.0, ax, ay, az, s0, s1, s2, s3);\n'}
+[5.172452] (imu_madgwick) StdoutLine: {'line': b'5: +        break;\n'}
+[5.172671] (imu_madgwick) StdoutLine: {'line': b'5: +      case WorldFrame::NWU:\n'}
+[5.172933] (imu_madgwick) StdoutLine: {'line': b'5: +        // Gravity: [0, 0, 1]\n'}
+[5.173196] (imu_madgwick) StdoutLine: {'line': b'5: +        addGradientDescentStep(q0, q1, q2, q3, 0.0, 0.0, 2.0, ax, ay, az, s0, s1, s2, s3);\n'}
+[5.173457] (imu_madgwick) StdoutLine: {'line': b'5: +        break;\n'}
+[5.173667] (imu_madgwick) StdoutLine: {'line': b'5: +      default:\n'}
+[5.173865] (imu_madgwick) StdoutLine: {'line': b'5: +      case WorldFrame::ENU:\n'}
+[5.174165] (imu_madgwick) StdoutLine: {'line': b'5: +        // Gravity: [0, 0, 1]\n'}
+[5.174363] (imu_madgwick) StdoutLine: {'line': b'5: +        addGradientDescentStep(q0, q1, q2, q3, 0.0, 0.0, 2.0, ax, ay, az, s0, s1, s2, s3);\n'}
+[5.174578] (imu_madgwick) StdoutLine: {'line': b'5: +        break;\n'}
+[5.174842] (imu_madgwick) StdoutLine: {'line': b'5: +    }\n'}
+[5.175100] (imu_madgwick) StdoutLine: {'line': b'5: +\n'}
+[5.175344] (imu_madgwick) StdoutLine: {'line': b'5: +    normalizeQuaternion(s0, s1, s2, s3);\n'}
+[5.175555] (imu_madgwick) StdoutLine: {'line': b'5: @@ -243,4 +295,0 @@\n'}
+[5.175740] (imu_madgwick) StdoutLine: {'line': b'5: -  else\n'}
+[5.175921] (imu_madgwick) StdoutLine: {'line': b'5: -  {\n'}
+[5.176104] (imu_madgwick) StdoutLine: {'line': b'5: -    orientationChangeFromGyro(q0, q1, q2, q3, gx, gy, gz, qDot1, qDot2, qDot3, qDot4);\n'}
+[5.176385] (imu_madgwick) StdoutLine: {'line': b'5: -  }\n'}
+[5.176589] (imu_madgwick) StdoutLine: {'line': b'5: @@ -258,42 +307,29 @@\n'}
+[5.176773] (imu_madgwick) StdoutLine: {'line': b'5: -void ImuFilter::madgwickAHRSupdateIMU(\n'}
+[5.176954] (imu_madgwick) StdoutLine: {'line': b'5: -    float gx, float gy, float gz,\n'}
+[5.177169] (imu_madgwick) StdoutLine: {'line': b'5: -    float ax, float ay, float az,\n'}
+[5.177367] (imu_madgwick) StdoutLine: {'line': b'5: -    float dt)\n'}
+[5.177547] (imu_madgwick) StdoutLine: {'line': b'5: -{\n'}
+[5.177727] (imu_madgwick) StdoutLine: {'line': b'5: -  float s0, s1, s2, s3;\n'}
+[5.177914] (imu_madgwick) StdoutLine: {'line': b'5: -  float qDot1, qDot2, qDot3, qDot4;\n'}
+[5.178093] (imu_madgwick) StdoutLine: {'line': b'5: -\n'}
+[5.178272] (imu_madgwick) StdoutLine: {'line': b'5: -  // Rate of change of quaternion from gyroscope\n'}
+[5.178452] (imu_madgwick) StdoutLine: {'line': b'5: -  orientationChangeFromGyro (q0, q1, q2, q3, gx, gy, gz, qDot1, qDot2, qDot3, qDot4);\n'}
+[5.178733] (imu_madgwick) StdoutLine: {'line': b'5: -\n'}
+[5.179028] (imu_madgwick) StdoutLine: {'line': b'5: -  // Compute feedback only if accelerometer measurement valid (avoids NaN in accelerometer normalisation)\n'}
+[5.180747] (imu_madgwick) StdoutLine: {'line': b'5: -  if (!((ax == 0.0f) && (ay == 0.0f) && (az == 0.0f)))\n'}
+[5.181042] (imu_madgwick) StdoutLine: {'line': b'5: -  {\n'}
+[5.182099] (imu_madgwick) StdoutLine: {'line': b'5: -    // Normalise accelerometer measurement\n'}
+[5.182367] (imu_madgwick) StdoutLine: {'line': b'5: -    normalizeVector(ax, ay, az);\n'}
+[5.182573] (imu_madgwick) StdoutLine: {'line': b'5: -\n'}
+[5.182774] (imu_madgwick) StdoutLine: {'line': b'5: -    // Gradient decent algorithm corrective step\n'}
+[5.182998] (imu_madgwick) StdoutLine: {'line': b'5: -    s0 = 0.0;  s1 = 0.0;  s2 = 0.0;  s3 = 0.0;\n'}
+[5.183203] (imu_madgwick) StdoutLine: {'line': b'5: -    switch (world_frame_) {\n'}
+[5.183437] (imu_madgwick) StdoutLine: {'line': b'5: -      case WorldFrame::NED:\n'}
+[5.183643] (imu_madgwick) StdoutLine: {'line': b'5: -        // Gravity: [0, 0, -1]\n'}
+[5.183847] (imu_madgwick) StdoutLine: {'line': b'5: -        addGradientDescentStep(q0, q1, q2, q3, 0.0, 0.0, -2.0, ax, ay, az, s0, s1, s2, s3);\n'}
+[5.184103] (imu_madgwick) StdoutLine: {'line': b'5: -        break;\n'}
+[5.184780] (imu_madgwick) StdoutLine: {'line': b'5: -      case WorldFrame::NWU:\n'}
+[5.185229] (imu_madgwick) StdoutLine: {'line': b'5: -        // Gravity: [0, 0, 1]\n'}
+[5.185634] (imu_madgwick) StdoutLine: {'line': b'5: -        addGradientDescentStep(q0, q1, q2, q3, 0.0, 0.0, 2.0, ax, ay, az, s0, s1, s2, s3);\n'}
+[5.185947] (imu_madgwick) StdoutLine: {'line': b'5: -        break;\n'}
+[5.186291] (imu_madgwick) StdoutLine: {'line': b'5: -      default:\n'}
+[5.186553] (imu_madgwick) StdoutLine: {'line': b'5: -      case WorldFrame::ENU:\n'}
+[5.186806] (imu_madgwick) StdoutLine: {'line': b'5: -        // Gravity: [0, 0, 1]\n'}
+[5.187083] (imu_madgwick) StdoutLine: {'line': b'5: -        addGradientDescentStep(q0, q1, q2, q3, 0.0, 0.0, 2.0, ax, ay, az, s0, s1, s2, s3);\n'}
+[5.187348] (imu_madgwick) StdoutLine: {'line': b'5: -        break;\n'}
+[5.187650] (imu_madgwick) StdoutLine: {'line': b'5: -    }\n'}
+[5.188058] (imu_madgwick) StdoutLine: {'line': b'5: -\n'}
+[5.188424] (imu_madgwick) StdoutLine: {'line': b'5: -    normalizeQuaternion(s0, s1, s2, s3);\n'}
+[5.188756] (imu_madgwick) StdoutLine: {'line': b'5: -\n'}
+[5.190004] (imu_madgwick) StdoutLine: {'line': b'5: -    // Apply feedback step\n'}
+[5.190369] (imu_madgwick) StdoutLine: {'line': b'5: -    qDot1 -= gain_ * s0;\n'}
+[5.190533] (imu_madgwick) StdoutLine: {'line': b'5: -    qDot2 -= gain_ * s1;\n'}
+[5.190686] (imu_madgwick) StdoutLine: {'line': b'5: -    qDot3 -= gain_ * s2;\n'}
+[5.190839] (imu_madgwick) StdoutLine: {'line': b'5: -    qDot4 -= gain_ * s3;\n'}
+[5.191046] (imu_madgwick) StdoutLine: {'line': b'5: +\n'}
+[5.191204] (imu_madgwick) StdoutLine: {'line': b'5: +void ImuFilter::getGravity(\n'}
+[5.191361] (imu_madgwick) StdoutLine: {'line': b'5: +  float & rx, float & ry, float & rz,\n'}
+[5.191514] (imu_madgwick) StdoutLine: {'line': b'5: +  float gravity)\n'}
+[5.191667] (imu_madgwick) StdoutLine: {'line': b'5: +{\n'}
+[5.191819] (imu_madgwick) StdoutLine: {'line': b'5: +  // Estimate gravity vector from current orientation\n'}
+[5.192011] (imu_madgwick) StdoutLine: {'line': b'5: +  switch (world_frame_) {\n'}
+[5.192163] (imu_madgwick) StdoutLine: {'line': b'5: +    case WorldFrame::NED:\n'}
+[5.192326] (imu_madgwick) StdoutLine: {'line': b'5: +      // Gravity: [0, 0, -1]\n'}
+[5.192481] (imu_madgwick) StdoutLine: {'line': b'5: +      rotateAndScaleVector(\n'}
+[5.192632] (imu_madgwick) StdoutLine: {'line': b'5: +        q0, q1, q2, q3,\n'}
+[5.192785] (imu_madgwick) StdoutLine: {'line': b'5: +        0.0, 0.0, -2.0 * gravity,\n'}
+[5.192976] (imu_madgwick) StdoutLine: {'line': b'5: +        rx, ry, rz);\n'}
+[5.194067] (imu_madgwick) StdoutLine: {'line': b'5: +      break;\n'}
+[5.194981] (imu_madgwick) StdoutLine: {'line': b'5: +    case WorldFrame::NWU:\n'}
+[5.195218] (imu_madgwick) StdoutLine: {'line': b'5: +      // Gravity: [0, 0, 1]\n'}
+[5.195550] (imu_madgwick) StdoutLine: {'line': b'5: +      rotateAndScaleVector(\n'}
+[5.195809] (imu_madgwick) StdoutLine: {'line': b'5: +        q0, q1, q2, q3,\n'}
+[5.196030] (imu_madgwick) StdoutLine: {'line': b'5: +        0.0, 0.0, 2.0 * gravity,\n'}
+[5.196244] (imu_madgwick) StdoutLine: {'line': b'5: +        rx, ry, rz);\n'}
+[5.196443] (imu_madgwick) StdoutLine: {'line': b'5: +      break;\n'}
+[5.196588] (imu_madgwick) StdoutLine: {'line': b'5: +    default:\n'}
+[5.196733] (imu_madgwick) StdoutLine: {'line': b'5: +    case WorldFrame::ENU:\n'}
+[5.196925] (imu_madgwick) StdoutLine: {'line': b'5: +      // Gravity: [0, 0, 1]\n'}
+[5.197103] (imu_madgwick) StdoutLine: {'line': b'5: +      rotateAndScaleVector(\n'}
+[5.197671] (imu_madgwick) StdoutLine: {'line': b'5: +        q0, q1, q2, q3,\n'}
+[5.197928] (imu_madgwick) StdoutLine: {'line': b'5: +        0.0, 0.0, 2.0 * gravity,\n'}
+[5.198167] (imu_madgwick) StdoutLine: {'line': b'5: +        rx, ry, rz);\n'}
+[5.199052] (imu_madgwick) StdoutLine: {'line': b'5: +      break;\n'}
+[5.199262] (imu_madgwick) StdoutLine: {'line': b'5: @@ -301,38 +337 @@\n'}
+[5.199425] (imu_madgwick) StdoutLine: {'line': b'5: -\n'}
+[5.199585] (imu_madgwick) StdoutLine: {'line': b'5: -  // Integrate rate of change of quaternion to yield quaternion\n'}
+[5.199760] (imu_madgwick) StdoutLine: {'line': b'5: -  q0 += qDot1 * dt;\n'}
+[5.199941] (imu_madgwick) StdoutLine: {'line': b'5: -  q1 += qDot2 * dt;\n'}
+[5.200177] (imu_madgwick) StdoutLine: {'line': b'5: -  q2 += qDot3 * dt;\n'}
+[5.200349] (imu_madgwick) StdoutLine: {'line': b'5: -  q3 += qDot4 * dt;\n'}
+[5.200523] (imu_madgwick) StdoutLine: {'line': b'5: -\n'}
+[5.200700] (imu_madgwick) StdoutLine: {'line': b'5: -  // Normalise quaternion\n'}
+[5.200876] (imu_madgwick) StdoutLine: {'line': b'5: -  normalizeQuaternion (q0, q1, q2, q3);\n'}
+[5.201089] (imu_madgwick) StdoutLine: {'line': b'5: -}\n'}
+[5.201397] (imu_madgwick) StdoutLine: {'line': b'5: -\n'}
+[5.201882] (imu_madgwick) StdoutLine: {'line': b'5: -\n'}
+[5.202188] (imu_madgwick) StdoutLine: {'line': b'5: -void ImuFilter::getGravity(float& rx, float& ry, float& rz,\n'}
+[5.202348] (imu_madgwick) StdoutLine: {'line': b'5: -    float gravity)\n'}
+[5.202504] (imu_madgwick) StdoutLine: {'line': b'5: -{\n'}
+[5.202655] (imu_madgwick) StdoutLine: {'line': b'5: -    // Estimate gravity vector from current orientation\n'}
+[5.202805] (imu_madgwick) StdoutLine: {'line': b'5: -    switch (world_frame_) {\n'}
+[5.202997] (imu_madgwick) StdoutLine: {'line': b'5: -      case WorldFrame::NED:\n'}
+[5.203163] (imu_madgwick) StdoutLine: {'line': b'5: -        // Gravity: [0, 0, -1]\n'}
+[5.203314] (imu_madgwick) StdoutLine: {'line': b'5: -        rotateAndScaleVector(q0, q1, q2, q3,\n'}
+[5.203467] (imu_madgwick) StdoutLine: {'line': b'5: -            0.0, 0.0, -2.0*gravity,\n'}
+[5.203635] (imu_madgwick) StdoutLine: {'line': b'5: -            rx, ry, rz);\n'}
+[5.203791] (imu_madgwick) StdoutLine: {'line': b'5: -        break;\n'}
+[5.203961] (imu_madgwick) StdoutLine: {'line': b'5: -      case WorldFrame::NWU:\n'}
+[5.204133] (imu_madgwick) StdoutLine: {'line': b'5: -        // Gravity: [0, 0, 1]\n'}
+[5.204284] (imu_madgwick) StdoutLine: {'line': b'5: -        rotateAndScaleVector(q0, q1, q2, q3,\n'}
+[5.204444] (imu_madgwick) StdoutLine: {'line': b'5: -            0.0, 0.0, 2.0*gravity,\n'}
+[5.204594] (imu_madgwick) StdoutLine: {'line': b'5: -            rx, ry, rz);\n'}
+[5.204741] (imu_madgwick) StdoutLine: {'line': b'5: -        break;\n'}
+[5.204890] (imu_madgwick) StdoutLine: {'line': b'5: -      default:\n'}
+[5.205078] (imu_madgwick) StdoutLine: {'line': b'5: -      case WorldFrame::ENU:\n'}
+[5.205290] (imu_madgwick) StdoutLine: {'line': b'5: -        // Gravity: [0, 0, 1]\n'}
+[5.205451] (imu_madgwick) StdoutLine: {'line': b'5: -        rotateAndScaleVector(q0, q1, q2, q3,\n'}
+[5.205603] (imu_madgwick) StdoutLine: {'line': b'5: -            0.0, 0.0, 2.0*gravity,\n'}
+[5.205770] (imu_madgwick) StdoutLine: {'line': b'5: -            rx, ry, rz);\n'}
+[5.205921] (imu_madgwick) StdoutLine: {'line': b'5: -        break;\n'}
+[5.206102] (imu_madgwick) StdoutLine: {'line': b'5: -    }\n'}
+[5.206250] (imu_madgwick) StdoutLine: {'line': b'5: -}\n'}
+[5.206399] (imu_madgwick) StdoutLine: {'line': b'5: +}\n'}
+[5.206547] (imu_madgwick) StdoutLine: {'line': b'5: \n'}
+[5.206696] (imu_madgwick) StdoutLine: {'line': b"5: Code style divergence in file 'src/imu_madgwick/stateless_orientation.cpp':\n"}
+[5.206848] (imu_madgwick) StdoutLine: {'line': b'5: \n'}
+[5.207047] (imu_madgwick) StdoutLine: {'line': b'5: --- src/imu_madgwick/stateless_orientation.cpp\n'}
+[5.207200] (imu_madgwick) StdoutLine: {'line': b'5: +++ src/imu_madgwick/stateless_orientation.cpp.uncrustify\n'}
+[5.207351] (imu_madgwick) StdoutLine: {'line': b'5: @@ -32,6 +32,7 @@\n'}
+[5.207500] (imu_madgwick) StdoutLine: {'line': b'5: -      T ax, T ay, T az,\n'}
+[5.207673] (imu_madgwick) StdoutLine: {'line': b'5: -      T bx, T by, T bz,\n'}
+[5.207824] (imu_madgwick) StdoutLine: {'line': b'5: -      T& rx, T& ry, T& rz) {\n'}
+[5.208009] (imu_madgwick) StdoutLine: {'line': b'5: -  rx = ay*bz - az*by;\n'}
+[5.208159] (imu_madgwick) StdoutLine: {'line': b'5: -  ry = az*bx - ax*bz;\n'}
+[5.208319] (imu_madgwick) StdoutLine: {'line': b'5: -  rz = ax*by - ay*bx;\n'}
+[5.208472] (imu_madgwick) StdoutLine: {'line': b'5: +  T ax, T ay, T az,\n'}
+[5.208622] (imu_madgwick) StdoutLine: {'line': b'5: +  T bx, T by, T bz,\n'}
+[5.208771] (imu_madgwick) StdoutLine: {'line': b'5: +  T & rx, T & ry, T & rz)\n'}
+[5.208921] (imu_madgwick) StdoutLine: {'line': b'5: +{\n'}
+[5.209139] (imu_madgwick) StdoutLine: {'line': b'5: +  rx = ay * bz - az * by;\n'}
+[5.209494] (imu_madgwick) StdoutLine: {'line': b'5: +  ry = az * bx - ax * bz;\n'}
+[5.209711] (imu_madgwick) StdoutLine: {'line': b'5: +  rz = ax * by - ay * bx;\n'}
+[5.209904] (imu_madgwick) StdoutLine: {'line': b'5: @@ -42,2 +43,3 @@\n'}
+[5.210150] (imu_madgwick) StdoutLine: {'line': b'5: -static inline T normalizeVector(T& vx, T& vy, T& vz) {\n'}
+[5.210337] (imu_madgwick) StdoutLine: {'line': b'5: -  T norm = sqrt(vx*vx + vy*vy + vz*vz);\n'}
+[5.210515] (imu_madgwick) StdoutLine: {'line': b'5: +static inline T normalizeVector(T & vx, T & vy, T & vz)\n'}
+[5.210692] (imu_madgwick) StdoutLine: {'line': b'5: +{\n'}
+[5.210867] (imu_madgwick) StdoutLine: {'line': b'5: +  T norm = sqrt(vx * vx + vy * vy + vz * vz);\n'}
+[5.211084] (imu_madgwick) StdoutLine: {'line': b'5: @@ -57 +59,2 @@\n'}
+[5.211264] (imu_madgwick) StdoutLine: {'line': b'5: -  geometry_msgs::msg::Quaternion& orientation) {\n'}
+[5.211453] (imu_madgwick) StdoutLine: {'line': b'5: +  geometry_msgs::msg::Quaternion & orientation)\n'}
+[5.211631] (imu_madgwick) StdoutLine: {'line': b'5: +{\n'}
+[5.211806] (imu_madgwick) StdoutLine: {'line': b'5: @@ -151 +154,2 @@\n'}
+[5.212016] (imu_madgwick) StdoutLine: {'line': b'5: -  geometry_msgs::msg::Quaternion& orientation) {\n'}
+[5.212193] (imu_madgwick) StdoutLine: {'line': b'5: +  geometry_msgs::msg::Quaternion & orientation)\n'}
+[5.212374] (imu_madgwick) StdoutLine: {'line': b'5: +{\n'}
+[5.212554] (imu_madgwick) StdoutLine: {'line': b'5: @@ -159,3 +163,3 @@\n'}
+[5.212734] (imu_madgwick) StdoutLine: {'line': b'5: -      E.x = A.y;\n'}
+[5.212924] (imu_madgwick) StdoutLine: {'line': b'5: -      E.y = A.x;\n'}
+[5.217314] (imu_madgwick) StdoutLine: {'line': b'5: -      E.z = 0.0;\n'}
+[5.217676] (imu_madgwick) StdoutLine: {'line': b'5: +    E.x = A.y;\n'}
+[5.217853] (imu_madgwick) StdoutLine: {'line': b'5: +    E.y = A.x;\n'}
+[5.218054] (imu_madgwick) StdoutLine: {'line': b'5: +    E.z = 0.0;\n'}
+[5.218209] (imu_madgwick) StdoutLine: {'line': b'5: @@ -163,3 +167,3 @@\n'}
+[5.218363] (imu_madgwick) StdoutLine: {'line': b'5: -      E.x = 0.0;\n'}
+[5.218519] (imu_madgwick) StdoutLine: {'line': b'5: -      E.y = A.z;\n'}
+[5.218692] (imu_madgwick) StdoutLine: {'line': b'5: -      E.z = A.y;\n'}
+[5.218845] (imu_madgwick) StdoutLine: {'line': b'5: +    E.x = 0.0;\n'}
+[5.219038] (imu_madgwick) StdoutLine: {'line': b'5: +    E.y = A.z;\n'}
+[5.219193] (imu_madgwick) StdoutLine: {'line': b'5: +    E.z = A.y;\n'}
+[5.219347] (imu_madgwick) StdoutLine: {'line': b'5: @@ -167,2 +171,2 @@\n'}
+[5.219504] (imu_madgwick) StdoutLine: {'line': b'5: -      // free fall\n'}
+[5.219656] (imu_madgwick) StdoutLine: {'line': b'5: -      return false;\n'}
+[5.219809] (imu_madgwick) StdoutLine: {'line': b'5: +    // free fall\n'}
+[5.220022] (imu_madgwick) StdoutLine: {'line': b'5: +    return false;\n'}
+[5.220171] (imu_madgwick) StdoutLine: {'line': b'5: \n'}
+[5.220320] (imu_madgwick) StdoutLine: {'line': b'5: 6 files with code style divergence\n'}
+[5.220470] (imu_madgwick) StdoutLine: {'line': b"5: No code style divergence in file 'include/imu_madgwick/imu.hpp'\n"}
+[5.220622] (imu_madgwick) StdoutLine: {'line': b'5: \n'}
+[5.220770] (imu_madgwick) StdoutLine: {'line': b'5: -- run_test.py: return code 1\n'}
+[5.220965] (imu_madgwick) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/uncrustify.xunit.xml'\n"}
+[5.221192] (imu_madgwick) StdoutLine: {'line': b'5/6 Test #5: uncrustify .......................***Failed    1.02 sec\n'}
+[5.221413] (imu_madgwick) StdoutLine: {'line': b'test 6\n'}
+[5.221601] (imu_madgwick) StdoutLine: {'line': b'    Start 6: xmllint\n'}
+[5.221782] (imu_madgwick) StdoutLine: {'line': b'\n'}
+[5.221961] (imu_madgwick) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/xmllint.xunit.xml" "--package-name" "imu_madgwick" "--output-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/xmllint.xunit.xml"\n'}
+[5.222214] (imu_madgwick) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[5.241595] (-) TimerEvent: {}
+[5.342006] (-) TimerEvent: {}
+[5.370684] (imu_madgwick) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick':\n"}
+[5.371099] (imu_madgwick) StdoutLine: {'line': b'6:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/xmllint.xunit.xml\n'}
+[5.442453] (-) TimerEvent: {}
+[5.543205] (-) TimerEvent: {}
+[5.643711] (-) TimerEvent: {}
+[5.744417] (-) TimerEvent: {}
+[5.844875] (-) TimerEvent: {}
+[5.945504] (-) TimerEvent: {}
+[6.046970] (-) TimerEvent: {}
+[6.147416] (-) TimerEvent: {}
+[6.247850] (-) TimerEvent: {}
+[6.348370] (-) TimerEvent: {}
+[6.448807] (-) TimerEvent: {}
+[6.549238] (-) TimerEvent: {}
+[6.649789] (-) TimerEvent: {}
+[6.750213] (-) TimerEvent: {}
+[6.850648] (-) TimerEvent: {}
+[6.951110] (-) TimerEvent: {}
+[7.051717] (-) TimerEvent: {}
+[7.152162] (-) TimerEvent: {}
+[7.252670] (-) TimerEvent: {}
+[7.353214] (-) TimerEvent: {}
+[7.453661] (-) TimerEvent: {}
+[7.554099] (-) TimerEvent: {}
+[7.654539] (-) TimerEvent: {}
+[7.755078] (-) TimerEvent: {}
+[7.855566] (-) TimerEvent: {}
+[7.956049] (-) TimerEvent: {}
+[8.056558] (-) TimerEvent: {}
+[8.157054] (-) TimerEvent: {}
+[8.257779] (-) TimerEvent: {}
+[8.358272] (-) TimerEvent: {}
+[8.458770] (-) TimerEvent: {}
+[8.559347] (-) TimerEvent: {}
+[8.659847] (-) TimerEvent: {}
+[8.760355] (-) TimerEvent: {}
+[8.860944] (-) TimerEvent: {}
+[8.961532] (-) TimerEvent: {}
+[9.062229] (-) TimerEvent: {}
+[9.162910] (-) TimerEvent: {}
+[9.263792] (-) TimerEvent: {}
+[9.364290] (-) TimerEvent: {}
+[9.464772] (-) TimerEvent: {}
+[9.565590] (-) TimerEvent: {}
+[9.666433] (-) TimerEvent: {}
+[9.766921] (-) TimerEvent: {}
+[9.867411] (-) TimerEvent: {}
+[9.968064] (-) TimerEvent: {}
+[10.068672] (-) TimerEvent: {}
+[10.169199] (-) TimerEvent: {}
+[10.269692] (-) TimerEvent: {}
+[10.370176] (-) TimerEvent: {}
+[10.470718] (-) TimerEvent: {}
+[10.571314] (-) TimerEvent: {}
+[10.671891] (-) TimerEvent: {}
+[10.772527] (-) TimerEvent: {}
+[10.873000] (-) TimerEvent: {}
+[10.973521] (-) TimerEvent: {}
+[11.074052] (-) TimerEvent: {}
+[11.174568] (-) TimerEvent: {}
+[11.275109] (-) TimerEvent: {}
+[11.375722] (-) TimerEvent: {}
+[11.476240] (-) TimerEvent: {}
+[11.576845] (-) TimerEvent: {}
+[11.677341] (-) TimerEvent: {}
+[11.777856] (-) TimerEvent: {}
+[11.878399] (-) TimerEvent: {}
+[11.979208] (-) TimerEvent: {}
+[12.079725] (-) TimerEvent: {}
+[12.180301] (-) TimerEvent: {}
+[12.280798] (-) TimerEvent: {}
+[12.381334] (-) TimerEvent: {}
+[12.481979] (-) TimerEvent: {}
+[12.582813] (-) TimerEvent: {}
+[12.683301] (-) TimerEvent: {}
+[12.783761] (-) TimerEvent: {}
+[12.884205] (-) TimerEvent: {}
+[12.984728] (-) TimerEvent: {}
+[13.059491] (imu_madgwick) StdoutLine: {'line': b"6: File 'package.xml' is valid\n"}
+[13.060065] (imu_madgwick) StdoutLine: {'line': b'6: \n'}
+[13.060515] (imu_madgwick) StdoutLine: {'line': b'6: No problems found\n'}
+[13.084919] (-) TimerEvent: {}
+[13.127478] (imu_madgwick) StdoutLine: {'line': b'6: -- run_test.py: return code 0\n'}
+[13.128302] (imu_madgwick) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick/test_results/imu_madgwick/xmllint.xunit.xml'\n"}
+[13.161696] (imu_madgwick) StdoutLine: {'line': b'6/6 Test #6: xmllint ..........................   Passed    7.95 sec\n'}
+[13.162703] (imu_madgwick) StdoutLine: {'line': b'\n'}
+[13.164692] (imu_madgwick) StdoutLine: {'line': b'50% tests passed\x1b[0;0m, \x1b[0;31m3 tests failed\x1b[0;0m out of 6\n'}
+[13.164875] (imu_madgwick) StdoutLine: {'line': b'\n'}
+[13.165063] (imu_madgwick) StdoutLine: {'line': b'Label Time Summary:\n'}
+[13.167222] (imu_madgwick) StdoutLine: {'line': b'copyright     =   0.93 sec*proc (1 test)\n'}
+[13.167485] (imu_madgwick) StdoutLine: {'line': b'cppcheck      =   0.92 sec*proc (1 test)\n'}
+[13.167648] (imu_madgwick) StdoutLine: {'line': b'cpplint       =   1.31 sec*proc (1 test)\n'}
+[13.167801] (imu_madgwick) StdoutLine: {'line': b'lint_cmake    =   0.75 sec*proc (1 test)\n'}
+[13.167984] (imu_madgwick) StdoutLine: {'line': b'linter        =  12.88 sec*proc (6 tests)\n'}
+[13.168134] (imu_madgwick) StdoutLine: {'line': b'uncrustify    =   1.02 sec*proc (1 test)\n'}
+[13.168282] (imu_madgwick) StdoutLine: {'line': b'xmllint       =   7.95 sec*proc (1 test)\n'}
+[13.168431] (imu_madgwick) StdoutLine: {'line': b'\n'}
+[13.168580] (imu_madgwick) StdoutLine: {'line': b'Total Test time (real) =  12.90 sec\n'}
+[13.168735] (imu_madgwick) StdoutLine: {'line': b'\n'}
+[13.168881] (imu_madgwick) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[13.169070] (imu_madgwick) StdoutLine: {'line': b'\t\x1b[0;31m  1 - copyright (Failed)\x1b[0;0m\n'}
+[13.171478] (imu_madgwick) StdoutLine: {'line': b'\t\x1b[0;31m  3 - cpplint (Failed)\x1b[0;0m\n'}
+[13.171683] (imu_madgwick) StdoutLine: {'line': b'\t\x1b[0;31m  5 - uncrustify (Failed)\x1b[0;0m\n'}
+[13.185083] (-) TimerEvent: {}
+[13.192535] (imu_madgwick) StderrLine: {'line': b'Errors while running CTest\n'}
+[13.199462] (imu_madgwick) CommandEnded: {'returncode': 8}
+[13.200667] (imu_madgwick) TestFailure: {'identifier': 'imu_madgwick'}
+[13.200765] (imu_madgwick) JobEnded: {'identifier': 'imu_madgwick', 'rc': 0}
+[13.210172] (-) EventReactorShutdown: {}

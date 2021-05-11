@@ -1,7 +1,0 @@
-[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:26:10:[m[K [01;31m[Kfatal error: [m[Kimu_madgwick/imu_filter.h: No such file or directory
-   26 | #include [01;31m[K"imu_madgwick/imu_filter.h"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/imu_madgwick.dir/build.make:63: CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu_filter.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/imu_madgwick.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2
