@@ -1,0 +1,208 @@
+[0.000000] (-) TimerEvent: {}
+[0.001194] (imu_madgwick) JobQueued: {'identifier': 'imu_madgwick', 'dependencies': OrderedDict()}
+[0.001328] (imu_madgwick) JobStarted: {'identifier': 'imu_madgwick'}
+[0.027882] (imu_madgwick) JobProgress: {'identifier': 'imu_madgwick', 'progress': 'cmake'}
+[0.030210] (imu_madgwick) JobProgress: {'identifier': 'imu_madgwick', 'progress': 'build'}
+[0.031869] (imu_madgwick) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick', '--', '-j2', '-l2'], 'cwd': '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maroqi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1413'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maroqi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws'), ('TERM_PROGRAM_VERSION', '1.55.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1035'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3030'), ('_colcon_cd_root', '/home/maroqi/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maroqi'), ('JOURNAL_STREAM', '8:37749'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'maroqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/maroqi/.local/bin:/opt/ros/foxy/bin:/home/maroqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/tools:/platform-tools:/home/maroqi/Apps/flutter/bin:/home/maroqi/.config/composer/vendor/bin:/usr/lib/dart/bin:/tools:/platform-tools:/home/maroqi/Apps/flutter/bin:/home/maroqi/.config/composer/vendor/bin'), ('SESSION_MANAGER', 'local/jalil:@/tmp/.ICE-unix/1471,unix/jalil:/tmp/.ICE-unix/1471'), ('INVOCATION_ID', '5b19ff98c1c74b9bb3404db2b263b2c2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e3307d628.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('ANDROID_SDK_ROOT', '/home/maroqi/Apps/android/sdk'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick:/opt/ros/foxy')]), 'shell': False}
+[0.084109] (-) TimerEvent: {}
+[0.186932] (-) TimerEvent: {}
+[0.279738] (imu_madgwick) StdoutLine: {'line': b'[ 50%] Built target imu_madgwick\n'}
+[0.287134] (-) TimerEvent: {}
+[0.347892] (imu_madgwick) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target imu_main_test\x1b[0m\n'}
+[0.387311] (-) TimerEvent: {}
+[0.472650] (imu_madgwick) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/imu_main_test.dir/src/imu_main_test.cpp.o\x1b[0m\n'}
+[0.487466] (-) TimerEvent: {}
+[0.587957] (-) TimerEvent: {}
+[0.688454] (-) TimerEvent: {}
+[0.789023] (-) TimerEvent: {}
+[0.890357] (-) TimerEvent: {}
+[0.992537] (-) TimerEvent: {}
+[1.094684] (-) TimerEvent: {}
+[1.200512] (-) TimerEvent: {}
+[1.302926] (-) TimerEvent: {}
+[1.403537] (-) TimerEvent: {}
+[1.505973] (-) TimerEvent: {}
+[1.606545] (-) TimerEvent: {}
+[1.707081] (-) TimerEvent: {}
+[1.807657] (-) TimerEvent: {}
+[1.908268] (-) TimerEvent: {}
+[2.008786] (-) TimerEvent: {}
+[2.111335] (-) TimerEvent: {}
+[2.211882] (-) TimerEvent: {}
+[2.312382] (-) TimerEvent: {}
+[2.414825] (-) TimerEvent: {}
+[2.515385] (-) TimerEvent: {}
+[2.615896] (-) TimerEvent: {}
+[2.718176] (-) TimerEvent: {}
+[2.824018] (-) TimerEvent: {}
+[2.926441] (-) TimerEvent: {}
+[3.028766] (-) TimerEvent: {}
+[3.131097] (-) TimerEvent: {}
+[3.233681] (-) TimerEvent: {}
+[3.339586] (-) TimerEvent: {}
+[3.440174] (-) TimerEvent: {}
+[3.544015] (-) TimerEvent: {}
+[3.647078] (-) TimerEvent: {}
+[3.749583] (-) TimerEvent: {}
+[3.850088] (-) TimerEvent: {}
+[3.950703] (-) TimerEvent: {}
+[4.053068] (-) TimerEvent: {}
+[4.155465] (-) TimerEvent: {}
+[4.256033] (-) TimerEvent: {}
+[4.356735] (-) TimerEvent: {}
+[4.457321] (-) TimerEvent: {}
+[4.559068] (-) TimerEvent: {}
+[4.660866] (-) TimerEvent: {}
+[4.762995] (-) TimerEvent: {}
+[4.864185] (-) TimerEvent: {}
+[4.964676] (-) TimerEvent: {}
+[5.065333] (-) TimerEvent: {}
+[5.165912] (-) TimerEvent: {}
+[5.267231] (-) TimerEvent: {}
+[5.368536] (-) TimerEvent: {}
+[5.471190] (-) TimerEvent: {}
+[5.573522] (-) TimerEvent: {}
+[5.676220] (-) TimerEvent: {}
+[5.778579] (-) TimerEvent: {}
+[5.881121] (-) TimerEvent: {}
+[5.983401] (-) TimerEvent: {}
+[6.085781] (-) TimerEvent: {}
+[6.188384] (-) TimerEvent: {}
+[6.290830] (-) TimerEvent: {}
+[6.393549] (-) TimerEvent: {}
+[6.496026] (-) TimerEvent: {}
+[6.598562] (-) TimerEvent: {}
+[6.701307] (-) TimerEvent: {}
+[6.803808] (-) TimerEvent: {}
+[6.906187] (-) TimerEvent: {}
+[7.008483] (-) TimerEvent: {}
+[7.110852] (-) TimerEvent: {}
+[7.213462] (-) TimerEvent: {}
+[7.316110] (-) TimerEvent: {}
+[7.418812] (-) TimerEvent: {}
+[7.521349] (-) TimerEvent: {}
+[7.623656] (-) TimerEvent: {}
+[7.726166] (-) TimerEvent: {}
+[7.828603] (-) TimerEvent: {}
+[7.932020] (-) TimerEvent: {}
+[8.034362] (-) TimerEvent: {}
+[8.137056] (-) TimerEvent: {}
+[8.239144] (-) TimerEvent: {}
+[8.343005] (-) TimerEvent: {}
+[8.446969] (-) TimerEvent: {}
+[8.550644] (-) TimerEvent: {}
+[8.653070] (-) TimerEvent: {}
+[8.755402] (-) TimerEvent: {}
+[8.857963] (-) TimerEvent: {}
+[8.961106] (-) TimerEvent: {}
+[9.019589] (imu_madgwick) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable imu_main_test\x1b[0m\n'}
+[9.061240] (-) TimerEvent: {}
+[9.162899] (-) TimerEvent: {}
+[9.263370] (-) TimerEvent: {}
+[9.365909] (-) TimerEvent: {}
+[9.468525] (-) TimerEvent: {}
+[9.538654] (imu_madgwick) StdoutLine: {'line': b'[ 75%] Built target imu_main_test\n'}
+[9.559793] (imu_madgwick) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target imu_main\x1b[0m\n'}
+[9.569223] (-) TimerEvent: {}
+[9.655451] (imu_madgwick) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/imu_main.dir/src/imu_main.cpp.o\x1b[0m\n'}
+[9.669359] (-) TimerEvent: {}
+[9.771613] (-) TimerEvent: {}
+[9.872168] (-) TimerEvent: {}
+[9.975807] (-) TimerEvent: {}
+[10.078146] (-) TimerEvent: {}
+[10.180604] (-) TimerEvent: {}
+[10.283089] (-) TimerEvent: {}
+[10.384371] (-) TimerEvent: {}
+[10.484894] (-) TimerEvent: {}
+[10.586679] (-) TimerEvent: {}
+[10.689033] (-) TimerEvent: {}
+[10.791513] (-) TimerEvent: {}
+[10.894219] (-) TimerEvent: {}
+[10.996324] (-) TimerEvent: {}
+[11.098849] (-) TimerEvent: {}
+[11.199361] (-) TimerEvent: {}
+[11.299984] (-) TimerEvent: {}
+[11.400577] (-) TimerEvent: {}
+[11.501218] (-) TimerEvent: {}
+[11.601805] (-) TimerEvent: {}
+[11.703096] (-) TimerEvent: {}
+[11.804297] (-) TimerEvent: {}
+[11.906729] (-) TimerEvent: {}
+[12.009446] (-) TimerEvent: {}
+[12.111865] (-) TimerEvent: {}
+[12.214257] (-) TimerEvent: {}
+[12.316737] (-) TimerEvent: {}
+[12.419367] (-) TimerEvent: {}
+[12.521932] (-) TimerEvent: {}
+[12.624297] (-) TimerEvent: {}
+[12.726854] (-) TimerEvent: {}
+[12.829315] (-) TimerEvent: {}
+[12.932027] (-) TimerEvent: {}
+[13.034353] (-) TimerEvent: {}
+[13.136717] (-) TimerEvent: {}
+[13.239056] (-) TimerEvent: {}
+[13.341762] (-) TimerEvent: {}
+[13.444241] (-) TimerEvent: {}
+[13.544796] (-) TimerEvent: {}
+[13.647703] (-) TimerEvent: {}
+[13.750662] (-) TimerEvent: {}
+[13.853229] (-) TimerEvent: {}
+[13.955475] (-) TimerEvent: {}
+[14.058151] (-) TimerEvent: {}
+[14.161468] (-) TimerEvent: {}
+[14.264168] (-) TimerEvent: {}
+[14.365959] (-) TimerEvent: {}
+[14.469484] (-) TimerEvent: {}
+[14.515897] (imu_madgwick) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu_main\x1b[0m\n'}
+[14.569654] (-) TimerEvent: {}
+[14.671885] (-) TimerEvent: {}
+[14.773221] (-) TimerEvent: {}
+[14.875161] (-) TimerEvent: {}
+[14.977912] (-) TimerEvent: {}
+[15.080238] (-) TimerEvent: {}
+[15.182729] (-) TimerEvent: {}
+[15.284690] (-) TimerEvent: {}
+[15.352108] (imu_madgwick) StdoutLine: {'line': b'[100%] Built target imu_main\n'}
+[15.380275] (imu_madgwick) CommandEnded: {'returncode': 0}
+[15.384875] (-) TimerEvent: {}
+[15.466651] (imu_madgwick) JobProgress: {'identifier': 'imu_madgwick', 'progress': 'install'}
+[15.485179] (-) TimerEvent: {}
+[15.496466] (imu_madgwick) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick'], 'cwd': '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maroqi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1413'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maroqi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws'), ('TERM_PROGRAM_VERSION', '1.55.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1035'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3030'), ('_colcon_cd_root', '/home/maroqi/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maroqi'), ('JOURNAL_STREAM', '8:37749'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'maroqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/maroqi/.local/bin:/opt/ros/foxy/bin:/home/maroqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/tools:/platform-tools:/home/maroqi/Apps/flutter/bin:/home/maroqi/.config/composer/vendor/bin:/usr/lib/dart/bin:/tools:/platform-tools:/home/maroqi/Apps/flutter/bin:/home/maroqi/.config/composer/vendor/bin'), ('SESSION_MANAGER', 'local/jalil:@/tmp/.ICE-unix/1471,unix/jalil:/tmp/.ICE-unix/1471'), ('INVOCATION_ID', '5b19ff98c1c74b9bb3404db2b263b2c2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e3307d628.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('ANDROID_SDK_ROOT', '/home/maroqi/Apps/android/sdk'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick:/opt/ros/foxy')]), 'shell': False}
+[15.531832] (imu_madgwick) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.532793] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/./include\n'}
+[15.533659] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/./include/imu_madgwick\n'}
+[15.539814] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/./include/imu_madgwick/imu_filter.hpp\n'}
+[15.540807] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/./include/imu_madgwick/world_frame.hpp\n'}
+[15.541514] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/./include/imu_madgwick/imu.hpp\n'}
+[15.542200] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/./include/imu_madgwick/stateless_orientation.hpp\n'}
+[15.543124] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/lib/libimu_madgwick.a\n'}
+[15.558511] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/lib/imu_madgwick/imu_main\n'}
+[15.567798] (imu_madgwick) StdoutLine: {'line': b'-- Set runtime path of "/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/lib/imu_madgwick/imu_main" to ""\n'}
+[15.568678] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/lib/imu_madgwick/imu_main_test\n'}
+[15.571649] (imu_madgwick) StdoutLine: {'line': b'-- Set runtime path of "/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/lib/imu_madgwick/imu_main_test" to ""\n'}
+[15.572578] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/environment/library_path.sh\n'}
+[15.573558] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/environment/library_path.dsv\n'}
+[15.574746] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/ament_index/resource_index/package_run_dependencies/imu_madgwick\n'}
+[15.575986] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/ament_index/resource_index/parent_prefix_path/imu_madgwick\n'}
+[15.576887] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/environment/ament_prefix_path.sh\n'}
+[15.579781] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/environment/ament_prefix_path.dsv\n'}
+[15.580777] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/environment/path.sh\n'}
+[15.581657] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/environment/path.dsv\n'}
+[15.582552] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/local_setup.bash\n'}
+[15.583570] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/local_setup.sh\n'}
+[15.585620] (-) TimerEvent: {}
+[15.586099] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/local_setup.zsh\n'}
+[15.587053] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/local_setup.dsv\n'}
+[15.588933] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/package.dsv\n'}
+[15.591745] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/ament_index/resource_index/packages/imu_madgwick\n'}
+[15.592980] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.594027] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.595707] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.596764] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/cmake/imu_madgwickConfig.cmake\n'}
+[15.598016] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/cmake/imu_madgwickConfig-version.cmake\n'}
+[15.599992] (imu_madgwick) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/package.xml\n'}
+[15.613090] (imu_madgwick) CommandEnded: {'returncode': 0}
+[15.685847] (-) TimerEvent: {}
+[15.786622] (-) TimerEvent: {}
+[15.792044] (imu_madgwick) JobEnded: {'identifier': 'imu_madgwick', 'rc': 0}
+[15.796131] (-) EventReactorShutdown: {}

@@ -1,0 +1,97 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found tf2: 0.13.9 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.13.9 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found pluginlib: 2.5.3 (/opt/ros/foxy/share/pluginlib/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick
+[ 50%] Built target imu_madgwick
+[35m[1mScanning dependencies of target imu_main_test[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/imu_main_test.dir/src/imu_main_test.cpp.o[0m
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:46:34:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   46 |       message.linear_acceleration[01;31m[K[[m[K0] = 0.05;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:47:34:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   47 |       message.linear_acceleration[01;31m[K[[m[K1] = 0.05;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:48:34:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   48 |       message.linear_acceleration[01;31m[K[[m[K2] = 0.9;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:49:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   49 |       message.angular_velocity[01;31m[K[[m[K0] = 0.0;
+      |                               [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:50:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   50 |       message.angular_velocity[01;31m[K[[m[K1] = 0.0;
+      |                               [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:51:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   51 |       message.angular_velocity[01;31m[K[[m[K2] = 0.0;
+      |                               [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:56:34:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   56 |       message.linear_acceleration[01;31m[K[[m[K0] = 0.0;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:57:34:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   57 |       message.linear_acceleration[01;31m[K[[m[K1] = -0.5;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:58:34:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   58 |       message.linear_acceleration[01;31m[K[[m[K2] = 0.5;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:59:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   59 |       message.angular_velocity[01;31m[K[[m[K0] = -2.0;
+      |                               [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:60:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   60 |       message.angular_velocity[01;31m[K[[m[K1] = 0.0;
+      |                               [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:61:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   61 |       message.angular_velocity[01;31m[K[[m[K2] = 0.0;
+      |                               [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:66:34:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   66 |       message.linear_acceleration[01;31m[K[[m[K0] = 0.0;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:67:34:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   67 |       message.linear_acceleration[01;31m[K[[m[K1] = 0.0;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:68:34:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   68 |       message.linear_acceleration[01;31m[K[[m[K2] = 1.0;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:69:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   69 |       message.angular_velocity[01;31m[K[[m[K0] = 2.0;
+      |                               [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:70:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   70 |       message.angular_velocity[01;31m[K[[m[K1] = 0.0;
+      |                               [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:71:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   71 |       message.angular_velocity[01;31m[K[[m[K2] = 0.0;
+      |                               [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:44:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kroll[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   44 |     float [01;35m[Kroll[m[K = 0.0, pitch = 0.0, yaw = 0.0;
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:44:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpitch[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   44 |     float roll = 0.0, [01;35m[Kpitch[m[K = 0.0, yaw = 0.0;
+      |                       [01;35m[K^~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:44:36:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   44 |     float roll = 0.0, pitch = 0.0, [01;35m[Kyaw[m[K = 0.0;
+      |                                    [01;35m[K^~~[m[K
+make[2]: *** [CMakeFiles/imu_main_test.dir/build.make:63: CMakeFiles/imu_main_test.dir/src/imu_main_test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/imu_main_test.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

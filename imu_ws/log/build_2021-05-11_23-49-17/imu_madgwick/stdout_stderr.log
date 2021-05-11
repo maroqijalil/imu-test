@@ -1,0 +1,47 @@
+[ 50%] Built target imu_madgwick
+[35m[1mScanning dependencies of target imu_main_test[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/imu_main_test.dir/src/imu_main_test.cpp.o[0m
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:44:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kroll[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   44 |     float [01;35m[Kroll[m[K = 0.0, pitch = 0.0, yaw = 0.0;
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:44:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpitch[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   44 |     float roll = 0.0, [01;35m[Kpitch[m[K = 0.0, yaw = 0.0;
+      |                       [01;35m[K^~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:44:36:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   44 |     float roll = 0.0, pitch = 0.0, [01;35m[Kyaw[m[K = 0.0;
+      |                                    [01;35m[K^~~[m[K
+[ 75%] [32m[1mLinking CXX executable imu_main_test[0m
+[ 75%] Built target imu_main_test
+[100%] Built target imu_main
+-- Install configuration: ""
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/./include
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/./include/imu_madgwick
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/./include/imu_madgwick/imu_filter.hpp
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/./include/imu_madgwick/world_frame.hpp
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/./include/imu_madgwick/imu.hpp
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/./include/imu_madgwick/stateless_orientation.hpp
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/lib/libimu_madgwick.a
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/lib/imu_madgwick/imu_main
+-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/lib/imu_madgwick/imu_main_test
+-- Set runtime path of "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/lib/imu_madgwick/imu_main_test" to ""
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/library_path.sh
+-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/library_path.dsv
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/ament_index/resource_index/package_run_dependencies/imu_madgwick
+-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/ament_index/resource_index/parent_prefix_path/imu_madgwick
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/ament_prefix_path.sh
+-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/path.sh
+-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/path.dsv
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/local_setup.bash
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/local_setup.sh
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/local_setup.zsh
+-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/local_setup.dsv
+-- Installing: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/package.dsv
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/ament_index/resource_index/packages/imu_madgwick
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/cmake/imu_madgwickConfig.cmake
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/cmake/imu_madgwickConfig-version.cmake
+-- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/package.xml

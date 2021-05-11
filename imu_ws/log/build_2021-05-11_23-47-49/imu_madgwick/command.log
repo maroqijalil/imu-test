@@ -1,0 +1,2 @@
+Invoking command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2
+Invoked command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2

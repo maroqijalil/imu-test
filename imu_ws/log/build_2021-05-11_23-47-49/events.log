@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.001636] (imu_madgwick) JobQueued: {'identifier': 'imu_madgwick', 'dependencies': OrderedDict()}
+[0.003744] (imu_madgwick) JobStarted: {'identifier': 'imu_madgwick'}
+[0.053393] (imu_madgwick) JobProgress: {'identifier': 'imu_madgwick', 'progress': 'cmake'}
+[0.057238] (imu_madgwick) JobProgress: {'identifier': 'imu_madgwick', 'progress': 'build'}
+[0.057980] (imu_madgwick) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick', '--', '-j2', '-l2'], 'cwd': '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maroqi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1413'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maroqi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.55.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1035'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3030'), ('_colcon_cd_root', '/home/maroqi/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maroqi'), ('JOURNAL_STREAM', '8:37749'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'maroqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/maroqi/.local/bin:/opt/ros/foxy/bin:/home/maroqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/tools:/platform-tools:/home/maroqi/Apps/flutter/bin:/home/maroqi/.config/composer/vendor/bin:/usr/lib/dart/bin:/tools:/platform-tools:/home/maroqi/Apps/flutter/bin:/home/maroqi/.config/composer/vendor/bin'), ('SESSION_MANAGER', 'local/jalil:@/tmp/.ICE-unix/1471,unix/jalil:/tmp/.ICE-unix/1471'), ('INVOCATION_ID', '5b19ff98c1c74b9bb3404db2b263b2c2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e3307d628.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('ANDROID_SDK_ROOT', '/home/maroqi/Apps/android/sdk'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick:/opt/ros/foxy')]), 'shell': False}
+[0.099855] (-) TimerEvent: {}
+[0.197237] (imu_madgwick) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.200006] (-) TimerEvent: {}
+[0.300528] (-) TimerEvent: {}
+[0.301339] (imu_madgwick) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400677] (-) TimerEvent: {}
+[0.501239] (-) TimerEvent: {}
+[0.601735] (-) TimerEvent: {}
+[0.702171] (-) TimerEvent: {}
+[0.802709] (imu_madgwick) StdoutLine: {'line': b'-- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.803134] (-) TimerEvent: {}
+[0.895576] (imu_madgwick) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.903290] (-) TimerEvent: {}
+[0.905859] (imu_madgwick) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.003433] (-) TimerEvent: {}
+[1.103909] (-) TimerEvent: {}
+[1.135371] (imu_madgwick) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.204067] (-) TimerEvent: {}
+[1.265609] (imu_madgwick) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.268671] (imu_madgwick) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.304224] (-) TimerEvent: {}
+[1.404704] (-) TimerEvent: {}
+[1.505241] (-) TimerEvent: {}
+[1.605699] (-) TimerEvent: {}
+[1.653901] (imu_madgwick) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.705841] (-) TimerEvent: {}
+[1.806313] (-) TimerEvent: {}
+[1.906785] (-) TimerEvent: {}
+[1.948940] (imu_madgwick) StdoutLine: {'line': b'-- Found tf2: 0.13.9 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[1.973315] (imu_madgwick) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.9 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[1.988863] (imu_madgwick) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[2.006930] (-) TimerEvent: {}
+[2.107460] (-) TimerEvent: {}
+[2.207954] (-) TimerEvent: {}
+[2.308400] (-) TimerEvent: {}
+[2.408951] (-) TimerEvent: {}
+[2.509401] (-) TimerEvent: {}
+[2.609848] (-) TimerEvent: {}
+[2.710316] (-) TimerEvent: {}
+[2.810822] (-) TimerEvent: {}
+[2.911293] (-) TimerEvent: {}
+[2.958557] (imu_madgwick) StdoutLine: {'line': b'-- Found pluginlib: 2.5.3 (/opt/ros/foxy/share/pluginlib/cmake)\n'}
+[2.990499] (imu_madgwick) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.011434] (-) TimerEvent: {}
+[3.111930] (-) TimerEvent: {}
+[3.163230] (imu_madgwick) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.165870] (imu_madgwick) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.167596] (imu_madgwick) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include>\n'}
+[3.168085] (imu_madgwick) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.169662] (imu_madgwick) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.170130] (imu_madgwick) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.171372] (imu_madgwick) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.173532] (imu_madgwick) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.174019] (imu_madgwick) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.174627] (imu_madgwick) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.182512] (imu_madgwick) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.212111] (-) TimerEvent: {}
+[3.246629] (imu_madgwick) StdoutLine: {'line': b'-- Generating done\n'}
+[3.252615] (imu_madgwick) StdoutLine: {'line': b'-- Build files have been written to: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick\n'}
+[3.315406] (-) TimerEvent: {}
+[3.362764] (imu_madgwick) StdoutLine: {'line': b'[ 50%] Built target imu_madgwick\n'}
+[3.383559] (imu_madgwick) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target imu_main_test\x1b[0m\n'}
+[3.415561] (-) TimerEvent: {}
+[3.492130] (imu_madgwick) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/imu_main_test.dir/src/imu_main_test.cpp.o\x1b[0m\n'}
+[3.515716] (-) TimerEvent: {}
+[3.616172] (-) TimerEvent: {}
+[3.716684] (-) TimerEvent: {}
+[3.817159] (-) TimerEvent: {}
+[3.917645] (-) TimerEvent: {}
+[4.018213] (-) TimerEvent: {}
+[4.118710] (-) TimerEvent: {}
+[4.219255] (-) TimerEvent: {}
+[4.319803] (-) TimerEvent: {}
+[4.420297] (-) TimerEvent: {}
+[4.520818] (-) TimerEvent: {}
+[4.621374] (-) TimerEvent: {}
+[4.721892] (-) TimerEvent: {}
+[4.822485] (-) TimerEvent: {}
+[4.923027] (-) TimerEvent: {}
+[5.023840] (-) TimerEvent: {}
+[5.124324] (-) TimerEvent: {}
+[5.224850] (-) TimerEvent: {}
+[5.325457] (-) TimerEvent: {}
+[5.425950] (-) TimerEvent: {}
+[5.526444] (-) TimerEvent: {}
+[5.627033] (-) TimerEvent: {}
+[5.727519] (-) TimerEvent: {}
+[5.828077] (-) TimerEvent: {}
+[5.928661] (-) TimerEvent: {}
+[6.029121] (-) TimerEvent: {}
+[6.129629] (-) TimerEvent: {}
+[6.230213] (-) TimerEvent: {}
+[6.330690] (-) TimerEvent: {}
+[6.431209] (-) TimerEvent: {}
+[6.531791] (-) TimerEvent: {}
+[6.632270] (-) TimerEvent: {}
+[6.732769] (-) TimerEvent: {}
+[6.833383] (-) TimerEvent: {}
+[6.933908] (-) TimerEvent: {}
+[7.034429] (-) TimerEvent: {}
+[7.134971] (-) TimerEvent: {}
+[7.147990] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.148427] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:46:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.148701] (imu_madgwick) StderrLine: {'line': b'   46 |       message.linear_acceleration\x1b[01;31m\x1b[K[\x1b[m\x1b[K0] = 0.05;\n'}
+[7.148989] (imu_madgwick) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.149488] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:47:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.149862] (imu_madgwick) StderrLine: {'line': b'   47 |       message.linear_acceleration\x1b[01;31m\x1b[K[\x1b[m\x1b[K1] = 0.05;\n'}
+[7.150101] (imu_madgwick) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.150325] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:48:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.150586] (imu_madgwick) StderrLine: {'line': b'   48 |       message.linear_acceleration\x1b[01;31m\x1b[K[\x1b[m\x1b[K2] = 0.9;\n'}
+[7.150857] (imu_madgwick) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.155831] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:49:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.156228] (imu_madgwick) StderrLine: {'line': b'   49 |       message.angular_velocity\x1b[01;31m\x1b[K[\x1b[m\x1b[K0] = 0.0;\n'}
+[7.156471] (imu_madgwick) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.156698] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:50:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.157014] (imu_madgwick) StderrLine: {'line': b'   50 |       message.angular_velocity\x1b[01;31m\x1b[K[\x1b[m\x1b[K1] = 0.0;\n'}
+[7.157262] (imu_madgwick) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.157478] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:51:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.157725] (imu_madgwick) StderrLine: {'line': b'   51 |       message.angular_velocity\x1b[01;31m\x1b[K[\x1b[m\x1b[K2] = 0.0;\n'}
+[7.157979] (imu_madgwick) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.167093] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:56:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.167552] (imu_madgwick) StderrLine: {'line': b'   56 |       message.linear_acceleration\x1b[01;31m\x1b[K[\x1b[m\x1b[K0] = 0.0;\n'}
+[7.167832] (imu_madgwick) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.168677] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:57:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.169191] (imu_madgwick) StderrLine: {'line': b'   57 |       message.linear_acceleration\x1b[01;31m\x1b[K[\x1b[m\x1b[K1] = -0.5;\n'}
+[7.169533] (imu_madgwick) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.169868] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:58:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.170127] (imu_madgwick) StderrLine: {'line': b'   58 |       message.linear_acceleration\x1b[01;31m\x1b[K[\x1b[m\x1b[K2] = 0.5;\n'}
+[7.171117] (imu_madgwick) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.171548] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:59:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.171785] (imu_madgwick) StderrLine: {'line': b'   59 |       message.angular_velocity\x1b[01;31m\x1b[K[\x1b[m\x1b[K0] = -2.0;\n'}
+[7.172047] (imu_madgwick) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.172291] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:60:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.172533] (imu_madgwick) StderrLine: {'line': b'   60 |       message.angular_velocity\x1b[01;31m\x1b[K[\x1b[m\x1b[K1] = 0.0;\n'}
+[7.172756] (imu_madgwick) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.173033] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:61:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.173293] (imu_madgwick) StderrLine: {'line': b'   61 |       message.angular_velocity\x1b[01;31m\x1b[K[\x1b[m\x1b[K2] = 0.0;\n'}
+[7.173553] (imu_madgwick) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.173787] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:66:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.174059] (imu_madgwick) StderrLine: {'line': b'   66 |       message.linear_acceleration\x1b[01;31m\x1b[K[\x1b[m\x1b[K0] = 0.0;\n'}
+[7.174292] (imu_madgwick) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.174522] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:67:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.174771] (imu_madgwick) StderrLine: {'line': b'   67 |       message.linear_acceleration\x1b[01;31m\x1b[K[\x1b[m\x1b[K1] = 0.0;\n'}
+[7.175055] (imu_madgwick) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.175291] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:68:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_linear_acceleration_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.175579] (imu_madgwick) StderrLine: {'line': b'   68 |       message.linear_acceleration\x1b[01;31m\x1b[K[\x1b[m\x1b[K2] = 1.0;\n'}
+[7.175873] (imu_madgwick) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.176123] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:69:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.176415] (imu_madgwick) StderrLine: {'line': b'   69 |       message.angular_velocity\x1b[01;31m\x1b[K[\x1b[m\x1b[K0] = 2.0;\n'}
+[7.176671] (imu_madgwick) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.189068] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:70:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.189488] (imu_madgwick) StderrLine: {'line': b'   70 |       message.angular_velocity\x1b[01;31m\x1b[K[\x1b[m\x1b[K1] = 0.0;\n'}
+[7.189747] (imu_madgwick) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.190019] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:71:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.190295] (imu_madgwick) StderrLine: {'line': b'   71 |       message.angular_velocity\x1b[01;31m\x1b[K[\x1b[m\x1b[K2] = 0.0;\n'}
+[7.190555] (imu_madgwick) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.190776] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:44:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kroll\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[7.191050] (imu_madgwick) StderrLine: {'line': b'   44 |     float \x1b[01;35m\x1b[Kroll\x1b[m\x1b[K = 0.0, pitch = 0.0, yaw = 0.0;\n'}
+[7.191269] (imu_madgwick) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.191487] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:44:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpitch\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[7.191745] (imu_madgwick) StderrLine: {'line': b'   44 |     float roll = 0.0, \x1b[01;35m\x1b[Kpitch\x1b[m\x1b[K = 0.0, yaw = 0.0;\n'}
+[7.192012] (imu_madgwick) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.192259] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:44:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kyaw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[7.192509] (imu_madgwick) StderrLine: {'line': b'   44 |     float roll = 0.0, pitch = 0.0, \x1b[01;35m\x1b[Kyaw\x1b[m\x1b[K = 0.0;\n'}
+[7.192734] (imu_madgwick) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.235105] (-) TimerEvent: {}
+[7.335616] (-) TimerEvent: {}
+[7.436141] (-) TimerEvent: {}
+[7.536704] (-) TimerEvent: {}
+[7.637219] (-) TimerEvent: {}
+[7.737703] (-) TimerEvent: {}
+[7.838230] (-) TimerEvent: {}
+[7.938712] (-) TimerEvent: {}
+[8.039230] (-) TimerEvent: {}
+[8.139765] (-) TimerEvent: {}
+[8.240256] (-) TimerEvent: {}
+[8.340770] (-) TimerEvent: {}
+[8.441382] (-) TimerEvent: {}
+[8.541837] (-) TimerEvent: {}
+[8.642336] (-) TimerEvent: {}
+[8.742878] (-) TimerEvent: {}
+[8.843346] (-) TimerEvent: {}
+[8.943869] (-) TimerEvent: {}
+[9.044395] (-) TimerEvent: {}
+[9.144891] (-) TimerEvent: {}
+[9.245376] (-) TimerEvent: {}
+[9.345860] (-) TimerEvent: {}
+[9.382949] (imu_madgwick) StderrLine: {'line': b'make[2]: *** [CMakeFiles/imu_main_test.dir/build.make:63: CMakeFiles/imu_main_test.dir/src/imu_main_test.cpp.o] Error 1\n'}
+[9.383371] (imu_madgwick) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/imu_main_test.dir/all] Error 2\n'}
+[9.383583] (imu_madgwick) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[9.388620] (imu_madgwick) CommandEnded: {'returncode': 2}
+[9.446009] (-) TimerEvent: {}
+[9.546703] (imu_madgwick) JobEnded: {'identifier': 'imu_madgwick', 'rc': 2}
+[9.548100] (-) TimerEvent: {}
+[9.557955] (-) EventReactorShutdown: {}

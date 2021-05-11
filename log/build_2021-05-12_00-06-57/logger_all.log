@@ -1,0 +1,228 @@
+[0.769s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.769s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc38531b4c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc38531b4c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc38531ba00>)
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.788s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/maroqi/Projects/RobotProjects/imu-test'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extension 'ignore'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extension 'ignore_ament_install'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extensions ['colcon_pkg']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extension 'colcon_pkg'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extensions ['colcon_meta']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extension 'colcon_meta'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extensions ['ros']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extension 'ros'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extensions ['cmake', 'python']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extension 'cmake'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extension 'python'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extensions ['python_setup_py']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(controllers) by extension 'python_setup_py'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff) by extensions ['ignore', 'ignore_ament_install']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff) by extension 'ignore'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff) by extension 'ignore_ament_install'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff) by extensions ['colcon_pkg']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff) by extension 'colcon_pkg'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff) by extensions ['colcon_meta']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff) by extension 'colcon_meta'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff) by extensions ['ros']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff) by extension 'ros'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff) by extensions ['cmake', 'python']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff) by extension 'cmake'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff) by extension 'python'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff) by extensions ['python_setup_py']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff) by extension 'python_setup_py'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build) by extensions ['ignore', 'ignore_ament_install']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build) by extension 'ignore'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build) by extension 'ignore_ament_install'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build) by extensions ['colcon_pkg']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build) by extension 'colcon_pkg'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build) by extensions ['colcon_meta']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build) by extension 'colcon_meta'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build) by extensions ['ros']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build) by extension 'ros'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build) by extensions ['cmake', 'python']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build) by extension 'cmake'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build) by extension 'python'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build) by extensions ['python_setup_py']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build) by extension 'python_setup_py'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build/release) by extensions ['ignore', 'ignore_ament_install']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build/release) by extension 'ignore'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build/release) by extension 'ignore_ament_install'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build/release) by extensions ['colcon_pkg']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build/release) by extension 'colcon_pkg'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build/release) by extensions ['colcon_meta']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build/release) by extension 'colcon_meta'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build/release) by extensions ['ros']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build/release) by extension 'ros'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build/release) by extensions ['cmake', 'python']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build/release) by extension 'cmake'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build/release) by extension 'python'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build/release) by extensions ['python_setup_py']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(controllers/sensorsAndStuff/build/release) by extension 'python_setup_py'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws) by extension 'ignore'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws) by extension 'ignore_ament_install'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws) by extensions ['colcon_pkg']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws) by extension 'colcon_pkg'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws) by extensions ['colcon_meta']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws) by extension 'colcon_meta'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws) by extensions ['ros']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws) by extension 'ros'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws) by extensions ['cmake', 'python']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws) by extension 'cmake'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws) by extension 'python'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws) by extensions ['python_setup_py']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws) by extension 'python_setup_py'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/build) by extension 'ignore'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/build) ignored
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/install) by extension 'ignore'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/install) ignored
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/log) by extension 'ignore'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/log) ignored
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src) by extension 'ignore'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src) by extension 'ignore_ament_install'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src) by extensions ['colcon_pkg']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src) by extension 'colcon_pkg'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src) by extensions ['colcon_meta']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src) by extension 'colcon_meta'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src) by extensions ['ros']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src) by extension 'ros'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src) by extensions ['cmake', 'python']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src) by extension 'cmake'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src) by extension 'python'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src) by extensions ['python_setup_py']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src) by extension 'python_setup_py'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src/imu_madgwick) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src/imu_madgwick) by extension 'ignore'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src/imu_madgwick) by extension 'ignore_ament_install'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src/imu_madgwick) by extensions ['colcon_pkg']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src/imu_madgwick) by extension 'colcon_pkg'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src/imu_madgwick) by extensions ['colcon_meta']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src/imu_madgwick) by extension 'colcon_meta'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src/imu_madgwick) by extensions ['ros']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(imu_ws/src/imu_madgwick) by extension 'ros'
+[0.849s] DEBUG:colcon.colcon_core.package_identification:Package 'imu_ws/src/imu_madgwick' with type 'ros.ament_cmake' and name 'imu_madgwick'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'ignore'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'ignore_ament_install'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['colcon_pkg']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'colcon_pkg'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['colcon_meta']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'colcon_meta'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['ros']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'ros'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['cmake', 'python']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'cmake'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'python'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['python_setup_py']
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'python_setup_py'
+[0.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.923s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'cmake_args' from command line to 'None'
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'cmake_target' from command line to 'None'
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'cmake_clean_cache' from command line to 'False'
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'cmake_clean_first' from command line to 'False'
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'cmake_force_configure' from command line to 'False'
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'ament_cmake_args' from command line to 'None'
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'catkin_cmake_args' from command line to 'None'
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.925s] DEBUG:colcon.colcon_core.verb:Building package 'imu_madgwick' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick', 'merge_install': False, 'path': '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick', 'symlink_install': False, 'test_result_base': None}
+[0.926s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.933s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.934s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick' with build type 'ament_cmake'
+[0.935s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick'
+[0.945s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.948s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.950s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.957s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick -- -j2 -l2
+[16.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick -- -j2 -l2
+[16.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick
+[16.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_madgwick)
+[16.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick
+[16.569s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick' for CMake module files
+[16.571s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick' for CMake config files
+[16.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_madgwick', 'cmake_prefix_path')
+[16.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/hook/cmake_prefix_path.ps1'
+[16.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/hook/cmake_prefix_path.dsv'
+[16.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/hook/cmake_prefix_path.sh'
+[16.582s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/lib'
+[16.583s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/bin'
+[16.583s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/lib/pkgconfig/imu_madgwick.pc'
+[16.583s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/lib/python3.8/site-packages'
+[16.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/package.ps1'
+[16.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/package.dsv'
+[16.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/package.sh'
+[16.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/package.bash'
+[16.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/package.zsh'
+[16.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/colcon-core/packages/imu_madgwick)
+[16.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_madgwick)
+[16.714s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick' for CMake module files
+[16.716s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick' for CMake config files
+[16.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_madgwick', 'cmake_prefix_path')
+[16.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/hook/cmake_prefix_path.ps1'
+[16.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/hook/cmake_prefix_path.dsv'
+[16.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/hook/cmake_prefix_path.sh'
+[16.727s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/lib'
+[16.728s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/bin'
+[16.728s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/lib/pkgconfig/imu_madgwick.pc'
+[16.728s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/lib/python3.8/site-packages'
+[16.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/package.ps1'
+[16.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/package.dsv'
+[16.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/package.sh'
+[16.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/package.bash'
+[16.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/package.zsh'
+[16.739s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/colcon-core/packages/imu_madgwick)
+[16.740s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.744s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.744s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.744s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.764s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.764s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.765s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.933s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.935s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maroqi/Projects/RobotProjects/imu-test/install/local_setup.ps1'
+[16.937s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maroqi/Projects/RobotProjects/imu-test/install/_local_setup_util_ps1.py'
+[16.945s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maroqi/Projects/RobotProjects/imu-test/install/setup.ps1'
+[16.950s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maroqi/Projects/RobotProjects/imu-test/install/local_setup.sh'
+[16.952s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maroqi/Projects/RobotProjects/imu-test/install/_local_setup_util_sh.py'
+[16.953s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maroqi/Projects/RobotProjects/imu-test/install/setup.sh'
+[16.959s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maroqi/Projects/RobotProjects/imu-test/install/local_setup.bash'
+[16.961s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maroqi/Projects/RobotProjects/imu-test/install/setup.bash'
+[16.975s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maroqi/Projects/RobotProjects/imu-test/install/local_setup.zsh'
+[16.976s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maroqi/Projects/RobotProjects/imu-test/install/setup.zsh'

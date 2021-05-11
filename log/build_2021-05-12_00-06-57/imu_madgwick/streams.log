@@ -1,0 +1,45 @@
+[0.032s] Invoking command in '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick -- -j2 -l2
+[0.279s] [ 50%] Built target imu_madgwick
+[0.347s] [35m[1mScanning dependencies of target imu_main_test[0m
+[0.472s] [ 62%] [32mBuilding CXX object CMakeFiles/imu_main_test.dir/src/imu_main_test.cpp.o[0m
+[9.019s] [ 75%] [32m[1mLinking CXX executable imu_main_test[0m
+[9.538s] [ 75%] Built target imu_main_test
+[9.559s] [35m[1mScanning dependencies of target imu_main[0m
+[9.655s] [ 87%] [32mBuilding CXX object CMakeFiles/imu_main.dir/src/imu_main.cpp.o[0m
+[14.515s] [100%] [32m[1mLinking CXX executable imu_main[0m
+[15.351s] [100%] Built target imu_main
+[15.381s] Invoked command in '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick -- -j2 -l2
+[15.497s] Invoking command in '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick
+[15.531s] -- Install configuration: ""
+[15.532s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/./include
+[15.533s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/./include/imu_madgwick
+[15.539s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/./include/imu_madgwick/imu_filter.hpp
+[15.540s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/./include/imu_madgwick/world_frame.hpp
+[15.540s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/./include/imu_madgwick/imu.hpp
+[15.541s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/./include/imu_madgwick/stateless_orientation.hpp
+[15.542s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/lib/libimu_madgwick.a
+[15.557s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/lib/imu_madgwick/imu_main
+[15.567s] -- Set runtime path of "/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/lib/imu_madgwick/imu_main" to ""
+[15.568s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/lib/imu_madgwick/imu_main_test
+[15.571s] -- Set runtime path of "/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/lib/imu_madgwick/imu_main_test" to ""
+[15.571s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/environment/library_path.sh
+[15.572s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/environment/library_path.dsv
+[15.574s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/ament_index/resource_index/package_run_dependencies/imu_madgwick
+[15.575s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/ament_index/resource_index/parent_prefix_path/imu_madgwick
+[15.576s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/environment/ament_prefix_path.sh
+[15.579s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/environment/ament_prefix_path.dsv
+[15.580s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/environment/path.sh
+[15.581s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/environment/path.dsv
+[15.581s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/local_setup.bash
+[15.582s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/local_setup.sh
+[15.585s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/local_setup.zsh
+[15.586s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/local_setup.dsv
+[15.588s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/package.dsv
+[15.591s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/ament_index/resource_index/packages/imu_madgwick
+[15.592s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.593s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.595s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/cmake/ament_cmake_export_libraries-extras.cmake
+[15.596s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/cmake/imu_madgwickConfig.cmake
+[15.597s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/cmake/imu_madgwickConfig-version.cmake
+[15.599s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick/share/imu_madgwick/package.xml
+[15.612s] Invoked command in '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick

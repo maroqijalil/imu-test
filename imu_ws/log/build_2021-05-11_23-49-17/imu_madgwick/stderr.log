@@ -1,0 +1,10 @@
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:44:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kroll[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   44 |     float [01;35m[Kroll[m[K = 0.0, pitch = 0.0, yaw = 0.0;
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:44:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpitch[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   44 |     float roll = 0.0, [01;35m[Kpitch[m[K = 0.0, yaw = 0.0;
+      |                       [01;35m[K^~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:44:36:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   44 |     float roll = 0.0, pitch = 0.0, [01;35m[Kyaw[m[K = 0.0;
+      |                                    [01;35m[K^~~[m[K

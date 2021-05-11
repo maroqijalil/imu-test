@@ -1,0 +1,82 @@
+[0.024s] Invoking command in '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick -DCMAKE_INSTALL_PREFIX=/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick
+[0.427s] -- The C compiler identification is GNU 9.3.0
+[0.618s] -- The CXX compiler identification is GNU 9.3.0
+[0.641s] -- Check for working C compiler: /usr/bin/cc
+[0.874s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.879s] -- Detecting C compiler ABI info
+[1.145s] -- Detecting C compiler ABI info - done
+[1.191s] -- Detecting C compile features
+[1.194s] -- Detecting C compile features - done
+[1.204s] -- Check for working CXX compiler: /usr/bin/c++
+[1.528s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.533s] -- Detecting CXX compiler ABI info
+[1.762s] -- Detecting CXX compiler ABI info - done
+[1.801s] -- Detecting CXX compile features
+[1.803s] -- Detecting CXX compile features - done
+[1.810s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.917s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.917s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.456s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.582s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.598s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.793s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.865s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.051s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.208s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.214s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.218s] -- Looking for pthread.h
+[3.381s] -- Looking for pthread.h - found
+[3.383s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.635s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.635s] -- Looking for pthread_create in pthreads
+[3.801s] -- Looking for pthread_create in pthreads - not found
+[3.802s] -- Looking for pthread_create in pthread
+[4.017s] -- Looking for pthread_create in pthread - found
+[4.018s] -- Found Threads: TRUE  
+[4.484s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.823s] -- Found tf2: 0.13.9 (/opt/ros/foxy/share/tf2/cmake)
+[4.857s] -- Found tf2_geometry_msgs: 0.13.9 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[4.877s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[4.883s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[5.933s] -- Found pluginlib: 2.5.3 (/opt/ros/foxy/share/pluginlib/cmake)
+[5.975s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.168s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.174s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.175s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/include>
+[6.176s] -- Configured cppcheck exclude dirs and/or files: 
+[6.179s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.179s] -- Configured cpplint exclude dirs and/or files: 
+[6.186s] -- Added test 'lint_cmake' to check CMake code style
+[6.190s] -- Added test 'uncrustify' to check C / C++ code style
+[6.190s] -- Configured uncrustify additional arguments: 
+[6.192s] -- Added test 'xmllint' to check XML markup files
+[6.205s] -- Configuring done
+[6.261s] -- Generating done
+[6.270s] -- Build files have been written to: /home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick
+[6.299s] Invoked command in '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick -DCMAKE_INSTALL_PREFIX=/home/maroqi/Projects/RobotProjects/imu-test/install/imu_madgwick
+[6.302s] Invoking command in '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick -- -j2 -l2
+[6.392s] [35m[1mScanning dependencies of target imu_madgwick[0m
+[6.492s] [ 12%] [32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu_filter.cpp.o[0m
+[7.328s] [ 25%] [32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/stateless_orientation.cpp.o[0m
+[12.342s] [ 37%] [32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o[0m
+[25.890s] [ 50%] [32m[1mLinking CXX static library libimu_madgwick.a[0m
+[26.091s] [ 50%] Built target imu_madgwick
+[26.115s] [35m[1mScanning dependencies of target imu_main_test[0m
+[26.202s] [ 62%] [32mBuilding CXX object CMakeFiles/imu_main_test.dir/src/imu_main_test.cpp.o[0m
+[29.819s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:[m[K In member function ‘[01m[Kvoid ImuTest::timer_callback()[m[K’:
+[29.819s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:32:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher[m[K’?
+[29.819s]    32 |       [01;31m[Kpublisher_[m[K->publish(message);
+[29.819s]       |       [01;31m[K^~~~~~~~~~[m[K
+[29.820s]       |       [32m[Kpublisher[m[K
+[29.822s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:42:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher[m[K’?
+[29.822s]    42 |       [01;31m[Kpublisher_[m[K->publish(message);
+[29.823s]       |       [01;31m[K^~~~~~~~~~[m[K
+[29.823s]       |       [32m[Kpublisher[m[K
+[29.827s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:52:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher[m[K’?
+[29.827s]    52 |       [01;31m[Kpublisher_[m[K->publish(message);
+[29.827s]       |       [01;31m[K^~~~~~~~~~[m[K
+[29.828s]       |       [32m[Kpublisher[m[K
+[32.004s] make[2]: *** [CMakeFiles/imu_main_test.dir/build.make:63: CMakeFiles/imu_main_test.dir/src/imu_main_test.cpp.o] Error 1
+[32.004s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/imu_main_test.dir/all] Error 2
+[32.004s] make: *** [Makefile:141: all] Error 2
+[32.011s] Invoked command in '/home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/imu-test/build/imu_madgwick -- -j2 -l2

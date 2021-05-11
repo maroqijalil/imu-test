@@ -22,9 +22,6 @@ find_package(tf2_geometry_msgs REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(pluginlib REQUIRED)
 find_package(message_filters REQUIRED)
-# find_package(dynamic_reconfigure REQUIRED)
-
-find_package(Boost REQUIRED COMPONENTS system thread)
 
 add_library(${PROJECT_NAME}
   "src/${PROJECT_NAME}/imu_filter.cpp"
@@ -43,9 +40,7 @@ ament_target_dependencies(${PROJECT_NAME}
   tf2_ros
   tf2_geometry_msgs
   pluginlib
-  message_filters
-#  dynamic_reconfigure
-  Boost)
+  message_filters)
 
 install(DIRECTORY "include" DESTINATION ".")
 
@@ -54,6 +49,23 @@ install(TARGETS ${PROJECT_NAME}
   ARCHIVE DESTINATION "lib"
   LIBRARY DESTINATION "lib"
   RUNTIME DESTINATION "bin")
+
+add_executable(imu_main "src/imu_main.cpp")
+target_include_directories(imu_main PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_link_libraries(imu_main ${PROJECT_NAME})
+
+add_executable(imu_main_test "src/imu_main_test.cpp")
+target_include_directories(imu_main_test PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_link_libraries(imu_main_test ${PROJECT_NAME})
+
+install(TARGETS
+  imu_main
+  imu_main_test
+  DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -67,9 +79,7 @@ ament_export_dependencies(
   tf2_ros
   tf2_geometry_msgs
   pluginlib
-  message_filters
-#  dynamic_reconfigure
-  Boost)
+  message_filters)
 ament_export_include_directories("include")
 ament_export_libraries(${PROJECT_NAME})
 ament_package()
