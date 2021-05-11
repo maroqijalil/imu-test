@@ -1,0 +1,386 @@
+[0.000000] (-) TimerEvent: {}
+[0.000488] (imu_madgwick) JobQueued: {'identifier': 'imu_madgwick', 'dependencies': OrderedDict()}
+[0.001667] (imu_madgwick) JobStarted: {'identifier': 'imu_madgwick'}
+[0.036830] (imu_madgwick) JobProgress: {'identifier': 'imu_madgwick', 'progress': 'cmake'}
+[0.042078] (imu_madgwick) JobProgress: {'identifier': 'imu_madgwick', 'progress': 'build'}
+[0.042214] (imu_madgwick) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick', '--', '-j2', '-l2'], 'cwd': '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maroqi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1433'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maroqi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick'), ('TERM_PROGRAM_VERSION', '1.55.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1059'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6079'), ('_colcon_cd_root', '/home/maroqi/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maroqi'), ('JOURNAL_STREAM', '8:37741'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'maroqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/maroqi/.local/bin:/opt/ros/foxy/bin:/home/maroqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/tools:/platform-tools:/home/maroqi/Apps/flutter/bin:/home/maroqi/.config/composer/vendor/bin:/usr/lib/dart/bin:/tools:/platform-tools:/home/maroqi/Apps/flutter/bin:/home/maroqi/.config/composer/vendor/bin'), ('SESSION_MANAGER', 'local/jalil:@/tmp/.ICE-unix/1484,unix/jalil:/tmp/.ICE-unix/1484'), ('INVOCATION_ID', '6cf066535f1c4a52a59d67c35004b802'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e3307d628.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('ANDROID_SDK_ROOT', '/home/maroqi/Apps/android/sdk'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099421] (-) TimerEvent: {}
+[0.163921] (imu_madgwick) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target imu_madgwick\x1b[0m\n'}
+[0.201065] (-) TimerEvent: {}
+[0.251294] (imu_madgwick) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o\x1b[0m\n'}
+[0.301201] (-) TimerEvent: {}
+[0.401660] (-) TimerEvent: {}
+[0.502113] (-) TimerEvent: {}
+[0.533934] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:112:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_WARN_THROTTLE" requires 4 arguments, but only 2 given\n'}
+[0.534376] (imu_madgwick) StderrLine: {'line': b'  112 |       RCLCPP_WARN_THROTTLE(5.0, "The IMU seems to be in free fall, cannot determine gravity direction!"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.534564] (imu_madgwick) StderrLine: {'line': b'      |                                                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.535360] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[0.535757] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[0.536028] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[0.536281] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[0.536563] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[0.536806] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[0.537038] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[0.537189] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[0.537349] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[0.537517] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[0.537681] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:25\x1b[m\x1b[K:\n'}
+[0.537865] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:1103:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_WARN_THROTTLE" defined here\n'}
+[0.538040] (imu_madgwick) StderrLine: {'line': b' 1103 | #define RCLCPP_WARN_THROTTLE(logger, clock, duration, ...) \\\n'}
+[0.538210] (imu_madgwick) StderrLine: {'line': b'      | \n'}
+[0.538896] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:135:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_WARN_STREAM_THROTTLE" requires 4 arguments, but only 3 given\n'}
+[0.539195] (imu_madgwick) StderrLine: {'line': b'  135 |                                     " The filter will not update the orientation."\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.539375] (imu_madgwick) StderrLine: {'line': b'      |                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.540583] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[0.540895] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[0.545739] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[0.546046] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[0.546276] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[0.546480] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[0.546630] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[0.546777] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[0.546923] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[0.547069] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[0.547220] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:25\x1b[m\x1b[K:\n'}
+[0.547453] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:1304:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_WARN_STREAM_THROTTLE" defined here\n'}
+[0.547685] (imu_madgwick) StderrLine: {'line': b' 1304 | #define RCLCPP_WARN_STREAM_THROTTLE(logger, clock, duration, stream_arg) \\\n'}
+[0.547842] (imu_madgwick) StderrLine: {'line': b'      | \n'}
+[0.548004] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:179:136:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_WARN_THROTTLE" requires 4 arguments, but only 2 given\n'}
+[0.548162] (imu_madgwick) StderrLine: {'line': b'  179 |       RCLCPP_WARN_THROTTLE(5.0, "The IMU seems to be in free fall or close to magnetic north pole, cannot determine gravity direction!"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.548321] (imu_madgwick) StderrLine: {'line': b'      |                                                                                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.548497] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[0.548650] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[0.548790] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[0.548935] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[0.553368] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[0.553599] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[0.553760] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[0.553928] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[0.554093] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[0.554279] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[0.554510] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:25\x1b[m\x1b[K:\n'}
+[0.554700] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:1103:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_WARN_THROTTLE" defined here\n'}
+[0.554882] (imu_madgwick) StderrLine: {'line': b' 1103 | #define RCLCPP_WARN_THROTTLE(logger, clock, duration, ...) \\\n'}
+[0.555013] (imu_madgwick) StderrLine: {'line': b'      | \n'}
+[0.555135] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:202:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_WARN_STREAM_THROTTLE" requires 4 arguments, but only 3 given\n'}
+[0.555262] (imu_madgwick) StderrLine: {'line': b'  202 |                                     " The filter will not update the orientation."\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.555385] (imu_madgwick) StderrLine: {'line': b'      |                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.555544] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[0.555669] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[0.555792] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[0.555918] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[0.556043] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[0.556171] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[0.556295] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[0.556484] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[0.556609] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[0.556733] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[0.556855] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:25\x1b[m\x1b[K:\n'}
+[0.562690] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:1304:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_WARN_STREAM_THROTTLE" defined here\n'}
+[0.562994] (imu_madgwick) StderrLine: {'line': b' 1304 | #define RCLCPP_WARN_STREAM_THROTTLE(logger, clock, duration, stream_arg) \\\n'}
+[0.563154] (imu_madgwick) StderrLine: {'line': b'      | \n'}
+[0.563315] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:296:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmacro "RCLCPP_INFO_STREAM" passed 5 arguments, but takes just 2\n'}
+[0.563500] (imu_madgwick) StderrLine: {'line': b'  296 |   RCLCPP_INFO_STREAM(get_logger(), "Roll %f, Pitch %f, Yaw %f", roll, pitch, yaw\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.563649] (imu_madgwick) StderrLine: {'line': b'      |                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.563824] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[0.563977] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[0.564127] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[0.564276] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[0.564461] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[0.564608] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[0.564755] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[0.564902] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[0.565099] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[0.565331] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[0.565640] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:25\x1b[m\x1b[K:\n'}
+[0.565921] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:736:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kmacro "RCLCPP_INFO_STREAM" defined here\n'}
+[0.566141] (imu_madgwick) StderrLine: {'line': b'  736 | #define RCLCPP_INFO_STREAM(logger, stream_arg) \\\n'}
+[0.566327] (imu_madgwick) StderrLine: {'line': b'      | \n'}
+[0.602260] (-) TimerEvent: {}
+[0.702823] (-) TimerEvent: {}
+[0.803282] (-) TimerEvent: {}
+[0.903752] (-) TimerEvent: {}
+[1.004332] (-) TimerEvent: {}
+[1.104802] (-) TimerEvent: {}
+[1.205275] (-) TimerEvent: {}
+[1.305711] (-) TimerEvent: {}
+[1.407232] (-) TimerEvent: {}
+[1.507724] (-) TimerEvent: {}
+[1.608203] (-) TimerEvent: {}
+[1.708712] (-) TimerEvent: {}
+[1.812583] (-) TimerEvent: {}
+[1.917126] (-) TimerEvent: {}
+[2.017589] (-) TimerEvent: {}
+[2.118036] (-) TimerEvent: {}
+[2.218591] (-) TimerEvent: {}
+[2.319103] (-) TimerEvent: {}
+[2.419567] (-) TimerEvent: {}
+[2.520026] (-) TimerEvent: {}
+[2.620524] (-) TimerEvent: {}
+[2.721008] (-) TimerEvent: {}
+[2.821566] (-) TimerEvent: {}
+[2.922174] (-) TimerEvent: {}
+[3.022649] (-) TimerEvent: {}
+[3.123216] (-) TimerEvent: {}
+[3.223690] (-) TimerEvent: {}
+[3.325347] (-) TimerEvent: {}
+[3.425907] (-) TimerEvent: {}
+[3.527557] (-) TimerEvent: {}
+[3.628021] (-) TimerEvent: {}
+[3.729735] (-) TimerEvent: {}
+[3.831266] (-) TimerEvent: {}
+[3.932857] (-) TimerEvent: {}
+[4.034388] (-) TimerEvent: {}
+[4.135927] (-) TimerEvent: {}
+[4.236437] (-) TimerEvent: {}
+[4.336921] (-) TimerEvent: {}
+[4.441071] (-) TimerEvent: {}
+[4.441615] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.442047] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSubscriber\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.442336] (imu_madgwick) StderrLine: {'line': b'   62 |     std::shared_ptr<rclcpp::\x1b[01;31m\x1b[KSubscriber\x1b[m\x1b[K<ImuMsg>> imu_publisher;\n'}
+[4.442555] (imu_madgwick) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.443003] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:30\x1b[m\x1b[K:\n'}
+[4.443376] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/message_filters/subscriber.h:102:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.443694] (imu_madgwick) StderrLine: {'line': b'  102 | class \x1b[01;36m\x1b[KSubscriber\x1b[m\x1b[K : public SubscriberBase, public SimpleFilter<M>\n'}
+[4.444018] (imu_madgwick) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.445479] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.445908] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSubscriber\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.446136] (imu_madgwick) StderrLine: {'line': b'   62 |     std::shared_ptr<rclcpp::\x1b[01;31m\x1b[KSubscriber\x1b[m\x1b[K<ImuMsg>> imu_publisher;\n'}
+[4.446339] (imu_madgwick) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.446642] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:30\x1b[m\x1b[K:\n'}
+[4.447231] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/message_filters/subscriber.h:102:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.447881] (imu_madgwick) StderrLine: {'line': b'  102 | class \x1b[01;36m\x1b[KSubscriber\x1b[m\x1b[K : public SubscriberBase, public SimpleFilter<M>\n'}
+[4.448505] (imu_madgwick) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.449236] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.449658] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.450005] (imu_madgwick) StderrLine: {'line': b'   62 |     std::shared_ptr<rclcpp::Subscriber<\x1b[01;31m\x1b[KImuMsg\x1b[m\x1b[K>> imu_publisher;\n'}
+[4.450309] (imu_madgwick) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.450794] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.451181] (imu_madgwick) StderrLine: {'line': b'   62 |     std::shared_ptr<rclcpp::Subscriber<ImuMsg\x1b[01;31m\x1b[K>>\x1b[m\x1b[K imu_publisher;\n'}
+[4.451487] (imu_madgwick) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.455029] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:80:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kboost\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.456431] (imu_madgwick) StderrLine: {'line': b'   80 |     \x1b[01;31m\x1b[Kboost\x1b[m\x1b[K::mutex mutex;\n'}
+[4.456930] (imu_madgwick) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.457682] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:87:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.458167] (imu_madgwick) StderrLine: {'line': b'   87 |                         const MagMsg::ConstPtr& mav_msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.458579] (imu_madgwick) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.460038] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/imu.hpp:7\x1b[m\x1b[K,\n'}
+[4.460463] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:26\x1b[m\x1b[K:\n'}
+[4.460758] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/imu__struct.hpp:181:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.461166] (imu_madgwick) StderrLine: {'line': b'  181 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[4.461524] (imu_madgwick) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.462049] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.465226] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:87:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::MagneticField_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.465713] (imu_madgwick) StderrLine: {'line': b'   87 |                         const MagMsg::ConstPtr& mav_msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.466222] (imu_madgwick) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.466950] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/magnetic_field.hpp:7\x1b[m\x1b[K,\n'}
+[4.468213] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:27\x1b[m\x1b[K:\n'}
+[4.468572] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/magnetic_field__struct.hpp:132:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.468767] (imu_madgwick) StderrLine: {'line': b'  132 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[4.469017] (imu_madgwick) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.469246] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.469484] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:89:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.469768] (imu_madgwick) StderrLine: {'line': b'   89 |     void imuCallback(const ImuMsg::ConstPtr& imu_msg_raw\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.473853] (imu_madgwick) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.474066] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/imu.hpp:7\x1b[m\x1b[K,\n'}
+[4.474226] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:26\x1b[m\x1b[K:\n'}
+[4.474397] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/imu__struct.hpp:181:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.474558] (imu_madgwick) StderrLine: {'line': b'  181 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[4.474727] (imu_madgwick) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.474937] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.475105] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:91:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.475309] (imu_madgwick) StderrLine: {'line': b'   91 |     void publishFilteredMsg(const ImuMsg::ConstPtr& imu_msg_raw\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.475490] (imu_madgwick) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.475654] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/imu.hpp:7\x1b[m\x1b[K,\n'}
+[4.475856] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:26\x1b[m\x1b[K:\n'}
+[4.476020] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/imu__struct.hpp:181:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.476212] (imu_madgwick) StderrLine: {'line': b'  181 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[4.476381] (imu_madgwick) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.476533] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.476697] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:92:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.476890] (imu_madgwick) StderrLine: {'line': b'   92 |     void publishTransform(const ImuMsg::ConstPtr& imu_msg_raw\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.477099] (imu_madgwick) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.477256] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/imu.hpp:7\x1b[m\x1b[K,\n'}
+[4.477405] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:26\x1b[m\x1b[K:\n'}
+[4.477585] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/imu__struct.hpp:181:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.477775] (imu_madgwick) StderrLine: {'line': b'  181 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[4.477945] (imu_madgwick) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.489077] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.489472] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:94:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.489725] (imu_madgwick) StderrLine: {'line': b'   94 |     void publishRawMsg(const \x1b[01;31m\x1b[Krclpp\x1b[m\x1b[K::Time& t,\n'}
+[4.489946] (imu_madgwick) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.490132] (imu_madgwick) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Krclcpp\x1b[m\x1b[K\n'}
+[4.490334] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:94:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.490509] (imu_madgwick) StderrLine: {'line': b'   94 |     void publishRawMsg(const rclpp::Time\x1b[01;31m\x1b[K&\x1b[m\x1b[K t,\n'}
+[4.490776] (imu_madgwick) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.490977] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:94:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.491138] (imu_madgwick) StderrLine: {'line': b'   94 |     void publishRawMsg\x1b[34m\x1b[K(\x1b[m\x1b[Kconst rclpp::Time\x1b[01;31m\x1b[K&\x1b[m\x1b[K t,\n'}
+[4.491285] (imu_madgwick) StderrLine: {'line': b'      |                       \x1b[34m\x1b[K~\x1b[m\x1b[K                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.491487] (imu_madgwick) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[4.491643] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:94:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[4.491804] (imu_madgwick) StderrLine: {'line': b'   94 |     void publishRawMsg(const rclpp::Time\x1b[01;31m\x1b[K&\x1b[m\x1b[K t,\n'}
+[4.491984] (imu_madgwick) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.497093] (imu_madgwick) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.497368] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:94:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.497611] (imu_madgwick) StderrLine: {'line': b'   94 |     void publishRawMsg(const rclpp::Time& \x1b[01;31m\x1b[Kt\x1b[m\x1b[K,\n'}
+[4.497810] (imu_madgwick) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.497981] (imu_madgwick) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[4.498169] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:97:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFilterConfig\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.498379] (imu_madgwick) StderrLine: {'line': b'   97 |     void reconfigCallback(\x1b[01;31m\x1b[KFilterConfig\x1b[m\x1b[K& config, uint32_t level);\n'}
+[4.498589] (imu_madgwick) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.500567] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:98:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcos\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.500790] (imu_madgwick) StderrLine: {'line': b'   98 |     void checkTopicsTimerCallback(const \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::TimerEvent&);\n'}
+[4.500941] (imu_madgwick) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.501165] (imu_madgwick) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[Kcos\x1b[m\x1b[K\n'}
+[4.501393] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:98:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.501691] (imu_madgwick) StderrLine: {'line': b'   98 |     void checkTopicsTimerCallback(const ros::TimerEvent\x1b[01;31m\x1b[K&\x1b[m\x1b[K);\n'}
+[4.501988] (imu_madgwick) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.502283] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:98:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.502587] (imu_madgwick) StderrLine: {'line': b'   98 |     void checkTopicsTimerCallback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst ros::TimerEvent\x1b[01;31m\x1b[K&\x1b[m\x1b[K);\n'}
+[4.502933] (imu_madgwick) StderrLine: {'line': b'      |                                  \x1b[34m\x1b[K~\x1b[m\x1b[K                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.503229] (imu_madgwick) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[4.503557] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:98:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[4.504006] (imu_madgwick) StderrLine: {'line': b'   98 |     void checkTopicsTimerCallback(const ros::TimerEvent\x1b[01;31m\x1b[K&\x1b[m\x1b[K);\n'}
+[4.504428] (imu_madgwick) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.504843] (imu_madgwick) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.513365] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:98:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.513592] (imu_madgwick) StderrLine: {'line': b'   98 |     void checkTopicsTimerCallback(const ros::TimerEvent&\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.513751] (imu_madgwick) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.515299] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KImu::Imu(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.516003] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:48:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KImu\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kinitialized_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.519649] (imu_madgwick) StderrLine: {'line': b'   48 |   \x1b[01;31m\x1b[Kinitialized_\x1b[m\x1b[K(false)\n'}
+[4.520063] (imu_madgwick) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.520629] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:48:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::TransformBroadcaster::TransformBroadcaster()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.521480] (imu_madgwick) StderrLine: {'line': b'   48 |   initialized_(false\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[4.521862] (imu_madgwick) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.525617] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:29\x1b[m\x1b[K:\n'}
+[4.525992] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:53:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class NodeT, class AllocatorT> tf2_ros::TransformBroadcaster::TransformBroadcaster(NodeT&&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.526182] (imu_madgwick) StderrLine: {'line': b'   53 |   \x1b[01;36m\x1b[KTransformBroadcaster\x1b[m\x1b[K(\n'}
+[4.526335] (imu_madgwick) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.526484] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:53:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.526651] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:48:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[4.526804] (imu_madgwick) StderrLine: {'line': b'   48 |   initialized_(false\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[4.526984] (imu_madgwick) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.527130] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:29\x1b[m\x1b[K:\n'}
+[4.527275] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::TransformBroadcaster::TransformBroadcaster(const tf2_ros::TransformBroadcaster&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.527423] (imu_madgwick) StderrLine: {'line': b'   49 | class \x1b[01;36m\x1b[KTransformBroadcaster\x1b[m\x1b[K{\n'}
+[4.527568] (imu_madgwick) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.527714] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[4.527908] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::TransformBroadcaster::TransformBroadcaster(tf2_ros::TransformBroadcaster&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.528048] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[4.536034] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:49:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kimu_subscriber\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.536370] (imu_madgwick) StderrLine: {'line': b'   49 |   \x1b[01;31m\x1b[Kimu_subscriber\x1b[m\x1b[K(message_filters::Subscriber<sensor_msgs::msg::Imu>(this, "imu/data_raw"))\n'}
+[4.536549] (imu_madgwick) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.536696] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.536883] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:49:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.537171] (imu_madgwick) StderrLine: {'line': b'   49 |   imu_subscriber\x1b[01;31m\x1b[K(\x1b[m\x1b[Kmessage_filters::Subscriber<sensor_msgs::msg::Imu>(this, "imu/data_raw"))\n'}
+[4.537357] (imu_madgwick) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.537730] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:97:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid Imu::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.538065] (imu_madgwick) StderrLine: {'line': b'   97 | void \x1b[01;31m\x1b[KImu\x1b[m\x1b[K::imuCallback(const ImuMsg::SharedPtr imu_msg_raw) const\n'}
+[4.540029] (imu_madgwick) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.540431] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.540611] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:89:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvoid Imu::imuCallback(const ConstPtr&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.540749] (imu_madgwick) StderrLine: {'line': b'   89 |     void \x1b[01;36m\x1b[KimuCallback\x1b[m\x1b[K(const ImuMsg::ConstPtr& imu_msg_raw);\n'}
+[4.540876] (imu_madgwick) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.541069] (-) TimerEvent: {}
+[4.544832] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:43:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass Imu\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[4.550706] (imu_madgwick) StderrLine: {'line': b'   43 | class \x1b[01;36m\x1b[KImu\x1b[m\x1b[K : public rclcpp::Node\n'}
+[4.551053] (imu_madgwick) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.551251] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:97:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing ImuMsg = using Imu = struct sensor_msgs::msg::Imu_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[4.551467] (imu_madgwick) StderrLine: {'line': b'   97 | void Imu::imuCallback(const \x1b[01;31m\x1b[KImuMsg\x1b[m\x1b[K::SharedPtr imu_msg_raw) const\n'}
+[4.551662] (imu_madgwick) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.551846] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.552064] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:45:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[4.552244] (imu_madgwick) StderrLine: {'line': b'   45 |   using \x1b[01;36m\x1b[KImuMsg\x1b[m\x1b[K = sensor_msgs::msg::Imu;\n'}
+[4.552421] (imu_madgwick) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.552594] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:151:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid Imu::imuMagCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr, sensor_msgs::msg::MagneticField_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.552778] (imu_madgwick) StderrLine: {'line': b'  151 | void \x1b[01;31m\x1b[KImu\x1b[m\x1b[K::imuMagCallback(\n'}
+[4.553019] (imu_madgwick) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.553214] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.553393] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:86:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvoid Imu::imuMagCallback(const ConstPtr&, const ConstPtr&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.553585] (imu_madgwick) StderrLine: {'line': b'   86 |     void \x1b[01;36m\x1b[KimuMagCallback\x1b[m\x1b[K(const ImuMsg::ConstPtr& imu_msg_raw,\n'}
+[4.553790] (imu_madgwick) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.553996] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:43:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass Imu\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[4.554179] (imu_madgwick) StderrLine: {'line': b'   43 | class \x1b[01;36m\x1b[KImu\x1b[m\x1b[K : public rclcpp::Node\n'}
+[4.554356] (imu_madgwick) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.554546] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:152:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing ImuMsg = using Imu = struct sensor_msgs::msg::Imu_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[4.554751] (imu_madgwick) StderrLine: {'line': b'  152 |   const \x1b[01;31m\x1b[KImuMsg\x1b[m\x1b[K::SharedPtr imu_msg_raw,\n'}
+[4.554973] (imu_madgwick) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.555144] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.555340] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:45:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[4.555529] (imu_madgwick) StderrLine: {'line': b'   45 |   using \x1b[01;36m\x1b[KImuMsg\x1b[m\x1b[K = sensor_msgs::msg::Imu;\n'}
+[4.555713] (imu_madgwick) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.555919] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:153:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MagMsg = using MagneticField = struct sensor_msgs::msg::MagneticField_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[4.556150] (imu_madgwick) StderrLine: {'line': b'  153 |   const \x1b[01;31m\x1b[KMagMsg\x1b[m\x1b[K::SharedPtr mag_msg)\n'}
+[4.556329] (imu_madgwick) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.556505] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.556687] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:46:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[4.556865] (imu_madgwick) StderrLine: {'line': b'   46 |   using \x1b[01;36m\x1b[KMagMsg\x1b[m\x1b[K = sensor_msgs::msg::MagneticField;\n'}
+[4.573340] (imu_madgwick) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.573600] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:230:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid Imu::publishTransform(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.573802] (imu_madgwick) StderrLine: {'line': b'  230 | void \x1b[01;31m\x1b[KImu\x1b[m\x1b[K::publishTransform(const ImuMsg::SharedPtr imu_msg_raw)\n'}
+[4.574039] (imu_madgwick) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.574226] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.574444] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:92:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvoid Imu::publishTransform(const ConstPtr&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.574624] (imu_madgwick) StderrLine: {'line': b'   92 |     void \x1b[01;36m\x1b[KpublishTransform\x1b[m\x1b[K(const ImuMsg::ConstPtr& imu_msg_raw);\n'}
+[4.574884] (imu_madgwick) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.575140] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:43:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass Imu\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[4.575331] (imu_madgwick) StderrLine: {'line': b'   43 | class \x1b[01;36m\x1b[KImu\x1b[m\x1b[K : public rclcpp::Node\n'}
+[4.575516] (imu_madgwick) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.575694] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:230:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing ImuMsg = using Imu = struct sensor_msgs::msg::Imu_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[4.575876] (imu_madgwick) StderrLine: {'line': b'  230 | void Imu::publishTransform(const \x1b[01;31m\x1b[KImuMsg\x1b[m\x1b[K::SharedPtr imu_msg_raw)\n'}
+[4.576109] (imu_madgwick) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.576306] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.576576] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:45:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[4.576871] (imu_madgwick) StderrLine: {'line': b'   45 |   using \x1b[01;36m\x1b[KImuMsg\x1b[m\x1b[K = sensor_msgs::msg::Imu;\n'}
+[4.577235] (imu_madgwick) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.577435] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:257:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid Imu::publishFilteredMsg(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.577640] (imu_madgwick) StderrLine: {'line': b'  257 | void \x1b[01;31m\x1b[KImu\x1b[m\x1b[K::publishFilteredMsg(const ImuMsg::SharedPtr imu_msg_raw)\n'}
+[4.577804] (imu_madgwick) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.577989] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.578140] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:91:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvoid Imu::publishFilteredMsg(const ConstPtr&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.578295] (imu_madgwick) StderrLine: {'line': b'   91 |     void \x1b[01;36m\x1b[KpublishFilteredMsg\x1b[m\x1b[K(const ImuMsg::ConstPtr& imu_msg_raw);\n'}
+[4.578447] (imu_madgwick) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.578599] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:43:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass Imu\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[4.578793] (imu_madgwick) StderrLine: {'line': b'   43 | class \x1b[01;36m\x1b[KImu\x1b[m\x1b[K : public rclcpp::Node\n'}
+[4.578946] (imu_madgwick) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.579135] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:257:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing ImuMsg = using Imu = struct sensor_msgs::msg::Imu_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[4.579292] (imu_madgwick) StderrLine: {'line': b'  257 | void Imu::publishFilteredMsg(const \x1b[01;31m\x1b[KImuMsg\x1b[m\x1b[K::SharedPtr imu_msg_raw)\n'}
+[4.579443] (imu_madgwick) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.579596] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.579753] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:45:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[4.579907] (imu_madgwick) StderrLine: {'line': b'   45 |   using \x1b[01;36m\x1b[KImuMsg\x1b[m\x1b[K = sensor_msgs::msg::Imu;\n'}
+[4.580091] (imu_madgwick) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.580240] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:299:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid Imu::checkTopicsTimerCallback()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.580406] (imu_madgwick) StderrLine: {'line': b'  299 | void \x1b[01;31m\x1b[KImu\x1b[m\x1b[K::checkTopicsTimerCallback()\n'}
+[4.580559] (imu_madgwick) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.580718] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37\x1b[m\x1b[K:\n'}
+[4.580905] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:98:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvoid Imu::checkTopicsTimerCallback(...) &\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.592765] (imu_madgwick) StderrLine: {'line': b'   98 |     void \x1b[01;36m\x1b[KcheckTopicsTimerCallback\x1b[m\x1b[K(const ros::TimerEvent&);\n'}
+[4.593077] (imu_madgwick) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.593299] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:43:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass Imu\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[4.593509] (imu_madgwick) StderrLine: {'line': b'   43 | class \x1b[01;36m\x1b[KImu\x1b[m\x1b[K : public rclcpp::Node\n'}
+[4.593697] (imu_madgwick) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.641247] (-) TimerEvent: {}
+[4.744403] (-) TimerEvent: {}
+[4.844944] (-) TimerEvent: {}
+[4.950274] (-) TimerEvent: {}
+[5.053080] (-) TimerEvent: {}
+[5.157068] (-) TimerEvent: {}
+[5.261083] (-) TimerEvent: {}
+[5.361624] (-) TimerEvent: {}
+[5.462071] (-) TimerEvent: {}
+[5.562535] (-) TimerEvent: {}
+[5.663097] (-) TimerEvent: {}
+[5.763621] (-) TimerEvent: {}
+[5.864150] (-) TimerEvent: {}
+[5.969071] (-) TimerEvent: {}
+[6.069573] (-) TimerEvent: {}
+[6.157446] (imu_madgwick) StderrLine: {'line': b'make[2]: *** [CMakeFiles/imu_madgwick.dir/build.make:89: CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o] Error 1\n'}
+[6.157830] (imu_madgwick) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/imu_madgwick.dir/all] Error 2\n'}
+[6.158106] (imu_madgwick) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.169282] (imu_madgwick) CommandEnded: {'returncode': 2}
+[6.172424] (-) TimerEvent: {}
+[6.273169] (-) TimerEvent: {}
+[6.341655] (imu_madgwick) JobEnded: {'identifier': 'imu_madgwick', 'rc': 2}
+[6.371990] (-) EventReactorShutdown: {}

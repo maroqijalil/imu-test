@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.000596] (imu_madgwick) JobQueued: {'identifier': 'imu_madgwick', 'dependencies': OrderedDict()}
+[0.000741] (imu_madgwick) JobStarted: {'identifier': 'imu_madgwick'}
+[0.034696] (imu_madgwick) JobProgress: {'identifier': 'imu_madgwick', 'progress': 'cmake'}
+[0.037917] (imu_madgwick) JobProgress: {'identifier': 'imu_madgwick', 'progress': 'build'}
+[0.040119] (imu_madgwick) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick', '--', '-j2', '-l2'], 'cwd': '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maroqi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1433'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maroqi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick'), ('TERM_PROGRAM_VERSION', '1.55.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1059'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6079'), ('_colcon_cd_root', '/home/maroqi/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maroqi'), ('JOURNAL_STREAM', '8:37741'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'maroqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/maroqi/.local/bin:/opt/ros/foxy/bin:/home/maroqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/tools:/platform-tools:/home/maroqi/Apps/flutter/bin:/home/maroqi/.config/composer/vendor/bin:/usr/lib/dart/bin:/tools:/platform-tools:/home/maroqi/Apps/flutter/bin:/home/maroqi/.config/composer/vendor/bin'), ('SESSION_MANAGER', 'local/jalil:@/tmp/.ICE-unix/1484,unix/jalil:/tmp/.ICE-unix/1484'), ('INVOCATION_ID', '6cf066535f1c4a52a59d67c35004b802'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e3307d628.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('ANDROID_SDK_ROOT', '/home/maroqi/Apps/android/sdk'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.093418] (-) TimerEvent: {}
+[0.194048] (-) TimerEvent: {}
+[0.197637] (imu_madgwick) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target imu_madgwick\x1b[0m\n'}
+[0.294268] (-) TimerEvent: {}
+[0.322935] (imu_madgwick) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/stateless_orientation.cpp.o\x1b[0m\n'}
+[0.394430] (-) TimerEvent: {}
+[0.494895] (-) TimerEvent: {}
+[0.595351] (-) TimerEvent: {}
+[0.695903] (-) TimerEvent: {}
+[0.797322] (-) TimerEvent: {}
+[0.897878] (-) TimerEvent: {}
+[0.998706] (-) TimerEvent: {}
+[1.099441] (-) TimerEvent: {}
+[1.201033] (-) TimerEvent: {}
+[1.301529] (-) TimerEvent: {}
+[1.339207] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:25\x1b[m\x1b[K:\n'}
+[1.340015] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.h:37:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::Vector3\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.340544] (imu_madgwick) StderrLine: {'line': b'   37 |     geometry_msgs::\x1b[01;31m\x1b[KVector3\x1b[m\x1b[K acceleration,\n'}
+[1.340938] (imu_madgwick) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.341556] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.h:38:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::Vector3\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.341988] (imu_madgwick) StderrLine: {'line': b'   38 |     geometry_msgs::\x1b[01;31m\x1b[KVector3\x1b[m\x1b[K magneticField,\n'}
+[1.342364] (imu_madgwick) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.342850] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.h:39:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::Quaternion\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.343379] (imu_madgwick) StderrLine: {'line': b'   39 |     geometry_msgs::\x1b[01;31m\x1b[KQuaternion\x1b[m\x1b[K& orientation);\n'}
+[1.343866] (imu_madgwick) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.344580] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.h:43:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::Vector3\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.345387] (imu_madgwick) StderrLine: {'line': b'   43 |     geometry_msgs::\x1b[01;31m\x1b[KVector3\x1b[m\x1b[K acceleration,\n'}
+[1.345900] (imu_madgwick) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.346519] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.h:44:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::Quaternion\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.346925] (imu_madgwick) StderrLine: {'line': b'   44 |     geometry_msgs::\x1b[01;31m\x1b[KQuaternion\x1b[m\x1b[K& orientation);\n'}
+[1.347393] (imu_madgwick) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.402115] (-) TimerEvent: {}
+[1.502704] (-) TimerEvent: {}
+[1.606164] (-) TimerEvent: {}
+[1.706636] (-) TimerEvent: {}
+[1.807189] (-) TimerEvent: {}
+[1.907750] (-) TimerEvent: {}
+[2.008267] (-) TimerEvent: {}
+[2.108808] (-) TimerEvent: {}
+[2.209308] (-) TimerEvent: {}
+[2.309779] (-) TimerEvent: {}
+[2.410331] (-) TimerEvent: {}
+[2.510803] (-) TimerEvent: {}
+[2.611529] (-) TimerEvent: {}
+[2.712890] (-) TimerEvent: {}
+[2.813375] (-) TimerEvent: {}
+[2.914211] (-) TimerEvent: {}
+[3.014685] (-) TimerEvent: {}
+[3.115157] (-) TimerEvent: {}
+[3.215910] (-) TimerEvent: {}
+[3.318551] (-) TimerEvent: {}
+[3.420292] (-) TimerEvent: {}
+[3.522338] (-) TimerEvent: {}
+[3.624491] (-) TimerEvent: {}
+[3.726796] (-) TimerEvent: {}
+[3.830895] (-) TimerEvent: {}
+[3.931429] (-) TimerEvent: {}
+[4.031932] (-) TimerEvent: {}
+[4.132794] (-) TimerEvent: {}
+[4.233791] (-) TimerEvent: {}
+[4.335194] (-) TimerEvent: {}
+[4.436692] (-) TimerEvent: {}
+[4.537491] (-) TimerEvent: {}
+[4.637953] (-) TimerEvent: {}
+[4.738946] (-) TimerEvent: {}
+[4.839797] (-) TimerEvent: {}
+[4.932429] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:55:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::Vector3\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.933435] (imu_madgwick) StderrLine: {'line': b'   55 |   geometry_msgs::\x1b[01;31m\x1b[KVector3\x1b[m\x1b[K A,\n'}
+[4.934455] (imu_madgwick) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.935205] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:56:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::Vector3\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.935876] (imu_madgwick) StderrLine: {'line': b'   56 |   geometry_msgs::\x1b[01;31m\x1b[KVector3\x1b[m\x1b[K E,\n'}
+[4.936447] (imu_madgwick) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.937128] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:57:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::Quaternion\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.937551] (imu_madgwick) StderrLine: {'line': b'   57 |   geometry_msgs::\x1b[01;31m\x1b[KQuaternion\x1b[m\x1b[K& orientation) {\n'}
+[4.938098] (imu_madgwick) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.939183] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic bool StatelessOrientation::computeOrientation(WorldFrame::WorldFrame, int, int, int&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.939952] (-) TimerEvent: {}
+[4.940433] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:64:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[KA\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.940889] (imu_madgwick) StderrLine: {'line': b'   64 |   float Ax = A.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K, Ay = A.y, Az = A.z;\n'}
+[4.941405] (imu_madgwick) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.942194] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:67:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[KE\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.942737] (imu_madgwick) StderrLine: {'line': b'   67 |   float Ex = E.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K, Ey = E.y, Ez = E.z;\n'}
+[4.943416] (imu_madgwick) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.947504] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:71:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEy\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KEx\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.948129] (imu_madgwick) StderrLine: {'line': b'   71 |   crossProduct(Ex, \x1b[01;31m\x1b[KEy\x1b[m\x1b[K, Ez, Ax, Ay, Az, Hx, Hy, Hz);\n'}
+[4.948490] (imu_madgwick) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.948782] (imu_madgwick) StderrLine: {'line': b'      |                    \x1b[32m\x1b[KEx\x1b[m\x1b[K\n'}
+[4.952692] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:71:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEz\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KEx\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.953667] (imu_madgwick) StderrLine: {'line': b'   71 |   crossProduct(Ex, Ey, \x1b[01;31m\x1b[KEz\x1b[m\x1b[K, Ax, Ay, Az, Hx, Hy, Hz);\n'}
+[4.954409] (imu_madgwick) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.954868] (imu_madgwick) StderrLine: {'line': b'      |                        \x1b[32m\x1b[KEx\x1b[m\x1b[K\n'}
+[4.958525] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:71:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAy\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KAx\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.959222] (imu_madgwick) StderrLine: {'line': b'   71 |   crossProduct(Ex, Ey, Ez, Ax, \x1b[01;31m\x1b[KAy\x1b[m\x1b[K, Az, Hx, Hy, Hz);\n'}
+[4.959722] (imu_madgwick) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.960489] (imu_madgwick) StderrLine: {'line': b'      |                                \x1b[32m\x1b[KAx\x1b[m\x1b[K\n'}
+[4.964774] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:71:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAz\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KAx\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.965361] (imu_madgwick) StderrLine: {'line': b'   71 |   crossProduct(Ex, Ey, Ez, Ax, Ay, \x1b[01;31m\x1b[KAz\x1b[m\x1b[K, Hx, Hy, Hz);\n'}
+[4.966096] (imu_madgwick) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.966607] (imu_madgwick) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[KAx\x1b[m\x1b[K\n'}
+[4.969420] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.970156] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:150:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::Vector3\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.970677] (imu_madgwick) StderrLine: {'line': b'  150 |   geometry_msgs::\x1b[01;31m\x1b[KVector3\x1b[m\x1b[K A,\n'}
+[4.971097] (imu_madgwick) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.971582] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:151:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::Quaternion\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.972009] (imu_madgwick) StderrLine: {'line': b'  151 |   geometry_msgs::\x1b[01;31m\x1b[KQuaternion\x1b[m\x1b[K& orientation) {\n'}
+[4.972437] (imu_madgwick) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.974483] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic bool StatelessOrientation::computeOrientation(WorldFrame::WorldFrame, int, int&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.975023] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:157:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KVector3\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.975318] (imu_madgwick) StderrLine: {'line': b'  157 |   geometry_msgs::\x1b[01;31m\x1b[KVector3\x1b[m\x1b[K E;\n'}
+[4.975581] (imu_madgwick) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.976122] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:157:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[4.976930] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2/LinearMath/Matrix3x3.h:19\x1b[m\x1b[K,\n'}
+[4.977437] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:26\x1b[m\x1b[K:\n'}
+[4.977769] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2/LinearMath/Vector3.h:38:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktf2::Vector3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.978213] (imu_madgwick) StderrLine: {'line': b'   38 | ATTRIBUTE_ALIGNED16(class) \x1b[01;36m\x1b[KVector3\x1b[m\x1b[K\n'}
+[4.978569] (imu_madgwick) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.979180] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/vector3.hpp:7\x1b[m\x1b[K,\n'}
+[4.979566] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.h:28\x1b[m\x1b[K,\n'}
+[4.979855] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:25\x1b[m\x1b[K:\n'}
+[4.980370] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:149:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.980848] (imu_madgwick) StderrLine: {'line': b'  149 | using \x1b[01;36m\x1b[KVector3\x1b[m\x1b[K =\n'}
+[4.981304] (imu_madgwick) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.981926] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:158:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[KA\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.982462] (imu_madgwick) StderrLine: {'line': b'  158 |   if (fabs(A.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K) > 0.1 || fabs(A.y) > 0.1) {\n'}
+[4.982904] (imu_madgwick) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.983465] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:158:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[KA\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.987846] (imu_madgwick) StderrLine: {'line': b'  158 |   if (fabs(A.x) > 0.1 || fabs(A.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K) > 0.1) {\n'}
+[4.988212] (imu_madgwick) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.988459] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:159:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.988726] (imu_madgwick) StderrLine: {'line': b'  159 |       \x1b[01;31m\x1b[KE\x1b[m\x1b[K.x = A.y;\n'}
+[4.988989] (imu_madgwick) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.989359] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:159:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[KA\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.989665] (imu_madgwick) StderrLine: {'line': b'  159 |       E.x = A.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K;\n'}
+[4.989927] (imu_madgwick) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.990687] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:160:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[KA\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.991232] (imu_madgwick) StderrLine: {'line': b'  160 |       E.y = A.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K;\n'}
+[4.991612] (imu_madgwick) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.992331] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:162:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[KA\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.992834] (imu_madgwick) StderrLine: {'line': b'  162 |   } else if (fabs(A.\x1b[01;31m\x1b[Kz\x1b[m\x1b[K) > 0.1) {\n'}
+[4.994129] (imu_madgwick) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.997482] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:163:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.997879] (imu_madgwick) StderrLine: {'line': b'  163 |       \x1b[01;31m\x1b[KE\x1b[m\x1b[K.x = 0.0;\n'}
+[4.998129] (imu_madgwick) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.998495] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:164:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[KA\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.998800] (imu_madgwick) StderrLine: {'line': b'  164 |       E.y = A.\x1b[01;31m\x1b[Kz\x1b[m\x1b[K;\n'}
+[4.999028] (imu_madgwick) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.999504] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:165:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[KA\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.000011] (imu_madgwick) StderrLine: {'line': b'  165 |       E.z = A.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K;\n'}
+[5.000297] (imu_madgwick) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.004483] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:171:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.005260] (imu_madgwick) StderrLine: {'line': b'  171 |   return computeOrientation(frame, A, \x1b[01;31m\x1b[KE\x1b[m\x1b[K, orientation);\n'}
+[5.005622] (imu_madgwick) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.040112] (-) TimerEvent: {}
+[5.141654] (-) TimerEvent: {}
+[5.243726] (-) TimerEvent: {}
+[5.344227] (-) TimerEvent: {}
+[5.446365] (-) TimerEvent: {}
+[5.543665] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2/convert.h:43\x1b[m\x1b[K,\n'}
+[5.545798] (imu_madgwick) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:27\x1b[m\x1b[K:\n'}
+[5.546397] (imu_madgwick) StderrLine: {'line': b'/opt/ros/foxy/include/tf2/impl/convert.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstatic void tf2::impl::Converter<IS_MESSAGE_A, IS_MESSAGE_B>::convert(const A&, B&) [with A = tf2::Quaternion; B = int; bool IS_MESSAGE_A = false; bool IS_MESSAGE_B = false]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.546721] (-) TimerEvent: {}
+[5.547154] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2/convert.h:139:74:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid tf2::convert(const A&, B&) [with A = tf2::Quaternion; B = int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.548258] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:143:40:\x1b[m\x1b[K   required from here\n'}
+[5.548790] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2/impl/convert.h:72:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KfromMsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.549293] (imu_madgwick) StderrLine: {'line': b'   72 |   \x1b[01;31m\x1b[KfromMsg(toMsg(a), b)\x1b[m\x1b[K;\n'}
+[5.549687] (imu_madgwick) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.551570] (imu_madgwick) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:28\x1b[m\x1b[K:\n'}
+[5.552660] (imu_madgwick) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_geometry_msgs/tf2_geometry_msgs.h:662:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid tf2::fromMsg(const Pose&, tf2::Transform&)\x1b[m\x1b[K\xe2\x80\x99 declared here, later in the translation unit\n'}
+[5.553141] (imu_madgwick) StderrLine: {'line': b'  662 | void \x1b[01;36m\x1b[KfromMsg\x1b[m\x1b[K(const geometry_msgs::msg::Pose& in, tf2::Transform& out)\n'}
+[5.553439] (imu_madgwick) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.646881] (-) TimerEvent: {}
+[5.748708] (-) TimerEvent: {}
+[5.850727] (-) TimerEvent: {}
+[5.951273] (-) TimerEvent: {}
+[6.051795] (-) TimerEvent: {}
+[6.154877] (-) TimerEvent: {}
+[6.200766] (imu_madgwick) StderrLine: {'line': b'make[2]: *** [CMakeFiles/imu_madgwick.dir/build.make:76: CMakeFiles/imu_madgwick.dir/src/imu_madgwick/stateless_orientation.cpp.o] Error 1\n'}
+[6.210652] (imu_madgwick) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/imu_madgwick.dir/all] Error 2\n'}
+[6.210950] (imu_madgwick) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.211942] (imu_madgwick) CommandEnded: {'returncode': 2}
+[6.255128] (-) TimerEvent: {}
+[6.339447] (imu_madgwick) JobEnded: {'identifier': 'imu_madgwick', 'rc': 2}
+[6.345033] (-) EventReactorShutdown: {}

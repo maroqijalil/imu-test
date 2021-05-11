@@ -1,0 +1,26 @@
+[0.057s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick -DCMAKE_INSTALL_PREFIX=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/install/imu_madgwick
+[0.154s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.261s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.865s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.982s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.993s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.432s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.436s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.847s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.160s] -- Found tf2: 0.13.9 (/opt/ros/foxy/share/tf2/cmake)
+[2.185s] -- Found tf2_geometry_msgs: 0.13.9 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.201s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.216s] -- Found pluginlib: 2.5.3 (/opt/ros/foxy/share/pluginlib/cmake)
+[3.288s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread 
+[3.311s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.665s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.674s] -- Added test 'lint_cmake' to check CMake code style
+[3.679s] -- Added test 'xmllint' to check XML markup files
+[3.698s] -- Configuring done
+[3.710s] CMake Error at CMakeLists.txt:29 (add_library):
+[3.710s]   No SOURCES given to target: imu_madgwick
+[3.710s] 
+[3.711s] 
+[3.711s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[3.743s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick -DCMAKE_INSTALL_PREFIX=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/install/imu_madgwick

@@ -1,0 +1,45 @@
+[0.036s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick -DCMAKE_INSTALL_PREFIX=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/install/imu_madgwick
+[0.157s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.248s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.822s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.925s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.938s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.421s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.425s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.837s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.184s] -- Found tf2: 0.13.9 (/opt/ros/foxy/share/tf2/cmake)
+[2.213s] -- Found tf2_geometry_msgs: 0.13.9 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.232s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.461s] -- Found pluginlib: 2.5.3 (/opt/ros/foxy/share/pluginlib/cmake)
+[3.541s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.757s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.760s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.761s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include>;/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/Boost::system;/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/Boost::thread
+[3.762s] -- Configured cppcheck exclude dirs and/or files: 
+[3.767s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.767s] -- Configured cpplint exclude dirs and/or files: 
+[3.769s] -- Added test 'lint_cmake' to check CMake code style
+[3.772s] -- Added test 'uncrustify' to check C / C++ code style
+[3.772s] -- Configured uncrustify additional arguments: 
+[3.773s] -- Added test 'xmllint' to check XML markup files
+[3.785s] -- Configuring done
+[3.793s] CMake Error at CMakeLists.txt:55 (add_executable):
+[3.794s]   Cannot find source file:
+[3.794s] 
+[3.794s]     src/action_manager_main.cpp
+[3.794s] 
+[3.794s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[3.795s]   .hpp .hxx .in .txx
+[3.795s] 
+[3.795s] 
+[3.797s] CMake Error at CMakeLists.txt:29 (add_library):
+[3.798s]   No SOURCES given to target: imu_madgwick
+[3.798s] 
+[3.798s] 
+[3.799s] CMake Error at CMakeLists.txt:55 (add_executable):
+[3.799s]   No SOURCES given to target: action_manager
+[3.799s] 
+[3.799s] 
+[3.799s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[3.824s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick -DCMAKE_INSTALL_PREFIX=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/install/imu_madgwick

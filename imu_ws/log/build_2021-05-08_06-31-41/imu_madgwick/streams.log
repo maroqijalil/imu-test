@@ -1,0 +1,40 @@
+[0.048s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick -DCMAKE_INSTALL_PREFIX=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/install/imu_madgwick
+[0.166s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.247s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.814s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.911s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.925s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.209s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.427s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.433s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.199s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.937s] -- Found tf2: 0.13.9 (/opt/ros/foxy/share/tf2/cmake)
+[2.997s] -- Found tf2_geometry_msgs: 0.13.9 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[3.025s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[5.140s] -- Found pluginlib: 2.5.3 (/opt/ros/foxy/share/pluginlib/cmake)
+[5.219s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.437s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.439s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.439s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include>;/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/Boost::system;/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/Boost::thread
+[5.440s] -- Configured cppcheck exclude dirs and/or files: 
+[5.443s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.444s] -- Configured cpplint exclude dirs and/or files: 
+[5.446s] -- Added test 'lint_cmake' to check CMake code style
+[5.448s] -- Added test 'uncrustify' to check C / C++ code style
+[5.448s] -- Configured uncrustify additional arguments: 
+[5.450s] -- Added test 'xmllint' to check XML markup files
+[5.464s] -- Configuring done
+[5.515s] -- Generating done
+[5.526s] -- Build files have been written to: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick
+[5.551s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick -DCMAKE_INSTALL_PREFIX=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/install/imu_madgwick
+[5.558s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick -- -j2 -l2
+[5.737s] [35m[1mScanning dependencies of target imu_madgwick[0m
+[6.081s] [ 33%] [32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu_filter.cpp.o[0m
+[6.266s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:26:10:[m[K [01;31m[Kfatal error: [m[Kimu_filter_madgwick/imu_filter.h: No such file or directory
+[6.266s]    26 | #include [01;31m[K"imu_filter_madgwick/imu_filter.h"[m[K
+[6.266s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.267s] compilation terminated.
+[6.275s] make[2]: *** [CMakeFiles/imu_madgwick.dir/build.make:63: CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu_filter.cpp.o] Error 1
+[6.276s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/imu_madgwick.dir/all] Error 2
+[6.279s] make: *** [Makefile:141: all] Error 2
+[6.289s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick -- -j2 -l2

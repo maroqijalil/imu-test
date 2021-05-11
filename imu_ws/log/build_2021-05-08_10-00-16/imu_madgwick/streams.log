@@ -1,0 +1,317 @@
+[0.042s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick -- -j2 -l2
+[0.162s] [35m[1mScanning dependencies of target imu_madgwick[0m
+[0.250s] [ 25%] [32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o[0m
+[0.532s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:112:104:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_WARN_THROTTLE" requires 4 arguments, but only 2 given
+[0.532s]   112 |       RCLCPP_WARN_THROTTLE(5.0, "The IMU seems to be in free fall, cannot determine gravity direction!"[01;31m[K)[m[K;
+[0.533s]       |                                                                                                        [01;31m[K^[m[K
+[0.534s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.534s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.534s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.534s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.535s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.535s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.535s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.535s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.535s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.536s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.536s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:25[m[K:
+[0.536s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:1103:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_WARN_THROTTLE" defined here
+[0.536s]  1103 | #define RCLCPP_WARN_THROTTLE(logger, clock, duration, ...) \
+[0.536s]       | 
+[0.537s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:135:83:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_WARN_STREAM_THROTTLE" requires 4 arguments, but only 3 given
+[0.537s]   135 |                                     " The filter will not update the orientation."[01;31m[K)[m[K;
+[0.537s]       |                                                                                   [01;31m[K^[m[K
+[0.539s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.544s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.544s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.544s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.544s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.545s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.545s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.545s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.545s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.545s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.545s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:25[m[K:
+[0.546s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:1304:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_WARN_STREAM_THROTTLE" defined here
+[0.546s]  1304 | #define RCLCPP_WARN_STREAM_THROTTLE(logger, clock, duration, stream_arg) \
+[0.546s]       | 
+[0.546s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:179:136:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_WARN_THROTTLE" requires 4 arguments, but only 2 given
+[0.546s]   179 |       RCLCPP_WARN_THROTTLE(5.0, "The IMU seems to be in free fall or close to magnetic north pole, cannot determine gravity direction!"[01;31m[K)[m[K;
+[0.546s]       |                                                                                                                                        [01;31m[K^[m[K
+[0.547s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.547s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.547s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.551s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.551s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.552s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.552s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.552s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.552s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.552s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.553s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:25[m[K:
+[0.553s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:1103:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_WARN_THROTTLE" defined here
+[0.553s]  1103 | #define RCLCPP_WARN_THROTTLE(logger, clock, duration, ...) \
+[0.553s]       | 
+[0.553s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:202:83:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_WARN_STREAM_THROTTLE" requires 4 arguments, but only 3 given
+[0.553s]   202 |                                     " The filter will not update the orientation."[01;31m[K)[m[K;
+[0.553s]       |                                                                                   [01;31m[K^[m[K
+[0.554s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.554s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.554s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.554s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.554s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.554s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.554s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.555s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.555s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.555s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.555s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:25[m[K:
+[0.561s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:1304:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_WARN_STREAM_THROTTLE" defined here
+[0.561s]  1304 | #define RCLCPP_WARN_STREAM_THROTTLE(logger, clock, duration, stream_arg) \
+[0.561s]       | 
+[0.561s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:296:81:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_INFO_STREAM" passed 5 arguments, but takes just 2
+[0.562s]   296 |   RCLCPP_INFO_STREAM(get_logger(), "Roll %f, Pitch %f, Yaw %f", roll, pitch, yaw[01;31m[K)[m[K;
+[0.562s]       |                                                                                 [01;31m[K^[m[K
+[0.562s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.562s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.562s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.562s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.562s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.563s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.563s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.563s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.563s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.563s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.564s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:25[m[K:
+[0.564s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:736:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_INFO_STREAM" defined here
+[0.564s]   736 | #define RCLCPP_INFO_STREAM(logger, stream_arg) \
+[0.564s]       | 
+[4.440s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.440s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:29:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kmessage_filters::Subscriber[m[K’?
+[4.440s]    62 |     std::shared_ptr<rclcpp::[01;31m[KSubscriber[m[K<ImuMsg>> imu_publisher;
+[4.441s]       |                             [01;31m[K^~~~~~~~~~[m[K
+[4.441s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:30[m[K:
+[4.441s] [01m[K/opt/ros/foxy/include/message_filters/subscriber.h:102:7:[m[K [01;36m[Knote: [m[K‘[01m[Kmessage_filters::Subscriber[m[K’ declared here
+[4.442s]   102 | class [01;36m[KSubscriber[m[K : public SubscriberBase, public SimpleFilter<M>
+[4.442s]       |       [01;36m[K^~~~~~~~~~[m[K
+[4.444s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.444s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:29:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kmessage_filters::Subscriber[m[K’?
+[4.444s]    62 |     std::shared_ptr<rclcpp::[01;31m[KSubscriber[m[K<ImuMsg>> imu_publisher;
+[4.444s]       |                             [01;31m[K^~~~~~~~~~[m[K
+[4.445s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:30[m[K:
+[4.445s] [01m[K/opt/ros/foxy/include/message_filters/subscriber.h:102:7:[m[K [01;36m[Knote: [m[K‘[01m[Kmessage_filters::Subscriber[m[K’ declared here
+[4.446s]   102 | class [01;36m[KSubscriber[m[K : public SubscriberBase, public SimpleFilter<M>
+[4.447s]       |       [01;36m[K^~~~~~~~~~[m[K
+[4.447s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.448s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.448s]    62 |     std::shared_ptr<rclcpp::Subscriber<[01;31m[KImuMsg[m[K>> imu_publisher;
+[4.448s]       |                                        [01;31m[K^~~~~~[m[K
+[4.449s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:62:46:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+[4.449s]    62 |     std::shared_ptr<rclcpp::Subscriber<ImuMsg[01;31m[K>>[m[K imu_publisher;
+[4.450s]       |                                              [01;31m[K^~[m[K
+[4.453s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:80:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kboost[m[K’ does not name a type
+[4.455s]    80 |     [01;31m[Kboost[m[K::mutex mutex;
+[4.455s]       |     [01;31m[K^~~~~[m[K
+[4.456s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:87:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.456s]    87 |                         const MagMsg::ConstPtr& mav_msg[01;35m[K)[m[K;
+[4.457s]       |                                                        [01;35m[K^[m[K
+[4.458s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/imu.hpp:7[m[K,
+[4.459s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:26[m[K:
+[4.459s] [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/imu__struct.hpp:181:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.459s]   181 |     [01;36m[KConstPtr[m[K;
+[4.460s]       |     [01;36m[K^~~~~~~~[m[K
+[4.460s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.463s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:87:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::MagneticField_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.464s]    87 |                         const MagMsg::ConstPtr& mav_msg[01;35m[K)[m[K;
+[4.464s]       |                                                        [01;35m[K^[m[K
+[4.465s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/magnetic_field.hpp:7[m[K,
+[4.466s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:27[m[K:
+[4.467s] [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/magnetic_field__struct.hpp:132:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.467s]   132 |     [01;36m[KConstPtr[m[K;
+[4.467s]       |     [01;36m[K^~~~~~~~[m[K
+[4.467s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.468s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:89:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.472s]    89 |     void imuCallback(const ImuMsg::ConstPtr& imu_msg_raw[01;35m[K)[m[K;
+[4.472s]       |                                                         [01;35m[K^[m[K
+[4.472s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/imu.hpp:7[m[K,
+[4.472s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:26[m[K:
+[4.472s] [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/imu__struct.hpp:181:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.473s]   181 |     [01;36m[KConstPtr[m[K;
+[4.473s]       |     [01;36m[K^~~~~~~~[m[K
+[4.473s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.473s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:91:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.473s]    91 |     void publishFilteredMsg(const ImuMsg::ConstPtr& imu_msg_raw[01;35m[K)[m[K;
+[4.474s]       |                                                                [01;35m[K^[m[K
+[4.474s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/imu.hpp:7[m[K,
+[4.474s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:26[m[K:
+[4.474s] [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/imu__struct.hpp:181:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.474s]   181 |     [01;36m[KConstPtr[m[K;
+[4.474s]       |     [01;36m[K^~~~~~~~[m[K
+[4.475s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.475s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:92:62:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.475s]    92 |     void publishTransform(const ImuMsg::ConstPtr& imu_msg_raw[01;35m[K)[m[K;
+[4.475s]       |                                                              [01;35m[K^[m[K
+[4.475s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/imu.hpp:7[m[K,
+[4.475s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:26[m[K:
+[4.476s] [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/imu__struct.hpp:181:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.476s]   181 |     [01;36m[KConstPtr[m[K;
+[4.476s]       |     [01;36m[K^~~~~~~~[m[K
+[4.487s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.488s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:94:30:[m[K [01;31m[Kerror: [m[K‘[01m[Krclpp[m[K’ does not name a type; did you mean ‘[01m[Krclcpp[m[K’?
+[4.488s]    94 |     void publishRawMsg(const [01;31m[Krclpp[m[K::Time& t,
+[4.488s]       |                              [01;31m[K^~~~~[m[K
+[4.488s]       |                              [32m[Krclcpp[m[K
+[4.488s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:94:41:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[4.489s]    94 |     void publishRawMsg(const rclpp::Time[01;31m[K&[m[K t,
+[4.489s]       |                                         [01;31m[K^[m[K
+[4.489s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:94:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[4.489s]    94 |     void publishRawMsg[34m[K([m[Kconst rclpp::Time[01;31m[K&[m[K t,
+[4.489s]       |                       [34m[K~[m[K                 [01;31m[K^[m[K
+[4.490s]       |                                         [32m[K)[m[K
+[4.490s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:94:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.490s]    94 |     void publishRawMsg(const rclpp::Time[01;31m[K&[m[K t,
+[4.495s]       |                                         [01;31m[K^[m[K
+[4.495s]       |                                          [32m[K;[m[K
+[4.495s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:94:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[4.496s]    94 |     void publishRawMsg(const rclpp::Time& [01;31m[Kt[m[K,
+[4.496s]       |                                           [01;31m[K^[m[K
+[4.496s]       |                                           [32m[Ktm[m[K
+[4.496s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:97:27:[m[K [01;31m[Kerror: [m[K‘[01m[KFilterConfig[m[K’ has not been declared
+[4.496s]    97 |     void reconfigCallback([01;31m[KFilterConfig[m[K& config, uint32_t level);
+[4.498s]       |                           [01;31m[K^~~~~~~~~~~~[m[K
+[4.499s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:98:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type; did you mean ‘[01m[Kcos[m[K’?
+[4.499s]    98 |     void checkTopicsTimerCallback(const [01;31m[Kros[m[K::TimerEvent&);
+[4.499s]       |                                         [01;31m[K^~~[m[K
+[4.499s]       |                                         [32m[Kcos[m[K
+[4.500s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:98:56:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[4.500s]    98 |     void checkTopicsTimerCallback(const ros::TimerEvent[01;31m[K&[m[K);
+[4.500s]       |                                                        [01;31m[K^[m[K
+[4.500s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:98:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[4.501s]    98 |     void checkTopicsTimerCallback[34m[K([m[Kconst ros::TimerEvent[01;31m[K&[m[K);
+[4.501s]       |                                  [34m[K~[m[K                     [01;31m[K^[m[K
+[4.501s]       |                                                        [32m[K)[m[K
+[4.502s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:98:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.502s]    98 |     void checkTopicsTimerCallback(const ros::TimerEvent[01;31m[K&[m[K);
+[4.503s]       |                                                        [01;31m[K^[m[K
+[4.511s]       |                                                         [32m[K;[m[K
+[4.511s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:98:57:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[4.512s]    98 |     void checkTopicsTimerCallback(const ros::TimerEvent&[01;31m[K)[m[K;
+[4.512s]       |                                                         [01;31m[K^[m[K
+[4.513s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K In constructor ‘[01m[KImu::Imu(std::string)[m[K’:
+[4.514s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:48:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KImu[m[K’ does not have any field named ‘[01m[Kinitialized_[m[K’
+[4.518s]    48 |   [01;31m[Kinitialized_[m[K(false)
+[4.518s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[4.519s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:48:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::TransformBroadcaster::TransformBroadcaster()[m[K’
+[4.520s]    48 |   initialized_(false[01;31m[K)[m[K
+[4.520s]       |                     [01;31m[K^[m[K
+[4.524s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:29[m[K:
+[4.524s] [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:53:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class AllocatorT> tf2_ros::TransformBroadcaster::TransformBroadcaster(NodeT&&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[4.524s]    53 |   [01;36m[KTransformBroadcaster[m[K(
+[4.524s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.525s] [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:53:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.525s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:48:21:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[4.525s]    48 |   initialized_(false[01;36m[K)[m[K
+[4.525s]       |                     [01;36m[K^[m[K
+[4.525s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:29[m[K:
+[4.525s] [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::TransformBroadcaster::TransformBroadcaster(const tf2_ros::TransformBroadcaster&)[m[K’
+[4.525s]    49 | class [01;36m[KTransformBroadcaster[m[K{
+[4.526s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.526s] [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[4.526s] [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::TransformBroadcaster::TransformBroadcaster(tf2_ros::TransformBroadcaster&&)[m[K’
+[4.526s] [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[4.534s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:49:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Kimu_subscriber[m[K’
+[4.534s]    49 |   [01;31m[Kimu_subscriber[m[K(message_filters::Subscriber<sensor_msgs::msg::Imu>(this, "imu/data_raw"))
+[4.535s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.535s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K At global scope:
+[4.535s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:49:17:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+[4.535s]    49 |   imu_subscriber[01;31m[K([m[Kmessage_filters::Subscriber<sensor_msgs::msg::Imu>(this, "imu/data_raw"))
+[4.535s]       |                 [01;31m[K^[m[K
+[4.536s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:97:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Imu::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr) const[m[K’
+[4.536s]    97 | void [01;31m[KImu[m[K::imuCallback(const ImuMsg::SharedPtr imu_msg_raw) const
+[4.538s]       |      [01;31m[K^~~[m[K
+[4.538s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.539s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:89:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid Imu::imuCallback(const ConstPtr&)[m[K’
+[4.539s]    89 |     void [01;36m[KimuCallback[m[K(const ImuMsg::ConstPtr& imu_msg_raw);
+[4.539s]       |          [01;36m[K^~~~~~~~~~~[m[K
+[4.543s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:43:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Imu[m[K’ defined here
+[4.549s]    43 | class [01;36m[KImu[m[K : public rclcpp::Node
+[4.549s]       |       [01;36m[K^~~[m[K
+[4.549s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:97:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ImuMsg = using Imu = struct sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’ is private within this context
+[4.550s]    97 | void Imu::imuCallback(const [01;31m[KImuMsg[m[K::SharedPtr imu_msg_raw) const
+[4.550s]       |                             [01;31m[K^~~~~~[m[K
+[4.550s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.550s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:45:9:[m[K [01;36m[Knote: [m[Kdeclared private here
+[4.550s]    45 |   using [01;36m[KImuMsg[m[K = sensor_msgs::msg::Imu;
+[4.550s]       |         [01;36m[K^~~~~~[m[K
+[4.551s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:151:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Imu::imuMagCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr, sensor_msgs::msg::MagneticField_<std::allocator<void> >::SharedPtr)[m[K’
+[4.551s]   151 | void [01;31m[KImu[m[K::imuMagCallback(
+[4.551s]       |      [01;31m[K^~~[m[K
+[4.551s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.551s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:86:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid Imu::imuMagCallback(const ConstPtr&, const ConstPtr&)[m[K’
+[4.552s]    86 |     void [01;36m[KimuMagCallback[m[K(const ImuMsg::ConstPtr& imu_msg_raw,
+[4.552s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.552s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:43:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Imu[m[K’ defined here
+[4.552s]    43 | class [01;36m[KImu[m[K : public rclcpp::Node
+[4.552s]       |       [01;36m[K^~~[m[K
+[4.553s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:152:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ImuMsg = using Imu = struct sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’ is private within this context
+[4.553s]   152 |   const [01;31m[KImuMsg[m[K::SharedPtr imu_msg_raw,
+[4.553s]       |         [01;31m[K^~~~~~[m[K
+[4.553s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.553s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:45:9:[m[K [01;36m[Knote: [m[Kdeclared private here
+[4.554s]    45 |   using [01;36m[KImuMsg[m[K = sensor_msgs::msg::Imu;
+[4.554s]       |         [01;36m[K^~~~~~[m[K
+[4.554s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:153:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing MagMsg = using MagneticField = struct sensor_msgs::msg::MagneticField_<std::allocator<void> >[m[K’ is private within this context
+[4.554s]   153 |   const [01;31m[KMagMsg[m[K::SharedPtr mag_msg)
+[4.554s]       |         [01;31m[K^~~~~~[m[K
+[4.555s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.555s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:46:9:[m[K [01;36m[Knote: [m[Kdeclared private here
+[4.571s]    46 |   using [01;36m[KMagMsg[m[K = sensor_msgs::msg::MagneticField;
+[4.571s]       |         [01;36m[K^~~~~~[m[K
+[4.572s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:230:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Imu::publishTransform(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’
+[4.572s]   230 | void [01;31m[KImu[m[K::publishTransform(const ImuMsg::SharedPtr imu_msg_raw)
+[4.572s]       |      [01;31m[K^~~[m[K
+[4.572s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.572s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:92:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid Imu::publishTransform(const ConstPtr&)[m[K’
+[4.573s]    92 |     void [01;36m[KpublishTransform[m[K(const ImuMsg::ConstPtr& imu_msg_raw);
+[4.573s]       |          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[4.573s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:43:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Imu[m[K’ defined here
+[4.573s]    43 | class [01;36m[KImu[m[K : public rclcpp::Node
+[4.574s]       |       [01;36m[K^~~[m[K
+[4.574s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:230:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ImuMsg = using Imu = struct sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’ is private within this context
+[4.574s]   230 | void Imu::publishTransform(const [01;31m[KImuMsg[m[K::SharedPtr imu_msg_raw)
+[4.574s]       |                                  [01;31m[K^~~~~~[m[K
+[4.574s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.575s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:45:9:[m[K [01;36m[Knote: [m[Kdeclared private here
+[4.575s]    45 |   using [01;36m[KImuMsg[m[K = sensor_msgs::msg::Imu;
+[4.575s]       |         [01;36m[K^~~~~~[m[K
+[4.576s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:257:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Imu::publishFilteredMsg(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’
+[4.576s]   257 | void [01;31m[KImu[m[K::publishFilteredMsg(const ImuMsg::SharedPtr imu_msg_raw)
+[4.576s]       |      [01;31m[K^~~[m[K
+[4.576s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.576s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:91:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid Imu::publishFilteredMsg(const ConstPtr&)[m[K’
+[4.576s]    91 |     void [01;36m[KpublishFilteredMsg[m[K(const ImuMsg::ConstPtr& imu_msg_raw);
+[4.576s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.577s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:43:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Imu[m[K’ defined here
+[4.577s]    43 | class [01;36m[KImu[m[K : public rclcpp::Node
+[4.577s]       |       [01;36m[K^~~[m[K
+[4.577s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:257:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ImuMsg = using Imu = struct sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’ is private within this context
+[4.577s]   257 | void Imu::publishFilteredMsg(const [01;31m[KImuMsg[m[K::SharedPtr imu_msg_raw)
+[4.577s]       |                                    [01;31m[K^~~~~~[m[K
+[4.578s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.578s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:45:9:[m[K [01;36m[Knote: [m[Kdeclared private here
+[4.578s]    45 |   using [01;36m[KImuMsg[m[K = sensor_msgs::msg::Imu;
+[4.578s]       |         [01;36m[K^~~~~~[m[K
+[4.578s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:299:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Imu::checkTopicsTimerCallback()[m[K’
+[4.578s]   299 | void [01;31m[KImu[m[K::checkTopicsTimerCallback()
+[4.579s]       |      [01;31m[K^~~[m[K
+[4.579s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:37[m[K:
+[4.591s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:98:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid Imu::checkTopicsTimerCallback(...) &[m[K’
+[4.591s]    98 |     void [01;36m[KcheckTopicsTimerCallback[m[K(const ros::TimerEvent&);
+[4.591s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.591s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:43:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Imu[m[K’ defined here
+[4.592s]    43 | class [01;36m[KImu[m[K : public rclcpp::Node
+[4.592s]       |       [01;36m[K^~~[m[K
+[6.156s] make[2]: *** [CMakeFiles/imu_madgwick.dir/build.make:89: CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o] Error 1
+[6.156s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/imu_madgwick.dir/all] Error 2
+[6.156s] make: *** [Makefile:141: all] Error 2
+[6.169s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick -- -j2 -l2

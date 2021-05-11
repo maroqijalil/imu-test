@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target imu_madgwick[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu_filter.cpp.o[0m
+In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/imu_filter.cpp:26[m[K:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/imu_filter.h:28:10:[m[K [01;31m[Kfatal error: [m[Kimu_filter_madgwick/world_frame.h: No such file or directory
+   28 | #include [01;31m[K<imu_filter_madgwick/world_frame.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/imu_madgwick.dir/build.make:63: CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu_filter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/imu_madgwick.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

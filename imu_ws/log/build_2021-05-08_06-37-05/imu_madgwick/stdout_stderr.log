@@ -1,0 +1,53 @@
+[35m[1mScanning dependencies of target imu_madgwick[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/stateless_orientation.cpp.o[0m
+In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:25[m[K:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.h:39:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::msg::Quaternion[m[K’ has not been declared
+   39 |     geometry_msgs::msg::[01;31m[KQuaternion[m[K& orientation);
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.h:44:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::msg::Quaternion[m[K’ has not been declared
+   44 |     geometry_msgs::msg::[01;31m[KQuaternion[m[K& orientation);
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:55:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::Vector3[m[K’ has not been declared
+   55 |   geometry_msgs::[01;31m[KVector3[m[K A,
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:56:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::Vector3[m[K’ has not been declared
+   56 |   geometry_msgs::[01;31m[KVector3[m[K E,
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:57:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::Quaternion[m[K’ has not been declared
+   57 |   geometry_msgs::[01;31m[KQuaternion[m[K& orientation) {
+      |                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:53:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool StatelessOrientation::computeOrientation(WorldFrame::WorldFrame, int, int, int&)[m[K’
+   53 | bool [01;31m[KStatelessOrientation[m[K::computeOrientation(
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:25[m[K:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.h:41:15:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstatic bool StatelessOrientation::computeOrientation(WorldFrame::WorldFrame, geometry_msgs::msg::Vector3, int&)[m[K’
+   41 |   static bool [01;36m[KcomputeOrientation[m[K(
+      |               [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.h:35:15:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstatic bool StatelessOrientation::computeOrientation(WorldFrame::WorldFrame, geometry_msgs::msg::Vector3, geometry_msgs::msg::Vector3, int&)[m[K’
+   35 |   static bool [01;36m[KcomputeOrientation[m[K(
+      |               [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.h:32:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass StatelessOrientation[m[K’ defined here
+   32 | class [01;36m[KStatelessOrientation[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:150:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::Vector3[m[K’ has not been declared
+  150 |   geometry_msgs::[01;31m[KVector3[m[K A,
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:151:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::Quaternion[m[K’ has not been declared
+  151 |   geometry_msgs::[01;31m[KQuaternion[m[K& orientation) {
+      |                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:148:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool StatelessOrientation::computeOrientation(WorldFrame::WorldFrame, int, int&)[m[K’
+  148 | bool [01;31m[KStatelessOrientation[m[K::computeOrientation(
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/src/imu_madgwick/stateless_orientation.cpp:25[m[K:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.h:41:15:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstatic bool StatelessOrientation::computeOrientation(WorldFrame::WorldFrame, geometry_msgs::msg::Vector3, int&)[m[K’
+   41 |   static bool [01;36m[KcomputeOrientation[m[K(
+      |               [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.h:35:15:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstatic bool StatelessOrientation::computeOrientation(WorldFrame::WorldFrame, geometry_msgs::msg::Vector3, geometry_msgs::msg::Vector3, int&)[m[K’
+   35 |   static bool [01;36m[KcomputeOrientation[m[K(
+      |               [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick/include/imu_madgwick/stateless_orientation.h:32:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass StatelessOrientation[m[K’ defined here
+   32 | class [01;36m[KStatelessOrientation[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/imu_madgwick.dir/build.make:76: CMakeFiles/imu_madgwick.dir/src/imu_madgwick/stateless_orientation.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/imu_madgwick.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

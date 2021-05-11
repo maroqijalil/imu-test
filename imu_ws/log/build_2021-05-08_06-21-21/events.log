@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000334] (imu_madgwick) JobQueued: {'identifier': 'imu_madgwick', 'dependencies': OrderedDict()}
+[0.000410] (imu_madgwick) JobStarted: {'identifier': 'imu_madgwick'}
+[0.031626] (imu_madgwick) JobProgress: {'identifier': 'imu_madgwick', 'progress': 'cmake'}
+[0.033075] (imu_madgwick) Command: {'cmd': ['/usr/bin/cmake', '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick', '-DCMAKE_INSTALL_PREFIX=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/install/imu_madgwick'], 'cwd': '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maroqi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1433'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maroqi'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick'), ('TERM_PROGRAM_VERSION', '1.55.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1059'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6079'), ('_colcon_cd_root', '/home/maroqi/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maroqi'), ('JOURNAL_STREAM', '8:37741'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'maroqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/maroqi/.local/bin:/opt/ros/foxy/bin:/home/maroqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/tools:/platform-tools:/home/maroqi/Apps/flutter/bin:/home/maroqi/.config/composer/vendor/bin:/usr/lib/dart/bin:/tools:/platform-tools:/home/maroqi/Apps/flutter/bin:/home/maroqi/.config/composer/vendor/bin'), ('SESSION_MANAGER', 'local/jalil:@/tmp/.ICE-unix/1484,unix/jalil:/tmp/.ICE-unix/1484'), ('INVOCATION_ID', '6cf066535f1c4a52a59d67c35004b802'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e3307d628.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('ANDROID_SDK_ROOT', '/home/maroqi/Apps/android/sdk'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.089163] (-) TimerEvent: {}
+[0.189882] (-) TimerEvent: {}
+[0.290422] (-) TimerEvent: {}
+[0.391027] (-) TimerEvent: {}
+[0.458113] (imu_madgwick) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.491168] (-) TimerEvent: {}
+[0.591640] (-) TimerEvent: {}
+[0.693404] (-) TimerEvent: {}
+[0.793929] (-) TimerEvent: {}
+[0.852780] (imu_madgwick) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.888039] (imu_madgwick) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.894067] (-) TimerEvent: {}
+[0.994518] (-) TimerEvent: {}
+[1.095036] (-) TimerEvent: {}
+[1.163686] (imu_madgwick) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.169786] (imu_madgwick) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.195183] (-) TimerEvent: {}
+[1.295725] (-) TimerEvent: {}
+[1.396534] (-) TimerEvent: {}
+[1.424326] (imu_madgwick) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.475074] (imu_madgwick) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.477349] (imu_madgwick) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.491553] (imu_madgwick) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.496753] (-) TimerEvent: {}
+[1.602780] (-) TimerEvent: {}
+[1.703660] (-) TimerEvent: {}
+[1.767730] (imu_madgwick) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.771313] (imu_madgwick) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.803901] (-) TimerEvent: {}
+[1.904428] (-) TimerEvent: {}
+[2.004962] (-) TimerEvent: {}
+[2.012248] (imu_madgwick) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.054069] (imu_madgwick) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.055764] (imu_madgwick) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.084791] (imu_madgwick) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.105139] (-) TimerEvent: {}
+[2.174388] (imu_madgwick) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[2.174900] (imu_madgwick) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.207516] (-) TimerEvent: {}
+[2.310573] (-) TimerEvent: {}
+[2.413052] (-) TimerEvent: {}
+[2.515690] (-) TimerEvent: {}
+[2.617318] (-) TimerEvent: {}
+[2.717827] (-) TimerEvent: {}
+[2.819513] (-) TimerEvent: {}
+[2.849123] (imu_madgwick) StdoutLine: {'line': b'-- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.919655] (-) TimerEvent: {}
+[3.020182] (-) TimerEvent: {}
+[3.066811] (imu_madgwick) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.108225] (imu_madgwick) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.120557] (-) TimerEvent: {}
+[3.221676] (-) TimerEvent: {}
+[3.322209] (-) TimerEvent: {}
+[3.328008] (imu_madgwick) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.412209] (imu_madgwick) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.422336] (-) TimerEvent: {}
+[3.524952] (-) TimerEvent: {}
+[3.625445] (-) TimerEvent: {}
+[3.673732] (imu_madgwick) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.725597] (-) TimerEvent: {}
+[3.827169] (-) TimerEvent: {}
+[3.903665] (imu_madgwick) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.912038] (imu_madgwick) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.920009] (imu_madgwick) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.927311] (-) TimerEvent: {}
+[4.027848] (-) TimerEvent: {}
+[4.132098] (-) TimerEvent: {}
+[4.221168] (imu_madgwick) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.223578] (imu_madgwick) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.233351] (-) TimerEvent: {}
+[4.334803] (-) TimerEvent: {}
+[4.435273] (-) TimerEvent: {}
+[4.504777] (imu_madgwick) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.505848] (imu_madgwick) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.535405] (-) TimerEvent: {}
+[4.637841] (-) TimerEvent: {}
+[4.729237] (imu_madgwick) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.729666] (imu_madgwick) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.737978] (-) TimerEvent: {}
+[4.838510] (-) TimerEvent: {}
+[4.938971] (-) TimerEvent: {}
+[5.021034] (imu_madgwick) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.024280] (imu_madgwick) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.039129] (-) TimerEvent: {}
+[5.139649] (-) TimerEvent: {}
+[5.240145] (-) TimerEvent: {}
+[5.340635] (-) TimerEvent: {}
+[5.441084] (-) TimerEvent: {}
+[5.541642] (-) TimerEvent: {}
+[5.642137] (-) TimerEvent: {}
+[5.652207] (imu_madgwick) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[5.742311] (-) TimerEvent: {}
+[5.842758] (-) TimerEvent: {}
+[5.943196] (-) TimerEvent: {}
+[6.043716] (-) TimerEvent: {}
+[6.088997] (imu_madgwick) StdoutLine: {'line': b'-- Found tf2: 0.13.9 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[6.134804] (imu_madgwick) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.9 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[6.143857] (-) TimerEvent: {}
+[6.168066] (imu_madgwick) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[6.178454] (imu_madgwick) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[6.244042] (-) TimerEvent: {}
+[6.344638] (-) TimerEvent: {}
+[6.445106] (-) TimerEvent: {}
+[6.545600] (-) TimerEvent: {}
+[6.646043] (-) TimerEvent: {}
+[6.746476] (-) TimerEvent: {}
+[6.846917] (-) TimerEvent: {}
+[6.947406] (-) TimerEvent: {}
+[7.047873] (-) TimerEvent: {}
+[7.148347] (-) TimerEvent: {}
+[7.248914] (-) TimerEvent: {}
+[7.349469] (-) TimerEvent: {}
+[7.449914] (-) TimerEvent: {}
+[7.515406] (imu_madgwick) StdoutLine: {'line': b'-- Found pluginlib: 2.5.3 (/opt/ros/foxy/share/pluginlib/cmake)\n'}
+[7.550055] (-) TimerEvent: {}
+[7.573039] (imu_madgwick) StderrLine: {'line': b'CMake Error at CMakeLists.txt:25 (find_package):\n'}
+[7.573494] (imu_madgwick) StderrLine: {'line': b'  By not providing "Finddynamic_reconfigure.cmake" in CMAKE_MODULE_PATH this\n'}
+[7.573714] (imu_madgwick) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[7.573874] (imu_madgwick) StderrLine: {'line': b'  "dynamic_reconfigure", but CMake did not find one.\n'}
+[7.574030] (imu_madgwick) StderrLine: {'line': b'\n'}
+[7.574184] (imu_madgwick) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[7.574355] (imu_madgwick) StderrLine: {'line': b'  "dynamic_reconfigure" with any of the following names:\n'}
+[7.574527] (imu_madgwick) StderrLine: {'line': b'\n'}
+[7.574674] (imu_madgwick) StderrLine: {'line': b'    dynamic_reconfigureConfig.cmake\n'}
+[7.574824] (imu_madgwick) StderrLine: {'line': b'    dynamic_reconfigure-config.cmake\n'}
+[7.574972] (imu_madgwick) StderrLine: {'line': b'\n'}
+[7.575143] (imu_madgwick) StderrLine: {'line': b'  Add the installation prefix of "dynamic_reconfigure" to CMAKE_PREFIX_PATH\n'}
+[7.575298] (imu_madgwick) StderrLine: {'line': b'  or set "dynamic_reconfigure_DIR" to a directory containing one of the above\n'}
+[7.575485] (imu_madgwick) StderrLine: {'line': b'  files.  If "dynamic_reconfigure" provides a separate development package or\n'}
+[7.575635] (imu_madgwick) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[7.575880] (imu_madgwick) StderrLine: {'line': b'\n'}
+[7.576098] (imu_madgwick) StderrLine: {'line': b'\n'}
+[7.581730] (imu_madgwick) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.582097] (imu_madgwick) StdoutLine: {'line': b'See also "/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick/CMakeFiles/CMakeOutput.log".\n'}
+[7.582313] (imu_madgwick) StdoutLine: {'line': b'See also "/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick/CMakeFiles/CMakeError.log".\n'}
+[7.607699] (imu_madgwick) CommandEnded: {'returncode': 1}
+[7.650188] (-) TimerEvent: {}
+[7.686270] (imu_madgwick) JobEnded: {'identifier': 'imu_madgwick', 'rc': 1}
+[7.689272] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+[0.066s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick -DCMAKE_INSTALL_PREFIX=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/install/imu_madgwick
+[0.210s] CMake Error at CMakeLists.txt:54:
+[0.210s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.210s]   "{%".
+[0.211s] 
+[0.212s] 
+[0.212s] -- Configuring incomplete, errors occurred!
+[0.221s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/build/imu_madgwick' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/src/imu_madgwick -DCMAKE_INSTALL_PREFIX=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu_ws/install/imu_madgwick
