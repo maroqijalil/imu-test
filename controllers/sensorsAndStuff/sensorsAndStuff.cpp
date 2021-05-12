@@ -9,6 +9,7 @@
 #include <cmath>
 
 #define TIME_STEP 64
+#define mSpeed 2.5
 using namespace webots;
 
 #define deltaT 0.01f
@@ -147,6 +148,38 @@ void eulerAngles(struct quaternion q, float* roll, float* pitch, float* yaw){
     *roll *= (180.0f / PI);
 }
 
+int toDegree(double num){
+  double ret=num*57.2958;
+  return (num>0 ? ret : 360+ret);
+}
+
+void motorCW(Motor *wheel[4]){
+    wheel[0]->setVelocity(mSpeed);
+    wheel[1]->setVelocity(-mSpeed);
+    wheel[2]->setVelocity(mSpeed);
+    wheel[3]->setVelocity(-mSpeed);
+}
+
+void motorCCW(Motor *wheel[4]){
+    wheel[0]->setVelocity(-mSpeed);
+    wheel[1]->setVelocity(mSpeed);
+    wheel[2]->setVelocity(-mSpeed);
+    wheel[3]->setVelocity(mSpeed);
+}
+
+void motorFwd(Motor *wheel[4]){
+    wheel[0]->setVelocity(mSpeed);
+    wheel[1]->setVelocity(mSpeed);
+    wheel[2]->setVelocity(mSpeed);
+    wheel[3]->setVelocity(mSpeed);
+}
+
+void motorStop(Motor *wheel[4]){
+  for (int i = 0; i < 4; i++) {
+    wheel[i]->setVelocity(0.0);
+  }
+}
+
 int main(int argc, char **argv) {
   Robot *robot = new Robot();
   Motor *wheels[4];
@@ -164,26 +197,21 @@ int main(int argc, char **argv) {
   gyro->enable(TIME_STEP);  
   IMU->enable(TIME_STEP);
   float rpy[3],vel[3],gy[3];
-
+  bool swep=1;
   
   while (robot->step(TIME_STEP) != -1) {
-    double leftSpeed = 4.0;
-    double rightSpeed = 4.0;
     
-    wheels[0]->setVelocity(leftSpeed/2);
-    wheels[1]->setVelocity(rightSpeed/2);
-    wheels[2]->setVelocity(leftSpeed);
-    wheels[3]->setVelocity(rightSpeed);
+    for(int i=0;i<3;i++){
+      rpy[i]=toDegree(IMU->getRollPitchYaw()[i]);
+      vel[i]=accelerometer->getValues()[i];
+      gy[i]=toDegree(gyro->getValues()[i]);
+    }
     
-    rpy[0]=IMU->getRollPitchYaw()[0];
-    rpy[1]=IMU->getRollPitchYaw()[1];
-    rpy[2]=IMU->getRollPitchYaw()[2];
-    vel[0]=accelerometer->getValues()[0];
-    vel[1]=accelerometer->getValues()[1];
-    vel[2]=accelerometer->getValues()[2];
-    gy[0]=gyro->getValues()[0];
-    gy[1]=gyro->getValues()[1];
-    gy[2]=gyro->getValues()[2];
+    if (swep) motorCW(wheels);
+    else motorCCW(wheels);
+    
+    if(rpy[2]==180) swep=1;
+    if(rpy[2]==360 || rpy[2]==0)swep=0;
     
     float roll = 0.0, pitch = 0.0, yaw = 0.0;
     imu_filter(vel[0], vel[1], vel[2], gy[0], gy[1], gy[2]);
