@@ -1,0 +1,51 @@
+[0.054s] Invoking command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2
+[0.212s] [ 50%] Built target imu_madgwick
+[0.235s] [35m[1mScanning dependencies of target imu_main_test[0m
+[0.307s] [ 62%] [32mBuilding CXX object CMakeFiles/imu_main_test.dir/src/imu_main_test.cpp.o[0m
+[3.954s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[3.955s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:44:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kroll[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.955s]    44 |     float [01;35m[Kroll[m[K = 0.0, pitch = 0.0, yaw = 0.0;
+[3.956s]       |           [01;35m[K^~~~[m[K
+[3.956s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:44:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpitch[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.956s]    44 |     float roll = 0.0, [01;35m[Kpitch[m[K = 0.0, yaw = 0.0;
+[3.957s]       |                       [01;35m[K^~~~~[m[K
+[3.957s] [01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_main_test.cpp:44:36:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.957s]    44 |     float roll = 0.0, pitch = 0.0, [01;35m[Kyaw[m[K = 0.0;
+[3.958s]       |                                    [01;35m[K^~~[m[K
+[8.522s] [ 75%] [32m[1mLinking CXX executable imu_main_test[0m
+[9.105s] [ 75%] Built target imu_main_test
+[9.178s] [100%] Built target imu_main
+[9.216s] Invoked command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2
+[9.357s] Invoking command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick
+[9.391s] -- Install configuration: ""
+[9.392s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/./include
+[9.392s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/./include/imu_madgwick
+[9.393s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/./include/imu_madgwick/imu_filter.hpp
+[9.393s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/./include/imu_madgwick/world_frame.hpp
+[9.393s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/./include/imu_madgwick/imu.hpp
+[9.393s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/./include/imu_madgwick/stateless_orientation.hpp
+[9.394s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/lib/libimu_madgwick.a
+[9.394s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/lib/imu_madgwick/imu_main
+[9.394s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/lib/imu_madgwick/imu_main_test
+[9.397s] -- Set runtime path of "/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/lib/imu_madgwick/imu_main_test" to ""
+[9.397s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/library_path.sh
+[9.398s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/library_path.dsv
+[9.398s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/ament_index/resource_index/package_run_dependencies/imu_madgwick
+[9.400s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/ament_index/resource_index/parent_prefix_path/imu_madgwick
+[9.401s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/ament_prefix_path.sh
+[9.401s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/ament_prefix_path.dsv
+[9.401s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/path.sh
+[9.401s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/path.dsv
+[9.401s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/local_setup.bash
+[9.402s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/local_setup.sh
+[9.402s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/local_setup.zsh
+[9.402s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/local_setup.dsv
+[9.408s] -- Installing: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/package.dsv
+[9.409s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/ament_index/resource_index/packages/imu_madgwick
+[9.410s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.410s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.410s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/cmake/ament_cmake_export_libraries-extras.cmake
+[9.410s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/cmake/imu_madgwickConfig.cmake
+[9.411s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/cmake/imu_madgwickConfig-version.cmake
+[9.411s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/package.xml
+[9.423s] Invoked command in '/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/RobotProjects/imu-test/imu_ws/build/imu_madgwick

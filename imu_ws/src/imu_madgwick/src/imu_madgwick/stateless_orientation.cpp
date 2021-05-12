@@ -49,7 +49,6 @@ static inline T normalizeVector(T& vx, T& vy, T& vz) {
 
 }
 
-
 bool StatelessOrientation::computeOrientation(
   WorldFrame::WorldFrame frame,
   geometry_msgs::msg::Vector3 A,

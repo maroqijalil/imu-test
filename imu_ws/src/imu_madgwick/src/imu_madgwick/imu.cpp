@@ -24,12 +24,7 @@
 
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/imu.hpp>
-#include <sensor_msgs/msg/magnetic_field.hpp>
 #include <geometry_msgs/msg/vector3_stamped.hpp>
-#include <message_filters/subscriber.h>
-#include <message_filters/synchronizer.h>
-#include <message_filters/sync_policies/approximate_time.h>
-#include <geometry_msgs/msg/transform_stamped.hpp>
 #include <tf2/LinearMath/Quaternion.h>
 #include <tf2/LinearMath/Matrix3x3.h>
 
@@ -60,6 +55,8 @@ Imu::Imu(std::string node_name)
     "imu/data_raw", 5, [this](const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw) {
       const geometry_msgs::msg::Vector3& ang_vel = imu_msg_raw->angular_velocity;
       const geometry_msgs::msg::Vector3& lin_acc = imu_msg_raw->linear_acceleration;
+      RCLCPP_INFO(get_logger(), "ax %f, ay %f, az %f", lin_acc.x, lin_acc.y, lin_acc.z);
+      RCLCPP_INFO(get_logger(), "gx %f, gy %f, gz %f", ang_vel.x, ang_vel.y, ang_vel.z);
 
       rclcpp::Time time = imu_msg_raw->header.stamp;
 
@@ -102,6 +99,7 @@ void Imu::publishFilteredMsg(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw)
 {
   double q0,q1,q2,q3;
   filter.getOrientation(q0,q1,q2,q3);
+  RCLCPP_INFO(get_logger(), "q1 %f, q2 %f, q3 %f", q1, q2, q3);
 
   auto imu_msg = sensor_msgs::msg::Imu(* imu_msg_raw);
 
@@ -128,7 +126,7 @@ void Imu::publishFilteredMsg(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw)
     imu_msg.linear_acceleration.z -= gz;
   }
 
-  imu_publisher->publish(imu_msg);
+  // imu_publisher->publish(imu_msg);
 
   double roll = 0.0;
   double pitch = 0.0;
