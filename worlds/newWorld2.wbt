@@ -3,8 +3,8 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation 0.1836289159134697 0.9641325371510213 0.19164778122164292 4.60187411638698
-  position -0.5084928416505837 0.23671069551429297 -0.026219185915678872
+  orientation 0.00386660301177966 0.9978637448417229 0.06521499913058597 3.1665198932434717
+  position -0.0028842899558671024 0.051579192101058394 -0.5585961492680611
 }
 TexturedBackground {
 }
@@ -14,7 +14,6 @@ RectangleArena {
 }
 Robot {
   translation 0 0.06 -0.08
-  rotation 0 1 0 -1.5707953071795862
   scale 0.5 0.5 0.5
   children [
     Gyro {
@@ -50,7 +49,7 @@ Robot {
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        anchor 0.25 -0.03 -0.1
+        anchor 0.25 0 -0.1
       }
       device [
         RotationalMotor {
@@ -58,8 +57,8 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation 0.05001680000000072 -0.030021299999999983 -0.10101300000000002
-        rotation 0.018472153637126783 0.018266175118961236 -0.9996625062422467 1.5706397424001861
+        translation 0.050001813100348236 -4.149671037482519e-05 -0.09991161470515705
+        rotation 0.018472153637120885 0.018266175118963737 -0.9996625062422467 1.570639742400196
         children [
           Shape {
             appearance PBRAppearance {
@@ -78,13 +77,13 @@ Robot {
               }
             }
             geometry Cylinder {
-              height 0.03
+              height 0.01
               radius 0.075
             }
           }
         ]
         boundingObject Cylinder {
-          height 0.03
+          height 0.01
           radius 0.075
         }
         physics Physics {
@@ -101,8 +100,9 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation 0.04995520000000939 -0.0400045999999999 0.12882900000000008
-        rotation 0.050045380606473504 0.04019302825408441 -0.9979378639773719 1.5781619964395237
+        translation 0.04995520000000345 -0.040004599999999974 0.12882900000000005
+        rotation 0.050045380606469 0.04019302825408343 -0.997937863977372 1.5781619964395597
+        scale 0.5 0.5 0.5
         children [
           Shape {
             appearance PBRAppearance {
@@ -121,14 +121,14 @@ Robot {
               }
             }
             geometry Cylinder {
-              height 0.03
+              height 0.01
               radius 0.075
             }
           }
         ]
         name "solid(3)"
         boundingObject Cylinder {
-          height 0.03
+          height 0.01
           radius 0.075
         }
         physics Physics {
@@ -145,8 +145,9 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation -0.05001059999997748 -0.039918699999999925 0.130872
-        rotation -0.01846845815820716 -0.018707967675872694 -0.9996544042811479 1.5716131308963948
+        translation -0.05001059999998603 -0.03991870000000007 0.13087199999999996
+        rotation -0.018468458158204297 -0.018707967675870216 -0.999654404281148 1.57161313089645
+        scale 0.5 0.5 0.5
         children [
           Shape {
             appearance PBRAppearance {
@@ -165,14 +166,14 @@ Robot {
               }
             }
             geometry Cylinder {
-              height 0.03
+              height 0.01
               radius 0.075
             }
           }
         ]
         name "solid(4)"
         boundingObject Cylinder {
-          height 0.03
+          height 0.01
           radius 0.075
         }
         physics Physics {
@@ -181,7 +182,7 @@ Robot {
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        anchor -0.25 -0.03 -0.1
+        anchor -0.25 0 -0.1
       }
       device [
         RotationalMotor {
@@ -189,8 +190,8 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation -0.05001410000000167 -0.03002970000000004 -0.09896740000000002
-        rotation -0.018468453576503095 -0.01870791453519718 -0.9996544053602906 1.5716133906003185
+        translation -0.04999970342793955 -5.041360322601244e-05 -0.10008309666200127
+        rotation -0.018468453576498577 -0.0187079145351976 -0.9996544053602908 1.5716133906003662
         children [
           Shape {
             appearance PBRAppearance {
@@ -204,14 +205,14 @@ Robot {
               }
             }
             geometry Cylinder {
-              height 0.03
+              height 0.01
               radius 0.075
             }
           }
         ]
         name "solid(1)"
         boundingObject Cylinder {
-          height 0.03
+          height 0.01
           radius 0.075
         }
         physics Physics {
