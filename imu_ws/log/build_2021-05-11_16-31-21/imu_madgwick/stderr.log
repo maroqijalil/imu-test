@@ -1,7 +1,0 @@
-[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K In member function ‘[01m[Kvoid Imu::publishTransform(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/maroqi/Projects/RobotProjects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:132:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster[m[K’ was not declared in this scope
-  132 |   [01;31m[Ktf_broadcaster[m[K.sendTransform(transform);
-      |   [01;31m[K^~~~~~~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/imu_madgwick.dir/build.make:89: CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/imu_madgwick.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2
