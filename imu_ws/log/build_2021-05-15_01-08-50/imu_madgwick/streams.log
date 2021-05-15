@@ -1,0 +1,32 @@
+[0.255s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2
+[1.112s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.372s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.785s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.397s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.465s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.914s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.727s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.753s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.691s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[10.538s] CMake Error at CMakeLists.txt:61 (install):
+[10.539s]   install TARGETS given target "launch" which does not exist.
+[10.539s] 
+[10.539s] 
+[10.545s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[11.092s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.098s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.104s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include>
+[11.104s] -- Configured cppcheck exclude dirs and/or files: 
+[11.113s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.114s] -- Configured cpplint exclude dirs and/or files: 
+[11.124s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.129s] -- Added test 'lint_cmake' to check CMake code style
+[11.136s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[11.145s] -- Added test 'uncrustify' to check C / C++ code style
+[11.147s] -- Configured uncrustify additional arguments: 
+[11.151s] -- Added test 'xmllint' to check XML markup files
+[11.206s] -- Configuring incomplete, errors occurred!
+[11.207s] See also "/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick/CMakeFiles/CMakeOutput.log".
+[11.207s] See also "/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick/CMakeFiles/CMakeError.log".
+[11.280s] make: *** [Makefile:414: cmake_check_build_system] Error 1
+[11.300s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2

@@ -1,0 +1,1 @@
+/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick/ament_cmake_environment_hooks/local_setup.zsh

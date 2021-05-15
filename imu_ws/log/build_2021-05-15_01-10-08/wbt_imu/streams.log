@@ -1,0 +1,16 @@
+[1.631s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu': PYTHONPATH=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu --editable --build-directory /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu/build --no-deps install_data --install-dir /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu
+[3.455s] running develop
+[5.031s] running egg_info
+[5.033s] writing wbt_imu.egg-info/PKG-INFO
+[5.041s] writing dependency_links to wbt_imu.egg-info/dependency_links.txt
+[5.041s] writing entry points to wbt_imu.egg-info/entry_points.txt
+[5.041s] writing requirements to wbt_imu.egg-info/requires.txt
+[5.044s] writing top-level names to wbt_imu.egg-info/top_level.txt
+[5.326s] reading manifest file 'wbt_imu.egg-info/SOURCES.txt'
+[5.346s] writing manifest file 'wbt_imu.egg-info/SOURCES.txt'
+[5.637s] running build_ext
+[5.641s] Creating /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages/site.py
+[5.648s] Creating /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages/wbt-imu.egg-link (link to .)
+[5.652s] 
+[5.652s] Installed /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu
+[5.657s] running install_data

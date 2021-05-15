@@ -52,6 +52,7 @@ private:
   rclcpp::Time last_time;
   ImuFilter filter;
 
+  void imuCallback(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw);
   void publishFilteredMsg(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw);
 };
 

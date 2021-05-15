@@ -1,0 +1,16 @@
+[1.610s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu': PYTHONPATH=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu --editable --build-directory /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu/build --no-deps install_data --install-dir /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu
+[3.519s] running develop
+[4.348s] running egg_info
+[4.360s] writing wbt_imu.egg-info/PKG-INFO
+[4.360s] writing dependency_links to wbt_imu.egg-info/dependency_links.txt
+[4.360s] writing entry points to wbt_imu.egg-info/entry_points.txt
+[4.360s] writing requirements to wbt_imu.egg-info/requires.txt
+[4.361s] writing top-level names to wbt_imu.egg-info/top_level.txt
+[4.576s] reading manifest file 'wbt_imu.egg-info/SOURCES.txt'
+[4.584s] writing manifest file 'wbt_imu.egg-info/SOURCES.txt'
+[4.843s] running build_ext
+[4.846s] Creating /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages/wbt-imu.egg-link (link to .)
+[4.849s] 
+[4.854s] Installed /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu
+[4.855s] running install_data
+[5.116s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu' returned '0': PYTHONPATH=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu --editable --build-directory /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu/build --no-deps install_data --install-dir /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu

@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing wbt_imu.egg-info/PKG-INFO
+writing dependency_links to wbt_imu.egg-info/dependency_links.txt
+writing entry points to wbt_imu.egg-info/entry_points.txt
+writing requirements to wbt_imu.egg-info/requires.txt
+writing top-level names to wbt_imu.egg-info/top_level.txt
+reading manifest file 'wbt_imu.egg-info/SOURCES.txt'
+writing manifest file 'wbt_imu.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages/wbt-imu.egg-link (link to .)
+
+Installed /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu
+running install_data
