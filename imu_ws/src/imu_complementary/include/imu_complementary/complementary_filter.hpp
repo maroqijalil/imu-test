@@ -29,8 +29,8 @@
 	SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#ifndef IMU_TOOLS_COMPLEMENTARY_FILTER_H
-#define IMU_TOOLS_COMPLEMENTARY_FILTER_H
+#ifndef IMU_TOOLS_COMPLEMENTARY_FILTER_HPP
+#define IMU_TOOLS_COMPLEMENTARY_FILTER_HPP
 
 namespace imu_tools {
 
@@ -177,4 +177,4 @@ void rotateVectorByQuaternion(double x, double y, double z,
 
 }  // namespace imu
 
-#endif  // IMU_TOOLS_COMPLEMENTARY_FILTER_H
+#endif  // IMU_TOOLS_COMPLEMENTARY_FILTER_HPP

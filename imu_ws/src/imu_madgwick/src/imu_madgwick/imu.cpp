@@ -41,7 +41,6 @@ Imu::Imu(std::string node_name)
   : rclcpp::Node(node_name) {
 
   initialized = false;
-  constant_dt = 0.0;
   remove_gravity_vector = false;
   world_frame = WorldFrame::ENU;
 
@@ -58,8 +57,10 @@ Imu::Imu(std::string node_name)
 void Imu::imuCallback(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw) {
   const geometry_msgs::msg::Vector3& ang_vel = imu_msg_raw->angular_velocity;
   const geometry_msgs::msg::Vector3& lin_acc = imu_msg_raw->linear_acceleration;
+  const geometry_msgs::msg::Quaternion& orient = imu_msg_raw->orientation;
   RCLCPP_INFO(get_logger(), "ax %f, ay %f, az %f", lin_acc.x, lin_acc.y, lin_acc.z);
   RCLCPP_INFO(get_logger(), "gx %f, gy %f, gz %f", ang_vel.x, ang_vel.y, ang_vel.z);
+  RCLCPP_INFO(get_logger(), "qx %f, qy %f, qz %f", orient.x, orient.y, orient.z);
 
   rclcpp::Time time = imu_msg_raw->header.stamp;
 
@@ -76,14 +77,10 @@ void Imu::imuCallback(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw) {
     initialized = true;
   }
 
-  float dt;
-  if (constant_dt > 0.0) {
-    dt = constant_dt;
-  } else {
-    dt = (time - last_time).seconds();
-  }
-
+  float dt = (time - last_time).seconds();
   last_time = time;
+  RCLCPP_INFO(get_logger(), "time: %f", time.seconds());
+
   filter.madgwickAHRSupdateIMU(
     ang_vel.x, ang_vel.y, ang_vel.z,
     lin_acc.x, lin_acc.y, lin_acc.z,
@@ -92,8 +89,7 @@ void Imu::imuCallback(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw) {
   publishFilteredMsg(imu_msg_raw);
 }
 
-void Imu::publishFilteredMsg(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw)
-{
+void Imu::publishFilteredMsg(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw) {
   double q0, q1, q2, q3;
   filter.getOrientation(q0, q1, q2, q3);
   RCLCPP_INFO(get_logger(), "q1 %f, q2 %f, q3 %f", q1, q2, q3);
@@ -129,7 +125,14 @@ void Imu::publishFilteredMsg(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw)
   double pitch = 0.0;
   double yaw = 0.0;
 
-  geometry_msgs::msg::Vector3Stamped rpy;
+  // yaw = atan2f((2*q1*q2 - 2*q0*q3), (2*q0*q0 + 2*q1*q1 -1));
+  // pitch = -asinf(2*q1*q3 + 2*q0*q2);
+  // roll  = atan2f((2*q2*q3 - 2*q0*q1), (2*q0*q0 + 2*q3*q3 -1));
+  
+  // yaw *= (180.0f / 3.14159265358979f);
+  // pitch *= (180.0f / 3.14159265358979f);
+  // roll *= (180.0f / 3.14159265358979f);
+
   tf2::Matrix3x3(tf2::Quaternion(q1,q2,q3,q0)).getRPY(roll, pitch, yaw);
   RCLCPP_INFO(get_logger(), "Roll %f, Pitch %f, Yaw %f", roll, pitch, yaw);
 }

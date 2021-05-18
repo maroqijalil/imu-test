@@ -1,0 +1,40 @@
+[0.109s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2
+[0.542s] [35m[1mScanning dependencies of target imu_madgwick[0m
+[0.661s] [ 12%] [32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o[0m
+[9.205s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K In member function ‘[01m[Kvoid Imu::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.205s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:60:41:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kor[m[K’ token
+[9.207s]    60 |   const geometry_msgs::msg::Quaternion& [01;31m[Kor[m[K = imu_msg_raw->orientation;
+[9.208s]       |                                         [01;31m[K^~[m[K
+[9.213s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[9.213s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[9.216s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[9.216s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[9.217s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[9.217s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[9.217s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[9.218s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.218s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[9.218s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[9.219s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:25[m[K:
+[9.219s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:63:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kor[m[K’ token
+[9.221s]    63 |   RCLCPP_INFO(get_logger(), "qx %f, qy %f, qz %f", [01;31m[Kor[m[K.x, or.y, or.z);
+[9.221s]       |                                                    [01;31m[K^~[m[K
+[9.222s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:63:54:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[9.222s]    63 |   RCLCPP_INFO(get_logger(), "qx %f, qy %f, qz %f", or[01;31m[K.[m[Kx, or.y, or.z);
+[9.222s]       |                                                      [01;31m[K^[m[K
+[9.225s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:63:58:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kor[m[K’ token
+[9.225s]    63 |   RCLCPP_INFO(get_logger(), "qx %f, qy %f, qz %f", or.x, [01;31m[Kor[m[K.y, or.z);
+[9.226s]       |                                                          [01;31m[K^~[m[K
+[9.226s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:63:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[9.227s]    63 |   RCLCPP_INFO(get_logger(), "qx %f, qy %f, qz %f", or.x, or[01;31m[K.[m[Ky, or.z);
+[9.227s]       |                                                            [01;31m[K^[m[K
+[9.237s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:63:64:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kor[m[K’ token
+[9.237s]    63 |   RCLCPP_INFO(get_logger(), "qx %f, qy %f, qz %f", or.x, or.y, [01;31m[Kor[m[K.z);
+[9.237s]       |                                                                [01;31m[K^~[m[K
+[9.237s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:63:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[9.238s]    63 |   RCLCPP_INFO(get_logger(), "qx %f, qy %f, qz %f", or.x, or.y, or[01;31m[K.[m[Kz);
+[9.238s]       |                                                                  [01;31m[K^[m[K
+[14.901s] make[2]: *** [CMakeFiles/imu_madgwick.dir/build.make:89: CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o] Error 1
+[14.901s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/imu_madgwick.dir/all] Error 2
+[14.902s] make: *** [Makefile:141: all] Error 2
+[14.913s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2
