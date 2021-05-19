@@ -35,15 +35,6 @@
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/imu.hpp>
 
-#include <sensor_msgs/MagneticField.h>
-#include <geometry_msgs/Vector3Stamped.h>
-#include <message_filters/subscriber.h>
-#include <message_filters/sync_policies/approximate_time.h>
-#include <message_filters/synchronizer.h>
-#include <sensor_msgs/Imu.h>
-#include <tf/transform_datatypes.h>
-#include <tf/transform_broadcaster.h>
-
 #include <imu_complementary/complementary_filter.hpp>
 
 #include <string>
@@ -63,7 +54,6 @@ private:
   double constant_dt;
   std::string fixed_frame;
 
-  // State variables:
   ComplementaryFilter filter;
   rclcpp::Time time_prev;
   bool initialized_filter;
@@ -71,8 +61,7 @@ private:
   void imuCallback(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw);
   void publish(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw);
 
-  tf::Quaternion hamiltonToTFQuaternion(
-      double q0, double q1, double q2, double q3) const;
+  tf::Quaternion hamiltonToTFQuaternion(double q0, double q1, double q2, double q3) const;
 };
 
 }  // namespace imu_tools

@@ -21,12 +21,12 @@ find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
 add_library(${PROJECT_NAME}
-  "src/complementary_filter.cpp")
+  "src/${PROJECT_NAME}/complementary_filter.cpp"
+  "src/${PROJECT_NAME}/imu.cpp")
 
 target_include_directories(${PROJECT_NAME} PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-  $<INSTALL_INTERFACE:include>
-  ${Boost_LIBRARIES})
+  $<INSTALL_INTERFACE:include>)
 
 ament_target_dependencies(${PROJECT_NAME}
   rclcpp
@@ -35,21 +35,21 @@ ament_target_dependencies(${PROJECT_NAME}
 
 install(DIRECTORY "include" DESTINATION ".")
 
+add_executable(imu_main "src/imu_main.cpp")
+target_include_directories(imu_main PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_link_libraries(imu_main ${PROJECT_NAME})
+
+install(TARGETS
+  imu_main
+  DESTINATION lib/${PROJECT_NAME})
+
 install(TARGETS ${PROJECT_NAME}
   EXPORT export_${PROJECT_NAME}
   ARCHIVE DESTINATION "lib"
   LIBRARY DESTINATION "lib"
   RUNTIME DESTINATION "bin")
-  
-add_executable(complementary_filter "src/complementary_filter.cpp")
-target_include_directories(imu_main PUBLIC
-  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-  $<INSTALL_INTERFACE:include>)
-target_link_libraries(complementary_filter ${PROJECT_NAME})
-
-install(TARGETS
-  complementary_filter
-  DESTINATION lib/${PROJECT_NAME})
   
 install(DIRECTORY
   launch

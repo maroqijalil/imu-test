@@ -29,7 +29,7 @@
 	SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#include <imu_complementary_filter/complementary_filter.hpp>
+#include <imu_complementary/complementary_filter.hpp>
 
 #include <cstdio>
 #include <cmath>

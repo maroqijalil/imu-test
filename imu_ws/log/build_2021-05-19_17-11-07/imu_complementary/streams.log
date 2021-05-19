@@ -1,0 +1,36 @@
+[0.055s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary -- -j2 -l2
+[0.184s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.307s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.360s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.566s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.588s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.139s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.476s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.488s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.487s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.249s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.648s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.656s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.657s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/include>
+[4.660s] -- Configured cppcheck exclude dirs and/or files: 
+[4.668s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.669s] -- Configured cpplint exclude dirs and/or files: 
+[4.671s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.679s] -- Added test 'lint_cmake' to check CMake code style
+[4.685s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.693s] -- Added test 'uncrustify' to check C / C++ code style
+[4.694s] -- Configured uncrustify additional arguments: 
+[4.698s] -- Added test 'xmllint' to check XML markup files
+[4.717s] -- Configuring done
+[4.770s] -- Generating done
+[4.782s] -- Build files have been written to: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary
+[4.904s] [35m[1mScanning dependencies of target imu_complementary[0m
+[5.251s] [ 33%] [32mBuilding CXX object CMakeFiles/imu_complementary.dir/src/imu_complementary/complementary_filter.cpp.o[0m
+[5.449s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/complementary_filter.cpp:32:10:[m[K [01;31m[Kfatal error: [m[Kimu_complementary_filter/complementary_filter.hpp: No such file or directory
+[5.449s]    32 | #include [01;31m[K<imu_complementary_filter/complementary_filter.hpp>[m[K
+[5.450s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.450s] compilation terminated.
+[5.463s] make[2]: *** [CMakeFiles/imu_complementary.dir/build.make:63: CMakeFiles/imu_complementary.dir/src/imu_complementary/complementary_filter.cpp.o] Error 1
+[5.463s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/imu_complementary.dir/all] Error 2
+[5.463s] make: *** [Makefile:141: all] Error 2
+[5.485s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary -- -j2 -l2

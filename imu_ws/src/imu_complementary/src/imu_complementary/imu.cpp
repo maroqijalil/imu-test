@@ -45,8 +45,7 @@
 namespace imu_tools {
 
 Imu::Imu(std::string node_name)
-  : rclcpp::Node(node_name)
-{
+  : rclcpp::Node(node_name) {
   double gain_acc = 0.01;
   double bias_alpha = 0.01;
 
@@ -58,16 +57,15 @@ Imu::Imu(std::string node_name)
   filter.setDoAdaptiveGain(do_adaptive_gain);
 
   if(!filter.setGainAcc(gain_acc))
-    ROS_WARN("Invalid gain_acc passed to ComplementaryFilter.");
+    RCLCPP_WARN(get_logger(), "Invalid gain_acc passed to ComplementaryFilter.");
 
   if(!filter.setBiasAlpha(bias_alpha))
-    ROS_WARN("Invalid bias_alpha passed to ComplementaryFilter.");
+    RCLCPP_WARN(get_logger(), "Invalid bias_alpha passed to ComplementaryFilter.");
 
   imu_publisher = this->create_publisher<sensor_msgs::msg::Imu>("imu/data", 5);
   imu_subscriber = this->create_subscription<sensor_msgs::msg::Imu>(
     "imu/data_raw", rclcpp::QoS(rclcpp::SystemDefaultsQoS()),
     std::bind(&Imu::imuCallback, this, std::placeholders::_1));
-  }
 }
 
 void Imu::imuCallback(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw) {

@@ -1,0 +1,42 @@
+[0.078s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary -- -j2 -l2
+[0.354s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.536s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.733s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.973s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.012s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.370s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.522s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.915s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.287s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.300s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.311s] -- Looking for pthread.h
+[4.093s] -- Looking for pthread.h - found
+[4.097s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.380s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.391s] -- Looking for pthread_create in pthreads
+[4.736s] -- Looking for pthread_create in pthreads - not found
+[4.736s] -- Looking for pthread_create in pthread
+[5.183s] -- Looking for pthread_create in pthread - found
+[5.186s] -- Found Threads: TRUE  
+[6.171s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[6.878s] CMake Error at CMakeLists.txt:45 (target_include_directories):
+[6.878s]   Cannot specify include directories for target "imu_main" which is not built
+[6.879s]   by this project.
+[6.879s] 
+[6.880s] 
+[6.885s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.350s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.353s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.359s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/include>
+[7.360s] -- Configured cppcheck exclude dirs and/or files: 
+[7.364s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.364s] -- Configured cpplint exclude dirs and/or files: 
+[7.366s] -- Added test 'lint_cmake' to check CMake code style
+[7.377s] -- Added test 'uncrustify' to check C / C++ code style
+[7.378s] -- Configured uncrustify additional arguments: 
+[7.378s] -- Added test 'xmllint' to check XML markup files
+[7.414s] -- Configuring incomplete, errors occurred!
+[7.414s] See also "/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary/CMakeFiles/CMakeOutput.log".
+[7.414s] See also "/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary/CMakeFiles/CMakeError.log".
+[7.453s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[7.470s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary -- -j2 -l2

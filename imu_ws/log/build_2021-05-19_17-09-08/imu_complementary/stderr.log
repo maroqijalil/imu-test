@@ -1,0 +1,6 @@
+CMake Error at CMakeLists.txt:45 (target_include_directories):
+  Cannot specify include directories for target "imu_main" which is not built
+  by this project.
+
+
+make: *** [Makefile:222: cmake_check_build_system] Error 1
