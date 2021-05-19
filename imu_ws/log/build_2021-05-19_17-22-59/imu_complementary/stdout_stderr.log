@@ -1,0 +1,100 @@
+[35m[1mScanning dependencies of target imu_complementary[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/imu_complementary.dir/src/imu_complementary/imu.cpp.o[0m
+In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:37[m[K:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/include/imu_complementary/imu.hpp:64:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf[m[K’ does not name a type; did you mean ‘[01m[Ktf2[m[K’?
+   64 |   [01;31m[Ktf[m[K::Quaternion hamiltonToTFQuaternion(double q0, double q1, double q2, double q3) const;
+      |   [01;31m[K^~[m[K
+      |   [32m[Ktf2[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:[m[K In constructor ‘[01m[Kimu_tools::Imu::Imu(std::string)[m[K’:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:53:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfixed_frame_[m[K’ was not declared in this scope; did you mean ‘[01m[Kfixed_frame[m[K’?
+   53 |   [01;31m[Kfixed_frame_[m[K = "odom";
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+      |   [32m[Kfixed_frame[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:54:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstant_dt_[m[K’ was not declared in this scope; did you mean ‘[01m[Kconstant_dt[m[K’?
+   54 |   [01;31m[Kconstant_dt_[m[K = 0.0;
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+      |   [32m[Kconstant_dt[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:56:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kdo_bias_estimation[m[K’ was not declared in this scope
+   56 |   filter.setDoBiasEstimation([01;31m[Kdo_bias_estimation[m[K);
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:57:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kdo_adaptive_gain[m[K’ was not declared in this scope
+   57 |   filter.setDoAdaptiveGain([01;31m[Kdo_adaptive_gain[m[K);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:[m[K In member function ‘[01m[Kvoid imu_tools::Imu::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:72:24:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+   72 |   const geometry_msgs::[01;31m[KVector3[m[K& a = imu_msg_raw->linear_acceleration;
+      |                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:73:24:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+   73 |   const geometry_msgs::[01;31m[KVector3[m[K& w = imu_msg_raw->angular_velocity;
+      |                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:74:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type; did you mean ‘[01m[Kcos[m[K’?
+   74 |   const [01;31m[Kros[m[K::Time& time = imu_msg_raw->header.stamp;
+      |         [01;31m[K^~~[m[K
+      |         [32m[Kcos[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:78:17:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Time[m[K’ and ‘[01m[Ktime_t(time_t*) throw ()[m[K’ {aka ‘[01m[Klong int(long int*)[m[K’})
+   78 |     time_prev = [01;31m[Ktime[m[K;
+      |                 [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/clock.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/timer.hpp:27[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:27[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/include/imu_complementary/imu.hpp:35[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:37[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/time.hpp:91:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time& rclcpp::Time::operator=(const rclcpp::Time&)[m[K’
+   91 |   [01;36m[Koperator[m[K=(const Time & rhs);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/time.hpp:91:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktime_t(time_t*) throw ()[m[K’ {aka ‘[01m[Klong int(long int*)[m[K’} to ‘[01m[Kconst rclcpp::Time&[m[K’
+   91 |   operator=([01;36m[Kconst Time & rhs[m[K);
+      |             [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/time.hpp:101:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time& rclcpp::Time::operator=(const Time&)[m[K’
+  101 |   [01;36m[Koperator[m[K=(const builtin_interfaces::msg::Time & time_msg);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/time.hpp:101:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktime_t(time_t*) throw ()[m[K’ {aka ‘[01m[Klong int(long int*)[m[K’} to ‘[01m[Kconst Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+  101 |   operator=([01;36m[Kconst builtin_interfaces::msg::Time & time_msg[m[K);
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:79:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitialized_filter_[m[K’ was not declared in this scope; did you mean ‘[01m[Kinitialized_filter[m[K’?
+   79 |     [01;31m[Kinitialized_filter_[m[K = true;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kinitialized_filter[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:83:21:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Ktime_t(time_t*) throw ()[m[K’ {aka ‘[01m[Klong int(long int*)[m[K’} and ‘[01m[Krclcpp::Time[m[K’)
+   83 |   double dt = ([32m[Ktime[m[K [01;31m[K-[m[K [34m[Ktime_prev[m[K).seconds();
+      |                [32m[K~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~[m[K
+      |                [32m[K|[m[K      [34m[K|[m[K
+      |                [32m[K|[m[K      [34m[Krclcpp::Time[m[K
+      |                [32m[Ktime_t(time_t*) throw () {aka long int(long int*)}[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:84:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_prev_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktime_prev[m[K’?
+   84 |   [01;31m[Ktime_prev_[m[K = time;
+      |   [01;31m[K^~~~~~~~~~[m[K
+      |   [32m[Ktime_prev[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:86:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ka[m[K’ was not declared in this scope
+   86 |   filter.update([01;31m[Ka[m[K.x, a.y, a.z, w.x, w.y, w.z, dt);
+      |                 [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:86:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kw[m[K’ was not declared in this scope
+   86 |   filter.update(a.x, a.y, a.z, [01;31m[Kw[m[K.x, w.y, w.z, dt);
+      |                                [01;31m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:[m[K At global scope:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:91:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf[m[K’ does not name a type; did you mean ‘[01m[Ktf2[m[K’?
+   91 | [01;31m[Ktf[m[K::Quaternion Imu::hamiltonToTFQuaternion(
+      | [01;31m[K^~[m[K
+      | [32m[Ktf2[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:[m[K In member function ‘[01m[Kvoid imu_tools::Imu::publish(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:99:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf[m[K’ has not been declared
+   99 |   [01;31m[Ktf[m[K::Quaternion q = hamiltonToTFQuaternion(q0, q1, q2, q3);
+      |   [01;31m[K^~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:102:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf[m[K’ has not been declared
+  102 |   [01;31m[Ktf[m[K::quaternionTFToMsg(q, imu_msg->orientation);
+      |   [01;31m[K^~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:102:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope; did you mean ‘[01m[Kq3[m[K’?
+  102 |   tf::quaternionTFToMsg([01;31m[Kq[m[K, imu_msg->orientation);
+      |                         [01;31m[K^[m[K
+      |                         [32m[Kq3[m[K
+make[2]: *** [CMakeFiles/imu_complementary.dir/build.make:76: CMakeFiles/imu_complementary.dir/src/imu_complementary/imu.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/imu_complementary.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

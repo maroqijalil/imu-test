@@ -50,11 +50,11 @@ Imu::Imu(std::string node_name)
   double bias_alpha = 0.01;
 
   initialized_filter = false;
-  fixed_frame_ = "odom";
-  constant_dt_ = 0.0;
+  fixed_frame = "odom";
+  constant_dt = 0.0;
 
-  filter.setDoBiasEstimation(do_bias_estimation);
-  filter.setDoAdaptiveGain(do_adaptive_gain);
+  filter.setDoBiasEstimation(true);
+  filter.setDoAdaptiveGain(true);
 
   if(!filter.setGainAcc(gain_acc))
     RCLCPP_WARN(get_logger(), "Invalid gain_acc passed to ComplementaryFilter.");
@@ -69,37 +69,30 @@ Imu::Imu(std::string node_name)
 }
 
 void Imu::imuCallback(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw) {
-  const geometry_msgs::Vector3& a = imu_msg_raw->linear_acceleration; 
-  const geometry_msgs::Vector3& w = imu_msg_raw->angular_velocity;
-  const ros::Time& time = imu_msg_raw->header.stamp;
+  const geometry_msgs::msg::Vector3& a = imu_msg_raw->linear_acceleration; 
+  const geometry_msgs::msg::Vector3& w = imu_msg_raw->angular_velocity;
+  const rclcpp::Time& time = imu_msg_raw->header.stamp;
 
   if (!initialized_filter)
   {   
     time_prev = time;
-    initialized_filter_ = true;
+    initialized_filter = true;
     return; 
   }
 
   double dt = (time - time_prev).seconds();
-  time_prev_ = time;
+  time_prev = time;
 
   filter.update(a.x, a.y, a.z, w.x, w.y, w.z, dt);
 
   publish(imu_msg_raw);
 }
 
-tf::Quaternion Imu::hamiltonToTFQuaternion(
-  double q0, double q1, double q2, double q3) const {
-  return tf::Quaternion(q1, q2, q3, q0);
-}
-
 void Imu::publish(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw) {
   double q0, q1, q2, q3;
   filter.getOrientation(q0, q1, q2, q3);
-  tf::Quaternion q = hamiltonToTFQuaternion(q0, q1, q2, q3);
 
   std::shared_ptr<sensor_msgs::msg::Imu> imu_msg = std::make_shared<sensor_msgs::msg::Imu>(*imu_msg_raw);
-  tf::quaternionTFToMsg(q, imu_msg->orientation);
 
   if (filter.getDoBiasEstimation())
   {

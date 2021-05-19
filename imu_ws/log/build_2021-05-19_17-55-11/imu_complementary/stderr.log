@@ -1,0 +1,10 @@
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:[m[K In constructor ‘[01m[Kimu_tools::Imu::Imu(std::string)[m[K’:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:56:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kdo_bias_estimation[m[K’ was not declared in this scope
+   56 |   filter.setDoBiasEstimation([01;31m[Kdo_bias_estimation[m[K);
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:57:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kdo_adaptive_gain[m[K’ was not declared in this scope
+   57 |   filter.setDoAdaptiveGain([01;31m[Kdo_adaptive_gain[m[K);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/imu_complementary.dir/build.make:76: CMakeFiles/imu_complementary.dir/src/imu_complementary/imu.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/imu_complementary.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

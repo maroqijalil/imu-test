@@ -1,0 +1,14 @@
+[0.090s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary -- -j2 -l2
+[0.286s] [35m[1mScanning dependencies of target imu_complementary[0m
+[0.409s] [ 20%] [32mBuilding CXX object CMakeFiles/imu_complementary.dir/src/imu_complementary/imu.cpp.o[0m
+[7.254s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:[m[K In constructor ‘[01m[Kimu_tools::Imu::Imu(std::string)[m[K’:
+[7.254s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:56:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kdo_bias_estimation[m[K’ was not declared in this scope
+[7.255s]    56 |   filter.setDoBiasEstimation([01;31m[Kdo_bias_estimation[m[K);
+[7.255s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[7.263s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:57:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kdo_adaptive_gain[m[K’ was not declared in this scope
+[7.263s]    57 |   filter.setDoAdaptiveGain([01;31m[Kdo_adaptive_gain[m[K);
+[7.263s]       |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[11.180s] make[2]: *** [CMakeFiles/imu_complementary.dir/build.make:76: CMakeFiles/imu_complementary.dir/src/imu_complementary/imu.cpp.o] Error 1
+[11.181s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/imu_complementary.dir/all] Error 2
+[11.181s] make: *** [Makefile:141: all] Error 2
+[11.189s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary -- -j2 -l2
