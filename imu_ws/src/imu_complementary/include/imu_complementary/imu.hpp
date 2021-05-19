@@ -59,23 +59,17 @@ public:
 private:
   std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::Imu>> imu_publisher;
   std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Imu>> imu_subscriber;
-         
-  // Parameters:
-  bool use_mag;
-  bool publish_tf;
-  bool reverse_tf;
+
   double constant_dt;
-  bool publish_debug_topics;
   std::string fixed_frame;
 
   // State variables:
   ComplementaryFilter filter;
-  ros::Time time_prev;
+  rclcpp::Time time_prev;
   bool initialized_filter;
 
-  void initializeParams();
-  void imuCallback(const ImuMsg::ConstPtr& imu_msg_raw);
-  void publish(const sensor_msgs::Imu::ConstPtr& imu_msg_raw);
+  void imuCallback(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw);
+  void publish(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw);
 
   tf::Quaternion hamiltonToTFQuaternion(
       double q0, double q1, double q2, double q3) const;
