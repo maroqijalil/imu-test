@@ -1,0 +1,43 @@
+[0.062s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2
+[0.271s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.407s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.391s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.484s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.577s] -- Configuring incomplete, errors occurred!
+[1.577s] See also "/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick/CMakeFiles/CMakeOutput.log".
+[1.577s] See also "/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick/CMakeFiles/CMakeError.log".
+[1.577s] CMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[1.578s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[1.578s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[1.578s]   set the policy and suppress this warning.
+[1.578s] 
+[1.579s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[1.579s]   Since the policy is not set the OLD behavior will be used.
+[1.579s] Call Stack (most recent call first):
+[1.579s]   /opt/ros/foxy/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:72 (list_append_unique)
+[1.579s]   /opt/ros/foxy/share/rcl/cmake/rclConfig.cmake:41 (include)
+[1.579s]   /opt/ros/foxy/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.582s]   /opt/ros/foxy/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[1.582s]   /opt/ros/foxy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.582s]   /opt/ros/foxy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[1.582s]   CMakeLists.txt:18 (find_package)
+[1.582s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.583s] 
+[1.583s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[1.583s]   if given arguments:
+[1.583s] 
+[1.583s]     "NOT" "element" "IN_LIST" "rcl_RECURSIVE_DEPENDENCIES"
+[1.583s] 
+[1.583s]   Unknown arguments specified
+[1.584s] Call Stack (most recent call first):
+[1.584s]   /opt/ros/foxy/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:72 (list_append_unique)
+[1.584s]   /opt/ros/foxy/share/rcl/cmake/rclConfig.cmake:41 (include)
+[1.584s]   /opt/ros/foxy/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.584s]   /opt/ros/foxy/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[1.585s]   /opt/ros/foxy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.585s]   /opt/ros/foxy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[1.585s]   CMakeLists.txt:18 (find_package)
+[1.585s] 
+[1.585s] 
+[1.591s] make: *** [Makefile:504: cmake_check_build_system] Error 1
+[2.095s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2

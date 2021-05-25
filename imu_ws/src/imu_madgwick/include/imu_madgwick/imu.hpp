@@ -22,8 +22,8 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef IMU_FILTER_MADWICK_IMU_FILTER_ROS_H
-#define IMU_FILTER_MADWICK_IMU_FILTER_ROS_H
+#ifndef IMU_MADWICK_IMU_HPP
+#define IMU_MADWICK_IMU_HPP
 
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/imu.hpp>
@@ -39,21 +39,11 @@ public:
   Imu(std::string node_name);
 
 private:
-  std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::Imu>> imu_publisher;
   std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Imu>> imu_subscriber;
-
-  WorldFrame::WorldFrame world_frame;
-  std::string imu_frame;
-  bool stateless;
-  double constant_dt;
-  bool remove_gravity_vector;
 
   bool initialized;
   rclcpp::Time last_time;
   ImuFilter filter;
-
-  void imuCallback(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw);
-  void publishFilteredMsg(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw);
 };
 
-#endif // IMU_FILTER_IMU_MADWICK_FILTER_ROS_H
+#endif // IMU_MADWICK_IMU_HPP

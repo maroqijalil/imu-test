@@ -41,98 +41,43 @@ Imu::Imu(std::string node_name)
   : rclcpp::Node(node_name) {
 
   initialized = false;
-  remove_gravity_vector = false;
-  world_frame = WorldFrame::ENU;
-
-  filter.setWorldFrame(world_frame);
+  filter.setWorldFrame(WorldFrame::ENU);
   filter.setAlgorithmGain(0.1);
   filter.setDriftBiasGain(0.0);
 
-  imu_publisher = this->create_publisher<sensor_msgs::msg::Imu>("imu/data", 5);
   imu_subscriber = this->create_subscription<sensor_msgs::msg::Imu>(
     "imu/data_raw", rclcpp::QoS(rclcpp::SystemDefaultsQoS()),
-    std::bind(&Imu::imuCallback, this, std::placeholders::_1));
-}
+    [this] (const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw) {
+      const geometry_msgs::msg::Vector3& ang_vel = imu_msg_raw->angular_velocity;
+      const geometry_msgs::msg::Vector3& lin_acc = imu_msg_raw->linear_acceleration;
+      rclcpp::Time time = imu_msg_raw->header.stamp;
 
-void Imu::imuCallback(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw) {
-  const geometry_msgs::msg::Vector3& ang_vel = imu_msg_raw->angular_velocity;
-  const geometry_msgs::msg::Vector3& lin_acc = imu_msg_raw->linear_acceleration;
-  const geometry_msgs::msg::Quaternion& orient = imu_msg_raw->orientation;
-  RCLCPP_INFO(get_logger(), "ax %f, ay %f, az %f", lin_acc.x, lin_acc.y, lin_acc.z);
-  RCLCPP_INFO(get_logger(), "gx %f, gy %f, gz %f", ang_vel.x, ang_vel.y, ang_vel.z);
-  RCLCPP_INFO(get_logger(), "qx %f, qy %f, qz %f", orient.x, orient.y, orient.z);
+      if (!initialized) {
+        geometry_msgs::msg::Quaternion init_q;
+        if (!StatelessOrientation::computeOrientation(WorldFrame::ENU, lin_acc, init_q)) {
+          RCLCPP_WARN_STREAM(get_logger(), "The IMU seems to be in free fall, cannot determine gravity direction!");
+          return;
+        }
 
-  rclcpp::Time time = imu_msg_raw->header.stamp;
+        RCLCPP_INFO(get_logger(), "First IMU message received.");
+        filter.setOrientation(init_q.w, init_q.x, init_q.y, init_q.z);
+        last_time = time;
+        initialized = true;
+      }
 
-  if (!initialized) {
-    geometry_msgs::msg::Quaternion init_q;
-    if (!StatelessOrientation::computeOrientation(world_frame, lin_acc, init_q)) {
-      RCLCPP_WARN_STREAM(get_logger(), "The IMU seems to be in free fall, cannot determine gravity direction!");
-      return;
+      last_time = time;
+      filter.madgwickAHRSupdateIMU(
+        ang_vel.x, ang_vel.y, ang_vel.z,
+        lin_acc.x, lin_acc.y, lin_acc.z,
+        (time - last_time).seconds());
+
+      double roll = 0.0;
+      double pitch = 0.0;
+      double yaw = 0.0;
+      double q0, q1, q2, q3;
+      filter.getOrientation(q0, q1, q2, q3);
+      tf2::Matrix3x3(tf2::Quaternion(q1,q2,q3,q0)).getRPY(roll, pitch, yaw);
+      RCLCPP_INFO(get_logger(), "Roll %f, Pitch %f, Yaw %f", roll, pitch, yaw);
     }
-    filter.setOrientation(init_q.w, init_q.x, init_q.y, init_q.z);
-
-    RCLCPP_INFO(get_logger(), "First IMU message received.");
-    last_time = time;
-    initialized = true;
-  }
-
-  float dt = (time - last_time).seconds();
-  last_time = time;
-  RCLCPP_INFO(get_logger(), "time: %f", time.seconds());
-
-  filter.madgwickAHRSupdateIMU(
-    ang_vel.x, ang_vel.y, ang_vel.z,
-    lin_acc.x, lin_acc.y, lin_acc.z,
-    dt);
-
-  publishFilteredMsg(imu_msg_raw);
-}
-
-void Imu::publishFilteredMsg(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw) {
-  double q0, q1, q2, q3;
-  filter.getOrientation(q0, q1, q2, q3);
-  RCLCPP_INFO(get_logger(), "q1 %f, q2 %f, q3 %f", q1, q2, q3);
-
-  auto imu_msg = sensor_msgs::msg::Imu(* imu_msg_raw);
-
-  imu_msg.orientation.w = q0;
-  imu_msg.orientation.x = q1;
-  imu_msg.orientation.y = q2;
-  imu_msg.orientation.z = q3;
-
-  imu_msg.orientation_covariance[0] = 0.0;
-  imu_msg.orientation_covariance[1] = 0.0;
-  imu_msg.orientation_covariance[2] = 0.0;
-  imu_msg.orientation_covariance[3] = 0.0;
-  imu_msg.orientation_covariance[4] = 0.0;
-  imu_msg.orientation_covariance[5] = 0.0;
-  imu_msg.orientation_covariance[6] = 0.0;
-  imu_msg.orientation_covariance[7] = 0.0;
-  imu_msg.orientation_covariance[8] = 0.0;
-
-  if(remove_gravity_vector) {
-    float gx, gy, gz;
-    filter.getGravity(gx, gy, gz);
-    imu_msg.linear_acceleration.x -= gx;
-    imu_msg.linear_acceleration.y -= gy;
-    imu_msg.linear_acceleration.z -= gz;
-  }
-
-  // imu_publisher->publish(imu_msg);
-
-  double roll = 0.0;
-  double pitch = 0.0;
-  double yaw = 0.0;
-
-  // yaw = atan2f((2*q1*q2 - 2*q0*q3), (2*q0*q0 + 2*q1*q1 -1));
-  // pitch = -asinf(2*q1*q3 + 2*q0*q2);
-  // roll  = atan2f((2*q2*q3 - 2*q0*q1), (2*q0*q0 + 2*q3*q3 -1));
-  
-  // yaw *= (180.0f / 3.14159265358979f);
-  // pitch *= (180.0f / 3.14159265358979f);
-  // roll *= (180.0f / 3.14159265358979f);
-
-  tf2::Matrix3x3(tf2::Quaternion(q1,q2,q3,q0)).getRPY(roll, pitch, yaw);
-  RCLCPP_INFO(get_logger(), "Roll %f, Pitch %f, Yaw %f", roll, pitch, yaw);
+  );
 }

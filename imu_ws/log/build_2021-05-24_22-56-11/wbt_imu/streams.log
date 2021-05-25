@@ -1,0 +1,23 @@
+[1.200s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu': PYTHONPATH=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu --uninstall --editable --build-directory /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu/build
+[2.443s] running develop
+[3.411s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu' returned '0': PYTHONPATH=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu --uninstall --editable --build-directory /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu/build
+[3.416s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/wbt_imu': PYTHONPATH=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wbt_imu build --build-base /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu/build install --prefix /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu --record /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu/install.log --single-version-externally-managed
+[4.759s] running egg_info
+[4.760s] writing ../../build/wbt_imu/wbt_imu.egg-info/PKG-INFO
+[4.761s] writing dependency_links to ../../build/wbt_imu/wbt_imu.egg-info/dependency_links.txt
+[4.761s] writing entry points to ../../build/wbt_imu/wbt_imu.egg-info/entry_points.txt
+[4.762s] writing requirements to ../../build/wbt_imu/wbt_imu.egg-info/requires.txt
+[4.762s] writing top-level names to ../../build/wbt_imu/wbt_imu.egg-info/top_level.txt
+[4.900s] reading manifest file '../../build/wbt_imu/wbt_imu.egg-info/SOURCES.txt'
+[4.904s] writing manifest file '../../build/wbt_imu/wbt_imu.egg-info/SOURCES.txt'
+[4.904s] running build
+[4.904s] running build_py
+[4.905s] running install
+[4.908s] running install_lib
+[4.912s] running install_data
+[4.915s] running install_egg_info
+[4.921s] removing '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages/wbt_imu-0.0.0-py3.8.egg-info' (and everything under it)
+[4.922s] Copying ../../build/wbt_imu/wbt_imu.egg-info to /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages/wbt_imu-0.0.0-py3.8.egg-info
+[4.926s] running install_scripts
+[4.999s] writing list of installed files to '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu/install.log'
+[5.123s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/wbt_imu' returned '0': PYTHONPATH=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wbt_imu build --build-base /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu/build install --prefix /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu --record /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu/install.log --single-version-externally-managed

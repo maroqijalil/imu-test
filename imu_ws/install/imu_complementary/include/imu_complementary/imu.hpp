@@ -39,6 +39,7 @@
 
 #include <string>
 #include <memory>
+#include <fstream>
 
 namespace imu_tools {
 
@@ -57,6 +58,9 @@ private:
   ComplementaryFilter filter;
   rclcpp::Time time_prev;
   bool initialized_filter;
+  
+  std::ofstream outdata;
+  int counter;
 
   void imuCallback(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw);
   void publish(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw);

@@ -1,0 +1,35 @@
+[0.045s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary -- -j2 -l2
+[0.441s] [ 60%] Built target imu_complementary
+[0.621s] [100%] Built target imu_main
+[0.678s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary -- -j2 -l2
+[0.964s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary
+[1.016s] -- Install configuration: ""
+[1.017s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/./include
+[1.017s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/./include/imu_complementary
+[1.018s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/./include/imu_complementary/complementary_filter.hpp
+[1.019s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/./include/imu_complementary/imu.hpp
+[1.021s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/lib/imu_complementary/imu_main
+[1.022s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/lib/libimu_complementary.a
+[1.026s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary//launch
+[1.026s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary//launch/reading_imu_launch.py
+[1.027s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/environment/library_path.sh
+[1.028s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/environment/library_path.dsv
+[1.029s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/ament_index/resource_index/package_run_dependencies/imu_complementary
+[1.030s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/ament_index/resource_index/parent_prefix_path/imu_complementary
+[1.031s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/environment/ament_prefix_path.sh
+[1.031s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/environment/ament_prefix_path.dsv
+[1.032s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/environment/path.sh
+[1.033s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/environment/path.dsv
+[1.034s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/local_setup.bash
+[1.042s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/local_setup.sh
+[1.043s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/local_setup.zsh
+[1.044s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/local_setup.dsv
+[1.044s] -- Installing: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/package.dsv
+[1.045s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/ament_index/resource_index/packages/imu_complementary
+[1.046s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.047s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.048s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/cmake/ament_cmake_export_libraries-extras.cmake
+[1.048s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/cmake/imu_complementaryConfig.cmake
+[1.049s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/cmake/imu_complementaryConfig-version.cmake
+[1.050s] -- Up-to-date: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/package.xml
+[1.057s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary

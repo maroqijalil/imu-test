@@ -1,0 +1,232 @@
+[0.619s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.619s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f58c183d910>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f58c183d910>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f58c183de80>)
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.633s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_complementary) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_complementary) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_complementary) by extension 'ignore_ament_install'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_complementary) by extensions ['colcon_pkg']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_complementary) by extension 'colcon_pkg'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_complementary) by extensions ['colcon_meta']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_complementary) by extension 'colcon_meta'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_complementary) by extensions ['ros']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_complementary) by extension 'ros'
+[0.678s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_complementary' with type 'ros.ament_cmake' and name 'imu_complementary'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_madgwick) by extensions ['ignore', 'ignore_ament_install']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_madgwick) by extension 'ignore'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_madgwick) by extension 'ignore_ament_install'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_madgwick) by extensions ['colcon_pkg']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_madgwick) by extension 'colcon_pkg'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_madgwick) by extensions ['colcon_meta']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_madgwick) by extension 'colcon_meta'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_madgwick) by extensions ['ros']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_madgwick) by extension 'ros'
+[0.682s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_madgwick' with type 'ros.ament_cmake' and name 'imu_madgwick'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbt_imu) by extensions ['ignore', 'ignore_ament_install']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbt_imu) by extension 'ignore'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbt_imu) by extension 'ignore_ament_install'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbt_imu) by extensions ['colcon_pkg']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbt_imu) by extension 'colcon_pkg'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbt_imu) by extensions ['colcon_meta']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbt_imu) by extension 'colcon_meta'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbt_imu) by extensions ['ros']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbt_imu) by extension 'ros'
+[0.685s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wbt_imu' with type 'ros.ament_python' and name 'wbt_imu'
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary' build argument 'cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary' build argument 'cmake_target' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary' build argument 'cmake_clean_cache' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary' build argument 'cmake_clean_first' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary' build argument 'cmake_force_configure' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary' build argument 'ament_cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary' build argument 'catkin_cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.734s] DEBUG:colcon.colcon_core.verb:Building package 'imu_complementary' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary', 'merge_install': False, 'path': '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary', 'symlink_install': False, 'test_result_base': None}
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'cmake_args' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'cmake_target' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'cmake_clean_cache' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'cmake_clean_first' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'cmake_force_configure' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'ament_cmake_args' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'catkin_cmake_args' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'imu_madgwick' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.742s] DEBUG:colcon.colcon_core.verb:Building package 'imu_madgwick' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick', 'merge_install': False, 'path': '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick', 'symlink_install': False, 'test_result_base': None}
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'wbt_imu' build argument 'cmake_args' from command line to 'None'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'wbt_imu' build argument 'cmake_target' from command line to 'None'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'wbt_imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'wbt_imu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'wbt_imu' build argument 'cmake_clean_first' from command line to 'False'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'wbt_imu' build argument 'cmake_force_configure' from command line to 'False'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'wbt_imu' build argument 'ament_cmake_args' from command line to 'None'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'wbt_imu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'wbt_imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.750s] DEBUG:colcon.colcon_core.verb:Building package 'wbt_imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu', 'merge_install': False, 'path': '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/wbt_imu', 'symlink_install': False, 'test_result_base': None}
+[0.752s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.756s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary' with build type 'ament_cmake'
+[0.757s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary'
+[0.766s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.767s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.771s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.778s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.785s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick' with build type 'ament_cmake'
+[0.786s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick'
+[0.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.788s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.793s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary -- -j2 -l2
+[0.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2
+[1.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary -- -j2 -l2
+[1.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary
+[1.498s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_complementary)
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary' for CMake module files
+[1.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary' for CMake config files
+[1.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary', 'cmake_prefix_path')
+[1.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/hook/cmake_prefix_path.ps1'
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/hook/cmake_prefix_path.dsv'
+[1.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/hook/cmake_prefix_path.sh'
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/lib'
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/bin'
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/lib/pkgconfig/imu_complementary.pc'
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/lib/python3.8/site-packages'
+[1.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/package.ps1'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/package.dsv'
+[1.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/package.sh'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/package.bash'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/package.zsh'
+[1.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/colcon-core/packages/imu_complementary)
+[1.741s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_complementary)
+[1.743s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary' for CMake module files
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary' for CMake config files
+[1.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary', 'cmake_prefix_path')
+[1.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/hook/cmake_prefix_path.ps1'
+[1.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/hook/cmake_prefix_path.dsv'
+[1.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/hook/cmake_prefix_path.sh'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/lib'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/bin'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/lib/pkgconfig/imu_complementary.pc'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/lib/python3.8/site-packages'
+[1.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/package.ps1'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/package.dsv'
+[1.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/package.sh'
+[1.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/package.bash'
+[1.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/imu_complementary/package.zsh'
+[1.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_complementary/share/colcon-core/packages/imu_complementary)
+[1.793s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/wbt_imu' with build type 'ament_python'
+[1.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('wbt_imu', 'ament_prefix_path')
+[1.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/share/wbt_imu/hook/ament_prefix_path.ps1'
+[1.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/share/wbt_imu/hook/ament_prefix_path.dsv'
+[1.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/share/wbt_imu/hook/ament_prefix_path.sh'
+[1.807s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.808s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.811s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.985s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/wbt_imu'
+[2.987s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.987s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.995s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[3.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu': PYTHONPATH=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu --uninstall --editable --build-directory /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu/build
+[5.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu' returned '0': PYTHONPATH=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu --uninstall --editable --build-directory /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu/build
+[5.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/wbt_imu': PYTHONPATH=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wbt_imu build --build-base /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu/build install --prefix /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu --record /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu/install.log --single-version-externally-managed
+[6.941s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu' for CMake module files
+[6.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/wbt_imu' returned '0': PYTHONPATH=/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wbt_imu build --build-base /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu/build install --prefix /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu --record /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/wbt_imu/install.log --single-version-externally-managed
+[6.950s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu' for CMake config files
+[6.951s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib'
+[6.952s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/bin'
+[6.952s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/pkgconfig/wbt_imu.pc'
+[6.952s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/lib/python3.8/site-packages'
+[6.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('wbt_imu', 'pythonpath')
+[6.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/share/wbt_imu/hook/pythonpath.ps1'
+[6.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/share/wbt_imu/hook/pythonpath.dsv'
+[6.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/share/wbt_imu/hook/pythonpath.sh'
+[6.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wbt_imu)
+[6.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/share/wbt_imu/package.ps1'
+[6.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/share/wbt_imu/package.dsv'
+[6.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/share/wbt_imu/package.sh'
+[6.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/share/wbt_imu/package.bash'
+[6.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/share/wbt_imu/package.zsh'
+[7.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu/share/colcon-core/packages/wbt_imu)
+[26.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2
+[26.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_madgwick)
+[26.132s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick' for CMake module files
+[26.134s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick' for CMake config files
+[26.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_madgwick', 'cmake_prefix_path')
+[26.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/hook/cmake_prefix_path.ps1'
+[26.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/hook/cmake_prefix_path.dsv'
+[26.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/hook/cmake_prefix_path.sh'
+[26.150s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/lib'
+[26.150s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/bin'
+[26.151s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/lib/pkgconfig/imu_madgwick.pc'
+[26.152s] Level 1:colcon.colcon_core.environment:checking '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/lib/python3.8/site-packages'
+[26.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/package.ps1'
+[26.159s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/package.dsv'
+[26.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/package.sh'
+[26.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/package.bash'
+[26.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/package.zsh'
+[26.170s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/colcon-core/packages/imu_madgwick)
+[26.176s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.179s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.179s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[26.179s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.204s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.454s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.455s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/local_setup.ps1'
+[26.458s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/_local_setup_util_ps1.py'
+[26.467s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/setup.ps1'
+[26.479s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/local_setup.sh'
+[26.480s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/_local_setup_util_sh.py'
+[26.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/setup.sh'
+[26.495s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/local_setup.bash'
+[26.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/setup.bash'
+[26.510s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/local_setup.zsh'
+[26.511s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/setup.zsh'

@@ -1,0 +1,25 @@
+[0.108s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary -- -j2 -l2
+[0.443s] [35m[1mScanning dependencies of target imu_complementary[0m
+[0.622s] [ 20%] [32mBuilding CXX object CMakeFiles/imu_complementary.dir/src/imu_complementary/imu.cpp.o[0m
+[9.289s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:[m[K In member function ‘[01m[Kvoid imu_tools::Imu::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.290s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:88:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before string constant
+[9.290s]    88 | data << "ax " << lin_acc.x << ", ay " << lin_acc.y[01;31m[K [m[K[32m[K", az "[m[K lin_acc.z << std::endl;
+[9.290s]       |                                                   [01;31m[K^[m[K[32m[K~~~~~~~[m[K
+[9.293s]       |                                                   [32m[K;[m[K
+[9.293s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:89:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before string constant
+[9.293s]    89 | data << "gx " << ang_vel.x << ", gy " << ang_vel.y[01;31m[K [m[K[32m[K", gz "[m[K ang_vel.z << std::endl;
+[9.293s]       |                                                   [01;31m[K^[m[K[32m[K~~~~~~~[m[K
+[9.293s]       |                                                   [32m[K;[m[K
+[9.303s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:90:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before string constant
+[9.303s]    90 | utdata << "qx " << orient.x << ", qy " << orient.y[01;31m[K [m[K[32m[K", qz "[m[K orient.z << std::endl;
+[9.304s]       |                                                   [01;31m[K^[m[K[32m[K~~~~~~~[m[K
+[9.304s]       |                                                   [32m[K;[m[K
+[9.312s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:[m[K In member function ‘[01m[Kvoid imu_tools::Imu::publish(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.313s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:139:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before string constant
+[9.313s]   139 |  outdata << "roll " << roll << ", pitch " << pitch[01;31m[K [m[K[32m[K", yaw "[m[K yaw << std::endl;
+[9.313s]       |                                                   [01;31m[K^[m[K[32m[K~~~~~~~~[m[K
+[9.313s]       |                                                   [32m[K;[m[K
+[17.932s] make[2]: *** [CMakeFiles/imu_complementary.dir/build.make:76: CMakeFiles/imu_complementary.dir/src/imu_complementary/imu.cpp.o] Error 1
+[17.932s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/imu_complementary.dir/all] Error 2
+[17.936s] make: *** [Makefile:141: all] Error 2
+[17.945s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary -- -j2 -l2

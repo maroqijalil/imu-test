@@ -1,0 +1,150 @@
+[0.055s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2
+[0.230s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.340s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.265s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.305s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.436s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.473s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.968s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.230s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.242s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.081s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.710s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.062s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.068s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.070s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include>
+[4.070s] -- Configured cppcheck exclude dirs and/or files: 
+[4.080s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.081s] -- Configured cpplint exclude dirs and/or files: 
+[4.081s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.086s] -- Added test 'lint_cmake' to check CMake code style
+[4.086s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.088s] -- Added test 'uncrustify' to check C / C++ code style
+[4.089s] -- Configured uncrustify additional arguments: 
+[4.098s] -- Added test 'xmllint' to check XML markup files
+[4.130s] -- Configuring done
+[4.236s] -- Generating done
+[4.240s] -- Build files have been written to: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick
+[4.373s] [35m[1mScanning dependencies of target imu_madgwick[0m
+[4.466s] [  9%] [32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/stateless_orientation.cpp.o[0m
+[4.501s] [ 18%] [32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu_filter.cpp.o[0m
+[6.894s] [ 27%] [32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o[0m
+[13.870s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionAhrs.h:44[m[K,
+[13.871s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/Fusion.h:25[m[K,
+[13.871s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:32[m[K,
+[13.871s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:31[m[K:
+[13.871s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K In member function ‘[01m[Kvoid Imu::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[13.871s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionTypes.h:100:66:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.871s]   100 | #define FUSION_ROTATION_MATRIX_IDENTITY ((FusionRotationMatrix){ [01;35m[K.[m[Karray = {1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f} })
+[13.872s]       |                                                                  [01;35m[K^[m[K
+[13.872s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:112:88:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFUSION_ROTATION_MATRIX_IDENTITY[m[K’
+[13.878s]   112 |   FusionVector3 calibratedGyroscope = FusionCalibrationInertial(uncalibratedGyroscope, [01;36m[KFUSION_ROTATION_MATRIX_IDENTITY[m[K, gyroscopeSensitivity, FUSION_VECTOR3_ZERO);
+[13.878s]       |                                                                                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.878s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionAhrs.h:44[m[K,
+[13.878s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/Fusion.h:25[m[K,
+[13.878s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:32[m[K,
+[13.879s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:31[m[K:
+[13.879s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionTypes.h:100:130:[m[K [01;35m[Kwarning: [m[KISO C++ forbids compound-literals [[01;35m[K-Wpedantic[m[K]
+[13.879s]   100 | #define FUSION_ROTATION_MATRIX_IDENTITY ((FusionRotationMatrix){ .array = {1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f} [01;35m[K}[m[K)
+[13.879s]       |                                                                                                                                  [01;35m[K^[m[K
+[13.879s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:112:88:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFUSION_ROTATION_MATRIX_IDENTITY[m[K’
+[13.879s]   112 |   FusionVector3 calibratedGyroscope = FusionCalibrationInertial(uncalibratedGyroscope, [01;36m[KFUSION_ROTATION_MATRIX_IDENTITY[m[K, gyroscopeSensitivity, FUSION_VECTOR3_ZERO);
+[13.880s]       |                                                                                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.880s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionAhrs.h:44[m[K,
+[13.880s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/Fusion.h:25[m[K,
+[13.880s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:32[m[K,
+[13.880s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:31[m[K:
+[13.881s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionTypes.h:88:47:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.881s]    88 | #define FUSION_VECTOR3_ZERO ((FusionVector3){ [01;35m[K.[m[Karray = {0.0f, 0.0f, 0.0f} })
+[13.881s]       |                                               [01;35m[K^[m[K
+[13.881s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:112:143:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFUSION_VECTOR3_ZERO[m[K’
+[13.897s]   112 | ibratedGyroscope = FusionCalibrationInertial(uncalibratedGyroscope, FUSION_ROTATION_MATRIX_IDENTITY, gyroscopeSensitivity, [01;36m[KFUSION_VECTOR3_ZERO[m[K);
+[13.898s]       |                                                                                                                            [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.898s] 
+[13.898s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionTypes.h:88:75:[m[K [01;35m[Kwarning: [m[KISO C++ forbids compound-literals [[01;35m[K-Wpedantic[m[K]
+[13.898s]    88 | #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} [01;35m[K}[m[K)
+[13.898s]       |                                                                           [01;35m[K^[m[K
+[13.899s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:112:143:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFUSION_VECTOR3_ZERO[m[K’
+[13.899s]   112 | ibratedGyroscope = FusionCalibrationInertial(uncalibratedGyroscope, FUSION_ROTATION_MATRIX_IDENTITY, gyroscopeSensitivity, [01;36m[KFUSION_VECTOR3_ZERO[m[K);
+[13.899s]       |                                                                                                                            [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.899s] 
+[13.899s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionTypes.h:100:66:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.899s]   100 | #define FUSION_ROTATION_MATRIX_IDENTITY ((FusionRotationMatrix){ [01;35m[K.[m[Karray = {1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f} })
+[13.900s]       |                                                                  [01;35m[K^[m[K
+[13.900s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:118:96:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFUSION_ROTATION_MATRIX_IDENTITY[m[K’
+[13.900s]   118 |   FusionVector3 calibratedAccelerometer = FusionCalibrationInertial(uncalibratedAccelerometer, [01;36m[KFUSION_ROTATION_MATRIX_IDENTITY[m[K, accelerometerSensitivity, FUSION_VECTOR3_ZERO);
+[13.900s]       |                                                                                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.900s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionAhrs.h:44[m[K,
+[13.900s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/Fusion.h:25[m[K,
+[13.900s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:32[m[K,
+[13.901s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:31[m[K:
+[13.901s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionTypes.h:100:130:[m[K [01;35m[Kwarning: [m[KISO C++ forbids compound-literals [[01;35m[K-Wpedantic[m[K]
+[13.901s]   100 | #define FUSION_ROTATION_MATRIX_IDENTITY ((FusionRotationMatrix){ .array = {1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f} [01;35m[K}[m[K)
+[13.905s]       |                                                                                                                                  [01;35m[K^[m[K
+[13.906s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:118:96:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFUSION_ROTATION_MATRIX_IDENTITY[m[K’
+[13.906s]   118 |   FusionVector3 calibratedAccelerometer = FusionCalibrationInertial(uncalibratedAccelerometer, [01;36m[KFUSION_ROTATION_MATRIX_IDENTITY[m[K, accelerometerSensitivity, FUSION_VECTOR3_ZERO);
+[13.906s]       |                                                                                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.906s] In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionAhrs.h:44[m[K,
+[13.906s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/Fusion.h:25[m[K,
+[13.906s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:32[m[K,
+[13.907s]                  from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:31[m[K:
+[13.907s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionTypes.h:88:47:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.907s]    88 | #define FUSION_VECTOR3_ZERO ((FusionVector3){ [01;35m[K.[m[Karray = {0.0f, 0.0f, 0.0f} })
+[13.907s]       |                                               [01;35m[K^[m[K
+[13.907s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:118:155:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFUSION_VECTOR3_ZERO[m[K’
+[13.907s]   118 | erometer = FusionCalibrationInertial(uncalibratedAccelerometer, FUSION_ROTATION_MATRIX_IDENTITY, accelerometerSensitivity, [01;36m[KFUSION_VECTOR3_ZERO[m[K);
+[13.908s]       |                                                                                                                            [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.908s] 
+[13.908s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionTypes.h:88:75:[m[K [01;35m[Kwarning: [m[KISO C++ forbids compound-literals [[01;35m[K-Wpedantic[m[K]
+[13.908s]    88 | #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} [01;35m[K}[m[K)
+[13.908s]       |                                                                           [01;35m[K^[m[K
+[13.909s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:118:155:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFUSION_VECTOR3_ZERO[m[K’
+[13.909s]   118 | erometer = FusionCalibrationInertial(uncalibratedAccelerometer, FUSION_ROTATION_MATRIX_IDENTITY, accelerometerSensitivity, [01;36m[KFUSION_VECTOR3_ZERO[m[K);
+[13.909s]       |                                                                                                                            [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.909s] 
+[13.921s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K In member function ‘[01m[Kvoid Imu::publishFilteredMsg(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[13.922s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:153:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimu_msg_raw[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[13.922s]   153 | void Imu::publishFilteredMsg([01;35m[Kconst sensor_msgs::msg::Imu::SharedPtr imu_msg_raw[m[K) {
+[13.922s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[24.089s] [ 36%] [32mBuilding C object CMakeFiles/imu_madgwick.dir/Fusion/FusionAhrs.c.o[0m
+[24.316s] [ 45%] [32mBuilding C object CMakeFiles/imu_madgwick.dir/Fusion/FusionBias.c.o[0m
+[24.397s] [ 54%] [32mBuilding C object CMakeFiles/imu_madgwick.dir/Fusion/FusionCompass.c.o[0m
+[24.475s] [ 63%] [32m[1mLinking CXX static library libimu_madgwick.a[0m
+[24.648s] [ 63%] Built target imu_madgwick
+[24.705s] [ 72%] [32m[1mLinking CXX executable imu_main_test[0m
+[25.201s] [ 81%] Built target imu_main_test
+[25.307s] [ 90%] [32m[1mLinking CXX executable imu_main[0m
+[26.153s] [100%] Built target imu_main
+[26.182s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2
+[26.324s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick
+[26.360s] -- Install configuration: ""
+[26.362s] -- Execute custom install script
+[26.363s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/./include/imu_madgwick/imu.hpp
+[26.364s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/./include/imu_madgwick/imu_filter.hpp
+[26.365s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/./include/imu_madgwick/stateless_orientation.hpp
+[26.365s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/./include/imu_madgwick/world_frame.hpp
+[26.367s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/lib/imu_madgwick/imu_main
+[26.368s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/lib/imu_madgwick/imu_main_test
+[26.369s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick//launch/reading_imu_launch.py
+[26.371s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/library_path.sh
+[26.372s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/library_path.dsv
+[26.373s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/ament_index/resource_index/package_run_dependencies/imu_madgwick
+[26.374s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/ament_index/resource_index/parent_prefix_path/imu_madgwick
+[26.375s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/ament_prefix_path.sh
+[26.377s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/ament_prefix_path.dsv
+[26.378s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/path.sh
+[26.378s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/environment/path.dsv
+[26.378s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/local_setup.bash
+[26.381s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/local_setup.sh
+[26.382s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/local_setup.zsh
+[26.382s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/local_setup.dsv
+[26.382s] -- Symlinking: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/package.dsv
+[26.400s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/ament_index/resource_index/packages/imu_madgwick
+[26.401s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.402s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.403s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/cmake/ament_cmake_export_libraries-extras.cmake
+[26.403s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/cmake/imu_madgwickConfig.cmake
+[26.404s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/cmake/imu_madgwickConfig-version.cmake
+[26.405s] -- Up-to-date symlink: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/share/imu_madgwick/package.xml
+[26.405s] -- Installing: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/imu_madgwick/lib/libimu_madgwick.a
+[26.442s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick

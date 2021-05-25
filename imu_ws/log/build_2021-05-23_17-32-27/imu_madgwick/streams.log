@@ -1,0 +1,42 @@
+[0.073s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2
+[0.260s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.429s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.401s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.477s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.731s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.297s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.600s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.609s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.418s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.120s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.532s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.538s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.544s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include>
+[4.545s] -- Configured cppcheck exclude dirs and/or files: 
+[4.552s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.552s] -- Configured cpplint exclude dirs and/or files: 
+[4.559s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.566s] -- Added test 'lint_cmake' to check CMake code style
+[4.571s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.578s] -- Added test 'uncrustify' to check C / C++ code style
+[4.579s] -- Configured uncrustify additional arguments: 
+[4.583s] -- Added test 'xmllint' to check XML markup files
+[4.612s] -- Configuring done
+[4.705s] -- Generating done
+[4.707s] -- Build files have been written to: /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick
+[4.865s] [ 50%] Built target imu_madgwick
+[4.986s] [ 62%] [32m[1mLinking CXX executable imu_main[0m
+[5.038s] [ 87%] Built target imu_main_test
+[6.167s] /usr/bin/ld: libimu_madgwick.a(imu.cpp.o): in function `Imu::Imu(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':
+[6.168s] imu.cpp:(.text+0x73c): undefined reference to `FusionBiasInitialise'
+[6.174s] /usr/bin/ld: imu.cpp:(.text+0x759): undefined reference to `FusionAhrsInitialise'
+[6.174s] /usr/bin/ld: libimu_madgwick.a(imu.cpp.o): in function `Imu::imuCallback(std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >)':
+[6.180s] imu.cpp:(.text+0x2093): undefined reference to `FusionBiasUpdate'
+[6.180s] /usr/bin/ld: imu.cpp:(.text+0x2101): undefined reference to `FusionAhrsUpdateWithoutMagnetometer'
+[6.180s] /usr/bin/ld: imu.cpp:(.text+0x2116): undefined reference to `FusionAhrsGetQuaternion'
+[6.180s] collect2: error: ld returned 1 exit status
+[6.180s] make[2]: *** [CMakeFiles/imu_main.dir/build.make:142: imu_main] Error 1
+[6.181s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/imu_main.dir/all] Error 2
+[6.188s] make: *** [Makefile:141: all] Error 2
+[6.193s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2

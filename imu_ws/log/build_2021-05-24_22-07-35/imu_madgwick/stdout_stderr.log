@@ -1,0 +1,54 @@
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+CMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+  Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+  --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  IN_LIST will be interpreted as an operator when the policy is set to NEW.
+  Since the policy is not set the OLD behavior will be used.
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:72 (list_append_unique)
+  /opt/ros/foxy/share/rcl/cmake/rclConfig.cmake:41 (include)
+  /opt/ros/foxy/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/foxy/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+  /opt/ros/foxy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/foxy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+  CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+  if given arguments:
+
+    "NOT" "element" "IN_LIST" "rcl_RECURSIVE_DEPENDENCIES"
+
+  Unknown arguments specified
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:72 (list_append_unique)
+  /opt/ros/foxy/share/rcl/cmake/rclConfig.cmake:41 (include)
+  /opt/ros/foxy/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/foxy/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+  /opt/ros/foxy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/foxy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+  CMakeLists.txt:17 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick/CMakeFiles/CMakeOutput.log".
+See also "/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick/CMakeFiles/CMakeError.log".
+make: *** [Makefile:504: cmake_check_build_system] Error 1

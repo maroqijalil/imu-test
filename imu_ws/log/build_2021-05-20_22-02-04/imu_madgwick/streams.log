@@ -1,0 +1,25 @@
+[0.062s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2
+[0.353s] [35m[1mScanning dependencies of target imu_madgwick[0m
+[0.443s] [ 12%] [32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o[0m
+[9.421s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K In member function ‘[01m[Kvoid Imu::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.422s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:71:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Klin_acc[m[K’
+[9.422s]    71 |  " << lin_acc.x << ", ay " << lin_acc.y << ", az "[01;31m[K [m[K[32m[Klin_acc[m[K.z << std::endl;
+[9.425s]       |                                                   [01;31m[K^[m[K[32m[K~~~~~~~[m[K
+[9.428s]       |                                                   [32m[K;[m[K
+[9.429s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:72:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kang_vel[m[K’
+[9.429s]    72 |  " << ang_vel.x << ", gy " << ang_vel.y << ", gz "[01;31m[K [m[K[32m[Kang_vel[m[K.z << std::endl;
+[9.429s]       |                                                   [01;31m[K^[m[K[32m[K~~~~~~~[m[K
+[9.430s]       |                                                   [32m[K;[m[K
+[9.430s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:73:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Korient[m[K’
+[9.430s]    73 | qx " << orient.x << ", qy " << orient.y << ", qz "[01;31m[K [m[K[32m[Korient[m[K.z << std::endl;
+[9.430s]       |                                                   [01;31m[K^[m[K[32m[K~~~~~~[m[K
+[9.431s]       |                                                   [32m[K;[m[K
+[9.462s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K In member function ‘[01m[Kvoid Imu::publishFilteredMsg(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.462s] [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:151:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kyaw[m[K’
+[9.462s]   151 | "roll " << roll << ", pitch " << pitch << ", yaw "[01;31m[K [m[K[32m[Kyaw[m[K << std::endl;
+[9.462s]       |                                                   [01;31m[K^[m[K[32m[K~~~[m[K
+[9.463s]       |                                                   [32m[K;[m[K
+[18.417s] make[2]: *** [CMakeFiles/imu_madgwick.dir/build.make:89: CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o] Error 1
+[18.417s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/imu_madgwick.dir/all] Error 2
+[18.418s] make: *** [Makefile:141: all] Error 2
+[18.432s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2

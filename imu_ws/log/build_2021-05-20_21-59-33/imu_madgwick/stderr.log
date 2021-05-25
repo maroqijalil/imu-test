@@ -1,0 +1,28 @@
+In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:31[m[K:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:55:18:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kstd::ofstream[m[K’ {aka ‘[01m[Kclass std::basic_ofstream<char>[m[K’}
+   55 |   std::ofstream::[01;31m[Kofstream[m[K outdata;
+      |                  [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:72[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:25[m[K:
+[01m[K/usr/include/c++/9/iosfwd:119:11:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstd::ofstream[m[K’ {aka ‘[01m[Kclass std::basic_ofstream<char>[m[K’}
+  119 |     class [01;36m[Kbasic_ofstream[m[K;
+      |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K In constructor ‘[01m[KImu::Imu(std::string)[m[K’:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:52:3:[m[K [01;31m[Kerror: [m[K‘[01m[Koutdata[m[K’ was not declared in this scope
+   52 |   [01;31m[Koutdata[m[K.open("madgwick.txt");
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K In member function ‘[01m[Kvoid Imu::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:71:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koutdata[m[K’ was not declared in this scope
+   71 |     [01;31m[Koutdata[m[K << "ax " << lin_acc.x << ", ay " << lin_acc.y ", az " lin_acc.z << std::endl;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K In member function ‘[01m[Kvoid Imu::publishFilteredMsg(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:151:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koutdata[m[K’ was not declared in this scope
+  151 |     [01;31m[Koutdata[m[K << "roll " << roll << ", pitch " << pitch ", yaw " yaw << std::endl;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:153:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koutdata[m[K’ was not declared in this scope
+  153 |     [01;31m[Koutdata[m[K.close();
+      |     [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/imu_madgwick.dir/build.make:89: CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/imu_madgwick.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

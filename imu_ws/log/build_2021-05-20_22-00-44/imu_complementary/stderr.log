@@ -1,0 +1,21 @@
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:[m[K In member function ‘[01m[Kvoid imu_tools::Imu::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:88:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before string constant
+   88 | data << "ax " << lin_acc.x << ", ay " << lin_acc.y[01;31m[K [m[K[32m[K", az "[m[K lin_acc.z << std::endl;
+      |                                                   [01;31m[K^[m[K[32m[K~~~~~~~[m[K
+      |                                                   [32m[K;[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:89:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before string constant
+   89 | data << "gx " << ang_vel.x << ", gy " << ang_vel.y[01;31m[K [m[K[32m[K", gz "[m[K ang_vel.z << std::endl;
+      |                                                   [01;31m[K^[m[K[32m[K~~~~~~~[m[K
+      |                                                   [32m[K;[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:90:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before string constant
+   90 | utdata << "qx " << orient.x << ", qy " << orient.y[01;31m[K [m[K[32m[K", qz "[m[K orient.z << std::endl;
+      |                                                   [01;31m[K^[m[K[32m[K~~~~~~~[m[K
+      |                                                   [32m[K;[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:[m[K In member function ‘[01m[Kvoid imu_tools::Imu::publish(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:139:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before string constant
+  139 |  outdata << "roll " << roll << ", pitch " << pitch[01;31m[K [m[K[32m[K", yaw "[m[K yaw << std::endl;
+      |                                                   [01;31m[K^[m[K[32m[K~~~~~~~~[m[K
+      |                                                   [32m[K;[m[K
+make[2]: *** [CMakeFiles/imu_complementary.dir/build.make:76: CMakeFiles/imu_complementary.dir/src/imu_complementary/imu.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/imu_complementary.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,97 @@
+[35m[1mScanning dependencies of target imu_madgwick[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o[0m
+In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionAhrs.h:44[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/Fusion.h:25[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:32[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:31[m[K:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K In member function ‘[01m[Kvoid Imu::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionTypes.h:100:66:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+  100 | #define FUSION_ROTATION_MATRIX_IDENTITY ((FusionRotationMatrix){ [01;35m[K.[m[Karray = {1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f} })
+      |                                                                  [01;35m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:112:88:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFUSION_ROTATION_MATRIX_IDENTITY[m[K’
+  112 |   FusionVector3 calibratedGyroscope = FusionCalibrationInertial(uncalibratedGyroscope, [01;36m[KFUSION_ROTATION_MATRIX_IDENTITY[m[K, gyroscopeSensitivity, FUSION_VECTOR3_ZERO);
+      |                                                                                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionAhrs.h:44[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/Fusion.h:25[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:32[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:31[m[K:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionTypes.h:100:130:[m[K [01;35m[Kwarning: [m[KISO C++ forbids compound-literals [[01;35m[K-Wpedantic[m[K]
+  100 | #define FUSION_ROTATION_MATRIX_IDENTITY ((FusionRotationMatrix){ .array = {1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f} [01;35m[K}[m[K)
+      |                                                                                                                                  [01;35m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:112:88:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFUSION_ROTATION_MATRIX_IDENTITY[m[K’
+  112 |   FusionVector3 calibratedGyroscope = FusionCalibrationInertial(uncalibratedGyroscope, [01;36m[KFUSION_ROTATION_MATRIX_IDENTITY[m[K, gyroscopeSensitivity, FUSION_VECTOR3_ZERO);
+      |                                                                                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionAhrs.h:44[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/Fusion.h:25[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:32[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:31[m[K:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionTypes.h:88:47:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+   88 | #define FUSION_VECTOR3_ZERO ((FusionVector3){ [01;35m[K.[m[Karray = {0.0f, 0.0f, 0.0f} })
+      |                                               [01;35m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:112:143:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFUSION_VECTOR3_ZERO[m[K’
+  112 | ibratedGyroscope = FusionCalibrationInertial(uncalibratedGyroscope, FUSION_ROTATION_MATRIX_IDENTITY, gyroscopeSensitivity, [01;36m[KFUSION_VECTOR3_ZERO[m[K);
+      |                                                                                                                            [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionTypes.h:88:75:[m[K [01;35m[Kwarning: [m[KISO C++ forbids compound-literals [[01;35m[K-Wpedantic[m[K]
+   88 | #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} [01;35m[K}[m[K)
+      |                                                                           [01;35m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:112:143:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFUSION_VECTOR3_ZERO[m[K’
+  112 | ibratedGyroscope = FusionCalibrationInertial(uncalibratedGyroscope, FUSION_ROTATION_MATRIX_IDENTITY, gyroscopeSensitivity, [01;36m[KFUSION_VECTOR3_ZERO[m[K);
+      |                                                                                                                            [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionTypes.h:100:66:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+  100 | #define FUSION_ROTATION_MATRIX_IDENTITY ((FusionRotationMatrix){ [01;35m[K.[m[Karray = {1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f} })
+      |                                                                  [01;35m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:118:96:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFUSION_ROTATION_MATRIX_IDENTITY[m[K’
+  118 |   FusionVector3 calibratedAccelerometer = FusionCalibrationInertial(uncalibratedAccelerometer, [01;36m[KFUSION_ROTATION_MATRIX_IDENTITY[m[K, accelerometerSensitivity, FUSION_VECTOR3_ZERO);
+      |                                                                                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionAhrs.h:44[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/Fusion.h:25[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:32[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:31[m[K:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionTypes.h:100:130:[m[K [01;35m[Kwarning: [m[KISO C++ forbids compound-literals [[01;35m[K-Wpedantic[m[K]
+  100 | #define FUSION_ROTATION_MATRIX_IDENTITY ((FusionRotationMatrix){ .array = {1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f} [01;35m[K}[m[K)
+      |                                                                                                                                  [01;35m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:118:96:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFUSION_ROTATION_MATRIX_IDENTITY[m[K’
+  118 |   FusionVector3 calibratedAccelerometer = FusionCalibrationInertial(uncalibratedAccelerometer, [01;36m[KFUSION_ROTATION_MATRIX_IDENTITY[m[K, accelerometerSensitivity, FUSION_VECTOR3_ZERO);
+      |                                                                                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionAhrs.h:44[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/Fusion.h:25[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/imu.hpp:32[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:31[m[K:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionTypes.h:88:47:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+   88 | #define FUSION_VECTOR3_ZERO ((FusionVector3){ [01;35m[K.[m[Karray = {0.0f, 0.0f, 0.0f} })
+      |                                               [01;35m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:118:155:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFUSION_VECTOR3_ZERO[m[K’
+  118 | erometer = FusionCalibrationInertial(uncalibratedAccelerometer, FUSION_ROTATION_MATRIX_IDENTITY, accelerometerSensitivity, [01;36m[KFUSION_VECTOR3_ZERO[m[K);
+      |                                                                                                                            [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include/imu_madgwick/../../Fusion/FusionTypes.h:88:75:[m[K [01;35m[Kwarning: [m[KISO C++ forbids compound-literals [[01;35m[K-Wpedantic[m[K]
+   88 | #define FUSION_VECTOR3_ZERO ((FusionVector3){ .array = {0.0f, 0.0f, 0.0f} [01;35m[K}[m[K)
+      |                                                                           [01;35m[K^[m[K
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:118:155:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFUSION_VECTOR3_ZERO[m[K’
+  118 | erometer = FusionCalibrationInertial(uncalibratedAccelerometer, FUSION_ROTATION_MATRIX_IDENTITY, accelerometerSensitivity, [01;36m[KFUSION_VECTOR3_ZERO[m[K);
+      |                                                                                                                            [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:[m[K In member function ‘[01m[Kvoid Imu::publishFilteredMsg(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/src/imu_madgwick/imu.cpp:153:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimu_msg_raw[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  153 | void Imu::publishFilteredMsg([01;35m[Kconst sensor_msgs::msg::Imu::SharedPtr imu_msg_raw[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[ 25%] [32m[1mLinking CXX static library libimu_madgwick.a[0m
+[ 50%] Built target imu_madgwick
+[ 62%] [32m[1mLinking CXX executable imu_main_test[0m
+[ 75%] Built target imu_main_test
+[35m[1mScanning dependencies of target imu_main[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/imu_main.dir/src/imu_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable imu_main[0m
+/usr/bin/ld: libimu_madgwick.a(imu.cpp.o): in function `Imu::Imu(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':
+imu.cpp:(.text+0x73c): undefined reference to `FusionBiasInitialise'
+/usr/bin/ld: imu.cpp:(.text+0x759): undefined reference to `FusionAhrsInitialise'
+/usr/bin/ld: libimu_madgwick.a(imu.cpp.o): in function `Imu::imuCallback(std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >)':
+imu.cpp:(.text+0x2093): undefined reference to `FusionBiasUpdate'
+/usr/bin/ld: imu.cpp:(.text+0x2101): undefined reference to `FusionAhrsUpdateWithoutMagnetometer'
+/usr/bin/ld: imu.cpp:(.text+0x2116): undefined reference to `FusionAhrsGetQuaternion'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/imu_main.dir/build.make:142: imu_main] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/imu_main.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

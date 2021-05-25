@@ -1,0 +1,7 @@
+[0.085s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/install/wbt_imu:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_complementary -- -j2 -l2
+[0.418s] [35m[1mScanning dependencies of target imu_complementary[0m
+[0.546s] [ 20%] [32mBuilding CXX object CMakeFiles/imu_complementary.dir/src/imu_complementary/imu.cpp.o[0m
+[24.645s] [ 40%] [32m[1mLinking CXX static library libimu_complementary.a[0m
+[24.885s] [ 60%] Built target imu_complementary
+[25.004s] [ 80%] [32m[1mLinking CXX executable imu_main[0m
+[26.061s] [100%] Built target imu_main

@@ -1,0 +1,41 @@
+[0.063s] Invoking command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2
+[0.180s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.284s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.173s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.232s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.407s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.431s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.978s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.243s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.250s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.068s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.711s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.070s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.074s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.078s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_madgwick/include>
+[4.078s] -- Configured cppcheck exclude dirs and/or files: 
+[4.087s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.087s] -- Configured cpplint exclude dirs and/or files: 
+[4.088s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.090s] -- Added test 'lint_cmake' to check CMake code style
+[4.097s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.099s] -- Added test 'uncrustify' to check C / C++ code style
+[4.099s] -- Configured uncrustify additional arguments: 
+[4.101s] -- Added test 'xmllint' to check XML markup files
+[4.129s] -- Configuring done
+[4.139s] CMake Error at CMakeLists.txt:21 (add_library):
+[4.139s]   Cannot find source file:
+[4.139s] 
+[4.139s]     Fusion/FusionCalibration.c
+[4.139s] 
+[4.140s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[4.140s]   .hpp .hxx .in .txx
+[4.140s] 
+[4.140s] 
+[4.146s] CMake Error at CMakeLists.txt:21 (add_library):
+[4.147s]   No SOURCES given to target: imu_madgwick
+[4.147s] 
+[4.147s] 
+[4.147s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[4.163s] make: *** [Makefile:414: cmake_check_build_system] Error 1
+[4.180s] Invoked command in '/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/build/imu_madgwick -- -j2 -l2

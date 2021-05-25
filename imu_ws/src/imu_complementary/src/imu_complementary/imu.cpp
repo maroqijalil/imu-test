@@ -37,6 +37,7 @@
 #include <imu_complementary/imu.hpp>
 
 #include <iostream>
+#include <fstream>
 #include <string>
 #include <memory>
 #include <chrono>
@@ -56,6 +57,9 @@ Imu::Imu(std::string node_name)
   filter.setDoBiasEstimation(true);
   filter.setDoAdaptiveGain(true);
 
+  outdata.open("complementary.txt");
+  counter = 0;
+
   if(!filter.setGainAcc(gain_acc))
     RCLCPP_WARN(get_logger(), "Invalid gain_acc passed to ComplementaryFilter.");
 
@@ -69,9 +73,22 @@ Imu::Imu(std::string node_name)
 }
 
 void Imu::imuCallback(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw) {
-  const geometry_msgs::msg::Vector3& a = imu_msg_raw->linear_acceleration; 
-  const geometry_msgs::msg::Vector3& w = imu_msg_raw->angular_velocity;
+  const geometry_msgs::msg::Vector3& lin_acc = imu_msg_raw->linear_acceleration; 
+  const geometry_msgs::msg::Vector3& ang_vel = imu_msg_raw->angular_velocity;
+  const geometry_msgs::msg::Quaternion& orient = imu_msg_raw->orientation;
   const rclcpp::Time& time = imu_msg_raw->header.stamp;
+
+  counter++;
+  
+  RCLCPP_INFO(get_logger(), "ax %f, ay %f, az %f", lin_acc.x, lin_acc.y, lin_acc.z);
+  RCLCPP_INFO(get_logger(), "gx %f, gy %f, gz %f", ang_vel.x, ang_vel.y, ang_vel.z);
+  RCLCPP_INFO(get_logger(), "qx %f, qy %f, qz %f", orient.x, orient.y, orient.z);
+
+  if (counter <= 100) {
+    outdata << "ax " << lin_acc.x << ", ay " << lin_acc.y << ", az " << lin_acc.z << std::endl;
+    outdata << "gx " << ang_vel.x << ", gy " << ang_vel.y << ", gz " << ang_vel.z << std::endl;
+    outdata << "qx " << orient.x << ", qy " << orient.y << ", qz " << orient.z << std::endl;
+  }
 
   if (!initialized_filter)
   {   
@@ -83,25 +100,11 @@ void Imu::imuCallback(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw) {
   double dt = (time - time_prev).seconds();
   time_prev = time;
 
-  filter.update(a.x, a.y, a.z, w.x, w.y, w.z, dt);
+  // filter.update(lin_acc.x, lin_acc.y, lin_acc.z, ang_vel.x, ang_vel.y, ang_vel.z, dt);
+  filter.update(lin_acc.x, lin_acc.y, lin_acc.z, 0.0, 0.0, 0.0, dt);
 
-  publish(imu_msg_raw);
-}
-
-void Imu::publish(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw) {
   double q0, q1, q2, q3;
   filter.getOrientation(q0, q1, q2, q3);
-
-  std::shared_ptr<sensor_msgs::msg::Imu> imu_msg = std::make_shared<sensor_msgs::msg::Imu>(*imu_msg_raw);
-
-  if (filter.getDoBiasEstimation())
-  {
-    imu_msg->angular_velocity.x -= filter.getAngularVelocityBiasX();
-    imu_msg->angular_velocity.y -= filter.getAngularVelocityBiasY();
-    imu_msg->angular_velocity.z -= filter.getAngularVelocityBiasZ();
-  }
-
-  // imu_publisher.publish(imu_msg);
 
   double roll = 0.0;
   double pitch = 0.0;
@@ -117,6 +120,26 @@ void Imu::publish(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw) {
 
   tf2::Matrix3x3(tf2::Quaternion(q1,q2,q3,q0)).getRPY(roll, pitch, yaw);
   RCLCPP_INFO(get_logger(), "Roll %f, Pitch %f, Yaw %f", roll, pitch, yaw);
+
+  if (counter <= 100) {
+    outdata << "roll " << roll << ", pitch " << pitch << ", yaw " << yaw << std::endl;
+  } else {
+    outdata.close();
+  }
+}
+
+void Imu::publish(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw) {
+
+  // std::shared_ptr<sensor_msgs::msg::Imu> imu_msg = std::make_shared<sensor_msgs::msg::Imu>(*imu_msg_raw);
+
+  // if (filter.getDoBiasEstimation())
+  // {
+  //   imu_msg->angular_velocity.x -= filter.getAngularVelocityBiasX();
+  //   imu_msg->angular_velocity.y -= filter.getAngularVelocityBiasY();
+  //   imu_msg->angular_velocity.z -= filter.getAngularVelocityBiasZ();
+  // }
+
+  // imu_publisher.publish(imu_msg);
 }
 
 }  // namespace imu_tools

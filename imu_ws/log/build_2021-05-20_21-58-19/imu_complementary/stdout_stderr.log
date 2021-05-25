@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target imu_complementary[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/imu_complementary.dir/src/imu_complementary/imu.cpp.o[0m
+In file included from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:37[m[K:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/include/imu_complementary/imu.hpp:61:17:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[Koutdata[m[K’ has incomplete type ‘[01m[Kstd::ofstream[m[K’ {aka ‘[01m[Kstd::basic_ofstream<char>[m[K’}
+   61 |   std::ofstream [01;31m[Koutdata[m[K;
+      |                 [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:72[m[K,
+                 from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+                 from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/imu__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:32[m[K:
+[01m[K/usr/include/c++/9/iosfwd:119:11:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstd::ofstream[m[K’ {aka ‘[01m[Kclass std::basic_ofstream<char>[m[K’}
+  119 |     class [01;36m[Kbasic_ofstream[m[K;
+      |           [01;36m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/imu_complementary.dir/build.make:76: CMakeFiles/imu_complementary.dir/src/imu_complementary/imu.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/imu_complementary.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

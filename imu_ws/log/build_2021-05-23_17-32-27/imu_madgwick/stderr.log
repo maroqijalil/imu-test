@@ -1,0 +1,11 @@
+/usr/bin/ld: libimu_madgwick.a(imu.cpp.o): in function `Imu::Imu(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':
+imu.cpp:(.text+0x73c): undefined reference to `FusionBiasInitialise'
+/usr/bin/ld: imu.cpp:(.text+0x759): undefined reference to `FusionAhrsInitialise'
+/usr/bin/ld: libimu_madgwick.a(imu.cpp.o): in function `Imu::imuCallback(std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >)':
+imu.cpp:(.text+0x2093): undefined reference to `FusionBiasUpdate'
+/usr/bin/ld: imu.cpp:(.text+0x2101): undefined reference to `FusionAhrsUpdateWithoutMagnetometer'
+/usr/bin/ld: imu.cpp:(.text+0x2116): undefined reference to `FusionAhrsGetQuaternion'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/imu_main.dir/build.make:142: imu_main] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/imu_main.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

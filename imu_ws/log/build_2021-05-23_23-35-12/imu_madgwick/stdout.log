@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target imu_madgwick[0m
+[  9%] [32mBuilding CXX object CMakeFiles/imu_madgwick.dir/src/imu_madgwick/imu.cpp.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/imu_madgwick.dir/Fusion/FusionAhrs.c.o[0m

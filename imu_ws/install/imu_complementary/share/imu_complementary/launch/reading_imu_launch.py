@@ -4,7 +4,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
   reading_imu = Node(
-    package='imu_madgwick',
+    package='imu_complementary',
     executable='imu_main',
     output='screen',
     remappings=[
