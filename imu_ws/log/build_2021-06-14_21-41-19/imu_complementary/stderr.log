@@ -1,0 +1,4 @@
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:[m[K In member function ‘[01m[Kvoid imu_tools::Imu::imu_callback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/maroqi/Projects/RobotProjects/ROS2Projects/imu-test/imu_ws/src/imu_complementary/src/imu_complementary/imu.cpp:74:41:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Korient[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   74 |   const geometry_msgs::msg::Quaternion& [01;35m[Korient[m[K = imu_msg_raw->orientation;
+      |                                         [01;35m[K^~~~~~[m[K

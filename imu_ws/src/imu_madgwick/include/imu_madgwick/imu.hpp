@@ -40,6 +40,7 @@ public:
 
 private:
   std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Imu>> imu_subscriber;
+  double radian_to_degree(double radian);
 
   bool initialized;
   rclcpp::Time last_time;

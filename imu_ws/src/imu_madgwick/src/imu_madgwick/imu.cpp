@@ -65,19 +65,36 @@ Imu::Imu(std::string node_name)
         initialized = true;
       }
 
-      last_time = time;
       filter.madgwickAHRSupdateIMU(
         ang_vel.x, ang_vel.y, ang_vel.z,
         lin_acc.x, lin_acc.y, lin_acc.z,
         (time - last_time).seconds());
 
+      double q0;
+      double q1;
+      double q2;
+      double q3;
       double roll = 0.0;
       double pitch = 0.0;
       double yaw = 0.0;
-      double q0, q1, q2, q3;
       filter.getOrientation(q0, q1, q2, q3);
       tf2::Matrix3x3(tf2::Quaternion(q1,q2,q3,q0)).getRPY(roll, pitch, yaw);
-      RCLCPP_INFO(get_logger(), "Roll %f, Pitch %f, Yaw %f", roll, pitch, yaw);
+  
+      std::cout << "madgwick filter" << std::endl;
+      std::cout << "ax " << lin_acc.x << ", ay " << lin_acc.y << ", az " << lin_acc.z << std::endl;
+      std::cout << "gx " << ang_vel.x << ", gy " << ang_vel.y << ", gz " << ang_vel.z << std::endl;
+      std::cout << "q0 " << q0 << ", q1 " << q1 << ", q2 " << q2 << ", q3 " << q3 << std::endl;
+      std::cout << "time " << time.seconds() << ", dt " << (time - last_time).seconds() << std::endl;
+      std::cout << "roll " << roll << ", pitch " << pitch << ", yaw " << yaw << std::endl;
+      std::cout << "========================" << std::endl;
+
+      last_time = time;
     }
   );
+}
+
+double Imu::radian_to_degree(double radian)
+{
+  double pi = 3.14159;
+  return(radian * (180 / pi));
 }

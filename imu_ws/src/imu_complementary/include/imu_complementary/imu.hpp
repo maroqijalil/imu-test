@@ -49,7 +49,6 @@ public:
   Imu(std::string node_name);
 
 private:
-  std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::Imu>> imu_publisher;
   std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Imu>> imu_subscriber;
 
   double constant_dt;
@@ -58,12 +57,8 @@ private:
   ComplementaryFilter filter;
   rclcpp::Time time_prev;
   bool initialized_filter;
-  
-  std::ofstream outdata;
-  int counter;
 
-  void imuCallback(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw);
-  void publish(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw);
+  void imu_callback(const sensor_msgs::msg::Imu::SharedPtr imu_msg_raw);
 };
 
 }  // namespace imu_tools
